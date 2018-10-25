@@ -1,0 +1,30 @@
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{List of footnotes with hyperlinks}\label{app:footnotes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}\scriptsize
+\item{} CERN, European Organization for Nuclear Research: \href{http://home.cern/}{http://home.cern/} (page 15)
+\item{} The LHCb Collaboration: \href{http://lhcb.web.cern.ch/lhcb/}{http://lhcb.web.cern.ch/lhcb/} (page 15)
+\item{} The Nobel Prize in Physics 2013: François Englert and Peter Higgs (page 17)
+\begin{itemize}
+\item{} \href{http://www.nobelprize.org/nobel\_prizes/physics/laureates/2013/}{http://www.nobelprize.org/nobel\_prizes/physics/laureates/2013/}
+\item{} \href{https://www.nobelprize.org/nobel\_prizes/physics/laureates/2013/popular-physicsprize2013.pdf}{https://www.nobelprize.org/nobel\_prizes/physics/laureates/2013/popular-physicsprize2013.pdf}
+\item{} \href{http://www.nobelprize.org/}{http://www.nobelprize.org/}
+\end{itemize}
+\item{} GAES, LHCb Silicon Tracker Construction: \href{http://www.usc.es/gaes/STconstruction.html}{http://www.usc.es/gaes/STconstruction.html} (page 24)
+\item{} The Boole project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/boole/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/boole/} (page 30)
+\item{} The Moore project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/moore/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/moore/} (page 30)
+\item{} The Brunel project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/brunel/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/brunel/} (page 30)
+\item{} The DaVinci project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/davinci/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/davinci/} (page 31)
+\item{} The Bender project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/bender/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/bender/} (page 31)
+\item{} The Erasmus project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/erasmus/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/erasmus/} (page 31)
+\item{} The Panoramix project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/panoramix/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/panoramix/} (page 32)
+\item{} The Stripping project: \href{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/stripping/}{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/stripping/} (page 32)
+\item{} LHCb database tags (page 64)
+\begin{itemize}
+\item{} CondDB: \href{https://twiki.cern.ch/twiki/bin/view/LHCb/CondDBHowTo}{https://twiki.cern.ch/twiki/bin/view/LHCb/CondDBHowTo}
+\item{} DDDB: \href{https://lhcb-comp.web.cern.ch/lhcb-comp/Frameworks/DetDesc/default.htm}{https://lhcb-comp.web.cern.ch/lhcb-comp/Frameworks/DetDesc/default.htm})
+\end{itemize}
+\item{} Monte Carlo re-weighting using Yandex software: \href{https://github.com/arogozhnikov/hep_ml}{https://github.com/arogozhnikov/hep_ml} (page 134)
+\end{itemize}
+% 

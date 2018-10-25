@@ -1,0 +1,235 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[toc,page]{appendix}
+\usepackage{mciteplus}
+
+\textheight=230mm
+\textwidth=160mm
+\oddsidemargin=7mm
+\evensidemargin=-10mm
+\topmargin=-10mm
+\headsep=20mm
+\columnsep=5mm
+
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\floatpagefraction}{0.99}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+
+\setlength{\hoffset}{-2cm}
+\setlength{\voffset}{-2cm}
+\topmargin=0.5cm
+\oddsidemargin=2.5cm
+\textwidth=16cm
+\textheight=22cm
+\raggedbottom
+\sloppy
+
+\usepackage{ifthen}
+\newboolean{articletitles}
+\setboolean{articletitles}{true}
+\newboolean{inbibliography}
+\setboolean{inbibliography}{false} %True once you enter the bibliography
+
+
+\usepackage[utf8x]{inputenc}
+
+\usepackage{lineno}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{forloop}
+\usepackage{pdfpages}
+\usepackage{tabularx}
+
+\usepackage{xspace}
+\usepackage{color}
+\usepackage{colortbl}
+%\usepackage[svgnames,dvipsnames]{xcolor}
+\usepackage{xcolor}
+\PassOptionsToPackage{usenames,dvipsnames}{xcolor}
+
+\usepackage{amsmath}
+\usepackage{comment}
+\usepackage{ifthen}
+
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{subfig}
+
+\usepackage{lscape}
+
+\usepackage{cite}
+\usepackage{mciteplus}
+
+\usepackage{float}
+\usepackage[pdftex,
+    plainpages=false,
+    bookmarks         = true,
+    %bookmarksnumbered = true,
+    pdfpagemode       = None,
+    pdfstartview      = FitH,
+    pdfpagelayout     = SinglePage,
+    colorlinks        = true,
+    linkcolor         = blue,
+    pagecolor         = black,
+    urlcolor          = blue,
+    pdfborder         = {0 0 0}
+    ]{hyperref}%                                       
+
+\newboolean{pdflatex}
+\setboolean{pdflatex}{true}
+
+\newboolean{uprightparticles}
+\setboolean{uprightparticles}{false}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{upgreek}
+   
+\usepackage{units}
+
+\input{extra-definitions}
+\input{our-symbols-def}
+
+\floatstyle{plaintop}
+\restylefloat{table}
+
+\makeatletter
+\g@addto@macro\bfseries{\boldmath}
+\makeatother
+
+% Definitions to have correct line numbering even when using AMS math's align
+% taken from http://phaseportrait.blogspot.de/2007/08/lineno-and-amsmath-compatibility.html
+\newcommand*\patchAmsMathEnvironmentForLineno[1]{%
+  \expandafter\let\csname old#1\expandafter\endcsname\csname #1\endcsname
+  \expandafter\let\csname oldend#1\expandafter\endcsname\csname end#1\endcsname
+  \renewenvironment{#1}%
+     {\linenomath\csname old#1\endcsname}%
+     {\csname oldend#1\endcsname\endlinenomath}}% 
+\newcommand*\patchBothAmsMathEnvironmentsForLineno[1]{%
+  \patchAmsMathEnvironmentForLineno{#1}%
+  \patchAmsMathEnvironmentForLineno{#1*}}%
+\AtBeginDocument{%
+\patchBothAmsMathEnvironmentsForLineno{equation}%
+\patchBothAmsMathEnvironmentsForLineno{align}%
+\patchBothAmsMathEnvironmentsForLineno{flalign}%
+\patchBothAmsMathEnvironmentsForLineno{alignat}%
+\patchBothAmsMathEnvironmentsForLineno{gather}%
+\patchBothAmsMathEnvironmentsForLineno{multline}%
+}
+
+%\DeclareUnicodeCharacter{00A0}{~}
+
+
+\usepackage{titlesec}
+
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+
+%\usepackage{pdfpages}
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+%% ML new commands:
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+%\newcommand{\rad}{\ensuremath{\rm rad}}
+%\newcommand{\invps}{\ensuremath{\rm ps^{-1}}}
+\newcommand{\DGs}{\ensuremath{\Delta\Gamma_s}}
+\newcommand{\dms}{\ensuremath{\Delta m_s}}
+
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+  {3.25ex \@plus1ex \@minus.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+  {3.25ex \@plus1ex \@minus .2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@paragraph{6}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
+\makeatother
+
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+\begin{document}
+
+\setcounter{secnumdepth}{6}
+\setcounter{tocdepth}{6}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Title     %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{chapters/Cover}
+\afterpage{\blankpage}
+
+\pagenumbering{roman}
+
+\cleardoublepage
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Main text %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\linenumbers
+
+\afterpage{\blankpage}
+\cleardoublepage
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+%% Introductory chapters:
+\input{chapters/Introduction}
+\input{chapters/Supersymmetry} 
+\input{chapters/MFV}
+\input{chapters/LHCb}
+
+
+\input{chapters/DF2} %% LHCb analysis, implications (phis pheno + experimental)
+\input{chapters/KaonPhysics}
+
+\input{chapters/CMSSM}
+%\input{chapters/Conclusions}
+
+%%\clearpage
+\newpage
+\begin{appendices}
+\afterpage{\blankpage}
+\cleardoublepage
+%\appendix
+\input{appendices/app_MCOBS}
+\input{appendices/app_bootstrapping}
+\end{appendices}
+
+\afterpage{\blankpage}
+\addcontentsline{toc}{chapter}{Bibliography}
+\setboolean{inbibliography}{true}
+\bibliographystyle{LHCb}
+\bibliography{main}
+
+\end{document}

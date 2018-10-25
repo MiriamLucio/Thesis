@@ -1,0 +1,67 @@
+\documentclass[12pt,a4paper]{article}
+%%\documentclass[12pt,letter]{article}
+% For two column text, add "twocolumn" as an option to the document
+% class. Also uncomment the two "onecolumn" and "twocolumn" lines
+% around the title page below.
+
+% Variables that controls behaviour  
+\usepackage{ifthen} % for conditional statements
+\newboolean{pdflatex}
+\setboolean{pdflatex}{true} % False for eps figures 
+
+\newboolean{articletitles}
+\setboolean{articletitles}{true} % False removes titles in references
+
+\newboolean{uprightparticles}
+\setboolean{uprightparticles}{false} %True for upright particle symbols
+
+\newboolean{inbibliography}
+\setboolean{inbibliography}{false} %True once you enter the bibliography
+
+\input{preamble}
+\usepackage{longtable} %
+
+\begin{document}
+\begin{figure} [htb!]
+\begin{center}
+\includegraphics[scale=0.20]{figs/DOCAPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu1ipsPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2ipsPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/BipsPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/BptPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/BdissigPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2_probNNmuPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu1_probNNmuPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/Vchi2PARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu1_track_Chi2DoFPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2_track_Chi2DoFPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu1_hitsInOTPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2_hitsInOTPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2_hitsInITPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu1_hitsInITPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu1_hitsInTTPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2_hitsInTTPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu1_hitsInVPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2_hitsInVPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/SV1PARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/SV2PARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/SV3PARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/ProbNNghost1PARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/ProbNNghost2PARTIALptcut.pdf}
+\caption{Input variable distributions for the PARTIAL case, using \Kspipi data with a cut on the $p_t$ ($p_t > 250 \rm GeV$).
+\label{fig:MVAhistos_PARTIAL2pipi1}}
+\end{center}
+\end{figure}
+
+
+\begin{figure} [htb!]
+\begin{center}
+\includegraphics[scale=0.20]{figs/mu1GPPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/mu2GPPARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/PIDmu1PARTIALptcut.pdf}
+\includegraphics[scale=0.20]{figs/PIDmu2PARTIALptcut.pdf}
+\caption{Input variable distributions for the PARTIAL case, using \Kspipi data with a cut on the $p_t$ ($p_t > 250 \rm GeV$).
+\label{fig:MVAhistos_PARTIAL2pipi2}}
+\end{center}
+\end{figure}
+\end{document}

@@ -1,0 +1,219 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Newcommands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% Units
+
+\newcommand{\unit}[1]{\ensuremath{\rm\,#1}\xspace}
+\newcommand{\keV}{\unit{keV}}
+\newcommand{\keVc}{\unit{keV/{\it c}}}
+\newcommand{\keVcc}{\unit{keV/{\it c}^2}}
+\newcommand{\MeV}{\unit{MeV}}
+\newcommand{\MeVc}{\unit{MeV\!/\!{\it c}}}
+\newcommand{\MeVcc}{\unit{MeV\!/\!{\it c}^2}}
+\newcommand{\GeV}{\unit{GeV}}
+\newcommand{\GeVc}{\unit{GeV\!/\!{\it c}}}
+\newcommand{\GeVcc}{\unit{GeV\!/\!{\it c}^2}}
+\newcommand{\TeV}{\unit{TeV}}
+\newcommand{\invfb}{\unit{fb^{-1}}}
+\newcommand{\cm}{\unit{cm}}
+\newcommand{\mm}{\unit{mm}}
+\newcommand{\ps}{\unit{ps}}
+\newcommand{\invps}{\unit{ps^{-1}}}
+\newcommand{\fs}{\unit{fs}}
+\newcommand{\microns}{\unit{\mu m}}
+\newcommand{\mrad}{\unit{mrad}}
+\newcommand{\rad}{\unit{rad}}
+\newcommand{\Hz}{\unit{Hz}}
+
+\newcommand{\bra}[1]{\ensuremath{\langle #1|}}
+\newcommand{\ket}[1]{\ensuremath{|#1\rangle}\xspace}
+\newcommand{\braket}[2]{\ensuremath{\langle #1|#2\rangle}\xspace}
+
+
+
+
+
+
+% Physics quantities
+
+\newcommand{\CP}{\ensuremath{\rm \mathcal{CP}}\xspace}
+
+\newcommand{\IP}{\ensuremath{\rm IP}\xspace}
+\newcommand{\signif}[1]{\ensuremath{\rm #1/\sigma_{#1}}\xspace}
+\newcommand{\signifm}[1]{\ensuremath{#1/\sigma_{#1}}\xspace}
+\newcommand{\pT}{\ensuremath{p_{\rm T}}\xspace}
+\newcommand{\pTmin}{\ensuremath{\pT^{\rm min}}\xspace}
+\newcommand{\ET}{\ensuremath{E_{\rm T}}\xspace}
+\newcommand{\DLL}[2]{\ensuremath{\rm \Delta  \ln{\cal L}(\particle{#1}-\particle{#2})}\xspace}
+\newcommand{\DLLn}{\ensuremath{\rm \Delta  \ln{\cal L}}\xspace}
+\newcommand{\BR}[1]{\ensuremath{\rm BR(#1)}\xspace}
+
+\newcommand{\dm}{\ensuremath{\Delta m}\xspace}
+\newcommand{\dms}{\ensuremath{\Delta m_{\rm s}}\xspace}
+\newcommand{\dmd}{\ensuremath{\Delta m_{\rm d}}\xspace}
+\newcommand{\DG}{\ensuremath{\Delta\Gamma}\xspace}
+\newcommand{\DGs}{\ensuremath{\Delta\Gamma_{\rm s}}\xspace}
+\newcommand{\DGd}{\ensuremath{\Delta\Gamma_{\rm d}}\xspace}
+\newcommand{\Gs}{\ensuremath{\Gamma_{\rm s}}\xspace}
+\newcommand{\Gd}{\ensuremath{\Gamma_{\rm d}}\xspace}
+
+\newcommand{\MBq}{\ensuremath{M_{\Bq}}\xspace}
+\newcommand{\DGq}{\ensuremath{\Delta\Gamma_{\rm q}}\xspace}
+\newcommand{\Gq}{\ensuremath{\Gamma_{\rm q}}\xspace}
+\newcommand{\dmq}{\ensuremath{\Delta m_{\rm q}}\xspace}
+\newcommand{\GL}{\ensuremath{\Gamma_{\rm L}}\xspace}
+\newcommand{\GH}{\ensuremath{\Gamma_{\rm H}}\xspace}
+
+\newcommand{\DGsGs}{\ensuremath{\Delta\Gamma_{\rm s}/\Gamma_{\rm s}}\xspace}
+\newcommand{\Dm}{\mbox{$\Delta m $}\xspace}
+\newcommand{\ACP}{\ensuremath{{\cal A}^{\rm CP}}\xspace}
+\newcommand{\Adir}{\ensuremath{{\cal A}^{\rm dir}}\xspace}
+\newcommand{\Amix}{\ensuremath{{\cal A}^{\rm mix}}\xspace}
+\newcommand{\ADelta}{\ensuremath{{\cal A}^\Delta}\xspace}
+\newcommand{\phid}{\ensuremath{\phi_{\rm d}}\xspace}
+\newcommand{\sinphid}{\ensuremath{\sin\!\phid}\xspace}
+%%\newcommand{\phis}{\ensuremath{\Phi}\xspace}
+\newcommand{\phis}{\ensuremath{\phi_{s}}\xspace}
+\newcommand{\betas}{\ensuremath{\beta_{\rm s}}\xspace}
+\newcommand{\sbetas}{\ensuremath{\sigma(\beta_{\rm s})}\xspace}
+\newcommand{\stbetas}{\ensuremath{\sigma(2\beta_{\rm s})}\xspace}
+\newcommand{\sinphis}{\ensuremath{\sin\!\phis}\xspace}
+
+
+\newcommand{\vOmega}{\ensuremath{\vec{\Omega}}\xspace}
+\newcommand{\vkappa}{\ensuremath{\vec{\kappa}}\xspace}
+\newcommand{\vlambda}{\ensuremath{\vec{\lambda}}\xspace}
+
+\newcommand{\Af}{\ensuremath{A_{f}}\xspace}
+\newcommand{\Abarfbar}{\ensuremath{\overline{A}_{\overline{f}}}\xspace}
+\newcommand{\Abarf}{\ensuremath{\overline{A}_{f}}\xspace}
+\newcommand{\Afbar}{\ensuremath{A_{\overline{f}}}\xspace}
+\newcommand{\fbar}{\ensuremath{\BAR{ f}}\xspace}
+
+\newcommand{\cAf}{\ensuremath{{\mathcal{A}}_{f}}\xspace}
+\newcommand{\cAbarfbar}{\ensuremath{\overline{\mathcal{A}}_{\overline{f}}}\xspace}
+\newcommand{\cAbarf}{\ensuremath{\overline{\mathcal{A}}_{f}}\xspace}
+\newcommand{\cAfbar}{\ensuremath{{\mathcal{A}}_{\overline{f}}}\xspace}
+\newcommand{\calH}{\ensuremath{{\cal H}}\xspace}
+
+\newcommand{\Bl}{\ensuremath{B_L}\xspace}
+\newcommand{\Bh}{\ensuremath{B_H}\xspace}
+
+% lifetime
+\newcommand{\tauBs}{\ensuremath{\tau_\Bs}\xspace}
+
+
+
+\newcommand{\effs}{{\ensuremath{\varepsilon^{\rm s}_\theta }}\xspace}
+\newcommand{\effb}{{\ensuremath{\varepsilon^{\rm b}_\theta}}\xspace}
+
+
+%CKM
+\newcommand{\Vud}{\ensuremath{V_{\rm ud}}\xspace}
+\newcommand{\Vus}{\ensuremath{V_{\rm us}}\xspace}
+\newcommand{\Vub}{\ensuremath{V_{\rm ub}}\xspace}
+\newcommand{\Vcd}{\ensuremath{V_{\rm cd}}\xspace}
+\newcommand{\Vcs}{\ensuremath{V_{\rm cs}}\xspace}
+\newcommand{\Vcb}{\ensuremath{V_{\rm cb}}\xspace}
+\newcommand{\Vtd}{\ensuremath{V_{\rm td}}\xspace}
+\newcommand{\Vts}{\ensuremath{V_{\rm ts}}\xspace}
+\newcommand{\Vtb}{\ensuremath{V_{\rm tb}}\xspace}
+\newcommand{\VCKM}{\ensuremath{V_{\rm CKM}}\xspace}
+
+\newcommand{\Vjr}{\ensuremath{V_{ jr}}\xspace}
+\newcommand{\Vjb}{\ensuremath{V_{j {\rm b}}}\xspace}
+
+
+
+%Particle names
+
+\newcommand{\BAR}[1]{\overline{#1}}
+
+\newcommand{\particle}[1]{{\ensuremath{\rm #1}}\xspace}
+
+\newcommand{\Jpsi}{\particle{J\!/\!\psi}}
+\newcommand{\pp}{\particle{pp}}
+\newcommand{\ppbar}{\particle{p\BAR{p}}}
+
+\newcommand{\cc}{\particle{c\BAR{c}}}
+\renewcommand{\b}{\particle{b}}
+\newcommand{\bbar}{\particle{\BAR{b}}}
+\newcommand{\bb}{\ensuremath{b\bar{b}}\xspace}
+
+\newcommand{\BB}{\particle{B^0}-\particle{\BAR{B}^0}}
+
+\newcommand{\B}{\particle{B}}
+\newcommand{\Bu}{\particle{B^+}}
+\newcommand{\Xf}{\particle{X}}
+\newcommand{\Bd}{\particle{B^0}}
+\newcommand{\Bz}{\particle{B^0}}
+\newcommand{\Bs}{\particle{B^0_{s}}}
+\newcommand{\Bcers}{\particle{B^0_{s}}}
+\newcommand{\Bcersd}{\particle{B^0_{(s)}}}
+\newcommand{\Bcerd}{\particle{B^0_d}}
+\newcommand{\Bbar}{\particle{\BAR{B}}}
+\newcommand{\Bdbar}{\particle{\BAR{B}{^0}}}
+\newcommand{\Bsbar}{\particle{\BAR{B}{_s}{^0}}}
+\newcommand{\Bsb}{\particle{\BAR{B}{_s}{^0}}}
+\newcommand{\Bcersbar}{\particle{\BAR{B}^{0}_{s}}}
+
+\newcommand{\Kstarz}{\particle{K^{*0}}}
+\newcommand{\Kst}{\particle{K^{*0}}}
+\newcommand{\Kstbar}{\particle{{\BAR{K}^{*0}}}}
+
+\newcommand{\Kplus}{\particle{K^+}}
+\newcommand{\Kminus}{\particle{K^-}}
+\newcommand{\Km}{\particle{K^-}}
+\newcommand{\Kpm}{\particle{K^\pm}}
+
+\newcommand{\pip}{\particle{\pi^+}}
+\newcommand{\pim}{\particle{\pi^-}}
+\newcommand{\piz}{\particle{\pi^0}}
+
+\newcommand{\Ro}{\particle{\rho^0}}
+
+\newcommand{\mum}{\particle{\mu^-}}
+\newcommand{\mup}{\particle{\mu^+}}
+
+\newcommand{\BRBsJpsiKst}{\ensuremath{\boldmath\mathcal B}(\BsJpsiKst)}
+\newcommand{\BRBsJpsiKstBoth}{\ensuremath{\boldmath\mathcal B}(\BsJpsiKstBoth)}
+\newcommand{\BRBsJphi}{\ensuremath{\boldmath\mathcal B}(\BsJphi)}
+\newcommand{\BRBdJpsiKst}{\ensuremath{\boldmath\mathcal B}(\BdJpsiKst)}
+
+\newcommand{\bsbcers}{\ensuremath{\Bcers-\Bcersbar}\xspace}
+\newcommand{\swave}{{\it S-wave}~}
+
+% Decay channels
+
+\newcommand{\decay}[2]{\particle{#1\!\to #2}}
+
+\newcommand{\BsKstKst}{\decay{\Bcers}{\Kst \Kstbar}}
+\newcommand{\BdJpsiKst}{\decay{\Bd}{\Jpsi \Kst}}
+\newcommand{\BsJpsiKst}{\decay{\Bcers}{\Jpsi \Kstbar}}
+\newcommand{\BdJpsiRo}{\decay{\Bz}{\Jpsi \Ro}}
+\newcommand{\BsBJpsiKst}{\decay{\Bcersbar}{\Jpsi \Kst}}
+\newcommand{\BsJpsiKstBoth}{\decay{\Bcersd}{\Jpsi \Kst (\Kstbar)}}
+\newcommand{\BdKstKst}{\decay{\Bcerd}{\Kst \Kstbar}}
+\newcommand{\BdJpipi}{\decay{\Bcerd}{\Jpsi \pip \pim}}
+\newcommand{\BsJphi}{\decay{\Bcers}{\Jpsi\phi}}
+\newcommand{\BdJphi}{\decay{\Bd}{\Jpsi\phi}}
+\newcommand{\BsPhiPhi}{\decay{\Bs}{\phi\phi}}
+\newcommand{\BJpsiX}{\decay{\B}{\Jpsi \Xf}}
+\newcommand{\BuJpsiK}{\decay{\Bu}{\Jpsi \Kplus}}
+\newcommand{\JpsiTomumu}{\decay{\Jpsi}{\mum \mup}}
+\newcommand{\BsJpsiKK}{\decay{\Bcers}{\Jpsi \Kplus \Kminus}}
+\newcommand{\BsJpsipp}{\decay{\Bcers}{\Jpsi \pip \pim}}
+
+\newcommand{\hlight}[1]{\colorbox{red}{#1}}
+\newcommand{\hlightg}[1]{\colorbox{green}{#1}}
+
+\newcommand{\Bstof}{\decay{\Bs}{f}}
+\newcommand{\Bsbartof}{\decay{\Bsbar}{f}}
+
+%\newcommand{\CP}{\mathcal{CP}\xspace}
+\newcommand{\Apar}{\ensuremath{A_{\parallel}}\xspace}
+\newcommand{\Aper}{\ensuremath{A_{\perp}}\xspace}
+\newcommand{\Acer}{\ensuremath{A_{0}}\xspace}

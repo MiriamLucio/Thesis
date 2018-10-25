@@ -1,0 +1,4753 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.13)  24 OCT 2018 12:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count88
+\c@@ppsavesec=\count89
+\c@@ppsaveapp=\count90
+)
+(./mciteplus.sty
+Package: mciteplus 2008/09/30 v1.1 enhanced mcite
+\@mcitetmptoksA=\toks14
+\@mcitetmpdima=\dimen103
+\@mcitetmpdimb=\dimen104
+\@mcitetmpcnta=\count91
+\@mcitetmpcntb=\count92
+\c@mcitebibitemcount=\count93
+\c@mcitesubitemcount=\count94
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count95
+\uc@combtoks=\toks17
+\uc@combtoksb=\toks18
+\uc@temptokena=\toks19
+)
+(./lineno.sty
+Package: lineno 2002/01/27 line numbers on paragraphs v3.08b
+\linenopenalty=\count96
+\output=\toks20
+\linenoprevgraf=\count97
+\linenumbersep=\dimen105
+\linenumberwidth=\dimen106
+\c@linenumber=\count98
+\c@pagewiselinenumber=\count99
+\c@linenumbermodulo=\count100
+\c@internallinenumber=\count101
+\c@internallinenumbers=\count102
+\quotelinenumbersep=\dimen107
+\bframerule=\dimen108
+\bframesep=\dimen109
+\bframebox=\box26
+) (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen110
+\calc@Bdimen=\dimen111
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count105
+\calc@Cskip=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks22
+\ex@=\dimen112
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count106
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count107
+\leftroot@=\count108
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count109
+\DOTSCASE@=\count110
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
+\dotsspace@=\muskip10
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
+\tag@help=\toks23
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
+\andhelp@=\toks24
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks25
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count118
+\l_MT_multwidth_dim=\dimen121
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen122
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen123
+\l_MT_above_intertext_sep=\dimen124
+\l_MT_below_intertext_sep=\dimen125
+\l_MT_above_shortintertext_sep=\dimen126
+\l_MT_below_shortintertext_sep=\dimen127
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count119
+))
+\Gin@req@height=\dimen128
+\Gin@req@width=\dimen129
+)
+(/usr/share/texlive/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/05/30 v0.4u Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/05/30 v0.4u Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box29
+\AM@toc@title=\toks27
+\c@AM@survey=\count120
+\AM@templatesizebox=\box30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen130
+\extrarowheight=\dimen131
+\NC@list=\toks28
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+\TX@col@width=\dimen132
+\TX@old@table=\dimen133
+\TX@old@col=\dimen134
+\TX@target=\dimen135
+\TX@delta=\dimen136
+\TX@cols=\count121
+\TX@ftn=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks30
+\minrowclearance=\skip52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count122
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box31
+\rot@mess@toks=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen138
+\captionmargin@=\dimen139
+\captionwidth=\dimen140
+\caption@tempdima=\dimen141
+\caption@indent=\dimen142
+\caption@parindent=\dimen143
+\caption@hangindent=\dimen144
+)
+\c@ContinuedFloat=\count123
+Package caption Info: rotating package is loaded.
+)
+\c@KVtest=\count124
+\sf@farskip=\skip55
+\sf@captopadj=\dimen145
+\sf@capskip=\skip56
+\sf@nearskip=\skip57
+\c@subfigure=\count125
+\c@subfigure@save=\count126
+\c@lofdepth=\count127
+\c@subtable=\count128
+\c@subtable@save=\count129
+\c@lotdepth=\count130
+\sf@top=\skip58
+\sf@bottom=\skip59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (./cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count131
+\float@exts=\toks32
+\float@box=\box32
+\@float@everytoks=\toks33
+\@floatcapt=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen146
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count134
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+
+
+Package hyperref Warning: Values of option `pdfpagemode':
+(hyperref)                * `UseNone'
+(hyperref)                * `UseOutlines'
+(hyperref)                * `UseThumbs'
+(hyperref)                * `FullScreen'
+(hyperref)                * `UseOC' (PDF 1.5)
+(hyperref)                * `UseAttachments' (PDF 1.6)
+(hyperref)                * An empty value disables the option.
+(hyperref)                Unknown value `None' on input line 4319.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+
+Package hyperref Warning: Invalid value `000'
+(hyperref)                for option `pdfborder'.
+(hyperref)                Option setting is ignored on input line 4319.
+
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count135
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen147
+\Fld@menulength=\count136
+\Field@Width=\dimen148
+\Fld@charsize=\dimen149
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count137
+\c@Item=\count138
+\c@Hfootnote=\count139
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count140
+\c@bookmark@seq@number=\count141
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip61
+\L@UnitsRaiseTextstyle=\skip62
+\L@UnitsRaiseScriptstyle=\skip63
+))
+(./extra-definitions.tex) (./our-symbols-def.tex)
+\@float@every@table=\toks34
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box34
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks35
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count142
+)
+\etb@tempcnta=\count143
+)
+\c@subsubsubsection=\count144
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks36
+\AP@partial=\box35
+\AP@footins=\box36
+) (./main.aux
+
+LaTeX Warning: Label `sec:introduction' multiply defined.
+
+
+LaTeX Warning: Label `tab:Observables' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count145
+\scratchdimen=\dimen155
+\scratchbox=\box37
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen156
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks38
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box38
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 178.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count151
+)
+LaTeX Info: Redefining \ref on input line 178.
+LaTeX Info: Redefining \pageref on input line 178.
+LaTeX Info: Redefining \nameref on input line 178.
+
+(./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+ (./chapters/Cover.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<figs/logo_ux.jpg, id=538, 712.6625pt x 461.725pt>
+File: figs/logo_ux.jpg Graphic file (type jpg)
+ <use figs/logo_ux.jpg>
+Package pdftex.def Info: figs/logo_ux.jpg used on input line 38.
+(pdftex.def)             Requested size: 159.3382pt x 103.22842pt.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/logo_ux.jpg>]pdfTeX
+ warning (ext4): destination with the same identifier (name{page.i}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.192 \cleardoublepage
+                       [1
+
+] (./main.toc [2
+
+] [3] [4]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 123.
+)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [5]pdfTeX warning (ext4): destination with the same identifier (name{page.v}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.202 \cleardoublepage
+                       [5
+
+] (./chapters/Introduction.tex
+Chapter 1.
+[1
+
+] <figs/higgs.png, id=734, 462.528pt x 346.896pt>
+File: figs/higgs.png Graphic file (type png)
+ <use figs/higgs.png>
+Package pdftex.def Info: figs/higgs.png used on input line 36.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+
+[2 <./figs/higgs.png>] [3]
+<figs/particle_content.jpg, id=763, 853.1875pt x 587.19376pt>
+File: figs/particle_content.jpg Graphic file (type jpg)
+
+<use figs/particle_content.jpg>
+Package pdftex.def Info: figs/particle_content.jpg used on input line 88.
+(pdftex.def)             Requested size: 426.59271pt x 293.59616pt.
+ [4 <./figs/particle_content.jpg>]
+Underfull \hbox (badness 1383) in paragraph at lines 104--105
+[]\OT1/cmr/m/n/12 With this, the weak cur-rent trans-forms from $[]\OML/cmm/m/i
+t/12 ^^M[]d[]$ \OT1/cmr/m/n/12 to $[]\OML/cmm/m/it/12 ^^M[]\OT1/cmr/m/n/12 (\OM
+L/cmm/m/it/12 V[]V[]\OT1/cmr/m/n/12 )[])\OML/cmm/m/it/12 d[] \OMS/cmsy/m/n/12 ^
+^Q
+ []
+
+[5] <figs/coupling_constants.jpg, id=794, 569.0058pt x 232.4685pt>
+File: figs/coupling_constants.jpg Graphic file (type jpg)
+
+<use figs/coupling_constants.jpg>
+Package pdftex.def Info: figs/coupling_constants.jpg used on input line 145.
+(pdftex.def)             Requested size: 398.30135pt x 162.72684pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+ [6 <./figs/coupling_constants.jpg>] [7] <figs/lhm.png, id=833, 652.68843pt x 1
+86.6975pt>
+File: figs/lhm.png Graphic file (type png)
+
+<use figs/lhm.png>
+Package pdftex.def Info: figs/lhm.png used on input line 190.
+(pdftex.def)             Requested size: 456.87878pt x 130.68735pt.
+
+Overfull \hbox (1.6347pt too wide) in paragraph at lines 190--191
+ [] 
+ []
+
+) (./chapters/Supersymmetry.tex [8] [9 <./figs/lhm.png>]
+Chapter 2.
+[10
+
+]
+Underfull \hbox (badness 4954) in paragraph at lines 36--36
+ |[]\OT1/cmr/bx/n/17.28 Minimal Su-per-sym-met-ri-cal Stan-dard Model
+ []
+
+[11]
+
+LaTeX Warning: Citation `Pascos1' on page 12 undefined on input line 58.
+
+
+LaTeX Warning: Citation `Pascos2' on page 12 undefined on input line 58.
+
+[12] [13] <figs/hidden_sector.png, id=894, 351.56343pt x 188.95593pt>
+File: figs/hidden_sector.png Graphic file (type png)
+
+<use figs/hidden_sector.png>
+Package pdftex.def Info: figs/hidden_sector.png used on input line 123.
+(pdftex.def)             Requested size: 175.78128pt x 94.47772pt.
+ [14 <./figs/hidden_sector.png>] [15] [16]
+<figs/bfp_posmu_noDM_w_slha.pdf, id=927, 422.48943pt x 279.65279pt>
+File: figs/bfp_posmu_noDM_w_slha.pdf Graphic file (type pdf)
+
+<use figs/bfp_posmu_noDM_w_slha.pdf>
+Package pdftex.def Info: figs/bfp_posmu_noDM_w_slha.pdf used on input line 243.
+
+(pdftex.def)             Requested size: 422.48839pt x 279.6521pt.
+
+<figs/bfp_negmu_noDM_w_slha.pdf, id=928, 422.48943pt x 280.79404pt>
+File: figs/bfp_negmu_noDM_w_slha.pdf Graphic file (type pdf)
+
+<use figs/bfp_negmu_noDM_w_slha.pdf>
+Package pdftex.def Info: figs/bfp_negmu_noDM_w_slha.pdf used on input line 244.
+
+(pdftex.def)             Requested size: 422.48839pt x 280.79333pt.
+ [17 <./figs/bfp_posmu_noDM_w_slha.pdf> <./figs/bfp_negmu_noDM_w_slha.pdf>]
+<figs/posmu_noDM_m0TeV50_m32TeV1500_chi2.pdf, id=996, 578.16pt x 433.62pt>
+File: figs/posmu_noDM_m0TeV50_m32TeV1500_chi2.pdf Graphic file (type pdf)
+
+<use figs/posmu_noDM_m0TeV50_m32TeV1500_chi2.pdf>
+Package pdftex.def Info: figs/posmu_noDM_m0TeV50_m32TeV1500_chi2.pdf used on in
+put line 263.
+(pdftex.def)             Requested size: 578.15858pt x 433.61894pt.
+
+<figs/negmu_noDM_m0TeV50_m32TeV1500_chi2.pdf, id=997, 578.16pt x 433.62pt>
+File: figs/negmu_noDM_m0TeV50_m32TeV1500_chi2.pdf Graphic file (type pdf)
+
+<use figs/negmu_noDM_m0TeV50_m32TeV1500_chi2.pdf>
+Package pdftex.def Info: figs/negmu_noDM_m0TeV50_m32TeV1500_chi2.pdf used on in
+put line 264.
+(pdftex.def)             Requested size: 578.15858pt x 433.61894pt.
+
+
+LaTeX Warning: Citation `pandax' on page 18 undefined on input line 277.
+
+
+LaTeX Warning: Citation `lux16' on page 18 undefined on input line 277.
+
+
+LaTeX Warning: Citation `LZ' on page 18 undefined on input line 277.
+
+
+LaTeX Warning: Citation `XENON1T' on page 18 undefined on input line 277.
+
+
+LaTeX Warning: Citation `Snowmass' on page 18 undefined on input line 278.
+
+
+LaTeX Warning: Citation `cancellations' on page 18 undefined on input line 278.
+
+
+
+<figs/posmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf, id=999, 
+578.16pt x 433.62pt>
+File: figs/posmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf Grap
+hic file (type pdf)
+
+<use figs/posmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf>
+Package pdftex.def Info: figs/posmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2s
+caled_chi2.pdf used on input line 283.
+(pdftex.def)             Requested size: 578.15858pt x 433.61894pt.
+
+<figs/negmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf, id=1000,
+ 578.16pt x 433.62pt>
+File: figs/negmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf Grap
+hic file (type pdf)
+
+<use figs/negmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf>
+Package pdftex.def Info: figs/negmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2s
+caled_chi2.pdf used on input line 284.
+(pdftex.def)             Requested size: 578.15858pt x 433.61894pt.
+
+[18 <./figs/posmu_noDM_m0TeV50_m32TeV1500_chi2.pdf> <./figs/negmu_noDM_m0TeV50_
+m32TeV1500_chi2.pdf
+
+pdfTeX warning: pdflatex (file ./figs/negmu_noDM_m0TeV50_m32TeV1500_chi2.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>] <figs/RGE.png, id=1483, 402.00188pt x 305.64188pt>
+File: figs/RGE.png Graphic file (type png)
+ <use figs/RGE.png>
+Package pdftex.def Info: figs/RGE.png used on input line 326.
+(pdftex.def)             Requested size: 241.20297pt x 183.38652pt.
+
+[19 <./figs/posmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf> <.
+/figs/negmu_noDM_logabsmneu1_SNOW_logssikocm2_SNOW_oh2scaled_chi2.pdf
+
+pdfTeX warning: pdflatex (file ./figs/negmu_noDM_logabsmneu1_SNOW_logssikocm2_S
+NOW_oh2scaled_chi2.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <./figs/RGE.png>] [20]
+
+LaTeX Warning: Reference `eq:BL' on page 21 undefined on input line 366.
+
+[21]
+
+LaTeX Warning: Reference `' on page 22 undefined on input line 398.
+
+<figs/ATLAS_SUSY_Summary.png, id=1746, 3159.805pt x 2287.54625pt>
+File: figs/ATLAS_SUSY_Summary.png Graphic file (type png)
+
+<use figs/ATLAS_SUSY_Summary.png>
+Package pdftex.def Info: figs/ATLAS_SUSY_Summary.png used on input line 403.
+(pdftex.def)             Requested size: 473.9503pt x 343.11714pt.
+
+Overfull \hbox (18.70622pt too wide) in paragraph at lines 403--404
+ [] 
+ []
+
+<figs/CMS_SUSY_Summary.png, id=1747, 569.12625pt x 385.44pt>
+File: figs/CMS_SUSY_Summary.png Graphic file (type png)
+
+<use figs/CMS_SUSY_Summary.png>
+Package pdftex.def Info: figs/CMS_SUSY_Summary.png used on input line 410.
+(pdftex.def)             Requested size: 398.38567pt x 269.80615pt.
+) (./chapters/MFV.tex [22 <./figs/ATLAS_SUSY_Summary.png>] [23 <./figs/CMS_SUSY
+_Summary.png>]
+Chapter 3.
+[24
+
+]
+Overfull \hbox (40.09607pt too wide) detected at line 75
+[][][] \OT1/cmr/m/n/12 = []
+ []
+
+
+Overfull \hbox (41.15062pt too wide) detected at line 84
+[][][] \OT1/cmr/m/n/12 = []
+ []
+
+[25] [26] [27] <figs/uut.png, id=1849, 277.035pt x 149.05687pt>
+File: figs/uut.png Graphic file (type png)
+
+<use figs/uut.png>
+Package pdftex.def Info: figs/uut.png used on input line 171.
+(pdftex.def)             Requested size: 193.92317pt x 104.3391pt.
+ [28 <./figs/uut.png>]
+<figs/uut_CKMFitter.png, id=1861, 569.12625pt x 568.1225pt>
+File: figs/uut_CKMFitter.png Graphic file (type png)
+
+<use figs/uut_CKMFitter.png>
+Package pdftex.def Info: figs/uut_CKMFitter.png used on input line 185.
+(pdftex.def)             Requested size: 284.56242pt x 284.06055pt.
+
+
+LaTeX Warning: Citation `Fellini4' on page 29 undefined on input line 197.
+
+) (./chapters/LHCb.tex [29 <./figs/uut_CKMFitter.png>]
+Chapter 4.
+<figs/lhc.png, id=1872, 448.67625pt x 328.22626pt>
+File: figs/lhc.png Graphic file (type png)
+ <use figs/lhc.png>
+Package pdftex.def Info: figs/lhc.png used on input line 12.
+(pdftex.def)             Requested size: 224.33757pt x 164.11272pt.
+ [30
+
+ <./figs/lhc.png (PNG copy)>]
+
+LaTeX Warning: Citation `LHCb-DP-2014-002' on page 31 undefined on input line 3
+5.
+
+
+LaTeX Warning: Citation `LHCb-DP-2014-001' on page 31 undefined on input line 4
+0.
+
+
+LaTeX Warning: Citation `LHCb-DP-2013-003' on page 31 undefined on input line 4
+3.
+
+
+LaTeX Warning: Citation `LHCb-DP-2012-003' on page 31 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `LHCb-DP-2012-002' on page 31 undefined on input line 5
+5.
+
+
+LaTeX Warning: Citation `LHCb-DP-2012-004' on page 31 undefined on input line 5
+6.
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 35--60
+\OT1/cmr/m/n/12 The [] de-tec-tor [\OT1/cmr/bx/n/12 ?\OT1/cmr/m/n/12 , [][]49[]
+[]] is a single-arm for-ward spec-trom-e-ter cov-er-ing the
+ []
+
+<figs/lhcb-slide.jpg, id=1880, 1643.13875pt x 1156.32pt>
+File: figs/lhcb-slide.jpg Graphic file (type jpg)
+
+<use figs/lhcb-slide.jpg>
+Package pdftex.def Info: figs/lhcb-slide.jpg used on input line 69.
+(pdftex.def)             Requested size: 328.62193pt x 231.2599pt.
+ [31]
+<figs/beampipe.png, id=1887, 534.49687pt x 420.06938pt>
+File: figs/beampipe.png Graphic file (type png)
+
+<use figs/beampipe.png>
+Package pdftex.def Info: figs/beampipe.png used on input line 82.
+(pdftex.def)             Requested size: 320.70059pt x 252.04358pt.
+ [32 <./figs/lhcb-slide.jpg>]
+<figs/magnet.jpg, id=1895, 1073.00874pt x 452.69125pt>
+File: figs/magnet.jpg Graphic file (type jpg)
+ <use figs/magnet.jpg>
+Package pdftex.def Info: figs/magnet.jpg used on input line 98.
+(pdftex.def)             Requested size: 375.55869pt x 158.4443pt.
+
+[33 <./figs/beampipe.png>] <figs/velo.png, id=1905, 2028.8598pt x 1503.6978pt>
+File: figs/velo.png Graphic file (type png)
+
+<use figs/velo.png>
+Package pdftex.def Info: figs/velo.png used on input line 119.
+(pdftex.def)             Requested size: 365.17902pt x 270.65393pt.
+ [34 <./figs/magnet.jpg>]
+<figs/lhcb_st.png, id=1915, 768.62157pt x 253.69781pt>
+File: figs/lhcb_st.png Graphic file (type png)
+ <use figs/lhcb_st.png>
+Package pdftex.def Info: figs/lhcb_st.png used on input line 133.
+(pdftex.def)             Requested size: 461.1765pt x 152.21985pt.
+
+Overfull \hbox (5.93242pt too wide) in paragraph at lines 133--134
+ [] 
+ []
+
+<figs/OT.jpg, id=1919, 436.63126pt x 413.545pt>
+File: figs/OT.jpg Graphic file (type jpg)
+ <use figs/OT.jpg>
+Package pdftex.def Info: figs/OT.jpg used on input line 146.
+(pdftex.def)             Requested size: 174.6494pt x 165.41505pt.
+ [35 <./figs/velo.png>] [36 <./figs/lhcb_st.png> <./figs/OT.jpg>]
+<figs/RICH.png, id=1938, 275.8305pt x 165.2574pt>
+File: figs/RICH.png Graphic file (type png)
+ <use figs/RICH.png>
+Package pdftex.def Info: figs/RICH.png used on input line 162.
+(pdftex.def)             Requested size: 413.74472pt x 247.88545pt.
+ [37 <./figs/RICH.png>] <figs/CALO.png, id=1948, 609.77812pt x 174.6525pt>
+File: figs/CALO.png Graphic file (type png)
+
+<use figs/CALO.png>
+Package pdftex.def Info: figs/CALO.png used on input line 179.
+(pdftex.def)             Requested size: 426.84177pt x 122.2559pt.
+ [38 <./figs/CALO.png>]
+<figs/MUON.png, id=1959, 430.60875pt x 220.57407pt>
+File: figs/MUON.png Graphic file (type png)
+ <use figs/MUON.png>
+Package pdftex.def Info: figs/MUON.png used on input line 201.
+(pdftex.def)             Requested size: 430.60768pt x 220.57352pt.
+
+[39 <./figs/MUON.png>] <figs/L0.png, id=1973, 386.19281pt x 373.395pt>
+File: figs/L0.png Graphic file (type png)
+
+<use figs/L0.png>
+Package pdftex.def Info: figs/L0.png used on input line 229.
+(pdftex.def)             Requested size: 270.33311pt x 261.37471pt.
+ [40] <figs/HLT.png, id=1985, 654.94687pt x 243.15843pt>
+File: figs/HLT.png Graphic file (type png)
+
+<use figs/HLT.png>
+Package pdftex.def Info: figs/HLT.png used on input line 244.
+(pdftex.def)             Requested size: 458.45969pt x 170.20973pt.
+
+Overfull \hbox (3.2156pt too wide) in paragraph at lines 244--245
+ [] 
+ []
+
+[41 <./figs/L0.png>] [42 <./figs/HLT.png>]
+<figs/TrackTypes.png, id=2002, 434.62375pt x 461.725pt>
+File: figs/TrackTypes.png Graphic file (type png)
+
+<use figs/TrackTypes.png>
+Package pdftex.def Info: figs/TrackTypes.png used on input line 276.
+(pdftex.def)             Requested size: 260.77626pt x 277.03714pt.
+ [43 <./figs/TrackTypes.png>]
+<figs/Efficiency_p_eta.png, id=2013, 832.61063pt x 286.06876pt>
+File: figs/Efficiency_p_eta.png Graphic file (type png)
+
+<use figs/Efficiency_p_eta.png>
+Package pdftex.def Info: figs/Efficiency_p_eta.png used on input line 289.
+(pdftex.def)             Requested size: 416.30429pt x 143.03403pt.
+
+<figs/Resolution_p.png, id=2017, 420.82219pt x 286.06876pt>
+File: figs/Resolution_p.png Graphic file (type png)
+
+<use figs/Resolution_p.png>
+Package pdftex.def Info: figs/Resolution_p.png used on input line 300.
+(pdftex.def)             Requested size: 210.41057pt x 143.03403pt.
+ [44 <./figs/Efficiency_p_eta.png>]
+<figs/PV_IP.png, id=2030, 491.58656pt x 164.11313pt>
+File: figs/PV_IP.png Graphic file (type png)
+ <use figs/PV_IP.png>
+Package pdftex.def Info: figs/PV_IP.png used on input line 319.
+(pdftex.def)             Requested size: 491.58536pt x 164.11272pt.
+
+Overfull \hbox (36.34128pt too wide) in paragraph at lines 319--320
+ [] 
+ []
+
+
+LaTeX Warning: Reference `subsec:PID' on page 45 undefined on input line 326.
+
+[45 <./figs/Resolution_p.png>]
+<figs/PID2.png, id=2041, 599.23875pt x 210.7875pt>
+File: figs/PID2.png Graphic file (type png)
+ <use figs/PID2.png>
+Package pdftex.def Info: figs/PID2.png used on input line 339.
+(pdftex.def)             Requested size: 479.39165pt x 168.63022pt.
+
+Overfull \hbox (24.14757pt too wide) in paragraph at lines 339--340
+ [] 
+ []
+
+[46 <./figs/PV_IP.png> <./figs/PID2.png>]
+<figs/PID3.png, id=2052, 475.7775pt x 322.20375pt>
+File: figs/PID3.png Graphic file (type png)
+ <use figs/PID3.png>
+Package pdftex.def Info: figs/PID3.png used on input line 356.
+(pdftex.def)             Requested size: 333.04196pt x 225.54108pt.
+
+<figs/PID4.png, id=2056, 600.74437pt x 211.54031pt>
+File: figs/PID4.png Graphic file (type png)
+ <use figs/PID4.png>
+Package pdftex.def Info: figs/PID4.png used on input line 366.
+(pdftex.def)             Requested size: 420.51819pt x 148.0772pt.
+
+[47 <./figs/PID3.png>] <figs/PID5.png, id=2068, 594.72188pt x 553.31718pt>
+File: figs/PID5.png Graphic file (type png)
+
+<use figs/PID5.png>
+Package pdftex.def Info: figs/PID5.png used on input line 375.
+(pdftex.def)             Requested size: 416.30247pt x 387.31938pt.
+ [48 <./figs/PID4.png>]
+<figs/L0Perf.png, id=2080, 594.72188pt x 207.02344pt>
+File: figs/L0Perf.png Graphic file (type png)
+ <use figs/L0Perf.png>
+Package pdftex.def Info: figs/L0Perf.png used on input line 403.
+(pdftex.def)             Requested size: 416.30247pt x 144.9154pt.
+
+[49 <./figs/PID5.png>] <figs/HLT1Perf.png, id=2091, 602.25pt x 207.77625pt>
+File: figs/HLT1Perf.png Graphic file (type png)
+
+<use figs/HLT1Perf.png>
+Package pdftex.def Info: figs/HLT1Perf.png used on input line 416.
+(pdftex.def)             Requested size: 421.57211pt x 145.44237pt.
+ [50 <./figs/L0Perf.png> <./figs/HLT1Perf.png>]
+<figs/HLT2Perf.png, id=2102, 599.99156pt x 211.54031pt>
+File: figs/HLT2Perf.png Graphic file (type png)
+
+<use figs/HLT2Perf.png>
+Package pdftex.def Info: figs/HLT2Perf.png used on input line 426.
+(pdftex.def)             Requested size: 419.99123pt x 148.0772pt.
+
+<figs/prospects.png, id=2106, 919.18407pt x 341.77687pt>
+File: figs/prospects.png Graphic file (type png)
+
+<use figs/prospects.png>
+Package pdftex.def Info: figs/prospects.png used on input line 448.
+(pdftex.def)             Requested size: 505.5528pt x 187.97786pt.
+
+Overfull \hbox (50.30872pt too wide) in paragraph at lines 448--449
+ [] 
+ []
+
+[51 <./figs/HLT2Perf.png>]
+<figs/VELO_Upgrade.png, id=2115, 560.8453pt x 360.59718pt>
+File: figs/VELO_Upgrade.png Graphic file (type png)
+
+<use figs/VELO_Upgrade.png>
+Package pdftex.def Info: figs/VELO_Upgrade.png used on input line 471.
+(pdftex.def)             Requested size: 392.58904pt x 252.4163pt.
+ [52 <./figs/prospects.png>] [53 <./figs/VELO_Upgrade.png>] <figs/LHCb_upgrade.
+png, id=2128, 964.60374pt x 608.2725pt>
+File: figs/LHCb_upgrade.png Graphic file (type png)
+
+<use figs/LHCb_upgrade.png>
+Package pdftex.def Info: figs/LHCb_upgrade.png used on input line 496.
+(pdftex.def)             Requested size: 385.83466pt x 243.30469pt.
+ [54 <./figs/LHCb_upgrade.png>]) (./chapters/DF2.tex [55]
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+[56
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 37.
+
+
+LaTeX Warning: Citation `Kobayashi:1973fv' on page 57 undefined on input line 5
+6.
+
+
+LaTeX Warning: Citation `Buras:2009if' on page 57 undefined on input line 59.
+
+
+LaTeX Warning: Citation `Chiang:2009ev' on page 57 undefined on input line 59.
+
+<figs/Spring2017_Phis_vs_DGs.png, id=2170, 781.2387pt x 523.2348pt>
+File: figs/Spring2017_Phis_vs_DGs.png Graphic file (type png)
+
+<use figs/Spring2017_Phis_vs_DGs.png>
+Package pdftex.def Info: figs/Spring2017_Phis_vs_DGs.png used on input line 63.
+
+(pdftex.def)             Requested size: 227.62204pt x 152.44476pt.
+
+
+LaTeX Warning: Citation `HFLAV2017' on page 57 undefined on input line 67.
+
+
+LaTeX Warning: Citation `HFLAV2017' on page 57 undefined on input line 67.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57]
+
+LaTeX Warning: Citation `Liu:2013nea' on page 58 undefined on input line 88.
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 99.
+
+[58 <./figs/Spring2017_Phis_vs_DGs.png>]
+Underfull \hbox (badness 1092) in paragraph at lines 111--117
+\OT1/cmr/m/n/12 the \OT1/cmtt/m/n/12 StrippingBetaSBs2JpsiPhiDetached Stripping
+BetaSBd2JpsiKstDetached \OT1/cmr/m/n/12 and
+ []
+
+
+LaTeX Warning: Citation `Sjostrand:2006za' on page 59 undefined on input line 1
+22.
+
+
+LaTeX Warning: Citation `LHCb-PROC-2010-056' on page 59 undefined on input line
+ 122.
+
+
+LaTeX Warning: Citation `Lange:2001uf' on page 59 undefined on input line 161.
+
+
+LaTeX Warning: Citation `Golonka:2005pn' on page 59 undefined on input line 161
+.
+
+
+LaTeX Warning: Citation `Agostinelli:2002hh' on page 59 undefined on input line
+ 162.
+
+
+LaTeX Warning: Citation `Allison:2006ve' on page 59 undefined on input line 162
+.
+
+
+LaTeX Warning: Citation `LHCb-PROC-2011-006' on page 59 undefined on input line
+ 163.
+
+[59]
+
+LaTeX Warning: Reference `sec:angular_acc' on page 60 undefined on input line 1
+66.
+
+
+LaTeX Warning: Reference `sec:mass_peaking' on page 60 undefined on input line 
+166.
+
+
+LaTeX Warning: Reference `sec:timeacc' on page 60 undefined on input line 166.
+
+
+LaTeX Warning: Reference `sec:tagging' on page 60 undefined on input line 167.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+[]\OT1/cmr/m/n/12 HLT1 se-lec-tion: \OT1/cmtt/m/n/12 Jpsi[]Hlt1DiMuonHighMassDe
+cision[]TOS \OT1/cmr/m/n/12 or
+ []
+
+[61] <figs/bs_2016_FOM.pdf, id=2217, 569.12625pt x 385.44pt>
+File: figs/bs_2016_FOM.pdf Graphic file (type pdf)
+
+<use figs/bs_2016_FOM.pdf>
+Package pdftex.def Info: figs/bs_2016_FOM.pdf used on input line 268.
+(pdftex.def)             Requested size: 223.0721pt x 151.0738pt.
+
+<figs/bs_2016_S_SIGMAS.pdf, id=2218, 569.12625pt x 385.44pt>
+File: figs/bs_2016_S_SIGMAS.pdf Graphic file (type pdf)
+
+<use figs/bs_2016_S_SIGMAS.pdf>
+Package pdftex.def Info: figs/bs_2016_S_SIGMAS.pdf used on input line 269.
+(pdftex.def)             Requested size: 223.0721pt x 151.0738pt.
+
+
+LaTeX Warning: Citation `sWeights' on page 62 undefined on input line 277.
+
+[62 <./figs/bs_2016_FOM.pdf, page is rotated 90 degrees> <./figs/bs_2016_S_SIGM
+AS.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation `xie_CSP_sfiterror' on page 63 undefined on input line 
+317.
+
+[63]
+
+LaTeX Warning: Citation `Liu:2241242' on page 64 undefined on input line 331.
+
+
+LaTeX Warning: Citation `Liu:2241242' on page 64 undefined on input line 332.
+
+
+LaTeX Warning: Citation `PDG2017' on page 64 undefined on input line 338.
+
+
+LaTeX Warning: Citation `Aaij:2014emv' on page 64 undefined on input line 339.
+
+[64] <figs/epsmKK.pdf, id=2328, 569.12625pt x 385.44pt>
+File: figs/epsmKK.pdf Graphic file (type pdf)
+ <use figs/epsmKK.pdf>
+Package pdftex.def Info: figs/epsmKK.pdf used on input line 365.
+(pdftex.def)             Requested size: 223.0721pt x 151.0738pt.
+
+<figs/epsmKK_SWave.pdf, id=2329, 569.12625pt x 385.44pt>
+File: figs/epsmKK_SWave.pdf Graphic file (type pdf)
+
+<use figs/epsmKK_SWave.pdf>
+Package pdftex.def Info: figs/epsmKK_SWave.pdf used on input line 366.
+(pdftex.def)             Requested size: 223.0721pt x 151.0738pt.
+ [65 <./figs/epsmKK.pdf, page is rotated 90 degrees> <./figs/epsmKK_SWave.pdf, 
+page is rotated 90 degrees>] [66]
+
+LaTeX Warning: Citation `LHCb-PAPER-2013-065' on page 67 undefined on input lin
+e 465.
+
+
+LaTeX Warning: Citation `HFLAV2017' on page 67 undefined on input line 466.
+
+
+LaTeX Warning: Citation `LHCb-PAPER-2013-023' on page 67 undefined on input lin
+e 468.
+
+[67]
+
+LaTeX Warning: Reference `sec:timereso' on page 68 undefined on input line 497.
+
+
+
+LaTeX Warning: Citation `HFLAV2017' on page 68 undefined on input line 497.
+
+[68]
+
+LaTeX Warning: Reference `sec:timeAcc_timeaccBd' on page 69 undefined on input 
+line 502.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 504.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 504.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 504.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 504.
+
+
+LaTeX Warning: Reference `sec:timeAcc_timeaccBd' on page 69 undefined on input 
+line 506.
+
+
+LaTeX Warning: Citation `HFLAV2017' on page 69 undefined on input line 527.
+
+
+LaTeX Warning: Citation `HFLAV2017' on page 69 undefined on input line 529.
+
+
+LaTeX Warning: Reference `sec:Bd_swave' on page 69 undefined on input line 540.
+
+
+
+LaTeX Warning: Citation `HFLAV2017' on page 69 undefined on input line 543.
+
+[69]
+<figs/timeacc/B0_PT_reweighted_SigmaCut.pdf, id=2463, 569.12625pt x 522.95375pt
+>
+File: figs/timeacc/B0_PT_reweighted_SigmaCut.pdf Graphic file (type pdf)
+ <use figs/timeacc/B0_PT_reweighted_SigmaCut.pdf>
+Package pdftex.def Info: figs/timeacc/B0_PT_reweighted_SigmaCut.pdf used on inp
+ut line 563.
+(pdftex.def)             Requested size: 132.01772pt x 121.3062pt.
+
+<figs/timeacc/B0_PT_reweighted_AngleCut.pdf, id=2464, 569.12625pt x 478.78876pt
+>
+File: figs/timeacc/B0_PT_reweighted_AngleCut.pdf Graphic file (type pdf)
+ <use figs/timeacc/B0_PT_reweighted_AngleCut.pdf>
+Package pdftex.def Info: figs/timeacc/B0_PT_reweighted_AngleCut.pdf used on inp
+ut line 564.
+(pdftex.def)             Requested size: 145.68143pt x 122.55342pt.
+
+<figs/timeacc/B0_PT_reweighted_MassCut.pdf, id=2465, 569.12625pt x 521.95pt>
+File: figs/timeacc/B0_PT_reweighted_MassCut.pdf Graphic file (type pdf)
+
+<use figs/timeacc/B0_PT_reweighted_MassCut.pdf>
+Package pdftex.def Info: figs/timeacc/B0_PT_reweighted_MassCut.pdf used on inpu
+t line 565.
+(pdftex.def)             Requested size: 141.12454pt x 129.42792pt.
+
+<figs/timeacc/B0_time_fits_reweighted_SigmaCut.pdf, id=2466, 569.12625pt x 385.
+44pt>
+File: figs/timeacc/B0_time_fits_reweighted_SigmaCut.pdf Graphic file (type pdf)
+
+ <use figs/timeacc/B0_time_fits_reweighted_SigmaCut.pdf>
+Package pdftex.def Info: figs/timeacc/B0_time_fits_reweighted_SigmaCut.pdf used
+ on input line 574.
+(pdftex.def)             Requested size: 182.09485pt x 123.32567pt.
+
+<figs/timeacc/B0_time_fits_reweighted_AngleCut.pdf, id=2467, 569.12625pt x 385.
+44pt>
+File: figs/timeacc/B0_time_fits_reweighted_AngleCut.pdf Graphic file (type pdf)
+
+ <use figs/timeacc/B0_time_fits_reweighted_AngleCut.pdf>
+Package pdftex.def Info: figs/timeacc/B0_time_fits_reweighted_AngleCut.pdf used
+ on input line 575.
+(pdftex.def)             Requested size: 182.09485pt x 123.32567pt.
+
+<figs/timeacc/B0_time_fits_reweighted_MassCut.pdf, id=2468, 569.12625pt x 385.4
+4pt>
+File: figs/timeacc/B0_time_fits_reweighted_MassCut.pdf Graphic file (type pdf)
+ <use figs/timeacc/B0_time_fits_reweighted_MassCut.pdf>
+Package pdftex.def Info: figs/timeacc/B0_time_fits_reweighted_MassCut.pdf used 
+on input line 576.
+(pdftex.def)             Requested size: 182.09485pt x 123.32567pt.
+File: figs/timeacc/B0_time_fits_reweighted_MassCut.pdf Graphic file (type pdf)
+
+<use figs/timeacc/B0_time_fits_reweighted_MassCut.pdf>
+Package pdftex.def Info: figs/timeacc/B0_time_fits_reweighted_MassCut.pdf used 
+on input line 577.
+(pdftex.def)             Requested size: 182.09485pt x 123.32567pt.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-34.def
+File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
+) [70 <./figs/timeacc/B0_PT_reweighted_SigmaCut.pdf, page is rotated 90 degrees
+> <./figs/timeacc/B0_PT_reweighted_AngleCut.pdf, page is rotated 90 degrees> <.
+/figs/timeacc/B0_PT_reweighted_MassCut.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 598--601
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[71 <./figs/timeacc/B0_time_fits_reweighted_SigmaCut.pdf, page is rotated 90 de
+grees> <./figs/timeacc/B0_time_fits_reweighted_AngleCut.pdf, page is rotated 90
+ degrees> <./figs/timeacc/B0_time_fits_reweighted_MassCut.pdf, page is rotated 
+90 degrees>]
+
+LaTeX Warning: Reference `sec:tagging' on page 72 undefined on input line 646.
+
+
+LaTeX Warning: Reference `sec:timeacc' on page 72 undefined on input line 646.
+
+
+LaTeX Warning: Reference `sec:timereso' on page 72 undefined on input line 647.
+
+
+
+LaTeX Warning: Reference `sec:angular_acc' on page 72 undefined on input line 6
+54.
+
+[72]
+
+LaTeX Warning: Reference `tab:baselinefit' on page 73 undefined on input line 6
+63.
+
+
+LaTeX Warning: Reference `tab:fit_corr_matrix' on page 73 undefined on input li
+ne 664.
+
+
+LaTeX Warning: Reference `fig:results_projections_time' on page 73 undefined on
+ input line 666.
+
+
+LaTeX Warning: Reference `fig:results_projections_angles' on page 73 undefined 
+on input line 666.
+
+
+LaTeX Warning: Reference `fig:LikelihoodScans1' on page 73 undefined on input l
+ine 667.
+
+
+LaTeX Warning: Reference `fig:LikelihoodScans2' on page 73 undefined on input l
+ine 667.
+
+
+LaTeX Warning: Reference `UPDATE WHEN FINAL' on page 73 undefined on input line
+ 667.
+
+[73] [74] [75]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 825.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 825.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 76 undefined on input line
+ 851.
+
+
+LaTeX Warning: Citation `C7_constraints' on page 76 undefined on input line 852
+.
+
+
+LaTeX Warning: Citation `Aaboud:2017sjh' on page 76 undefined on input line 854
+.
+
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 863.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 863.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 863.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 863.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 863.
+
+<figs/DG.png, id=2774, 413.3844pt x 315.0972pt>
+File: figs/DG.png Graphic file (type png)
+ <use figs/DG.png>
+Package pdftex.def Info: figs/DG.png used on input line 875.
+(pdftex.def)             Requested size: 223.0721pt x 170.03455pt.
+
+<figs/Dm.png, id=2775, 416.2752pt x 315.0972pt>
+File: figs/Dm.png Graphic file (type png)
+ <use figs/Dm.png>
+Package pdftex.def Info: figs/Dm.png used on input line 876.
+(pdftex.def)             Requested size: 223.0721pt x 168.8566pt.
+ [76]
+<figs/lambda_0_abs.png, id=2787, 404.712pt x 315.0972pt>
+File: figs/lambda_0_abs.png Graphic file (type png)
+
+<use figs/lambda_0_abs.png>
+Package pdftex.def Info: figs/lambda_0_abs.png used on input line 877.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+ <figs/phis_0.png, id=2788, 404.712pt x 315.0972pt>
+File: figs/phis_0.png Graphic file (type png)
+
+<use figs/phis_0.png>
+Package pdftex.def Info: figs/phis_0.png used on input line 878.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+ <figs/fL.png, id=2789, 404.712pt x 315.0972pt>
+File: figs/fL.png Graphic file (type png)
+
+<use figs/fL.png>
+Package pdftex.def Info: figs/fL.png used on input line 879.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+ <figs/fpe.png, id=2790, 404.712pt x 315.0972pt>
+File: figs/fpe.png Graphic file (type png)
+
+<use figs/fpe.png>
+Package pdftex.def Info: figs/fpe.png used on input line 880.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+ <figs/dpa.png, id=2791, 404.712pt x 315.0972pt>
+File: figs/dpa.png Graphic file (type png)
+
+<use figs/dpa.png>
+Package pdftex.def Info: figs/dpa.png used on input line 881.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+ <figs/dpe.png, id=2792, 404.712pt x 315.0972pt>
+File: figs/dpe.png Graphic file (type png)
+
+<use figs/dpe.png>
+Package pdftex.def Info: figs/dpe.png used on input line 882.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+ [77 <./figs/DG.png> <./figs/Dm.png> <./figs/lambda_0_abs.png> <./figs/phis_0.p
+ng> <./figs/fL.png> <./figs/fpe.png>]
+<figs/Fs_2.png, id=2803, 404.712pt x 315.0972pt>
+File: figs/Fs_2.png Graphic file (type png)
+ <use figs/Fs_2.png>
+Package pdftex.def Info: figs/Fs_2.png used on input line 883.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+
+<figs/Fs_3.png, id=2804, 404.712pt x 315.0972pt>
+File: figs/Fs_3.png Graphic file (type png)
+ <use figs/Fs_3.png>
+Package pdftex.def Info: figs/Fs_3.png used on input line 884.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+
+<figs/Fs_4.png, id=2805, 404.712pt x 315.0972pt>
+File: figs/Fs_4.png Graphic file (type png)
+ <use figs/Fs_4.png>
+Package pdftex.def Info: figs/Fs_4.png used on input line 885.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+
+<figs/Fs_5.png, id=2806, 408.3255pt x 315.0972pt>
+File: figs/Fs_5.png Graphic file (type png)
+ <use figs/Fs_5.png>
+Package pdftex.def Info: figs/Fs_5.png used on input line 886.
+(pdftex.def)             Requested size: 223.0721pt x 172.14526pt.
+
+<figs/ds_m_dpe_2.png, id=2807, 404.712pt x 315.0972pt>
+File: figs/ds_m_dpe_2.png Graphic file (type png)
+
+<use figs/ds_m_dpe_2.png>
+Package pdftex.def Info: figs/ds_m_dpe_2.png used on input line 887.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+
+<figs/ds_m_dpe_3.png, id=2808, 404.712pt x 315.0972pt>
+File: figs/ds_m_dpe_3.png Graphic file (type png)
+
+<use figs/ds_m_dpe_3.png>
+Package pdftex.def Info: figs/ds_m_dpe_3.png used on input line 888.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+ [78 <./figs/dpa.png> <./figs/dpe.png> <./figs/Fs_2.png> <./figs/Fs_3.png> <./f
+igs/Fs_4.png> <./figs/Fs_5.png>]
+<figs/ds_m_dpe_4.png, id=2820, 404.712pt x 315.0972pt>
+File: figs/ds_m_dpe_4.png Graphic file (type png)
+
+<use figs/ds_m_dpe_4.png>
+Package pdftex.def Info: figs/ds_m_dpe_4.png used on input line 889.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+
+<figs/ds_m_dpe_5.png, id=2821, 404.712pt x 315.0972pt>
+File: figs/ds_m_dpe_5.png Graphic file (type png)
+
+<use figs/ds_m_dpe_5.png>
+Package pdftex.def Info: figs/ds_m_dpe_5.png used on input line 890.
+(pdftex.def)             Requested size: 223.0721pt x 173.679pt.
+
+<figs/DG_vs_Dm.png, id=2822, 435.0654pt x 320.1561pt>
+File: figs/DG_vs_Dm.png Graphic file (type png)
+ <use figs/DG_vs_Dm.png>
+Package pdftex.def Info: figs/DG_vs_Dm.png used on input line 895.
+(pdftex.def)             Requested size: 223.0721pt x 164.15189pt.
+
+<figs/DG_vs_dpa.png, id=2823, 422.0568pt x 320.1561pt>
+File: figs/DG_vs_dpa.png Graphic file (type png)
+
+<use figs/DG_vs_dpa.png>
+Package pdftex.def Info: figs/DG_vs_dpa.png used on input line 896.
+(pdftex.def)             Requested size: 223.0721pt x 169.21294pt.
+
+<figs/DG_vs_dpe.png, id=2824, 430.0065pt x 320.1561pt>
+File: figs/DG_vs_dpe.png Graphic file (type png)
+
+<use figs/DG_vs_dpe.png>
+Package pdftex.def Info: figs/DG_vs_dpe.png used on input line 897.
+(pdftex.def)             Requested size: 223.0721pt x 166.08643pt.
+ <figs/DG_vs_fL.png, id=2825, 428.5611pt x 320.1561pt>
+File: figs/DG_vs_fL.png Graphic file (type png)
+
+<use figs/DG_vs_fL.png>
+Package pdftex.def Info: figs/DG_vs_fL.png used on input line 898.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+ [79 <./figs/ds_m_dpe_2.png> <./figs/ds_m_dpe_3.png> <./figs/ds_m_dpe_4.png> <.
+/figs/ds_m_dpe_5.png> <./figs/DG_vs_Dm.png> <./figs/DG_vs_dpa.png>]
+File: figs/DG_vs_dpa.png Graphic file (type png)
+ <use figs/DG_vs_dpa.png>
+Package pdftex.def Info: figs/DG_vs_dpa.png used on input line 899.
+(pdftex.def)             Requested size: 223.0721pt x 169.21294pt.
+
+<figs/DG_vs_fpe.png, id=2836, 428.5611pt x 320.1561pt>
+File: figs/DG_vs_fpe.png Graphic file (type png)
+
+<use figs/DG_vs_fpe.png>
+Package pdftex.def Info: figs/DG_vs_fpe.png used on input line 900.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+
+<figs/DG_vs_lambda_0_abs.png, id=2837, 428.5611pt x 320.1561pt>
+File: figs/DG_vs_lambda_0_abs.png Graphic file (type png)
+
+<use figs/DG_vs_lambda_0_abs.png>
+Package pdftex.def Info: figs/DG_vs_lambda_0_abs.png used on input line 901.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+
+<figs/DG_vs_phis_0.png, id=2838, 430.7292pt x 320.1561pt>
+File: figs/DG_vs_phis_0.png Graphic file (type png)
+
+<use figs/DG_vs_phis_0.png>
+Package pdftex.def Info: figs/DG_vs_phis_0.png used on input line 902.
+(pdftex.def)             Requested size: 223.0721pt x 165.80797pt.
+
+<figs/Dm_vs_dpa.png, id=2839, 422.0568pt x 320.1561pt>
+File: figs/Dm_vs_dpa.png Graphic file (type png)
+
+<use figs/Dm_vs_dpa.png>
+Package pdftex.def Info: figs/Dm_vs_dpa.png used on input line 903.
+(pdftex.def)             Requested size: 223.0721pt x 169.21294pt.
+
+<figs/Dm_vs_dpe.png, id=2840, 430.0065pt x 320.1561pt>
+File: figs/Dm_vs_dpe.png Graphic file (type png)
+
+<use figs/Dm_vs_dpe.png>
+Package pdftex.def Info: figs/Dm_vs_dpe.png used on input line 904.
+(pdftex.def)             Requested size: 223.0721pt x 166.08643pt.
+ [80 <./figs/DG_vs_dpe.png> <./figs/DG_vs_fL.png> <./figs/DG_vs_fpe.png> <./fig
+s/DG_vs_lambda_0_abs.png> <./figs/DG_vs_phis_0.png>]
+<figs/Dm_vs_fL.png, id=2850, 428.5611pt x 320.1561pt>
+File: figs/Dm_vs_fL.png Graphic file (type png)
+ <use figs/Dm_vs_fL.png>
+Package pdftex.def Info: figs/Dm_vs_fL.png used on input line 905.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+
+<figs/Dm_vs_lambda_0_abs.png, id=2851, 428.5611pt x 320.1561pt>
+File: figs/Dm_vs_lambda_0_abs.png Graphic file (type png)
+
+<use figs/Dm_vs_lambda_0_abs.png>
+Package pdftex.def Info: figs/Dm_vs_lambda_0_abs.png used on input line 906.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+
+<figs/dpa_vs_fL.png, id=2852, 428.5611pt x 320.1561pt>
+File: figs/dpa_vs_fL.png Graphic file (type png)
+
+<use figs/dpa_vs_fL.png>
+Package pdftex.def Info: figs/dpa_vs_fL.png used on input line 907.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+
+<figs/Dm_vs_phis_0.png, id=2853, 430.7292pt x 320.1561pt>
+File: figs/Dm_vs_phis_0.png Graphic file (type png)
+
+<use figs/Dm_vs_phis_0.png>
+Package pdftex.def Info: figs/Dm_vs_phis_0.png used on input line 908.
+(pdftex.def)             Requested size: 223.0721pt x 165.80797pt.
+
+<figs/dpe_vs_dpa.png, id=2854, 422.0568pt x 320.1561pt>
+File: figs/dpe_vs_dpa.png Graphic file (type png)
+
+<use figs/dpe_vs_dpa.png>
+Package pdftex.def Info: figs/dpe_vs_dpa.png used on input line 909.
+(pdftex.def)             Requested size: 223.0721pt x 169.21294pt.
+
+<figs/dpe_vs_fL.png, id=2855, 428.5611pt x 320.1561pt>
+File: figs/dpe_vs_fL.png Graphic file (type png)
+
+<use figs/dpe_vs_fL.png>
+Package pdftex.def Info: figs/dpe_vs_fL.png used on input line 910.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+ [81 <./figs/Dm_vs_dpa.png> <./figs/Dm_vs_dpe.png> <./figs/Dm_vs_fL.png> <./fig
+s/Dm_vs_lambda_0_abs.png> <./figs/dpa_vs_fL.png> <./figs/Dm_vs_phis_0.png>] <fi
+gs/fpe_vs_Dm.png, id=2866, 435.0654pt x 320.1561pt>
+File: figs/fpe_vs_Dm.png Graphic file (type png)
+
+<use figs/fpe_vs_Dm.png>
+Package pdftex.def Info: figs/fpe_vs_Dm.png used on input line 911.
+(pdftex.def)             Requested size: 223.0721pt x 164.15189pt.
+
+<figs/fpe_vs_dpa.png, id=2867, 422.0568pt x 320.1561pt>
+File: figs/fpe_vs_dpa.png Graphic file (type png)
+
+<use figs/fpe_vs_dpa.png>
+Package pdftex.def Info: figs/fpe_vs_dpa.png used on input line 912.
+(pdftex.def)             Requested size: 223.0721pt x 169.21294pt.
+
+<figs/fpe_vs_dpe.png, id=2868, 430.0065pt x 320.1561pt>
+File: figs/fpe_vs_dpe.png Graphic file (type png)
+
+<use figs/fpe_vs_dpe.png>
+Package pdftex.def Info: figs/fpe_vs_dpe.png used on input line 913.
+(pdftex.def)             Requested size: 223.0721pt x 166.08643pt.
+
+<figs/fpe_vs_fL.png, id=2869, 428.5611pt x 320.1561pt>
+File: figs/fpe_vs_fL.png Graphic file (type png)
+
+<use figs/fpe_vs_fL.png>
+Package pdftex.def Info: figs/fpe_vs_fL.png used on input line 914.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+
+<figs/fpe_vs_lambda_0_abs.png, id=2870, 428.5611pt x 320.1561pt>
+File: figs/fpe_vs_lambda_0_abs.png Graphic file (type png)
+
+<use figs/fpe_vs_lambda_0_abs.png>
+Package pdftex.def Info: figs/fpe_vs_lambda_0_abs.png used on input line 915.
+(pdftex.def)             Requested size: 223.0721pt x 166.64821pt.
+
+<figs/fpe_vs_phis_0.png, id=2871, 430.7292pt x 320.1561pt>
+File: figs/fpe_vs_phis_0.png Graphic file (type png)
+
+<use figs/fpe_vs_phis_0.png>
+Package pdftex.def Info: figs/fpe_vs_phis_0.png used on input line 916.
+(pdftex.def)             Requested size: 223.0721pt x 165.80797pt.
+ [82 <./figs/dpe_vs_dpa.png> <./figs/dpe_vs_fL.png> <./figs/fpe_vs_Dm.png> <./f
+igs/fpe_vs_dpa.png> <./figs/fpe_vs_dpe.png> <./figs/fpe_vs_fL.png>]
+<figs/lambda_0_abs_vs_dpa.png, id=2882, 422.0568pt x 320.8788pt>
+File: figs/lambda_0_abs_vs_dpa.png Graphic file (type png)
+
+<use figs/lambda_0_abs_vs_dpa.png>
+Package pdftex.def Info: figs/lambda_0_abs_vs_dpa.png used on input line 917.
+(pdftex.def)             Requested size: 223.0721pt x 169.59491pt.
+
+<figs/lambda_0_abs_vs_dpe.png, id=2883, 430.0065pt x 320.8788pt>
+File: figs/lambda_0_abs_vs_dpe.png Graphic file (type png)
+
+<use figs/lambda_0_abs_vs_dpe.png>
+Package pdftex.def Info: figs/lambda_0_abs_vs_dpe.png used on input line 918.
+(pdftex.def)             Requested size: 223.0721pt x 166.46133pt.
+
+<figs/lambda_0_abs_vs_fL.png, id=2884, 428.5611pt x 320.8788pt>
+File: figs/lambda_0_abs_vs_fL.png Graphic file (type png)
+
+<use figs/lambda_0_abs_vs_fL.png>
+Package pdftex.def Info: figs/lambda_0_abs_vs_fL.png used on input line 919.
+(pdftex.def)             Requested size: 223.0721pt x 167.0244pt.
+
+<figs/phis_0_vs_dpa.png, id=2885, 422.0568pt x 320.8788pt>
+File: figs/phis_0_vs_dpa.png Graphic file (type png)
+
+<use figs/phis_0_vs_dpa.png>
+Package pdftex.def Info: figs/phis_0_vs_dpa.png used on input line 920.
+(pdftex.def)             Requested size: 223.0721pt x 169.59491pt.
+
+<figs/phis_0_vs_dpe.png, id=2886, 430.0065pt x 320.8788pt>
+File: figs/phis_0_vs_dpe.png Graphic file (type png)
+
+<use figs/phis_0_vs_dpe.png>
+Package pdftex.def Info: figs/phis_0_vs_dpe.png used on input line 921.
+(pdftex.def)             Requested size: 223.0721pt x 166.46133pt.
+
+<figs/phis_0_vs_fL.png, id=2887, 428.5611pt x 320.8788pt>
+File: figs/phis_0_vs_fL.png Graphic file (type png)
+
+<use figs/phis_0_vs_fL.png>
+Package pdftex.def Info: figs/phis_0_vs_fL.png used on input line 922.
+(pdftex.def)             Requested size: 223.0721pt x 167.0244pt.
+ [83 <./figs/fpe_vs_lambda_0_abs.png> <./figs/fpe_vs_phis_0.png> <./figs/lambda
+_0_abs_vs_dpa.png> <./figs/lambda_0_abs_vs_dpe.png> <./figs/lambda_0_abs_vs_fL.
+png> <./figs/phis_0_vs_dpa.png>]
+<figs/phis_0_vs_lambda_0_abs.png, id=2898, 428.5611pt x 320.8788pt>
+File: figs/phis_0_vs_lambda_0_abs.png Graphic file (type png)
+
+<use figs/phis_0_vs_lambda_0_abs.png>
+Package pdftex.def Info: figs/phis_0_vs_lambda_0_abs.png used on input line 923
+.
+(pdftex.def)             Requested size: 223.0721pt x 167.0244pt.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 939.
+
+
+LaTeX Warning: Reference `sec:MultiNest' on page 84 undefined on input line 940
+.
+
+[84 <./figs/phis_0_vs_dpe.png> <./figs/phis_0_vs_fL.png> <./figs/phis_0_vs_lamb
+da_0_abs.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 969.
+ [85]) (./chapters/KaonPhysics.tex [86]
+Chapter 6.
+
+LaTeX Warning: Citation `Bauer:2009cf' on page 87 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Bauer:2009cf' on page 87 undefined on input line 9.
+
+
+LaTeX Warning: Citation `NA48' on page 87 undefined on input line 15.
+
+<figs/ks_pi0mumu.pdf, id=2923, 569.12625pt x 326.21875pt>
+File: figs/ks_pi0mumu.pdf Graphic file (type pdf)
+
+<use figs/ks_pi0mumu.pdf>
+Package pdftex.def Info: figs/ks_pi0mumu.pdf used on input line 23.
+(pdftex.def)             Requested size: 284.56242pt x 163.10896pt.
+
+
+LaTeX Warning: Citation `Hamzaoui:1998nu' on page 87 undefined on input line 31
+.
+
+
+LaTeX Warning: Citation `Babu:1999hn' on page 87 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Chankowski:2000ng' on page 87 undefined on input line 
+31.
+
+
+LaTeX Warning: Citation `Bobeth:2001sq' on page 87 undefined on input line 31.
+
+
+LaTeX Warning: Citation `Isidori:2001fv' on page 87 undefined on input line 31.
+
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 87 undefined on input line 31.
+
+
+
+LaTeX Warning: Citation `Crivellin:2010er' on page 87 undefined on input line 3
+2.
+
+
+LaTeX Warning: Citation `Crivellin:2011jt' on page 87 undefined on input line 3
+2.
+
+
+LaTeX Warning: Citation `Crivellin:2012zz' on page 87 undefined on input line 3
+2.
+
+
+LaTeX Warning: Citation `Isidori:2001fv' on page 87 undefined on input line 32.
+
+
+
+LaTeX Warning: Citation `Hamzaoui:1998nu' on page 87 undefined on input line 32
+.
+
+
+LaTeX Warning: Citation `Babu:1999hn' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Chankowski:2000ng' on page 87 undefined on input line 
+32.
+
+
+LaTeX Warning: Citation `Bobeth:2001sq' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Isidori:2001fv' on page 87 undefined on input line 32.
+
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 87 undefined on input line 32.
+
+
+
+LaTeX Warning: Citation `Choudhury:1998ze' on page 87 undefined on input line 3
+2.
+
+
+LaTeX Warning: Citation `Huang:2000sm' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Xiong:2001up' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Dedes:2001fv' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Bobeth:2002ch' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Baek:2002rt' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Dedes:2002zx' on page 87 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Mizukoshi:2002gs' on page 87 undefined on input line 3
+2.
+
+
+LaTeX Warning: Citation `Baek:2002wm' on page 87 undefined on input line 32.
+
+[87
+
+]
+
+LaTeX Warning: Citation `Ksmm' on page 88 undefined on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\to' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pi' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 46.
+
+
+LaTeX Warning: Reference `Intro is missing' on page 88 undefined on input line 
+47.
+
+(./chapters/Kspi0MuMu/strategy.tex
+Underfull \hbox (badness 10000) in paragraph at lines 47--2
+
+ []
+
+[88 <./figs/ks_pi0mumu.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation `Gino' on page 89 undefined on input line 19.
+
+<figs/Kspi0MuMu/helAngles.pdf, id=2986, 828.09375pt x 201.75375pt>
+File: figs/Kspi0MuMu/helAngles.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/helAngles.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/helAngles.pdf used on input line 25.
+(pdftex.def)             Requested size: 331.23163pt x 80.70006pt.
+
+<figs/Kspi0MuMu/M_mumu.pdf, id=2987, 569.12625pt x 412.54124pt>
+File: figs/Kspi0MuMu/M_mumu.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/M_mumu.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/M_mumu.pdf used on input line 42.
+(pdftex.def)             Requested size: 199.19717pt x 144.39159pt.
+
+<figs/Kspi0MuMu/Hel_mumu.pdf, id=2988, 569.12625pt x 412.54124pt>
+File: figs/Kspi0MuMu/Hel_mumu.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/Hel_mumu.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/Hel_mumu.pdf used on input line 43.
+(pdftex.def)             Requested size: 199.19717pt x 144.39159pt.
+
+
+LaTeX Warning: Citation `TISTOS' on page 89 undefined on input line 52.
+
+[89 <./figs/Kspi0MuMu/helAngles.pdf> <./figs/Kspi0MuMu/M_mumu.pdf, page is rota
+ted 90 degrees> <./figs/Kspi0MuMu/Hel_mumu.pdf, page is rotated 90 degrees>])
+(./chapters/Kspi0MuMu/selection.tex
+
+LaTeX Warning: Citation `Armenteros' on page 90 undefined on input line 25.
+
+[90] <figs/Kspi0MuMu/M_V0_vs_VC.pdf, id=3092, 569.12625pt x 412.54124pt>
+File: figs/Kspi0MuMu/M_V0_vs_VC.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/M_V0_vs_VC.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/M_V0_vs_VC.pdf used on input line 45.
+(pdftex.def)             Requested size: 341.47838pt x 247.52666pt.
+
+<figs/Kspi0MuMu/BDT_sig_vs_bkg_FULL.pdf, id=3094, 569.12625pt x 412.54124pt>
+File: figs/Kspi0MuMu/BDT_sig_vs_bkg_FULL.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/BDT_sig_vs_bkg_FULL.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/BDT_sig_vs_bkg_FULL.pdf used on input l
+ine 58.
+(pdftex.def)             Requested size: 216.27022pt x 156.7673pt.
+
+<figs/Kspi0MuMu/BDT_sig_vs_bkg_PARTIAL.pdf, id=3095, 569.12625pt x 412.54124pt>
+File: figs/Kspi0MuMu/BDT_sig_vs_bkg_PARTIAL.pdf Graphic file (type pdf)
+<use figs/Kspi0MuMu/BDT_sig_vs_bkg_PARTIAL.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/BDT_sig_vs_bkg_PARTIAL.pdf used on inpu
+t line 59.
+(pdftex.def)             Requested size: 216.27022pt x 156.7673pt.
+)
+(./chapters/Kspi0MuMu/background.tex [91 <./figs/Kspi0MuMu/M_V0_vs_VC.pdf, page
+ is rotated 90 degrees>]
+
+LaTeX Warning: Citation `NA48' on page 92 undefined on input line 12.
+
+[92 <./figs/Kspi0MuMu/BDT_sig_vs_bkg_FULL.pdf, page is rotated 90 degrees> <./f
+igs/Kspi0MuMu/BDT_sig_vs_bkg_PARTIAL.pdf, page is rotated 90 degrees>]
+<figs/Kspi0MuMu/M_VC_K3pi.pdf, id=3242, 569.12625pt x 412.54124pt>
+File: figs/Kspi0MuMu/M_VC_K3pi.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/M_VC_K3pi.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/M_VC_K3pi.pdf used on input line 32.
+(pdftex.def)             Requested size: 170.73918pt x 123.76332pt.
+
+<figs/Kspi0MuMu/M_V0_K3pi.pdf, id=3243, 569.12625pt x 412.54124pt>
+File: figs/Kspi0MuMu/M_V0_K3pi.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/M_V0_K3pi.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/M_V0_K3pi.pdf used on input line 33.
+(pdftex.def)             Requested size: 170.73918pt x 123.76332pt.
+) (./chapters/Kspi0MuMu/fit.tex
+
+LaTeX Warning: Citation `Ipatia' on page 93 undefined on input line 10.
+
+<figs/Kspi0MuMu/Ipatia_pi0.pdf, id=3246, 569.12625pt x 387.4475pt>
+File: figs/Kspi0MuMu/Ipatia_pi0.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/Ipatia_pi0.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/Ipatia_pi0.pdf used on input line 19.
+(pdftex.def)             Requested size: 170.73918pt x 116.23514pt.
+
+<figs/Kspi0MuMu/Ipatia_nopi0.pdf, id=3247, 569.12625pt x 387.4475pt>
+File: figs/Kspi0MuMu/Ipatia_nopi0.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/Ipatia_nopi0.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/Ipatia_nopi0.pdf used on input line 20.
+
+(pdftex.def)             Requested size: 170.73918pt x 116.23514pt.
+
+<figs/Kspi0MuMu/fit_FULL.pdf, id=3248, 569.12625pt x 387.4475pt>
+File: figs/Kspi0MuMu/fit_FULL.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/fit_FULL.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/fit_FULL.pdf used on input line 27.
+(pdftex.def)             Requested size: 341.47838pt x 232.47029pt.
+
+<figs/Kspi0MuMu/fit_PARTIAL.pdf, id=3249, 569.12625pt x 387.4475pt>
+File: figs/Kspi0MuMu/fit_PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/fit_PARTIAL.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/fit_PARTIAL.pdf used on input line 29.
+(pdftex.def)             Requested size: 341.47838pt x 232.47029pt.
+) (./chapters/Kspi0MuMu/sensitivity.tex
+[93 <./figs/Kspi0MuMu/M_VC_K3pi.pdf, page is rotated 90 degrees> <./figs/Kspi0M
+uMu/M_V0_K3pi.pdf, page is rotated 90 degrees>]
+<figs/Kspi0MuMu/sensit_FULL.pdf, id=3345, 301.125pt x 250.9375pt>
+File: figs/Kspi0MuMu/sensit_FULL.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/sensit_FULL.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/sensit_FULL.pdf used on input line 37.
+(pdftex.def)             Requested size: 240.90031pt x 200.75026pt.
+
+<figs/Kspi0MuMu/sensitPARTIAL.pdf, id=3346, 301.125pt x 250.9375pt>
+File: figs/Kspi0MuMu/sensitPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/Kspi0MuMu/sensitPARTIAL.pdf>
+Package pdftex.def Info: figs/Kspi0MuMu/sensitPARTIAL.pdf used on input line 38
+.
+(pdftex.def)             Requested size: 240.90031pt x 200.75026pt.
+
+Overfull \hbox (26.55655pt too wide) in paragraph at lines 37--40
+ [][] 
+ []
+
+) (./chapters/Kspi0MuMu/conclusions.tex) [94 <./figs/Kspi0MuMu/Ipatia_pi0.pdf, 
+page is rotated 90 degrees> <./figs/Kspi0MuMu/Ipatia_nopi0.pdf, page is rotated
+ 90 degrees>] [95 <./figs/Kspi0MuMu/fit_FULL.pdf, page is rotated 90 degrees> <
+./figs/Kspi0MuMu/fit_PARTIAL.pdf, page is rotated 90 degrees>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 63.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 63.
+
+
+LaTeX Warning: Citation `Ecker:1991ru' on page 96 undefined on input line 64.
+
+
+LaTeX Warning: Citation `Isidori:2003ts' on page 96 undefined on input line 64.
+
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 96 undefined on input line 
+64.
+
+
+LaTeX Warning: Citation `LHCb:KsMuMu' on page 96 undefined on input line 65.
+
+
+LaTeX Warning: Citation `DMS_FPCP' on page 96 undefined on input line 65.
+
+
+LaTeX Warning: Citation `MassInsertion' on page 96 undefined on input line 67.
+
+
+LaTeX Warning: Reference `sec:results' on page 96 undefined on input line 67.
+
+
+LaTeX Warning: Citation `Rosiek:1995kg' on page 96 undefined on input line 71.
+
+[96 <./figs/Kspi0MuMu/sensit_FULL.pdf> <./figs/Kspi0MuMu/sensitPARTIAL.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+
+LaTeX Warning: Citation `Allanach:2008qq' on page 97 undefined on input line 87
+.
+
+
+LaTeX Warning: Citation `Crivellin:2017gks' on page 97 undefined on input line 
+103.
+
+[97]
+
+LaTeX Warning: Citation `Blum:2011ng' on page 98 undefined on input line 115.
+
+
+LaTeX Warning: Citation `Blum:2012uk' on page 98 undefined on input line 115.
+
+
+LaTeX Warning: Citation `Blum:2015ywa' on page 98 undefined on input line 115.
+
+
+LaTeX Warning: Citation `Bai:2015nea' on page 98 undefined on input line 115.
+
+
+LaTeX Warning: Citation `Pallante:2001he' on page 98 undefined on input line 11
+5.
+
+
+LaTeX Warning: Citation `Hambye:2003cy' on page 98 undefined on input line 115.
+
+
+
+LaTeX Warning: Citation `Mullor' on page 98 undefined on input line 115.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 98 undefined on input line 
+123.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 98 undefined on input line 123.
+
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 98 undefined on input line
+ 123.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 98 undefined on input line 
+124.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 98 undefined on input line 124.
+
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 98 undefined on input line
+ 124.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 98 undefined on input line
+ 126.
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 98 undefined on input line 126.
+
+
+LaTeX Warning: Citation `Endo:2017ums' on page 98 undefined on input line 126.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 98 undefined on input line 1
+27.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 98 undefined on input line
+ 127.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 98 undefined on input line
+ 128.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 98 undefined on input line
+ 130.
+
+
+LaTeX Warning: Citation `C7_constraints' on page 98 undefined on input line 133
+.
+
+
+LaTeX Warning: Citation `Aaboud:2017sjh' on page 98 undefined on input line 134
+.
+
+
+LaTeX Warning: Citation `Buras:1999da' on page 98 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Barbieri:1999ax' on page 98 undefined on input line 13
+6.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 98 undefined on input line 
+141.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 98 undefined on input line 141.
+
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 98 undefined on input line 
+141.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 98 undefined on input line 141.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 144.
+
+[98]
+
+LaTeX Warning: Citation `Mescia:2006jd' on page 99 undefined on input line 161.
+
+
+
+LaTeX Warning: Citation `Altmannshofer:2011gn' on page 99 undefined on input li
+ne 161.
+
+
+LaTeX Warning: Citation `Buras:2013uqa' on page 99 undefined on input line 161.
+
+
+
+LaTeX Warning: Citation `Crivellin:2017upt' on page 99 undefined on input line 
+161.
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 99 undefined on input line 161
+.
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 99 undefined on input line 161
+.
+
+
+LaTeX Warning: Citation `Ecker:1991ru' on page 99 undefined on input line 182.
+
+
+LaTeX Warning: Citation `Isidori:2003ts' on page 99 undefined on input line 182
+.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 99 undefined on input line 
+182.
+
+
+LaTeX Warning: Citation `Mescia:2006jd' on page 99 undefined on input line 182.
+
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 99 undefined on input line 
+190.
+
+
+LaTeX Warning: Citation `Mescia:2006jd' on page 99 undefined on input line 190.
+
+
+
+LaTeX Warning: Citation `Isidori:2004rb' on page 99 undefined on input line 199
+.
+
+
+LaTeX Warning: Citation `Ecker:1991ru' on page 99 undefined on input line 199.
+
+
+LaTeX Warning: Citation `Ecker:1991ru' on page 99 undefined on input line 199.
+
+
+LaTeX Warning: Citation `GomezDumm:1998gw' on page 99 undefined on input line 1
+99.
+
+
+LaTeX Warning: Citation `Knecht:1999gb' on page 99 undefined on input line 199.
+
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 99 undefined on input line
+ 201.
+
+
+LaTeX Warning: Citation `Pich:1995qp' on page 99 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Gerard:2005yk' on page 99 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 99 undefined on input line 
+204.
+
+[99]
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 100 undefined on input lin
+e 248.
+
+[100]
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 101 undefined on input line
+ 256.
+
+
+LaTeX Warning: Citation `LHCb:KsMuMu' on page 101 undefined on input line 271.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 101 undefined on input line
+ 275.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 101 undefined on input line
+ 278.
+
+
+LaTeX Warning: Citation `DAmbrosio_2017klp' on page 101 undefined on input line
+ 293.
+
+
+LaTeX Warning: Citation `Gorbahn:2006bm' on page 101 undefined on input line 30
+0.
+
+[101]
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 102 undefined on input line
+ 311.
+
+
+LaTeX Warning: Citation `Colangelo:2016ruc' on page 102 undefined on input line
+ 311.
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 102 undefined on input line 32
+4.
+
+
+LaTeX Warning: Citation `Colangelo:1998pm' on page 102 undefined on input line 
+324.
+
+
+LaTeX Warning: Citation `Colangelo:1998pm' on page 102 undefined on input line 
+331.
+
+
+LaTeX Warning: Reference `App:loopKmm' on page 102 undefined on input line 331.
+
+
+
+LaTeX Warning: Citation `Buras:1999da' on page 102 undefined on input line 331.
+
+
+
+LaTeX Warning: Citation `Endo:2016aws' on page 102 undefined on input line 331.
+
+
+<figs/gluino_CS.pdf, id=3726, 1028.84375pt x 523.9575pt>
+File: figs/gluino_CS.pdf Graphic file (type pdf)
+
+<use figs/gluino_CS.pdf>
+Package pdftex.def Info: figs/gluino_CS.pdf used on input line 335.
+(pdftex.def)             Requested size: 227.62204pt x 115.9186pt.
+ [102 <./figs/gluino_CS.pdf>]
+
+LaTeX Warning: Reference `App:loopKmm' on page 103 undefined on input line 370.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\prime' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\prime' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\prime' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\prime' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\prime' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\prime' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+LaTeX Warning: Citation `Blum:2011ng' on page 103 undefined on input line 388.
+
+
+LaTeX Warning: Citation `Blum:2012uk' on page 103 undefined on input line 388.
+
+
+LaTeX Warning: Citation `Blum:2015ywa' on page 103 undefined on input line 388.
+
+
+
+LaTeX Warning: Citation `Bai:2015nea' on page 103 undefined on input line 388.
+
+
+LaTeX Warning: Citation `Buras:2015yba' on page 103 undefined on input line 389
+.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 103 undefined on input line 
+389.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 103 undefined on input lin
+e 389.
+
+
+LaTeX Warning: Citation `Buras:2015xba' on page 103 undefined on input line 390
+.
+
+
+LaTeX Warning: Citation `Buras:2016fys' on page 103 undefined on input line 390
+.
+
+
+LaTeX Warning: Citation `Bai:2015nea' on page 103 undefined on input line 391.
+
+
+LaTeX Warning: Citation `Lellouch:2000pv' on page 103 undefined on input line 3
+91.
+
+
+LaTeX Warning: Citation `Colangelo:2001df' on page 103 undefined on input line 
+392.
+
+
+LaTeX Warning: Citation `GarciaMartin:2011cn' on page 103 undefined on input li
+ne 392.
+
+
+LaTeX Warning: Citation `Colangelo:NA62' on page 103 undefined on input line 39
+2.
+
+
+LaTeX Warning: Citation `Pallante:2001he' on page 103 undefined on input line 3
+93.
+
+
+LaTeX Warning: Citation `Hambye:2003cy' on page 103 undefined on input line 393
+.
+
+
+LaTeX Warning: Citation `Mullor' on page 103 undefined on input line 393.
+
+[103]
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 104 undefined on input line 
+405.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 104 undefined on input line 
+425.
+
+
+LaTeX Warning: Citation `Kagan:1999iq' on page 104 undefined on input line 425.
+
+
+
+LaTeX Warning: Reference `App:WCgluino' on page 104 undefined on input line 425
+.
+
+
+LaTeX Warning: Reference `App:gluinobox' on page 104 undefined on input line 42
+5.
+
+
+LaTeX Warning: Reference `App:WCchargino' on page 104 undefined on input line 4
+27.
+
+
+LaTeX Warning: Reference `LoopL' on page 104 undefined on input line 427.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 104 undefined on input line 
+429.
+
+[104]
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 105 undefined on input line 
+450.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 105 undefined on input line 
+463.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 105 undefined on input line 
+467.
+
+
+LaTeX Warning: Reference `App:WCCg' on page 105 undefined on input line 479.
+
+
+LaTeX Warning: Reference `App:chromo' on page 105 undefined on input line 480.
+
+
+LaTeX Warning: Citation `Buras:1999da' on page 105 undefined on input line 482.
+
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 105 undefined on input lin
+e 488.
+
+
+LaTeX Warning: Citation `Cirigliano:2003nn' on page 105 undefined on input line
+ 488.
+
+
+LaTeX Warning: Citation `Cirigliano:2003gt' on page 105 undefined on input line
+ 488.
+
+
+LaTeX Warning: Citation `Buras:2015yba' on page 105 undefined on input line 488
+.
+
+[105]
+
+LaTeX Warning: Citation `Buras:1999da' on page 106 undefined on input line 497.
+
+
+
+LaTeX Warning: Citation `Barbieri:1999ax' on page 106 undefined on input line 4
+97.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 106 undefined on input line 
+501.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 106 undefined on input line 
+502.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\varepsilon' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 515.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 515.
+
+
+LaTeX Warning: Citation `Bailey:2015tba' on page 106 undefined on input line 51
+7.
+
+
+LaTeX Warning: Citation `Amhis:2016xyh' on page 106 undefined on input line 517
+.
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 106 undefined on input line 517.
+
+
+
+LaTeX Warning: Citation `Bigi:2017njr' on page 106 undefined on input line 517.
+
+
+
+LaTeX Warning: Citation `Grinstein:2017nlq' on page 106 undefined on input line
+ 517.
+
+
+LaTeX Warning: Citation `Bernlochner:2017xyx' on page 106 undefined on input li
+ne 517.
+
+
+LaTeX Warning: Citation `Endo:2017ums' on page 106 undefined on input line 519.
+
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 106 undefined on input lin
+e 527.
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 106 undefined on input line 528.
+
+
+
+LaTeX Warning: Citation `Bevan:2013kaa' on page 106 undefined on input line 528
+.
+
+
+LaTeX Warning: Citation `Bai:2015nea' on page 106 undefined on input line 528.
+
+
+LaTeX Warning: Citation `Ambrosino:2006ek' on page 106 undefined on input line 
+539.
+
+
+LaTeX Warning: Citation `Crivellin:2010ys' on page 106 undefined on input line 
+543.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 106 undefined on input line 
+543.
+
+
+LaTeX Warning: Citation `Gabbiani:1996hi' on page 106 undefined on input line 5
+45.
+
+[106]
+
+LaTeX Warning: Citation `Buras:2010pza' on page 107 undefined on input line 567
+.
+
+
+LaTeX Warning: Citation `Garron:2016mva' on page 107 undefined on input line 56
+9.
+
+
+LaTeX Warning: Citation `Garron:2016mva' on page 107 undefined on input line 57
+4.
+
+
+LaTeX Warning: Citation `Bagger:1997gg' on page 107 undefined on input line 576
+.
+
+[107]
+
+LaTeX Warning: Reference `App:WCgluinoDel2' on page 108 undefined on input line
+ 612.
+
+
+LaTeX Warning: Reference `App:gluinoboxcontribution' on page 108 undefined on i
+nput line 612.
+
+
+LaTeX Warning: Reference `App:WCwinoDel2' on page 108 undefined on input line 6
+15.
+
+
+LaTeX Warning: Reference `App:winohiggsino' on page 108 undefined on input line
+ 615.
+
+
+LaTeX Warning: Citation `Ipanema' on page 108 undefined on input line 619.
+
+
+LaTeX Warning: Citation `IEEE' on page 108 undefined on input line 619.
+
+
+LaTeX Warning: Citation `Planck' on page 108 undefined on input line 623.
+
+
+LaTeX Warning: Citation `Bagnaschi:2015eha' on page 108 undefined on input line
+ 623.
+
+
+LaTeX Warning: Citation `Cuoco:2017iax' on page 108 undefined on input line 624
+.
+
+
+LaTeX Warning: Citation `Planck' on page 108 undefined on input line 624.
+
+
+LaTeX Warning: Citation `Hisano:2006nn' on page 108 undefined on input line 624
+.
+
+
+LaTeX Warning: Citation `Ibe:2012sx' on page 108 undefined on input line 624.
+
+[108] [109]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 665.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\left' on input line 665.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\delta' on input line 665.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 665.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 665.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\right' on input line 665.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 665.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 665.
+
+
+LaTeX Warning: Citation `Crivellin:2010ys' on page 110 undefined on input line 
+669.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 110 undefined on input line 
+669.
+
+<figs/figure_1_SCA_LL_pos.png, id=3860, 462.528pt x 346.896pt>
+File: figs/figure_1_SCA_LL_pos.png Graphic file (type png)
+
+<use figs/figure_1_SCA_LL_pos.png>
+Package pdftex.def Info: figs/figure_1_SCA_LL_pos.png used on input line 675.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCA_LL_neg.png, id=3861, 462.528pt x 346.896pt>
+File: figs/figure_1_SCA_LL_neg.png Graphic file (type png)
+
+<use figs/figure_1_SCA_LL_neg.png>
+Package pdftex.def Info: figs/figure_1_SCA_LL_neg.png used on input line 676.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCA_RR_pos.png, id=3862, 462.528pt x 346.896pt>
+File: figs/figure_1_SCA_RR_pos.png Graphic file (type png)
+
+<use figs/figure_1_SCA_RR_pos.png>
+Package pdftex.def Info: figs/figure_1_SCA_RR_pos.png used on input line 677.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCA_RR_neg.png, id=3863, 462.528pt x 346.896pt>
+File: figs/figure_1_SCA_RR_neg.png Graphic file (type png)
+
+<use figs/figure_1_SCA_RR_neg.png>
+Package pdftex.def Info: figs/figure_1_SCA_RR_neg.png used on input line 678.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCA_LL_pos.png, id=3864, 462.528pt x 346.896pt>
+File: figs/figure_2_SCA_LL_pos.png Graphic file (type png)
+
+<use figs/figure_2_SCA_LL_pos.png>
+Package pdftex.def Info: figs/figure_2_SCA_LL_pos.png used on input line 686.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCA_LL_neg.png, id=3865, 462.528pt x 346.896pt>
+File: figs/figure_2_SCA_LL_neg.png Graphic file (type png)
+
+<use figs/figure_2_SCA_LL_neg.png>
+Package pdftex.def Info: figs/figure_2_SCA_LL_neg.png used on input line 687.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCA_RR_pos.png, id=3866, 462.528pt x 346.896pt>
+File: figs/figure_2_SCA_RR_pos.png Graphic file (type png)
+
+<use figs/figure_2_SCA_RR_pos.png>
+Package pdftex.def Info: figs/figure_2_SCA_RR_pos.png used on input line 688.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCA_RR_neg.png, id=3867, 462.528pt x 346.896pt>
+File: figs/figure_2_SCA_RR_neg.png Graphic file (type png)
+
+<use figs/figure_2_SCA_RR_neg.png>
+Package pdftex.def Info: figs/figure_2_SCA_RR_neg.png used on input line 689.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/figure_1_SCB_LL_pos.png, id=3868, 462.528pt x 346.896pt>
+File: figs/figure_1_SCB_LL_pos.png Graphic file (type png)
+
+<use figs/figure_1_SCB_LL_pos.png>
+Package pdftex.def Info: figs/figure_1_SCB_LL_pos.png used on input line 696.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCB_LL_neg.png, id=3869, 462.528pt x 346.896pt>
+File: figs/figure_1_SCB_LL_neg.png Graphic file (type png)
+
+<use figs/figure_1_SCB_LL_neg.png>
+Package pdftex.def Info: figs/figure_1_SCB_LL_neg.png used on input line 697.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCB_RR_pos.png, id=3870, 462.528pt x 346.896pt>
+File: figs/figure_1_SCB_RR_pos.png Graphic file (type png)
+
+<use figs/figure_1_SCB_RR_pos.png>
+Package pdftex.def Info: figs/figure_1_SCB_RR_pos.png used on input line 698.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCB_RR_neg.png, id=3871, 462.528pt x 346.896pt>
+File: figs/figure_1_SCB_RR_neg.png Graphic file (type png)
+
+<use figs/figure_1_SCB_RR_neg.png>
+Package pdftex.def Info: figs/figure_1_SCB_RR_neg.png used on input line 699.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/figure_2_SCB_LL_pos.png, id=3872, 462.528pt x 346.896pt>
+File: figs/figure_2_SCB_LL_pos.png Graphic file (type png)
+
+<use figs/figure_2_SCB_LL_pos.png>
+Package pdftex.def Info: figs/figure_2_SCB_LL_pos.png used on input line 707.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCB_LL_neg.png, id=3873, 462.528pt x 346.896pt>
+File: figs/figure_2_SCB_LL_neg.png Graphic file (type png)
+
+<use figs/figure_2_SCB_LL_neg.png>
+Package pdftex.def Info: figs/figure_2_SCB_LL_neg.png used on input line 708.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCB_RR_pos.png, id=3874, 462.528pt x 346.896pt>
+File: figs/figure_2_SCB_RR_pos.png Graphic file (type png)
+
+<use figs/figure_2_SCB_RR_pos.png>
+Package pdftex.def Info: figs/figure_2_SCB_RR_pos.png used on input line 709.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCB_RR_neg.png, id=3875, 462.528pt x 346.896pt>
+File: figs/figure_2_SCB_RR_neg.png Graphic file (type png)
+
+<use figs/figure_2_SCB_RR_neg.png>
+Package pdftex.def Info: figs/figure_2_SCB_RR_neg.png used on input line 710.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/figure_1_SCC_LL_pos.png, id=3876, 462.528pt x 346.896pt>
+File: figs/figure_1_SCC_LL_pos.png Graphic file (type png)
+
+<use figs/figure_1_SCC_LL_pos.png>
+Package pdftex.def Info: figs/figure_1_SCC_LL_pos.png used on input line 718.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCC_LL_neg.png, id=3877, 462.528pt x 346.896pt>
+File: figs/figure_1_SCC_LL_neg.png Graphic file (type png)
+
+<use figs/figure_1_SCC_LL_neg.png>
+Package pdftex.def Info: figs/figure_1_SCC_LL_neg.png used on input line 719.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCC_RR_pos.png, id=3878, 462.528pt x 346.896pt>
+File: figs/figure_1_SCC_RR_pos.png Graphic file (type png)
+
+<use figs/figure_1_SCC_RR_pos.png>
+Package pdftex.def Info: figs/figure_1_SCC_RR_pos.png used on input line 720.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_1_SCC_RR_neg.png, id=3879, 462.528pt x 346.896pt>
+File: figs/figure_1_SCC_RR_neg.png Graphic file (type png)
+
+<use figs/figure_1_SCC_RR_neg.png>
+Package pdftex.def Info: figs/figure_1_SCC_RR_neg.png used on input line 721.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figs/figure_2_SCC_LL_pos.png, id=3880, 462.528pt x 346.896pt>
+File: figs/figure_2_SCC_LL_pos.png Graphic file (type png)
+
+<use figs/figure_2_SCC_LL_pos.png>
+Package pdftex.def Info: figs/figure_2_SCC_LL_pos.png used on input line 730.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCC_LL_neg.png, id=3881, 462.528pt x 346.896pt>
+File: figs/figure_2_SCC_LL_neg.png Graphic file (type png)
+
+<use figs/figure_2_SCC_LL_neg.png>
+Package pdftex.def Info: figs/figure_2_SCC_LL_neg.png used on input line 731.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCC_RR_pos.png, id=3882, 462.528pt x 346.896pt>
+File: figs/figure_2_SCC_RR_pos.png Graphic file (type png)
+
+<use figs/figure_2_SCC_RR_pos.png>
+Package pdftex.def Info: figs/figure_2_SCC_RR_pos.png used on input line 732.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/figure_2_SCC_RR_neg.png, id=3883, 462.528pt x 346.896pt>
+File: figs/figure_2_SCC_RR_neg.png Graphic file (type png)
+
+<use figs/figure_2_SCC_RR_neg.png>
+Package pdftex.def Info: figs/figure_2_SCC_RR_neg.png used on input line 733.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `sec:KSmumu' on page 110 undefined on input line 737.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 110 undefined on input line 
+740.
+
+<figs/Acp_SCA_LL_neg.png, id=3890, 462.528pt x 346.896pt>
+File: figs/Acp_SCA_LL_neg.png Graphic file (type png)
+
+<use figs/Acp_SCA_LL_neg.png>
+Package pdftex.def Info: figs/Acp_SCA_LL_neg.png used on input line 746.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/BR_eff_SCA_LL_neg.png, id=3891, 462.528pt x 346.896pt>
+File: figs/BR_eff_SCA_LL_neg.png Graphic file (type png)
+
+<use figs/BR_eff_SCA_LL_neg.png>
+Package pdftex.def Info: figs/BR_eff_SCA_LL_neg.png used on input line 747.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/Acp_Ksmm_SCA_LL_neg.png, id=3894, 462.528pt x 346.896pt>
+File: figs/Acp_Ksmm_SCA_LL_neg.png Graphic file (type png)
+
+<use figs/Acp_Ksmm_SCA_LL_neg.png>
+Package pdftex.def Info: figs/Acp_Ksmm_SCA_LL_neg.png used on input line 753.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/Acp_epek_SCA_LL_neg.png, id=3895, 462.528pt x 346.896pt>
+File: figs/Acp_epek_SCA_LL_neg.png Graphic file (type png)
+
+<use figs/Acp_epek_SCA_LL_neg.png>
+Package pdftex.def Info: figs/Acp_epek_SCA_LL_neg.png used on input line 754.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/Acp_Ksmm_SCB_LL_pos.png, id=3896, 462.528pt x 346.896pt>
+File: figs/Acp_Ksmm_SCB_LL_pos.png Graphic file (type png)
+
+<use figs/Acp_Ksmm_SCB_LL_pos.png>
+Package pdftex.def Info: figs/Acp_Ksmm_SCB_LL_pos.png used on input line 755.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/Acp_epek_SCB_LL_pos.png, id=3897, 462.528pt x 346.896pt>
+File: figs/Acp_epek_SCB_LL_pos.png Graphic file (type png)
+
+<use figs/Acp_epek_SCB_LL_pos.png>
+Package pdftex.def Info: figs/Acp_epek_SCB_LL_pos.png used on input line 756.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 760.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 760.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 760.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 760.
+
+
+LaTeX Warning: Citation `LHCb:KsMuMu' on page 110 undefined on input line 772.
+
+[110] [111 <./figs/figure_1_SCA_LL_pos.png> <./figs/figure_1_SCA_LL_neg.png> <.
+/figs/figure_1_SCA_RR_pos.png> <./figs/figure_1_SCA_RR_neg.png>]
+<figs/rddRR12_vs_rddLL12.png, id=3929, 462.528pt x 346.896pt>
+File: figs/rddRR12_vs_rddLL12.png Graphic file (type png)
+
+<use figs/rddRR12_vs_rddLL12.png>
+Package pdftex.def Info: figs/rddRR12_vs_rddLL12.png used on input line 781.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/iddRR12_vs_iddLL12.png, id=3930, 462.528pt x 346.896pt>
+File: figs/iddRR12_vs_iddLL12.png Graphic file (type png)
+
+<use figs/iddRR12_vs_iddLL12.png>
+Package pdftex.def Info: figs/iddRR12_vs_iddLL12.png used on input line 782.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/rddRR12_vs_iddRR12.png, id=3931, 462.528pt x 346.896pt>
+File: figs/rddRR12_vs_iddRR12.png Graphic file (type png)
+
+<use figs/rddRR12_vs_iddRR12.png>
+Package pdftex.def Info: figs/rddRR12_vs_iddRR12.png used on input line 783.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/rddLL12_vs_iddLL12.png, id=3932, 462.528pt x 346.896pt>
+File: figs/rddLL12_vs_iddLL12.png Graphic file (type png)
+
+<use figs/rddLL12_vs_iddLL12.png>
+Package pdftex.def Info: figs/rddLL12_vs_iddLL12.png used on input line 784.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+LaTeX Warning: Reference `sec:formalism' on page 112 undefined on input line 78
+5.
+
+
+LaTeX Warning: Reference `sec:formalism' on page 112 undefined on input line 78
+5.
+
+<figs/msq_vs_mg_SCA.png, id=3935, 462.528pt x 346.896pt>
+File: figs/msq_vs_mg_SCA.png Graphic file (type png)
+
+<use figs/msq_vs_mg_SCA.png>
+Package pdftex.def Info: figs/msq_vs_mg_SCA.png used on input line 790.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+<figs/msq_vs_mg.png, id=3936, 462.528pt x 346.896pt>
+File: figs/msq_vs_mg.png Graphic file (type png)
+ <use figs/msq_vs_mg.png>
+Package pdftex.def Info: figs/msq_vs_mg.png used on input line 791.
+(pdftex.def)             Requested size: 223.0721pt x 167.30745pt.
+
+
+LaTeX Warning: Reference `sec:formalism' on page 112 undefined on input line 79
+2.
+
+
+LaTeX Warning: Reference `sec:formalism' on page 112 undefined on input line 79
+2.
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 112 undefined on input line 795.
+
+
+[112 <./figs/figure_2_SCA_LL_pos.png> <./figs/figure_2_SCA_LL_neg.png> <./figs/
+figure_2_SCA_RR_pos.png> <./figs/figure_2_SCA_RR_neg.png>] [113 <./figs/figure_
+1_SCB_LL_pos.png> <./figs/figure_1_SCB_LL_neg.png> <./figs/figure_1_SCB_RR_pos.
+png> <./figs/figure_1_SCB_RR_neg.png>]
+
+LaTeX Warning: Citation `Pallante:2001he' on page 114 undefined on input line 8
+08.
+
+
+LaTeX Warning: Citation `Hambye:2003cy' on page 114 undefined on input line 808
+.
+
+
+LaTeX Warning: Citation `Mullor' on page 114 undefined on input line 808.
+
+[114 <./figs/figure_2_SCB_LL_pos.png> <./figs/figure_2_SCB_LL_neg.png> <./figs/
+figure_2_SCB_RR_pos.png> <./figs/figure_2_SCB_RR_neg.png>])
+(./chapters/CMSSM.tex [115 <./figs/figure_1_SCC_LL_pos.png> <./figs/figure_1_SC
+C_LL_neg.png> <./figs/figure_1_SCC_RR_pos.png> <./figs/figure_1_SCC_RR_neg.png>
+] [116 <./figs/figure_2_SCC_LL_pos.png> <./figs/figure_2_SCC_LL_neg.png> <./fig
+s/figure_2_SCC_RR_pos.png> <./figs/figure_2_SCC_RR_neg.png>] [117 <./figs/Acp_S
+CA_LL_neg.png> <./figs/BR_eff_SCA_LL_neg.png>] [118 <./figs/Acp_Ksmm_SCA_LL_neg
+.png> <./figs/Acp_epek_SCA_LL_neg.png> <./figs/Acp_Ksmm_SCB_LL_pos.png> <./figs
+/Acp_epek_SCB_LL_pos.png>] [119 <./figs/rddRR12_vs_rddLL12.png> <./figs/iddRR12
+_vs_iddLL12.png> <./figs/rddRR12_vs_iddRR12.png> <./figs/rddLL12_vs_iddLL12.png
+>] [120 <./figs/msq_vs_mg_SCA.png> <./figs/msq_vs_mg.png>]
+Chapter 7.
+[121
+
+] <figs/soft_prior.png, id=4018, 462.528pt x 346.896pt>
+File: figs/soft_prior.png Graphic file (type png)
+
+<use figs/soft_prior.png>
+Package pdftex.def Info: figs/soft_prior.png used on input line 46.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ [122]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[123 <./figs/soft_prior.png>] [124]) [125] [126
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.126}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.223 \cleardoublepage
+                       [126
+
+] (./appendices/app_MCOBS.tex
+Appendix A.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/10.95 For the sfermion, the mass terms are given in the MSSM La-
+grangian
+ []
+
+[127
+
+
+] [128] [129] [130] [131]) (./appendices/app_bootstrapping.tex [132]
+Appendix B.
+<figs/MCVars/fL_var.pdf, id=4120, 569.12625pt x 385.44pt>
+File: figs/MCVars/fL_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/fL_var.pdf>
+Package pdftex.def Info: figs/MCVars/fL_var.pdf used on input line 11.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/fpe_var.pdf, id=4121, 569.12625pt x 385.44pt>
+File: figs/MCVars/fpe_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/fpe_var.pdf>
+Package pdftex.def Info: figs/MCVars/fpe_var.pdf used on input line 12.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/phis_0_var.pdf, id=4122, 569.12625pt x 385.44pt>
+File: figs/MCVars/phis_0_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/phis_0_var.pdf>
+Package pdftex.def Info: figs/MCVars/phis_0_var.pdf used on input line 13.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/dpe_var.pdf, id=4123, 569.12625pt x 385.44pt>
+File: figs/MCVars/dpe_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/dpe_var.pdf>
+Package pdftex.def Info: figs/MCVars/dpe_var.pdf used on input line 14.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/dpa_var.pdf, id=4124, 569.12625pt x 385.44pt>
+File: figs/MCVars/dpa_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/dpa_var.pdf>
+Package pdftex.def Info: figs/MCVars/dpa_var.pdf used on input line 15.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/lambda_0_abs_var.pdf, id=4125, 569.12625pt x 385.44pt>
+File: figs/MCVars/lambda_0_abs_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/lambda_0_abs_var.pdf>
+Package pdftex.def Info: figs/MCVars/lambda_0_abs_var.pdf used on input line 16
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/G_var.pdf, id=4126, 569.12625pt x 385.44pt>
+File: figs/MCVars/G_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/G_var.pdf>
+Package pdftex.def Info: figs/MCVars/G_var.pdf used on input line 17.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/DG_var.pdf, id=4127, 569.12625pt x 385.44pt>
+File: figs/MCVars/DG_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/DG_var.pdf>
+Package pdftex.def Info: figs/MCVars/DG_var.pdf used on input line 18.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCVars/Dm_var.pdf, id=4128, 569.12625pt x 385.44pt>
+File: figs/MCVars/Dm_var.pdf Graphic file (type pdf)
+
+<use figs/MCVars/Dm_var.pdf>
+Package pdftex.def Info: figs/MCVars/Dm_var.pdf used on input line 19.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/fL_pull.pdf, id=4129, 569.12625pt x 385.44pt>
+File: figs/MCPulls/fL_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/fL_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/fL_pull.pdf used on input line 29.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/fpe_pull.pdf, id=4130, 569.12625pt x 385.44pt>
+File: figs/MCPulls/fpe_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/fpe_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/fpe_pull.pdf used on input line 30.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/phis_0_pull.pdf, id=4131, 569.12625pt x 385.44pt>
+File: figs/MCPulls/phis_0_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/phis_0_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/phis_0_pull.pdf used on input line 31.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/dpe_pull.pdf, id=4132, 569.12625pt x 385.44pt>
+File: figs/MCPulls/dpe_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/dpe_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/dpe_pull.pdf used on input line 32.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/dpa_pull.pdf, id=4133, 569.12625pt x 385.44pt>
+File: figs/MCPulls/dpa_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/dpa_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/dpa_pull.pdf used on input line 33.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/lambda_0_abs_pull.pdf, id=4134, 569.12625pt x 385.44pt>
+File: figs/MCPulls/lambda_0_abs_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/lambda_0_abs_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/lambda_0_abs_pull.pdf used on input line 
+34.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/G_pull.pdf, id=4135, 569.12625pt x 385.44pt>
+File: figs/MCPulls/G_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/G_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/G_pull.pdf used on input line 35.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/DG_pull.pdf, id=4136, 569.12625pt x 385.44pt>
+File: figs/MCPulls/DG_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/DG_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/DG_pull.pdf used on input line 36.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCPulls/Dm_pull.pdf, id=4137, 569.12625pt x 385.44pt>
+File: figs/MCPulls/Dm_pull.pdf Graphic file (type pdf)
+
+<use figs/MCPulls/Dm_pull.pdf>
+Package pdftex.def Info: figs/MCPulls/Dm_pull.pdf used on input line 37.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/fL_var.pdf, id=4138, 569.12625pt x 385.44pt>
+File: figs/DataVars/fL_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/fL_var.pdf>
+Package pdftex.def Info: figs/DataVars/fL_var.pdf used on input line 48.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/fpe_var.pdf, id=4139, 569.12625pt x 385.44pt>
+File: figs/DataVars/fpe_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/fpe_var.pdf>
+Package pdftex.def Info: figs/DataVars/fpe_var.pdf used on input line 49.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/phis_0_var.pdf, id=4140, 569.12625pt x 385.44pt>
+File: figs/DataVars/phis_0_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/phis_0_var.pdf>
+Package pdftex.def Info: figs/DataVars/phis_0_var.pdf used on input line 50.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/dpe_var.pdf, id=4141, 569.12625pt x 385.44pt>
+File: figs/DataVars/dpe_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/dpe_var.pdf>
+Package pdftex.def Info: figs/DataVars/dpe_var.pdf used on input line 51.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/dpa_var.pdf, id=4142, 569.12625pt x 385.44pt>
+File: figs/DataVars/dpa_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/dpa_var.pdf>
+Package pdftex.def Info: figs/DataVars/dpa_var.pdf used on input line 52.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/lambda_0_abs_var.pdf, id=4143, 569.12625pt x 385.44pt>
+File: figs/DataVars/lambda_0_abs_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/lambda_0_abs_var.pdf>
+Package pdftex.def Info: figs/DataVars/lambda_0_abs_var.pdf used on input line 
+53.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/G_var.pdf, id=4144, 569.12625pt x 385.44pt>
+File: figs/DataVars/G_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/G_var.pdf>
+Package pdftex.def Info: figs/DataVars/G_var.pdf used on input line 54.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/DG_var.pdf, id=4145, 569.12625pt x 385.44pt>
+File: figs/DataVars/DG_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/DG_var.pdf>
+Package pdftex.def Info: figs/DataVars/DG_var.pdf used on input line 55.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/Dm_var.pdf, id=4146, 569.12625pt x 385.44pt>
+File: figs/DataVars/Dm_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/Dm_var.pdf>
+Package pdftex.def Info: figs/DataVars/Dm_var.pdf used on input line 56.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/ds_m_dpe_1_var.pdf, id=4147, 569.12625pt x 385.44pt>
+File: figs/DataVars/ds_m_dpe_1_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/ds_m_dpe_1_var.pdf>
+Package pdftex.def Info: figs/DataVars/ds_m_dpe_1_var.pdf used on input line 57
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/ds_m_dpe_2_var.pdf, id=4148, 569.12625pt x 385.44pt>
+File: figs/DataVars/ds_m_dpe_2_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/ds_m_dpe_2_var.pdf>
+Package pdftex.def Info: figs/DataVars/ds_m_dpe_2_var.pdf used on input line 58
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/ds_m_dpe_3_var.pdf, id=4149, 569.12625pt x 385.44pt>
+File: figs/DataVars/ds_m_dpe_3_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/ds_m_dpe_3_var.pdf>
+Package pdftex.def Info: figs/DataVars/ds_m_dpe_3_var.pdf used on input line 59
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/ds_m_dpe_4_var.pdf, id=4150, 569.12625pt x 385.44pt>
+File: figs/DataVars/ds_m_dpe_4_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/ds_m_dpe_4_var.pdf>
+Package pdftex.def Info: figs/DataVars/ds_m_dpe_4_var.pdf used on input line 60
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/ds_m_dpe_5_var.pdf, id=4151, 569.12625pt x 385.44pt>
+File: figs/DataVars/ds_m_dpe_5_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/ds_m_dpe_5_var.pdf>
+Package pdftex.def Info: figs/DataVars/ds_m_dpe_5_var.pdf used on input line 61
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/ds_m_dpe_6_var.pdf, id=4152, 569.12625pt x 385.44pt>
+File: figs/DataVars/ds_m_dpe_6_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/ds_m_dpe_6_var.pdf>
+Package pdftex.def Info: figs/DataVars/ds_m_dpe_6_var.pdf used on input line 62
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/Fs_1_var.pdf, id=4153, 569.12625pt x 385.44pt>
+File: figs/DataVars/Fs_1_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/Fs_1_var.pdf>
+Package pdftex.def Info: figs/DataVars/Fs_1_var.pdf used on input line 63.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/Fs_2_var.pdf, id=4154, 569.12625pt x 385.44pt>
+File: figs/DataVars/Fs_2_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/Fs_2_var.pdf>
+Package pdftex.def Info: figs/DataVars/Fs_2_var.pdf used on input line 64.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/Fs_3_var.pdf, id=4155, 569.12625pt x 385.44pt>
+File: figs/DataVars/Fs_3_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/Fs_3_var.pdf>
+Package pdftex.def Info: figs/DataVars/Fs_3_var.pdf used on input line 65.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/Fs_4_var.pdf, id=4156, 569.12625pt x 385.44pt>
+File: figs/DataVars/Fs_4_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/Fs_4_var.pdf>
+Package pdftex.def Info: figs/DataVars/Fs_4_var.pdf used on input line 66.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/Fs_5_var.pdf, id=4157, 569.12625pt x 385.44pt>
+File: figs/DataVars/Fs_5_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/Fs_5_var.pdf>
+Package pdftex.def Info: figs/DataVars/Fs_5_var.pdf used on input line 67.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataVars/Fs_6_var.pdf, id=4158, 569.12625pt x 385.44pt>
+File: figs/DataVars/Fs_6_var.pdf Graphic file (type pdf)
+
+<use figs/DataVars/Fs_6_var.pdf>
+Package pdftex.def Info: figs/DataVars/Fs_6_var.pdf used on input line 68.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+
+LaTeX Warning: Float too large for page by 65.00946pt on input line 74.
+
+<figs/DataPulls/fL_pull.pdf, id=4159, 569.12625pt x 385.44pt>
+File: figs/DataPulls/fL_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/fL_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/fL_pull.pdf used on input line 78.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/fpe_pull.pdf, id=4160, 569.12625pt x 385.44pt>
+File: figs/DataPulls/fpe_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/fpe_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/fpe_pull.pdf used on input line 79.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/phis_0_pull.pdf, id=4161, 569.12625pt x 385.44pt>
+File: figs/DataPulls/phis_0_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/phis_0_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/phis_0_pull.pdf used on input line 80.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/dpe_pull.pdf, id=4162, 569.12625pt x 385.44pt>
+File: figs/DataPulls/dpe_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/dpe_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/dpe_pull.pdf used on input line 81.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/dpa_pull.pdf, id=4163, 569.12625pt x 385.44pt>
+File: figs/DataPulls/dpa_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/dpa_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/dpa_pull.pdf used on input line 82.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/lambda_0_abs_pull.pdf, id=4164, 569.12625pt x 385.44pt>
+File: figs/DataPulls/lambda_0_abs_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/lambda_0_abs_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/lambda_0_abs_pull.pdf used on input lin
+e 83.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/G_pull.pdf, id=4165, 569.12625pt x 385.44pt>
+File: figs/DataPulls/G_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/G_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/G_pull.pdf used on input line 84.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/DG_pull.pdf, id=4166, 569.12625pt x 385.44pt>
+File: figs/DataPulls/DG_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/DG_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/DG_pull.pdf used on input line 85.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/Dm_pull.pdf, id=4167, 569.12625pt x 385.44pt>
+File: figs/DataPulls/Dm_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/Dm_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/Dm_pull.pdf used on input line 86.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/ds_m_dpe_1_pull.pdf, id=4168, 569.12625pt x 385.44pt>
+File: figs/DataPulls/ds_m_dpe_1_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/ds_m_dpe_1_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/ds_m_dpe_1_pull.pdf used on input line 
+87.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/ds_m_dpe_2_pull.pdf, id=4169, 569.12625pt x 385.44pt>
+File: figs/DataPulls/ds_m_dpe_2_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/ds_m_dpe_2_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/ds_m_dpe_2_pull.pdf used on input line 
+88.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/ds_m_dpe_3_pull.pdf, id=4170, 569.12625pt x 385.44pt>
+File: figs/DataPulls/ds_m_dpe_3_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/ds_m_dpe_3_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/ds_m_dpe_3_pull.pdf used on input line 
+89.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/ds_m_dpe_4_pull.pdf, id=4171, 569.12625pt x 385.44pt>
+File: figs/DataPulls/ds_m_dpe_4_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/ds_m_dpe_4_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/ds_m_dpe_4_pull.pdf used on input line 
+90.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/ds_m_dpe_5_pull.pdf, id=4172, 569.12625pt x 385.44pt>
+File: figs/DataPulls/ds_m_dpe_5_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/ds_m_dpe_5_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/ds_m_dpe_5_pull.pdf used on input line 
+91.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/ds_m_dpe_6_pull.pdf, id=4173, 569.12625pt x 385.44pt>
+File: figs/DataPulls/ds_m_dpe_6_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/ds_m_dpe_6_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/ds_m_dpe_6_pull.pdf used on input line 
+92.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/Fs_1_pull.pdf, id=4174, 569.12625pt x 385.44pt>
+File: figs/DataPulls/Fs_1_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/Fs_1_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/Fs_1_pull.pdf used on input line 93.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/Fs_2_pull.pdf, id=4175, 569.12625pt x 385.44pt>
+File: figs/DataPulls/Fs_2_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/Fs_2_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/Fs_2_pull.pdf used on input line 94.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/Fs_3_pull.pdf, id=4176, 569.12625pt x 385.44pt>
+File: figs/DataPulls/Fs_3_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/Fs_3_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/Fs_3_pull.pdf used on input line 95.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/Fs_4_pull.pdf, id=4177, 569.12625pt x 385.44pt>
+File: figs/DataPulls/Fs_4_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/Fs_4_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/Fs_4_pull.pdf used on input line 96.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/Fs_5_pull.pdf, id=4178, 569.12625pt x 385.44pt>
+File: figs/DataPulls/Fs_5_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/Fs_5_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/Fs_5_pull.pdf used on input line 97.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/DataPulls/Fs_6_pull.pdf, id=4179, 569.12625pt x 385.44pt>
+File: figs/DataPulls/Fs_6_pull.pdf Graphic file (type pdf)
+
+<use figs/DataPulls/Fs_6_pull.pdf>
+Package pdftex.def Info: figs/DataPulls/Fs_6_pull.pdf used on input line 98.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+
+LaTeX Warning: Float too large for page by 79.50946pt on input line 105.
+
+<figs/MCwBkgVars/fL_var.pdf, id=4180, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/fL_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/fL_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/fL_var.pdf used on input line 109.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/fpe_var.pdf, id=4181, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/fpe_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/fpe_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/fpe_var.pdf used on input line 110.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/phis_0_var.pdf, id=4182, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/phis_0_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/phis_0_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/phis_0_var.pdf used on input line 111.
+
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/dpe_var.pdf, id=4183, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/dpe_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/dpe_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/dpe_var.pdf used on input line 112.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/dpa_var.pdf, id=4184, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/dpa_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/dpa_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/dpa_var.pdf used on input line 113.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/lambda_0_abs_var.pdf, id=4185, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/lambda_0_abs_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/lambda_0_abs_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/lambda_0_abs_var.pdf used on input lin
+e 114.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/Gs_m_Gd_var.pdf, id=4186, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/Gs_m_Gd_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/Gs_m_Gd_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/Gs_m_Gd_var.pdf used on input line 115
+.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/DG_var.pdf, id=4187, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/DG_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/DG_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/DG_var.pdf used on input line 116.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgVars/Dm_var.pdf, id=4188, 569.12625pt x 385.44pt>
+File: figs/MCwBkgVars/Dm_var.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgVars/Dm_var.pdf>
+Package pdftex.def Info: figs/MCwBkgVars/Dm_var.pdf used on input line 117.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/fL_pull.pdf, id=4189, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/fL_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/fL_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/fL_pull.pdf used on input line 127.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/fpe_pull.pdf, id=4190, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/fpe_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/fpe_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/fpe_pull.pdf used on input line 128.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/phis_0_pull.pdf, id=4191, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/phis_0_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/phis_0_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/phis_0_pull.pdf used on input line 12
+9.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/dpe_pull.pdf, id=4192, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/dpe_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/dpe_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/dpe_pull.pdf used on input line 130.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/dpa_pull.pdf, id=4193, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/dpa_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/dpa_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/dpa_pull.pdf used on input line 131.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/lambda_0_abs_pull.pdf, id=4194, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/lambda_0_abs_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/lambda_0_abs_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/lambda_0_abs_pull.pdf used on input l
+ine 132.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/Gs_m_Gd_pull.pdf, id=4195, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/Gs_m_Gd_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/Gs_m_Gd_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/Gs_m_Gd_pull.pdf used on input line 1
+33.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/DG_pull.pdf, id=4196, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/DG_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/DG_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/DG_pull.pdf used on input line 134.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+
+<figs/MCwBkgPulls/Dm_pull.pdf, id=4197, 569.12625pt x 385.44pt>
+File: figs/MCwBkgPulls/Dm_pull.pdf Graphic file (type pdf)
+
+<use figs/MCwBkgPulls/Dm_pull.pdf>
+Package pdftex.def Info: figs/MCwBkgPulls/Dm_pull.pdf used on input line 135.
+(pdftex.def)             Requested size: 136.5746pt x 92.49573pt.
+ [133
+
+
+ <./figs/MCVars/fL_var.pdf, page is rotated 90 degrees> <./figs/MCVars/fpe_var.
+pdf, page is rotated 90 degrees> <./figs/MCVars/phis_0_var.pdf, page is rotated
+ 90 degrees> <./figs/MCVars/dpe_var.pdf, page is rotated 90 degrees> <./figs/MC
+Vars/dpa_var.pdf, page is rotated 90 degrees> <./figs/MCVars/lambda_0_abs_var.p
+df, page is rotated 90 degrees> <./figs/MCVars/G_var.pdf, page is rotated 90 de
+grees> <./figs/MCVars/DG_var.pdf, page is rotated 90 degrees> <./figs/MCVars/Dm
+_var.pdf, page is rotated 90 degrees>]
+[134 <./figs/MCPulls/fL_pull.pdf, page is rotated 90 degrees> <./figs/MCPulls/f
+pe_pull.pdf, page is rotated 90 degrees> <./figs/MCPulls/phis_0_pull.pdf, page 
+is rotated 90 degrees> <./figs/MCPulls/dpe_pull.pdf, page is rotated 90 degrees
+> <./figs/MCPulls/dpa_pull.pdf, page is rotated 90 degrees> <./figs/MCPulls/lam
+bda_0_abs_pull.pdf, page is rotated 90 degrees> <./figs/MCPulls/G_pull.pdf, pag
+e is rotated 90 degrees> <./figs/MCPulls/DG_pull.pdf, page is rotated 90 degree
+s> <./figs/MCPulls/Dm_pull.pdf, page is rotated 90 degrees>] [135 <./figs/DataV
+ars/fL_var.pdf, page is rotated 90 degrees> <./figs/DataVars/fpe_var.pdf, page 
+is rotated 90 degrees> <./figs/DataVars/phis_0_var.pdf, page is rotated 90 degr
+ees> <./figs/DataVars/dpe_var.pdf, page is rotated 90 degrees> <./figs/DataVars
+/dpa_var.pdf, page is rotated 90 degrees> <./figs/DataVars/lambda_0_abs_var.pdf
+, page is rotated 90 degrees> <./figs/DataVars/G_var.pdf, page is rotated 90 de
+grees> <./figs/DataVars/DG_var.pdf, page is rotated 90 degrees> <./figs/DataVar
+s/Dm_var.pdf, page is rotated 90 degrees> <./figs/DataVars/ds_m_dpe_1_var.pdf, 
+page is rotated 90 degrees> <./figs/DataVars/ds_m_dpe_2_var.pdf, page is rotate
+d 90 degrees> <./figs/DataVars/ds_m_dpe_3_var.pdf, page is rotated 90 degrees> 
+<./figs/DataVars/ds_m_dpe_4_var.pdf, page is rotated 90 degrees> <./figs/DataVa
+rs/ds_m_dpe_5_var.pdf, page is rotated 90 degrees> <./figs/DataVars/ds_m_dpe_6_
+var.pdf, page is rotated 90 degrees> <./figs/DataVars/Fs_1_var.pdf, page is rot
+ated 90 degrees> <./figs/DataVars/Fs_2_var.pdf, page is rotated 90 degrees> <./
+figs/DataVars/Fs_3_var.pdf, page is rotated 90 degrees> <./figs/DataVars/Fs_4_v
+ar.pdf, page is rotated 90 degrees> <./figs/DataVars/Fs_5_var.pdf, page is rota
+ted 90 degrees> <./figs/DataVars/Fs_6_var.pdf, page is rotated 90 degrees>]
+[136 <./figs/DataPulls/fL_pull.pdf, page is rotated 90 degrees> <./figs/DataPul
+ls/fpe_pull.pdf, page is rotated 90 degrees> <./figs/DataPulls/phis_0_pull.pdf,
+ page is rotated 90 degrees> <./figs/DataPulls/dpe_pull.pdf, page is rotated 90
+ degrees> <./figs/DataPulls/dpa_pull.pdf, page is rotated 90 degrees> <./figs/D
+ataPulls/lambda_0_abs_pull.pdf, page is rotated 90 degrees> <./figs/DataPulls/G
+_pull.pdf, page is rotated 90 degrees> <./figs/DataPulls/DG_pull.pdf, page is r
+otated 90 degrees> <./figs/DataPulls/Dm_pull.pdf, page is rotated 90 degrees> <
+./figs/DataPulls/ds_m_dpe_1_pull.pdf, page is rotated 90 degrees> <./figs/DataP
+ulls/ds_m_dpe_2_pull.pdf, page is rotated 90 degrees> <./figs/DataPulls/ds_m_dp
+e_3_pull.pdf, page is rotated 90 degrees> <./figs/DataPulls/ds_m_dpe_4_pull.pdf
+, page is rotated 90 degrees> <./figs/DataPulls/ds_m_dpe_5_pull.pdf, page is ro
+tated 90 degrees> <./figs/DataPulls/ds_m_dpe_6_pull.pdf, page is rotated 90 deg
+rees> <./figs/DataPulls/Fs_1_pull.pdf, page is rotated 90 degrees> <./figs/Data
+Pulls/Fs_2_pull.pdf, page is rotated 90 degrees> <./figs/DataPulls/Fs_3_pull.pd
+f, page is rotated 90 degrees> <./figs/DataPulls/Fs_4_pull.pdf, page is rotated
+ 90 degrees> <./figs/DataPulls/Fs_5_pull.pdf, page is rotated 90 degrees> <./fi
+gs/DataPulls/Fs_6_pull.pdf, page is rotated 90 degrees>] [137 <./figs/MCwBkgVar
+s/fL_var.pdf, page is rotated 90 degrees> <./figs/MCwBkgVars/fpe_var.pdf, page 
+is rotated 90 degrees> <./figs/MCwBkgVars/phis_0_var.pdf, page is rotated 90 de
+grees> <./figs/MCwBkgVars/dpe_var.pdf, page is rotated 90 degrees> <./figs/MCwB
+kgVars/dpa_var.pdf, page is rotated 90 degrees> <./figs/MCwBkgVars/lambda_0_abs
+_var.pdf, page is rotated 90 degrees> <./figs/MCwBkgVars/Gs_m_Gd_var.pdf, page 
+is rotated 90 degrees> <./figs/MCwBkgVars/DG_var.pdf, page is rotated 90 degree
+s> <./figs/MCwBkgVars/Dm_var.pdf, page is rotated 90 degrees>] [138 <./figs/MCw
+BkgPulls/fL_pull.pdf, page is rotated 90 degrees> <./figs/MCwBkgPulls/fpe_pull.
+pdf, page is rotated 90 degrees> <./figs/MCwBkgPulls/phis_0_pull.pdf, page is r
+otated 90 degrees> <./figs/MCwBkgPulls/dpe_pull.pdf, page is rotated 90 degrees
+> <./figs/MCwBkgPulls/dpa_pull.pdf, page is rotated 90 degrees> <./figs/MCwBkgP
+ulls/lambda_0_abs_pull.pdf, page is rotated 90 degrees> <./figs/MCwBkgPulls/Gs_
+m_Gd_pull.pdf, page is rotated 90 degrees> <./figs/MCwBkgPulls/DG_pull.pdf, pag
+e is rotated 90 degrees> <./figs/MCwBkgPulls/Dm_pull.pdf, page is rotated 90 de
+grees>]) (./main.bblpdfTeX warning (ext4): destination with the same identifier
+ (name{page.138}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{mcitethebibliography}{10}
+                                     [138
+
+
+] [139] [140] [141])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+ [142]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 1EA531FB02F1B2223E215EFFAFC6A110;9421.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
+ ) 
+Here is how much of TeX's memory you used:
+ 15082 strings out of 495031
+ 233353 string characters out of 6181531
+ 345613 words of memory out of 5000000
+ 17141 multiletter control sequences out of 15000+600000
+ 30183 words of font info for 114 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 44i,18n,42p,1094b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
+o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
+b>
+Output written on main.pdf (151 pages, 10771254 bytes).
+PDF statistics:
+ 8000 PDF objects out of 8907 (max. 8388607)
+ 4183 compressed objects within 42 object streams
+ 660 named destinations out of 1000 (max. 500000)
+ 2210 words of extra memory for PDF output out of 10000 (max. 10000000)
+

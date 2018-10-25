@@ -1,0 +1,198 @@
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Multivariate analysis procedure}\label{app:BsJpsiKst_selection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mass fit for BDTG optimisation}\label{app:BsJpsiKst_selection_opt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Invariant mass fit results at the BDTG optimal threshold cut ($0.2$ for 2011 conditions, $0.12$ for 2012 conditions) obtained during the $F(\sweights)$ optimisation described in \secref{subsubsec:BsJpsiKst-selection-BDTG} are presented in \figref{fig:appMassFitFoM2011} and \figref{fig:appMassFitFoM2012} for 2011 and 2012 conditions respectively. The mass model used for this optimisation procedure consists of two Crystal-Ball \cite{CrystalBall} (signal parametrisation) and an exponential function (background parametrisation). This fit is performed in a single $M(J/\psi{K\pi})$ bin and using real data samples.
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{figs/BsJpsiKst/2011_Mass_Fit.pdf}
+\caption{Invariant mass fit projection in $M(J/\psi{K\pi})$ mass under 2011 conditions ($\Bs$ candidates = $658 \pm 29$, $\Bd$ candidates = $70192 \pm 282$, background events = $1555 \pm 58$).}
+\label{fig:appMassFitFoM2011}
+\end{center}
+\end{figure}
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{figs/BsJpsiKst/2012_Mass_Fit.pdf}
+\caption{Invariant mass fit projection in $M(J/\psi{K\pi})$ mass under 2012 conditions ($\Bs$ candidates = $1469 \pm 43$, $\Bd$ candidates = $154240 \pm 417$, background events = $3629 \pm 89$).}
+\label{fig:appMassFitFoM2012}
+\end{center}
+\end{figure}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{BDTG correlation matrices}\label{app:BsJpsiKst_selection_corr}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Correlation matrices for BDTG discriminating variables for both signal and background samples are shown in \figref{fig:appCorr2011} under 2011 conditions, and in \figref{fig:appCorr2012} under 2012 conditions.
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figs/BsJpsiKst/signal_correlations_2011.pdf}
+\includegraphics[width=0.45\textwidth]{figs/BsJpsiKst/background_correlations_2011.pdf}
+\caption{Correlation matrices for BDTG discriminating variables under 2011 conditions. Left: signal sample. Right: background sample.}
+\label{fig:appCorr2011}
+\end{center}
+\end{figure}
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figs/BsJpsiKst/signal_correlations_2012.pdf}
+\includegraphics[width=0.45\textwidth]{figs/BsJpsiKst/background_correlations_2012.pdf}
+\caption{Correlation matrices for BDTG discriminating variables under 2012 conditions. Left: signal sample. Right: background sample.}
+\label{fig:appCorr2012}
+\end{center}
+\end{figure}
+%
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Distributions of BDTG discriminating variables}\label{app:BsJpsiKst_selection_disc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Distributions of discriminating variables used in the MVA procedure from real data and simulated data are compared. These comparisons are used to study the validity of these variables in simulation, in order to decide if a re-weighting is necessary. 
+%
+Background-subtracted (weighted histograms using \sweights calculated from an invariant mass fit using the model described in \secref{subsubsec:BsJpsiKst-mass_fit-model}) from real data samples and signal from simulated data samples are used, selected with the final selection described in \tabref{tab:Bs2JpsiKstSelection}. 
+%
+Comparisons (see \figref{fig:dataMCPlot1}, \figref{fig:dataMCPlot2}, \figref{fig:dataMCPlot3} and \figref{fig:dataMCPlot4}) are done for both 2011 and 2012 conditions, using \Bs and \Bd candidates separately as yields for the \sweights calculation. These comparisons between the shape of the distributions of discriminating variables for real and simulated data are purely qualitative. As conclusion, no re-weighting is applied. 
+%
+A final comparison of BDTG distributions between background-subtracted (using only those \sweights calculated considering \Bd candidates as yield events) and signal from simulated \BdJpsiKst decays, is done for both 2011 and 2012 conditions (see \figref{fig:dataMCPlot5} and \figref{fig:dataMCPlot6}). Also, a comparison between signal samples from simulated \BsJpsiKst and \BdJpsiKst data channels is shown in \figref{fig:MCPlot6}.
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/max_DOCA_Bs2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_PT_Bs2011.pdf}\\
+
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_LOKI_DTF_CTAU_Bs2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/lessIPS_Bs2011.pdf}\\
+
+        \includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_IP_OWNPV_Bs2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_ENDVERTEX_CHI2_Bs2011.pdf}\\
+	
+\end{tabular}
+\caption{Comparison of distributions of discriminating variables in background-subtracted (B$_{s}^0$) 2011 data (blue) and simulated signal (B$_{s}^0$) for 2011 conditions (red), normalised to the same area.}
+\label{fig:dataMCPlot1}
+\end{figure}
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/max_DOCA_Bs2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_PT_Bs2012.pdf}\\
+
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_LOKI_DTF_CTAU_Bs2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/lessIPS_Bs2012.pdf}\\
+
+        \includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_IP_OWNPV_Bs2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_ENDVERTEX_CHI2_Bs2012.pdf}\\
+	
+\end{tabular}
+\caption{Comparison of distributions of discriminating variables in background-subtracted (B$_{s}^0$) 2012 data (blue) and simulated signal (B$_{s}^0$) for 2012 conditions (red), normalised to the same area.}
+\label{fig:dataMCPlot2}
+\end{figure}
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/max_DOCA_Bd2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_PT_Bd2011.pdf}\\
+
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_LOKI_DTF_CTAU_Bd2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/lessIPS_Bd2011.pdf}\\
+
+        \includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_IP_OWNPV_Bd2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_ENDVERTEX_CHI2_Bd2011.pdf}\\
+	
+\end{tabular}
+\caption{Comparison of distributions of discriminating variables in background-subtracted (B$^0$) 2011 data (blue) and simulated signal (B$^0$) for 2011 conditions (red), normalised to the same area.}
+\label{fig:dataMCPlot3}
+\end{figure}
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/max_DOCA_Bd2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_PT_Bd2012.pdf}\\
+
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_LOKI_DTF_CTAU_Bd2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/lessIPS_Bd2012.pdf}\\
+
+        \includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_IP_OWNPV_Bd2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_ENDVERTEX_CHI2_Bd2012.pdf}\\
+	
+\end{tabular}
+\caption{Comparison of distributions of discriminating variables in background-subtracted (B$^0$) 2012 data (blue) and simulated signal (B$^0$) for 2012 conditions (red), normalised to the same area.}
+\label{fig:dataMCPlot4}
+\end{figure}
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/max_DOCA_Bd2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_PT_Bd2012.pdf}\\
+
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_LOKI_DTF_CTAU_Bd2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/lessIPS_Bd2012.pdf}\\
+
+        \includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_IP_OWNPV_Bd2012.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/B0_ENDVERTEX_CHI2_Bd2012.pdf}\\
+	
+\end{tabular}
+\caption{Comparison of distributions of discriminating variables in background-subtracted (B$^0$) 2012 data (blue) and simulated signal (B$^0$) for 2012 conditions (red), normalised to the same area.}
+\label{fig:dataMCPlot4}
+\end{figure}
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/BDTG_Bd2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/BDTG_Bd2012.pdf}\\
+
+
+\end{tabular}
+\caption{Comparison of distribution of BDTG response in background-subtracted (B$^0$) 2011 data (blue) and simulated signal (B$^0$) (red) for 2011 conditions on the left and 2012 conditions on the right, normalised to the same area.}
+\label{fig:dataMCPlot5}
+\end{figure}
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/BDTG_Bs2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/DataMC_comparison_Carlos/BDTG_Bs2012.pdf}\\
+
+
+\end{tabular}
+\caption{Comparison of distribution of BDTG response in background-subtracted (B$_{s}^0$) 2012 data (blue) and simulated signal (B$^0$) (red) for 2011 conditions on the left and 2012 conditions on the right, normalised to the same area.}
+\label{fig:dataMCPlot6}
+\end{figure}
+%
+\begin{figure}[htbp]
+\center
+\begin{tabular}{cc}
+\includegraphics[height= 4.8cm] {figs/BsJpsiKst/BsBdMC_comparison_Carlos/BDTG_Bd2011.pdf}
+&
+	\includegraphics[height= 4.8cm] {figs/BsJpsiKst/BsBdMC_comparison_Carlos/BDTG_Bd2012.pdf}\\
+
+
+\end{tabular}
+\caption{Comparison of distribution of BDTG response in simulated B$_{s}^0$ (blue) and B$^0$ (red) signals for 2011 conditions on the left and 2012 conditions on the right, normalised to the same area.}
+\label{fig:MCPlot6}
+\end{figure}
+%

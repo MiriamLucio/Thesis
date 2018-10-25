@@ -1,0 +1,77 @@
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Weakly decaying $b$-fractions}\label{app:BsJpsiKst_peaking}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+There is a relation~\cite{LHCb-PAPER-2014-004} between $f_{\Lbb}$ and $f_d$ ($\pT\in[1.5,40]\GeVc$),
+\begin{equation}\label{eq:fLbfunction}
+\frac{f_{\Lbb}}{f_d}(\pt) = a + {\rm exp}(b + c\times\pt[\gevc]),
+\end{equation}
+with
+\begin{eqnarray}
+a &=& +0.151 \pm 0.016^{~+0.024}_{~-0.025}, \nonumber\\
+b &=& -0.573 \pm 0.040^{~+0.101}_{~-0.097}, \nonumber\\
+c &=& -0.095 \pm 0.007 \pm 0.014 [\gevc]^{-1}, \nonumber
+\end{eqnarray}
+where the correlation matrix of the parameters is
+\[ \rho(a,b,c) = \left(\begin{array}{ccc}
+1     & 0.55  & -0.73 \\
+0.55  & 1     & -0.03 \\
+-0.73 & -0.03 & 1 \end{array}\right).\]
+Assuming that
+\begin{equation}
+f_u = f_d~~,~~f_u + f_d + f_s + f_{\Lambda_b^0} = 1,
+\end{equation}
+one can obtain a distribution of  ${f_{\Lbb}}/{f_d}$ in real data by evaluating \eqref{eq:fLbfunction} event per event. From this distribution, an average for this ratio is estimated from its mean value and root mean square. Considering real data for 2012 conditions, the following value is obtained
+\begin{equation}\label{eq:meanLbVal}
+\frac{f_{{\Lbb}}}{f_d} = 0.441 \pm 0.112.
+\end{equation}
+Using $\frac{f_s}{f_d}$ from~\cite{fdfs},
+\begin{equation}
+\frac{f_s}{f_d} = 0.259 \pm 0.015,
+\end{equation}
+final expressions for all the hadronisation factors can be obtained ($f_d = f_u$),
+\begin{equation}
+f_d = \Big(2+\frac{fs}{fd}+\frac{f_{{\Lbb}}}{f_d}\Big)^{-1}~~,~~\sigma^2(f_d) = {f_d^4}\Big(\sigma^2\Big(\frac{f_{\Lambda_b^0}}{f_d}\Big) + \sigma^2\Big(\frac{f_s}{f_d}\Big)\Big),
+\end{equation}
+\begin{equation}
+f_s = \frac{fs/fd}{(2+{fs/fd}+{f_{\Lbb}/f_d})}~~,~~\sigma^2(f_s) = {f_s}^2\Big(\frac{\sigma^2(f_s/f_d)}{(f_s/f_d)^2}+\frac{\sigma^2(f_d)}{f_d^2}\Big),%{f_d}^2\Big(\sigma^2(\frac{f_{\Lbb}}{f_d})+\sigma^2(\frac{f_s}{f_d})\Big)\Big)
+\end{equation}
+\begin{equation}
+f_{\Lbb} = \frac{f_{\Lbb}/fd}{(2+{fs/fd}+{f_{\Lbb}/f_d})}~~,~~\sigma^2(f_{\Lbb}) = {f_{\Lbb}}^2\Big(\frac{\sigma^2(f_{\Lbb}/f_d)}{(f_{\Lbb}/f_d)^2}+\frac{\sigma^2(f_d)}{f_d^2}\Big),%{f_d}^2\Big(\sigma^2(\frac{f_{\Lbb}}{f_d})+\sigma^2(\frac{f_s}{f_d})\Big)\Big)
+\end{equation}
+leading to the following estimations,
+\begin{equation}\label{eq:fq1}
+f_d = f_u = 0.370 \pm 0.016,
+\end{equation}
+\begin{equation}\label{eq:fq2}
+f_s = 0.0959 \pm 0.0068,
+\end{equation}
+\begin{equation}\label{eq:fq3}
+f_{\Lbb} = 0.163 \pm 0.042.
+\end{equation}
+%%%%%%%%%%%%%
+%\subsection{Effective luminosity}
+%The following expression is used,
+%\begin{equation}
+%\mathcal{L}_{\rm eff} = \frac{N_{\rm gen}}{2 \times \sigma_{bb} \times f_q \times \varepsilon_{\rm gen} \times {\rm BR}^{\rm vis}},
+%\end{equation}
+%where ${N_{\rm gen}}$ refers to the number of generated simulation events, $\sigma_{bb}$ refers to the $b\bar{b}$ production cross section in LHCb, $f_q$ refer to the hadronisation fractions \equref{eq:fq1}, \equref{eq:fq2} and \equref{eq:fq3}, $\varepsilon$ refers to the total efficiency (reconstruction, selection and trigger), ${\mathcal{L}}$ refers to the luminosity of the data and ${\rm BR}^{\rm vis}$ refers to the visible branching ratio of the corresponding decay. $\sigma_{bb}$ value for 2011 conditions is taken from \cite{LHCb-PAPER-2010-002}, and used for $\sigma_{bb}^{2012}$ estimation,
+%\begin{equation}
+%\sigma_{bb}^{2011} = 284 \pm 53~{\mu}b~~,~~\sigma_{bb}^{2012} \sim \sigma_{bb}^{2011} \times \frac{8}{7},
+%\end{equation}
+%Visible branching ratio values are taken from PDG \cite{PDG2014}, excepting those of the {\Lbb} decays: while ${\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi pK^{-})$ is directly taken from \cite{Gao:1701984}, the value of ${\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi p\pi^{-})$ is calculated from
+%\begin{equation}
+%{\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi p\pi^{-}) = \frac{{\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi p\pi^{-})}{{\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi pK^{-})} \times {\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi pK^{-}),
+%\end{equation}
+%where the ratio of branching fractions, taken from \cite{LHCb-PAPER-2014-020}, is
+%\begin{equation}
+%\frac{{\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi p\pi^{-})}{{\rm BR}^{\rm vis}(\Lambda_b^0 \to J/\psi pK^{-})} = 0.0824 \pm 0.0049.
+%\end{equation}
+%%%%
+%\subsection{Expected number of events}
+%Finally, the expected number of events in the data sample is
+%\begin{equation}
+%N_{\rm expected}^{\rm data} = N_{\rm selection}^{\rm MC} \times \frac{\mathcal{L}_{\rm data}}{\mathcal{L}_{\rm eff}},
+%\end{equation}
+%where $\mathcal{L}_{\rm data}$ is obtained directly from data samples. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,244 @@
+\afterpage{\blankpage}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Measurement of \BRof\BsJpsiKst}\label{app:BsJpsiKst_branching}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Correlated weighted average}\label{app:BsJpsiKst_branching_av}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The branching fractions \eqref{eq:BRBdJpsiKst} and \eqref{eq:BRBsJpsiPhi} can be written in the following way,
+\begin{equation}
+\BR{\BsJpsiKst}_{d} = \alpha X_d,
+\end{equation}
+\begin{equation}
+\BR{\BsJpsiKst}_{\phi} = \alpha X_\phi,
+\end{equation}
+where $\alpha$ is a common factor given by
+\begin{equation}
+\alpha = N_{\BsJpsiKpi} \times \frac{f_d}{f_s}.% \times \beta_{\BsJpsiKst}
+\end{equation}
+%
+
+The two different factors $X_d$ and $X_\phi$ are %one per \BRof\BsJpsiKst value:
+\begin{equation}
+X_d = \frac{1}{N_{\BdJpsiKpi}} \times \frac{\varepsilon_{\BdJpsiKst}^{MC}}{\varepsilon_{\BsJpsiKst}^{MC}} \times \frac{\kappa_{\BdJpsiKst}}{\kappa_{\BsJpsiKst}} \times \BRof\BdJpsiKst,
+\end{equation}
+\begin{eqnarray}
+%X_\phi &=& \frac{1}{2} \times \frac{3}{2} \times \frac{1}{\beta_{\BsJpsiPhi}} \times \frac{1}{N_{\BsJpsiKK}} \times \frac{\varepsilon_{\BsJpsiPhi}^{MC}}{\varepsilon_{\BsJpsiKst}^{MC}} \times \frac{\kappa_{\BsJpsiPhi}}{\kappa_{\BsJpsiKst}} \times \nonumber\\
+X_\phi &=& \frac{\BRof{\phi\to K^+K^-}}{\BRof{\Kstarzb\to K^-\pi^+}} \times \frac{1}{N_{\BsJpsiKK}} \times \frac{\varepsilon_{\BsJpsiPhi}^{MC}}{\varepsilon_{\BsJpsiKst}^{MC}} \times \frac{\kappa_{\BsJpsiPhi}}{\kappa_{\BsJpsiKst}} \times \nonumber\\
+&\times& \frac{f_s}{f_d}\BRof\BsJpsiPhi.
+\end{eqnarray}
+%
+
+There are two sources of correlations between $X_d$ and $X_\phi$:
+\begin{itemize}
+\item{} A correlation between $\kappa_{\BdJpsiKst}$ and $\kappa_{\BsJpsiKst}$, which is taken into account calculating a correlation factor between the ratios $\frac{\kappa_{\BdJpsiKst}}{\kappa_{\BsJpsiKst}}$ and $\frac{\kappa_{\BsJpsiPhi}}{\kappa_{\BsJpsiKst}}$.
+\item{} A correlation between $\frac{\varepsilon_{\BdJpsiKst}^{MC}}{\varepsilon_{\BsJpsiKst}^{MC}}$
+and $\frac{\varepsilon_{\BsJpsiPhi}^{MC}}{\varepsilon_{\BsJpsiKst}^{MC}}$, due to $\varepsilon_{\BsJpsiKst}^{MC}$. These efficiencies cannot be treated separately (hence the ratios) because of the systematic uncertainty due to PIDCalib corrections (see \secref{subsubsec:BsJpsiKst-branching_fraction-simEff}). In consequence, both ratios are considered 100\% correlated.
+\end{itemize}
+%
+In the calculation of $X_\phi$, $\frac{f_s}{f_d}\BRof\BsJpsiPhi$ instead of $\BRof\BsJpsiPhi$ is considered in order to avoid correlations due to the common factor $\alpha$. Thus, both $\BR{\BsJpsiKst}_{d}$ and $\BR{\BsJpsiKst}_{\phi}$ can be combined into a weighted average $\BRof\BsJpsiKst$ using the method of least squares,
+\begin{equation}
+\label{eq:weightedB}
+\BRof\BsJpsiKst = \alpha(wX_d + (1-w)X_\phi),
+\end{equation}
+\begin{equation}
+\label{eq:theWeight}
+w = \frac{\sigma^2(X_\phi) - \rho\sigma(X_d)\sigma(X_\phi)}{\sigma^2(X_\phi) + \sigma^2(X_d) -
+2\rho\sigma(X_d)\sigma(X_\phi)},
+\end{equation}
+%
+where $\rho$ is the total correlation factor between $X_d$ and $X_\phi$, and $\alpha$ is left as an uncorrelated common factor. The uncertainty for this weighted average can be calculated separately in terms of the statistical and systematic uncertainty sources,
+%
+\begin{eqnarray}
+\label{eq:theSigmaWeightedB}
+\sigma_{i}^2(\BRof\BsJpsiKst) &=& \Big[\frac{\BRof\BsJpsiKst}{\alpha}\sigma_{i}(\alpha)\Big]^2 +
+\nonumber\\ &+&
+\alpha^2{\frac{(1-\rho_i^2)\sigma_{i}^2(X_d)\sigma_{i}^2(X_\phi)}{\sigma_{i}^2(X_\phi) +
+\sigma_{i}^2(X_d) - 2\rho_i\sigma_{i}(X_d)\sigma_{i}(X_\phi)}},
+\end{eqnarray}
+%
+where i = stat, syst. The non-diagonal terms of the covariance matrix, $\rho_i\sigma_{i}(X_d)\sigma_{i}(X_\phi)$, which contain the correlations, still need to be calculated. For this purpose, the two correlations described before are evaluated separately:
+%
+\begin{enumerate}
+\item{} The correlation coefficient between the efficiency ratios was assumed to be 100\%
+(henceforth, $\frac{\varepsilon_{\BdJpsiKst}^{MC}}{\varepsilon_{\BsJpsiKst}^{MC}} =
+\varepsilon_{ds}$ and $\frac{\varepsilon_{\BsJpsiPhi}^{MC}}{\varepsilon_{\BsJpsiKst}^{MC}} =
+\varepsilon_{{\phi}s}$ for simplicity), so the relative uncertainty of the product
+$\varepsilon_{ds}\varepsilon_{\phi s}$ can be written as
+\begin{equation}
+\label{eq:theCorrEffs}
+\frac{\sigma^2(\varepsilon_{ds}\varepsilon_{\phi s})}{(\varepsilon_{ds}\varepsilon_{\phi s})^2} =
+\frac{\sigma^2(\varepsilon_{ds})}{\varepsilon_{ds}^2} + 
+\frac{\sigma^2(\varepsilon_{\phi s})}{\varepsilon_{\phi s}^2} + 
+2\frac{\sigma(\varepsilon_{ds})\sigma(\varepsilon_{{\phi}s})}{\varepsilon_{ds}\varepsilon_{{\phi}s}}.
+\end{equation}
+%
+\item{} The correlation factor between the $\kappa$ ratios can be obtained in terms of one of the
+ratios and the individual $\kappa$ factors.  For simplicitly, the abbreviation $\kappa_{\BsJpsiPhi} =
+\kappa_\phi$, $\kappa_{\BdJpsiKst} = \kappa_d$, and $\kappa_{\BsJpsiKst} = \kappa_s$ is used. Then,
+%
+\[
+\frac{\kappa_{\BdJpsiKst}}{\kappa_{\BsJpsiPhi}} =
+\frac{\kappa_{\BdJpsiKst}}{\kappa_{\BsJpsiKst}}
+\left(\frac{\kappa_{\BsJpsiPhi}}{\kappa_{\BsJpsiKst}}\right)^{-1}\;\; \Longrightarrow\;\;
+\frac{\kappa_d}{\kappa_\phi} = \frac{(\kappa_d/\kappa_s)}{(\kappa_\phi/\kappa_s)}.
+\]
+%
+Therefore,
+%
+\begin{equation}
+\frac{\sigma^2(\kappa_d/\kappa_\phi)}{(\kappa_d/\kappa_\phi)^2} =
+\frac{\sigma^2(\kappa_d/\kappa_s)}{(\kappa_d/\kappa_s)^2} +
+\frac{\sigma^2(\kappa_\phi/\kappa_s)}{(\kappa_\phi/\kappa_s)^2} -
+2\frac{\sigma(\kappa_d/\kappa_s)\sigma(\kappa_\phi/\kappa_s)}
+{(\kappa_d/\kappa_s)(\kappa_\phi/\kappa_s)}
+\rho_{\left(\frac{\kappa_d}{\kappa_s},\frac{\kappa_\phi}{\kappa_s}\right)}.
+%\rho_{\kappa_d/\kappa_s,\kappa_\phi/\kappa_s}
+\end{equation}
+%
+Taking into account that $\kappa_{\phi}$ and $\kappa_{d}$ are uncorrelated, the previous expression can be also written as
+\begin{equation}
+\frac{\sigma^2(\kappa_d/\kappa_\phi)}{(\kappa_d/\kappa_\phi)^2} =
+\frac{\sigma^2(\kappa_d)}{\kappa_d^2} + \frac{\sigma^2(\kappa_\phi)}{\kappa_\phi^2}.
+\end{equation}
+%
+Similarly,
+%
+\begin{equation}
+\frac{\sigma^2(\kappa_\phi/\kappa_s)}{(\kappa_\phi/\kappa_s)^2} =
+\frac{\sigma^2(\kappa_s)}{\kappa_s^2} + \frac{\sigma^2(\kappa_\phi)}{\kappa_\phi^2}.
+\end{equation}
+%
+Combining the three previous equations, the correlation between the $\kappa$ ratios can be put now in terms of known quantities,
+%
+\begin{equation}
+\label{eq:theCorrKappas}
+2\frac{\sigma(\kappa_d/\kappa_s)\sigma(\kappa_\phi/\kappa_s)}
+{(\kappa_d/\kappa_s)(\kappa_\phi/\kappa_s)}
+\rho_{\left(\frac{\kappa_d}{\kappa_s},\frac{\kappa_\phi}{\kappa_s}\right)}
+= \frac{\sigma(\kappa_s)^2}{\kappa_s^2} - \frac{\sigma(\kappa_d)^2}{\kappa_d^2} +
+\frac{\sigma^2(\kappa_d/\kappa_s)}{(\kappa_d/\kappa_s)^2}.
+\end{equation}
+\end{enumerate}
+%
+Taking into account both sources of correlation, the correlation coefficient between $X_d$ and $X_\phi$ can be obtained from the following relation\footnote{If two measurements of the same observable are obtained through the expresions $y_1 = a_1b_1$ and $y_2 = a_2b_2$, where $a_1$ and $b_1$ are not correlated ($\rho_{a_1b_1} = 0$), $a_2$ and $b_2$ are also not correlated ($\rho_{a_2b_2} = 0$), and the only non-zero correlation coefficients are $\rho_{a_1a_2}$ and $\rho_{b_1b_2}$, then the following relation holds,
+%
+\[
+\frac{\rho_{y_1y_2}\sigma_{y_1}\sigma_{y_2}}{y_1y_2} =
+\frac{\rho_{a_1a_2}\sigma_{a_1}\sigma_{a_2}}{a_1a_2} +
+\frac{\rho_{b_1b_2}\sigma_{b_1}\sigma_{b_2}}{b_1b_2}.
+\]
+%
+},
+%
+\begin{equation}
+\frac{\sigma_{i}(X_d)\sigma_{i}(X_\phi)}{X_{d}X_{\phi}}\rho_i =
+\frac{\sigma_i(\kappa_d/\kappa_s)\sigma_i(\kappa_\phi/\kappa_s)}
+{(\kappa_d/\kappa_s)(\kappa_\phi/\kappa_s)}
+\rho_{i\left(\frac{\kappa_d}{\kappa_s},\frac{\kappa_\phi}{\kappa_s}\right)} +
+\frac{\sigma_i(\varepsilon_{ds})\sigma_i(\varepsilon_{{\phi}s})}
+{\varepsilon_{ds}\varepsilon_{{\phi}s}}.
+\end{equation}
+%
+Replacing the first term of the right hand side with \eqref{eq:theCorrKappas}, a final expression for $\rho_i\sigma_{i}(X_d)\sigma_{i}(X_\phi)$ can be obtained,
+%
+\begin{equation}
+\rho_i\sigma_{i}(X_d)\sigma_{i}(X_\phi) =
+\frac{X_{d}X_{\phi}}{2}\Bigg[{\frac{\sigma_i^2(\kappa_s)}{\kappa_s^2} -
+\frac{\sigma_i^2(\kappa_d)}{\kappa_d^2} +
+\frac{\sigma_i^2(\kappa_d/\kappa_s)}{(\kappa_d/\kappa_s)^2} +
+2\frac{\sigma_i(\varepsilon_{ds})\sigma_i(\varepsilon_{{\phi}s})}
+{\varepsilon_{ds}\varepsilon_{{\phi}s}}}\Bigg]
+\end{equation}
+where i = stat, syst, or if the purpose is to calculate \eqref{eq:theWeight}, i = total. Finally, the difference in production rates for the \Bu{}\Bub and \Bd{}\Bdb pairs at the $\Upsilon(4S)$ resonance is also taken into account as an uncorrelated factor.
+%
+
+The values obtained for \eqref{eq:weightedB}, \eqref{eq:theSigmaWeightedB} and \eqref{eq:theWeight} are, respectively (using as input the values presented in \secref{subsec:BsJpsiKst-branching_fraction}):
+%
+\begin{eqnarray}
+\BRof\BsJpsiKst &=& 4.13745577504 \times 10^{-5}, \\
+%\end{equation}
+%\begin{equation}
+\sigma_{stat}(\BRof\BsJpsiKst) &=& 1.77056679811 \times 10^{-6}, \\
+%\end{equation}
+%\begin{equation}
+\sigma_{syst}(\BRof\BsJpsiKst) &=& 2.54663301208 \times 10^{-6}, \\
+%\end{equation}
+%\begin{equation}
+w &=& 0.27972545803,
+\end{eqnarray}
+%
+where the sources of statistical uncertainty are the yields and the $\kappa$ ratios (which also have a systematic contribution). An additional uncertainty due to $\frac{fd}{fs}$, which can be directly calculated as $\BRof\BsJpsiKst\times\frac{\sigma(f_d/f_s)}{f_d/f_s}$ since it is contained in the common factor $\alpha$, is
+%
+\begin{equation}
+\sigma_{\frac{fd}{fs}}(\BRof\BsJpsiKst) = 2.39620990832 \times 10^{-6}.
+\end{equation}
+All these numbers leads to a final expression \eqref{eq:finalBR},
+\begin{equation}
+%\BR{\BsJpsiKst} = (4.13 \pm 0.16 \text{(stat)} \pm  0.25 \text{(syst)} \pm 0.24 (\fdfs))\times 10^{-5}
+\BR{\BsJpsiKst} = (4.14 \pm 0.18 \text{(stat)} \pm  0.26 \text{(syst)} \pm 0.24 (\fdfs))\times 10^{-5}.
+\end{equation}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Efficiencies obtained in simulation}\label{app:BsJpsiKst_branching_eff}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Two contributions are evaluated to get the global efficiency:
+%
+\begin{itemize}
+\item{} $\varepsilon_{\rm offline}$ is the efficiency of the offline reconstruction cuts, including final selection cuts described in \secref{subsec:BsJpsiKst-selection} for the normalisation to the \BdJpsiKst channel, and those in \tabref{tab:Bs2JpsiPhiSelection} for the normalisation to the \BsJpsiPhi mode. Efficiencies of particle identification cuts are corrected using the PIDCalib package, where a systematic due to the choice of a certain binning scheme for the PID calibration samples is taken into account.
+%
+\item{} $\varepsilon_{\rm TRIG/SEL}$ is the efficiency of the trigger for events that would be offline selected by final selection cuts. As stated in \secref{subsubsec:BsJpsiKst-selection-cuts}, this analysis is not restricted to any particular trigger line, i.e. an event should just pass at least one of the LHCb trigger lines. 
+\end{itemize}
+%
+Both efficiencies are computed separately for both magnet polarities to check for possible differences. A global efficiency, $\varepsilon_{\rm TOT/GEN}$, is computed from these two contributions. These values are shown in \tabref{tab:normBdPhi}. The value of $\varepsilon_{\rm offline}$ in \BsJphi simulated data is roughly two times bigger than the corresponding value of the same efficiency in \BsJpsiKst simulated data. The largest source of difference lies in the combined event reconstruction and final selection cuts (including MC-{\it truth}) efficiency. In addition, a minor source of difference between the \BsJpsiKst and \BsJphi efficiencies is coming from the cuts on particle identification variables of daughter hadrons. 
+%
+\begin{table}[h]
+\begin{center}
+\caption{Efficiencies calculated from simulation.}
+\begin{tabular}{r|c|c|c|c|c}
+\label{tab:normBdPhi}
+{} & Polarity & Year & $\varepsilon_{\rm offline}$ (\%) & $\varepsilon_{\rm TRIG/SEL}$ (\%) & $\varepsilon_{\rm TOT/GEN}$ (\%) \\ \hline
+\BdJpsiKst & down & 2011 & 4.065 $\pm$ 0.045 & 85.64 $\pm$ 0.22 & 3.481 $\pm$ 0.039\\
+ & up & 2011 & 4.021 $\pm$ 0.048 & 85.59 $\pm$ 0.22  & 3.441 $\pm$ 0.042 \\
+ & down & 2012 & 3.762 $\pm$ 0.041 & 84.16 $\pm$ 0.25 & 3.166 $\pm$ 0.035 \\
+ & up & 2012 & 3.708 $\pm$ 0.042 & 83.92 $\pm$ 0.25 & 3.112 $\pm$ 0.036 \\ \hline
+\BsJpsiPhi & down & 2011 & 8.239 $\pm$ 0.096 & 84.659 $\pm$ 0.075 & 6.975 $\pm$ 0.081 \\
+{} & up & 2011 & 8.154 $\pm$ 0.096 & 84.624 $\pm$ 0.075 & 6.900 $\pm$ 0.081 \\
+{} & down & 2012 & 7.631 $\pm$ 0.097 & 83.337 $\pm$ 0.081 & 6.360 $\pm$ 0.081 \\
+{} & up & 2012 & 7.538 $\pm$ 0.096 & 83.490 $\pm$ 0.082 & 6.294 $\pm$ 0.081 \\ \hline
+\BsJpsiKst & down & 2011 & 4.369 $\pm$ 0.051 & 85.32 $\pm$ 0.30 & 3.728 $\pm$ 0.045 \\
+ & up & 2011 & 4.367 $\pm$ 0.059 & 85.49 $\pm$ 0.30 & 3.733 $\pm$ 0.052 \\
+ & down & 2012 & 4.075 $\pm$ 0.052 & 83.96 $\pm$ 0.33 & 3.421 $\pm$ 0.046 \\
+ & up & 2012 & 3.951 $\pm$ 0.056 & 84.09 $\pm$ 0.32 & 3.323 $\pm$ 0.049 \\
+\end{tabular}
+\end{center}
+\end{table}
+%
+The ratio of final efficiencies in simulation, $\varepsilon_{\rm TOT}$, is, for 2011 (2012)  conditions:
+%
+\begin{equation}
+\frac{\varepsilon^{\BdJKst}_{\rm TOT}}{\varepsilon^{\BsJKst}_{\rm TOT}} = 0.929 \pm 0.012~(0.927 \pm 0.012),%0.9242 \pm 0.0083
+\end{equation}
+%
+\begin{equation}
+\frac{\varepsilon^{\BsJphi}_{\rm TOT}}{\varepsilon^{\BsJKst}_{\rm TOT}} = 1.991 \pm 0.025~(1.986 \pm 0.027),%1.96 \pm 0.19
+\end{equation}
+%
+where $\varepsilon_{\rm TOT}$ is obtained after data from both magnet polarities is multiplied by each MC generator efficiency $\varepsilon_{\rm GEN}$ and averaged taking into account the percentage of each polarity contained in the total sample: 61.01 $\pm$ 0.04 \% of magnet down and (38.99 $\pm$ 0.04)\% of magnet up for 2011 conditions, and (49.68 $\pm$ 0.02)\% of magnet down and (50.32 $\pm$ 0.02)\% of magnet up for 2012 conditions. These averaged efficiencies are shown in \tabref{tab:normBdPhi2}.
+%
+\begin{table}[h]
+\begin{center}
+\caption{Averaged global efficiencies computed from \tabref{tab:normBdPhi}.}
+\label{tab:normBdPhi2}
+\begin{tabular}{r|c|c|c}
+{}         & Year & $\varepsilon_{\rm GEN}$ (\%) & $\varepsilon_{\rm TOT}$ (\%) \\\hline
+\BdJpsiKst & 2011 & 15.82 $\pm$ 0.16 & 0.5482 $\pm$ 0.0046 \\
+{}         & 2012 & 16.10 $\pm$ 0.16 & 0.5052 $\pm$ 0.0040 \\ \hline
+\BsJpsiPhi & 2011 & 16.91 $\pm$ 0.17 & 1.1742 $\pm$ 0.0099 \\
+{}         & 2012 & 17.11 $\pm$ 0.17 & 1.0823 $\pm$ 0.0098 \\ \hline
+\BsJpsiKst & 2011 & 15.81 $\pm$ 0.16 & 0.5898 $\pm$ 0.0054 \\
+{}         & 2012 & 16.17 $\pm$ 0.16 & 0.5451 $\pm$ 0.0054 \\
+\end{tabular}
+\end{center}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,137 @@
+\ifx\mcitethebibliography\mciteundefinedmacro
+\PackageError{LHCb.bst}{mciteplus.sty has not been loaded}
+{This bibstyle requires the use of the mciteplus package.}\fi
+\providecommand{\href}[2]{#2}
+\begin{mcitethebibliography}{10}
+\mciteSetBstSublistMode{n}
+\mciteSetBstMaxWidthForm{subitem}{\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem{Bauer:2009cf}
+M.~Bauer, S.~Casagrande, U.~Haisch, and M.~Neubert,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Flavor Physics in the
+  Randall-Sundrum Model: II. Tree-Level Weak-Interaction Processes}},
+  }{}\href{http://dx.doi.org/10.1007/JHEP09(2010)017}{JHEP \textbf{09} (2010)
+  017}, \href{http://arxiv.org/abs/0912.1625}{{\normalfont\ttfamily
+  arXiv:0912.1625}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{NA48}
+NA48/1, J.~R. Batley {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Observation of the rare decay
+  $K_{S} \to \pi^0 \mu^+ \mu^-$}},
+  }{}\href{http://dx.doi.org/10.1016/j.physletb.2004.08.058}{Phys.\ Lett.\
+  \textbf{B599} (2004) 197},
+  \href{http://arxiv.org/abs/hep-ex/0409011}{{\normalfont\ttfamily
+  arXiv:hep-ex/0409011}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCbDet}
+T.~L. Collaboration, \ifthenelse{\boolean{articletitles}}{\emph{{The LHCb
+  Detector at the LHC}}, }{}Journal of Instrumentation \textbf{3} (2008),
+  no.~08 S08005\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Ksmm}
+LHCb, R.~Aaij {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{Search
+  for the rare decay $K_S \to \mu^+ \mu^-$}},
+  }{}\href{http://dx.doi.org/10.1007/JHEP01(2013)090}{JHEP \textbf{01} (2013)
+  090}, \href{http://arxiv.org/abs/1209.4029}{{\normalfont\ttfamily
+  arXiv:1209.4029}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Gino}
+G.~D'Ambrosio, G.~Ecker, G.~Isidori, and J.~Portoles,
+  \ifthenelse{\boolean{articletitles}}{\emph{{The Decays $K \to \pi l^+ l^-$
+  beyond leading order in the chiral expansion}},
+  }{}\href{http://dx.doi.org/10.1088/1126-6708/1998/08/004}{JHEP \textbf{08}
+  (1998) 004}, \href{http://arxiv.org/abs/hep-ph/9808289}{{\normalfont\ttfamily
+  arXiv:hep-ph/9808289}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{TISTOS}
+E.~L.~A. {\it et al},
+  \ifthenelse{\boolean{articletitles}}{\emph{\href{https://cds.cern.ch/record/1152284/files/LHCb-2008-073.pdf}{Measurement
+  of trigger efficiencies and biases}}, }{}LHCb public note CERN-LHCB-2008-073
+  (2008)\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Armenteros}
+R.~Armenteros and J.~Podolanski,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Analysis of V-events}},
+  }{}\href{http://dx.doi.org/10.1080/14786440108520416}{Phil.\ Mag.\
+  \textbf{45} (1954) 13}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{PDG}
+Particle Data Group, K.~A. Olive {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{\href{http://pdg.lbl.gov/}{Review
+  of particle physics}}},
+  }{}\href{http://dx.doi.org/10.1088/1674-1137/38/9/090001}{Chin.\ Phys.\
+  \textbf{C38} (2014) 090001}, {and 2015 update}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Ipatia}
+D.~Mart\'inez~Santos and F.~Dupertuis,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Mass distributions marginalized
+  over per-event errors}},
+  }{}\href{http://dx.doi.org/10.1016/j.nima.2014.06.081}{Nucl.\ Instrum.\
+  Meth.\  \textbf{A764} (2014) 150},
+  \href{http://arxiv.org/abs/1312.5000}{{\normalfont\ttfamily
+  arXiv:1312.5000}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{condDB}
+\url{https://twiki.cern.ch/twiki/bin/view/LHCb/CondDBHowTo}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{dddb}
+\url{https://lhcb-comp.web.cern.ch/lhcb-comp/Frameworks/DetDesc/default}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{brunel}
+\url{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/brunel/}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{DaVinci}
+\url{https://twiki.cern.ch/twiki/bin/view/LHCb/DaVinci}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{KsmmANA}
+M.-O. Bettler, X.~Cid~Vidal, and D.~Mart\'inez~Santos,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Search for $\KS \to \mumu$ in
+  LHCb}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=LHCb-ANA-2011-101&f=reportnumber&action_search=Search&c=LHCb+Analysis+Notes}
+  {LHCb-ANA-2011-101}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

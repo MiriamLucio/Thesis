@@ -1,0 +1,17 @@
+\chapter{Introduction}
+\label{sec:introduction}
+\textcolor{blue}{SM, SuperSymmetry, Flavour Violation}\\
+\textcolor{blue}{
+\begin{enumerate}
+\item Introduction (definition,groups). 
+\item Higgs mechanism. 
+\item Fermions. 
+\item Bosons. 
+\item Need for NP.
+\end{enumerate}}
+The Standard Model (hereafter SM) of Particle Physics, mainly formulated in the \textcolor{red}{1970s}, is the quantum field theory that describes the strong and weak interactions. In Group Theory, it is represented by:
+\begin{equation}
+SU(3)_C\bigotimes SU(2)_T \bigotimes U(1)_Y
+\end{equation}
+
+Where the strong interaction lies in the SU(3)

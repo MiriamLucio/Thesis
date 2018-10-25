@@ -1,0 +1,97 @@
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Mass model studies and mass fit results}\label{app:BsJpsiKst_massfit}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Accuracy studies of the mass model}\label{app:BsJpsiKst_massfit_acc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In order to see the accuracy of the mass model in the region of interest, the model prediction fraction of \BdJpsiKst that leak into the $\pm 40 \mevcc$ around \Bs is compared to that obtained in simulation (both with and without MC-{\it truth}). The values obtained are summarized in \tabref{tabIpatia}. A systematic is added according to this effect. 
+%
+\begin{table}[h]
+  \centerline{
+    \begin{tabular}{r|c|c|c}
+      {} & Free $a_2$ & $a_2 = \infty$ & Current value \\\hline
+      MC-{\it truth} requirement & $2.55\pm0.57$ & $2.55\pm0.57$ &  $3.24\pm0.20$\\
+      No matching requirement & $5.74\pm0.80$ & $3.35\pm0.12$ & $5.48\pm0.25$ \\
+    \end{tabular}}
+  \caption{Fit predictions in simulation for the fraction of \BdJpsiKst events that leak into the $\pm40\mevcc$ window around the \Bs, compared to the actual fraction found in MC. The estimates are made for $a_2$ free, and for $a_2$ set to infinity. The two approaches coincide for the MC-{\it truth} sample because $a_2$ fits to $>14\sigma$.}
+ \label{tabIpatia}
+\end{table}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Non-resolution effects modelled by the Hypatia distribution}\label{app:BsJpsiKst_massfit_mvt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.4\textwidth]{figs/BsJpsiKst/mass_vs_edvpi.pdf}
+\includegraphics[width=0.4\textwidth]{figs/BsJpsiKst/mass_vs_edvpi_2.pdf}
+\includegraphics[width=0.4\textwidth]{figs/BsJpsiKst/mass_vs_edvk.pdf}
+\includegraphics[width=0.4\textwidth]{figs/BsJpsiKst/mass_vs_edvk_2.pdf}
+\caption{Average difference between measured $M(\Jpsi{K\pi})$ and true mass, $\Delta{\rm m}$, as a function of the pion (top) and kaon (middle) decay vertex $z$ position. Simulated samples where MC-{\it truth} required over kaons and pions when needed, are used. The plots on the left show large dispersion for decay vertices in the range 2.5 to 7 meters. The plots on the right show a zoom in the region of moderate $\Delta{\rm M}$, where a slow linear decrease of $\Delta{\rm M}$ as a function of the $z$ position can be seen. The Hypatia distribution does not model those effects from first principles, but only with a phenomenological parameterisation.}
+\label{fig:mass_vs_time_flight}
+\end{center}
+\end{figure}
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.4\textwidth]{figs/BsJpsiKst/kaon_end_V.pdf}
+\includegraphics[width=0.4\textwidth]{figs/BsJpsiKst/pion_end_V.pdf}
+\caption{Distribution of the end vertex position for MC-{\it truth} kaons and pions.}
+\label{fig:mass_vs_time_flight_endvPos}
+\end{center}
+\end{figure}
+%
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Simultaneous fit with shared common values}\label{app:massFitSimultaneous}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+A simultaneous fit where the mean and sigma of the \Bs and \Bd Hypatia functions were shared over the 20 categories is performed. From this simultaneous fit, the following numbers  
+\begin{eqnarray}
+N_{\Bd} &= 208601 \pm 462 \, ,\\
+N_{\Bs} &= \phantom{00} 1786 \pm 48 \, ,
+\end{eqnarray}
+are obtained, where the number of \Bs and \Bd events correspond to the sum over the 20 bins. Here the uncertainties are statistical only. By further calculating the ratio, the value
+\begin{equation}
+\frac{N_{\Bs}}{N_{\Bd}} = ( 8.56 \pm 0.23 )\times 10^{-3}\, .
+\end{equation}
+is obtained. Then, comparing these results to the ones obtained in the nominal configuration of 20 independent fits (see \secref{subsubsec:BsJpsiKst-mass_fit-results}), a difference can be computed, $\delta$, between the nominal values and the ones from the simultaneous fit, such as 
+\begin{align}
+\delta N_{\Bd} &= 43 \, ,\\
+\delta N_{\Bs} &= 13 \, ,\\
+\delta \left(\frac{N_{B^0_s}}{N_{B^0_d}}\right) &=0.06 \times 10^{-3} \, ,
+\end{align}
+where the latter corresponds to a shift of $\sim25\%$ of the statistical uncertainty on $N_{\Bs}/N_{\Bd}$. 
+%
+
+Using the set of \sweights computed from the simultaneous fit, also the angular fit results can be compared. \tabref{tab:simulAngles} gives the comparison of the corresponding results. 
+%
+
+Since constraining the mean and sigma of the \Bs and \Bd Hypatia functions would require to estimate an associated systematic uncertainty, and due to the fact that the gain on the statistical uncertainties is null or negligible with compatible central values, the 20 independent fit is kept as the nominal mass fit model. In addition, due to the higher momentum of the kaon and pion final state particles for higher values of the \mkpi bin, one can expect the mean and sigma of the \Bs and \Bd to slightly increase as a function of the \mkpi bin. 
+%
+
+\begin{table}[htbp]
+\begin{center}
+\caption[]{\label{tab:simulAngles} Comparison between the angular fit results obtained after applying \sweights either computed from the nominal 20 independent fits, or using a simultaneous fit with the mean and sigma of the \Bs and \Bd Hypatia functions shared over the 20 bins. Here the $A_{\CP}$ values are blinded with the same blinding string in both fits.}
+\vspace{5pt}
+\begin{tabular}{c|c|c|c|c}  
+Parameter & Nominal value & Simultaneous & $\delta$ & $\delta/\sigma$  \\
+\hline  
+\ACPL & $ \phantom{-} 0.175 ^{+ 0.062 }_{- 0.062 }$ & $ \phantom{-} 0.155 ^{+ 0.064 }_{- 0.064 }$ &$ \phantom{-} 0.021 $&$ \phantom{-} 0.321 $ \\
+\ACPS & $ -0.269 ^{+ 0.090 }_{- 0.086 }$ & $ -0.271 ^{+ 0.089 }_{- 0.088 }$ &$ \phantom{-} 0.002 $&$ \phantom{-} 0.021 $ \\
+\ACPpa & $ -0.445 ^{+ 0.159 }_{- 0.155 }$ & $ -0.375 ^{+ 0.155 }_{- 0.155 }$ &$ -0.070 $&$ -0.451 $ \\
+\ACPpe & $ \phantom{-} 0.075 ^{+ 0.099 }_{- 0.098 }$ & $ \phantom{-} 0.069 ^{+ 0.100 }_{- 0.100 }$ &$ \phantom{-} 0.007 $&$ \phantom{-} 0.067 $ \\
+\AsBinZero & $ \phantom{-} 0.526 ^{+ 0.084 }_{- 0.092 }$ & $ \phantom{-} 0.507 ^{+ 0.092 }_{- 0.095 }$ &$ \phantom{-} 0.018 $&$ \phantom{-} 0.198 $ \\
+\AsBinOne  & $ \phantom{-} 0.103 ^{+ 0.033 }_{- 0.027 }$ & $ \phantom{-} 0.115 ^{+ 0.033 }_{- 0.030 }$ &$ -0.012 $&$ -0.363 $ \\
+\AsBinTwo  & $ \phantom{-} 0.064 ^{+ 0.052 }_{- 0.035 }$ & $ \phantom{-} 0.063 ^{+ 0.043 }_{- 0.035 }$ &$ \phantom{-} 0.001 $&$ \phantom{-} 0.014 $ \\
+\AsBinThree & $ \phantom{-} 0.698 ^{+ 0.064 }_{- 0.074 }$ & $ \phantom{-} 0.693 ^{+ 0.071 }_{- 0.077 }$ &$ \phantom{-} 0.005 $&$ \phantom{-} 0.061 $ \\
+$\delta_{\parallel}$ & $ -2.585 ^{+ 0.175 }_{- 0.181 }$ & $ -2.633 ^{+ 0.169 }_{- 0.171 }$ &$ \phantom{-} 0.048 $&$ \phantom{-} 0.279 $ \\
+$\delta_{\perp}$ & $ -0.081 ^{+ 0.115 }_{- 0.116 }$ & $ -0.079 ^{+ 0.116 }_{- 0.118 }$ &$ -0.002 $&$ -0.017 $ \\
+\dsBinZero & $ \phantom{-} 0.296 ^{+ 0.147 }_{- 0.149 }$ & $ \phantom{-} 0.334 ^{+ 0.153 }_{- 0.155 }$ &$ -0.038 $&$ -0.245 $ \\
+\dsBinOne  & $ -0.495 ^{+ 0.214 }_{- 0.187 }$ & $ -0.602 ^{+ 0.178 }_{- 0.166 }$ &$ \phantom{-} 0.107 $&$ \phantom{-} 0.621 $ \\
+\dsBinTwo  & $ -2.083 ^{+ 0.216 }_{- 0.338 }$ & $ -2.088 ^{+ 0.259 }_{- 0.339 }$ &$ \phantom{-} 0.005 $&$ \phantom{-} 0.016 $ \\
+\dsBinThree & $ -2.319 ^{+ 0.156 }_{- 0.169 }$ & $ -2.318 ^{+ 0.163 }_{- 0.172 }$ &$ -0.001 $&$ -0.004 $ \\
+$f_{0}$ & $ \phantom{-} 0.484 ^{+ 0.026 }_{- 0.026 }$ & $ \phantom{-} 0.473 ^{+ 0.026 }_{- 0.027 }$ &$ \phantom{-} 0.011 $&$ \phantom{-} 0.400 $ \\
+$f_{\parallel}$ & $ \phantom{-} 0.181 ^{+ 0.029 }_{- 0.028 }$ & $ \phantom{-} 0.191 ^{+ 0.029 }_{- 0.029 }$ &$ -0.010 $&$ -0.351 $ \\
+\end{tabular}
+\vspace{-20pt}
+\end{center}
+\end{table}

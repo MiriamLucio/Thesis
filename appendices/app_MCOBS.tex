@@ -1,0 +1,204 @@
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{\texttt{MasterCode} observables}\label{app:MCOBS}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Mass Spectrum}
+The electroweak symmetry breaking of the MSSM leads to 4 physical Higgs particles: a \textit{CP}-odd scalar (A), two \textit{CP}-even neutral scalars ($h^0$ and $H^0$) and two charged scalars ($H^{\pm}$), with masses given by 
+\begin{equation}
+\begin{split}
+& M_A^2 = |\mu|^2 + m_{H_u}^2 + m_{H_d}^2 \\
+& M_{h^0,H^0}^2 = \frac{1}{2}\left [ M_A^2 + M_Z^2 \mp \sqrt{(M_A^2 + M_Z^2)^2 - 4M_Z^2M_A^2\cos{2\beta}^2} \right ] \\
+& M_{H^{\pm}}^2 = M_A^2 + M_W^2 \\
+\end{split}
+\end{equation}
+
+As for the neutralinos, its mass matrix is given by
+\begin{equation}
+\mathbf{Y} = \left( \begin{matrix}
+M_1 & 0 & -c_{\beta}s_WM_Z & s_{\beta}s_WM_Z \\ 
+0 & M_2 & c_{\beta}c_WM_Z & -s_{\beta}c_WM_Z \\
+-c_{\beta}s_WM_Z & c_{\beta}c_WM_Z & 0 & -\mu \\ 
+s_{\beta}s_WM_Z & -s_{\beta}c_WM_Z & -\mu & 0 \\
+\end{matrix}\right)
+\label{eq:Mneutralino}
+\end{equation}
+where $s_{\beta} = \sin{\beta}$, $c_{\beta} = \cos{\beta}$, $c_W = \cos{W}$, $s_W = \sin{W}$. The four neutralino masses are obtained diagonalising \ref{eq:Mneutralino}, $\mathbf{NYN^{-1}} = \rm diag(m_{\tilde{\chi}_1^0},m_{\tilde{\chi}_2^0},m_{\tilde{\chi}_3^0},
+m_{\tilde{\chi}_4^0})$, where $m_{\tilde{\chi}_1^0}<m_{\tilde{\chi}_2^0}<m_{\tilde{\chi}_3^0}<m_{\tilde{\chi}_4^0}$.
+
+In the case of the charginos, its mass matrix is:
+\begin{equation}
+\mathbf{X} = \left( \begin{matrix}
+M_2 &  \sqrt{2}s_{\beta}M_W\\ 
+\sqrt{2}c_{\beta}M_W & \mu \\
+\end{matrix}\right)
+\label{eq:Mchargino}
+\end{equation}
+It is diagonalised by two unitary matrices, $\mathbf{U}$, $\mathbf{V}$ as $\mathbf{U^*XV^{-1}} = \rm diag(m_{\tilde{\chi}_1^{\pm}},m_{\tilde{\chi}_2^{\pm}})$, where
+\begin{equation}
+m_{\tilde{\chi}_1^{\pm}}^2,m_{\tilde{\chi}_2^{\pm}}^2 = \frac{1}{2}\left \{ |M_2|^2 + |\mu|^2 + M_W^2 \mp \sqrt{(|M_2|^2 + |\mu|^2 + 2M_W^2)^2 -4|\mu M_2 - M_W \sin{2\beta}|^2} \right \}
+\end{equation}
+
+For the sfermion, the mass terms are given in the MSSM Lagrangian by\red{https://arxiv.org/pdf/hep-ph/0604147.pdf}:
+\begin{equation}
+\mathcal{L} = -\frac{1}{2}(\tilde{f}^\dagger_L,\tilde{f}^\dagger_R) \left( \begin{matrix}
+M_L^2 + m_f^2 &  m_fX_f^*\\ 
+m_fX_f & M_R^2 + m_f^2 \\
+\end{matrix}\right) 
+\left( \begin{matrix}
+\tilde{f}_L\\ 
+\tilde{f}_R \\
+\end{matrix}\right) 
+\end{equation}
+where 
+\begin{equation}
+\begin{split}
+& M_L^2 = M_{\tilde{F}}^2 + M_Z^2\cos{2\beta}(I_3^f - Q_fs_W^2), \\
+& M_R^2 = M_{\tilde{F}'}^2 + M_Z^2\cos{2\beta}Q_fs_W^2, \\
+& X_f = A_f - \mu*{\cot{\beta}, \tan{\beta}}
+\end{split}
+\end{equation}
+$\cot{\beta}$ and $I_3^f = \frac{1}{2}$ ($\tan{\beta}$ and $I_3^f = -\frac{1}{2}$) correspond to up-type squarks (down-type squarks and sleptons) and $M_{\tilde{F},\tilde{F}'}$ denote the left-handed and right-handed soft SUSY breaking mass parameters respecitvely, and $Q_f$ is the electromagnetic charge. The sfermion mass eigenstate can be obtained with  unitary matrix, $\mathbf{U_{\tilde{f}}}$, giving the eigenvalues:
+\begin{equation}
+m_{\tilde{f}_{1,2}}^2 = m_f^2 + \frac{1}{2}\left [ (M_L^2 - M_R^2)^2 + 4m_f^2|X_f|^2 \right ]
+\end{equation}
+\red{sneutrino masses?}
+
+\section{Dark Matter Relic Density}
+%% relic density: what is it 
+%% neutralinos as DM
+%% DM mechanisms instead of coannihilation mechanisms 
+The cosmological dark matter density  is one of two most important dark matter constraints. Its value is measured by Planck to be $\Omega_{\rm CDM}h^2 = 0.1186 \pm 0.0020_{\rm EXP} \pm 0.0024_{\rm TH}$ \red{ref}, where $h$ is he reduced Hubble constant.%, and $\Omega$ the ratio of the density to the "critical density" (at which the Universe is flat)
+Assuming the neutralino to be the supersymmetric DM candidate and the only responsible for the DM relic density, different (co)annihilation mechanisms are suggested to bring the obtained density into the observed range. Some of these mechanisms (hereafter, DM mechanisms) are: 
+\begin{enumerate}
+\item Bulk region: in the case where the neutralino is \red{mostly Bino-like} and at least one of the sfermions is not too heavy, the neutralino annihilates to a pair of SM particles (e.g., a pair of fermions) via t-channel exchange of a sfermion. \red{plot?}
+\item Sfermion coannihilation: it takes place when sfermions have nearly degenerate masses and the LSP is mostly \red{Bino-like}. The condition for stau and stop coannihilation ($\tilde{f}$) is:
+\begin{equation}
+\left( \frac{m_{\tilde{f}}}{m_{\tilde{\chi}^0_1}} - 1 \right) < 0.15
+\end{equation}
+\item $A/H$, $h$ and $Z$ Funnels: in this mechanism, the neutralino is \red{mostly Bino-like} and $\left | \frac{M_{A,H,h}}{m_{\tilde{\chi}_1^0}} - 2 \right | < 0.1$
+\item \textit{Hybrid} regions: where more than one of the aforementioned DM mechanism dominate. \red{more?}
+\item Chargino coannihilation: fulfilled when the lightest chargino and neutralino are nearly degenerate: $\left ( \frac{m_{\tilde{\chi}_1^{\pm}}}{m_{\tilde{\chi}_1^0}} - 2 \right ) < 0.25$, being the LSP either Higgsino-like (with very heavy neutralinos) or Bino-like. 
+\item Focus-point region: fulfilled when the LSP has an enhanced Higgsino component as a result of a near-degeneracy in the neutralino mass matrix, $\left( \frac{\mu}{m_{\tilde{\chi}_1^0}} - 1 < 0.3 \right)$
+\item \red{Your model here}
+\end{enumerate}
+
+\section{Neutralino Scattering off Nuclei}
+One of the most powerful ways in which to search for DM is to look for its scattering on nuclei in low-background underground experiments \red{ref}, both in direct (\red{XENON1T, LUX, PandaX-II ...}) and indirect (\red{IceCube, PICO}) dark matter detection experiments, that include searches for \red{$\gamma$-rays, neutrinos, positrons or antiprotons} from DM annihilations near the Galactic Center, Galactic Halo and in dwarf galaxies, and for highly energetic neutrinos produced by the annihilations of DM particles inside the Sun \red{ref} or Earth \red{ref}. In both cases, the signals are proportional to the local density of dark matter and the $\chi$-nucleon cross-section. %% The rates for elastic scattering also control the rates for the capture of dark matter particles by celestial bodie such as the Sun or Earth ; indirect DM detection experiments; 
+Within MSSM, four observables can contribute to this scattering: the spin-independent and dependent cross sections of neutralinos on protons and nucleons. 
+These contributions appear in non velocity dependent part of the MSSM Lagrangian that addresses the $\chi$-nucleon scattering:
+\begin{equation}
+\mathcal{L} = \alpha_{2i}\bar{\chi}\gamma^{\mu}\gamma^5\bar{q}_i\gamma_{\mu}\gamma^5q_i + \alpha_{3i}\bar{\chi}\chi\bar{q}_iq_i
+\end{equation}
+where the coefficients sum over the quark generations, denoting $i$ up-type ($i=1$) and down-type ($i=2$) quarks. The first term is spin-dependent, while the second part is spin-dependent. The cross-sections for these two parts are obtained from $\alpha_{3i}$ and $\alpha_{2i}$, respectively.  
+
+\subsection{Spin-Independent Term}
+The scalar or spin-independent (SI) part of the cross-section can be written in the zero-momentum-transfer limit as
+\begin{equation}
+\sigma_{\rm SI} = \frac{4m_r^2}{\pi}[Zf_p + (A-Z)f_n]^2
+\label{eq:SSI}
+\end{equation}
+where $m_r$ is the $\chi$-nuclear reduced mass, Z the atomic number, A the atomic weight, and for $N = n$ or $p$
+\begin{equation}
+\frac{f_N}{m_N} = \sum_{q=u,d,s} f_{T_q}^{(N)} \frac{\alpha_{3q}}{m_q} + \frac{2}{27}f_{TG}^{(N)}\sum_{q=c,b,t}\frac{\alpha_{3q}}{m_q}
+\end{equation}
+and 
+\begin{equation}
+m_Nf_{T_q}^{(N)} \equiv \left \langle N|m_q\bar{q}q \right \rangle \equiv m_q B_q^{(N)}, \ f_{TG}^{(N)} = 1 - \sum_{q=u,d,s}f_{T_q}^{(N)}
+\end{equation}
+The $\pi$-nucleon sigma term, $\Sigma_{\pi n}$, may be written as 
+\begin{equation}
+\Sigma_{\pi n} \equiv \frac{1}{2}(m_u + m_d)\times(B_u^{(N)}+B_d^{(N)})
+\end{equation}
+It is related to the strange scalar density in the nucleon, $y$, by
+\begin{equation}
+y = 1 - \sigma_0/\Sigma_{\pi N}
+\end{equation}
+
+\subsection{Spin-Dependent Term}
+The scalar or spin-dependent (SD) part of the cross-section can be written in the zero-momentum-transfer limit as
+\begin{equation}
+\sigma_{\rm SD} = \frac{32}{\pi}G_F^2m_r^2\Lambda^2J(J+1)
+\label{eq:SSD}
+\end{equation}
+where $J$ is the spin of the nucleus and 
+\begin{equation}
+\Lambda \equiv \frac{1}{J}(a_p\left \langle S_p \right \rangle + a_n\left \langle S_n \right \rangle)
+\end{equation}
+and
+\begin{equation}
+a_p = \sum_q \frac{\alpha_{2q}}{\sqrt{2}G_f}\Delta_q^{(p)},\ a_n = \sum_i \frac{\alpha_{2q}}{\sqrt{2}G_f}\Delta_q^{(n)}
+\end{equation}
+\begin{textcolor}{blue}{The factors $\Delta_q^{(N)}$ parametrize the quark spin contennt of the nucleon and are only significant for the light (u,d,s) quarks.}\end{textcolor}
+
+The biggest uncertainty in spin-independent scattering is due to the poor knowledge of the $\left \langle N|q\bar{q}|N \right \rangle$ matrix elements linked to the $\pi$-nucleon $\sigma$ term, $\Sigma_{\pi N}$, followed by uncertainties in the  SU(3) octet symmetry-breaking contribution to the nucleon mass,  $\sigma_0$. The treatment of the spin-independent nuclear scattering matrix element within \texttt{MasterCode} is performed with \texttt{SSARD}. %(or the strange-quark contribution to the nucleon spin). The treatmennt of he 
+
+Given the expressions in \ref{eq:SSI} and \ref{eq:SSD}, experiments with heavy elements such as Ge and Xe are more sensitive to $\sigma_{\rm SI}$ (proportional to $Z^2$) than to $\sigma_{\rm SD}$. The SD cross sections are on the other hand nearly independent on the quark masses \red{ref}.  %% the most significant quark mass dependence of the chin-nucleon scattering cross-sections is that on the top-quark mass 
+
+\section{Anomalous Magnetic Moment of the Muon}
+The magnetic moment for a given lepton, $l$, is related to its intrinsic spin, $\vec{S}$, through the Dirac equation:
+\begin{equation}
+\vec{M} = g_l \frac{e}{2m_l}\vec{S}
+\end{equation}
+Where $m_l$ is the lepton mass and $g_l$ is the gyromagnetic ratio. Quantum loop effects to the Dirac prediction are parameterized by the anomalous magnetic moment
+\begin{equation}
+a_l \equiv \frac{g_{l}-2}{2}
+\end{equation}
+While for the electron this quantity is the most precisely measured \red{ref} and calculated \red{ref} quantity in Nature, this is not the case for the muon. For this particle, $g_{\mu} = 2$, while
+\begin{equation}
+a_{\mu}^{\rm SM} = a_{\mu}^{\rm QED} + a_{\mu}^{\rm EW} + a_{\mu}^{\rm Had}
+\end{equation}
+where photonic and leptonic contributions are embedded inside $a_{\mu}^{\rm QED}$, $W^{\pm}, Z$ or Higgs loops are accounted for in $a_{\mu}^{\rm EW}$ and $a_{\mu}^{\rm Had}$ contain hadronic (quark and gluon) loop contributions:
+\begin{equation}
+a_{\mu}^{\rm QED} = 116584718.95(0.08)\times 10^{-11}
+\end{equation}
+where the main contribution to the uncertainty comes from the fine structure constant, $\alpha$ \red{ref}
+\begin{equation}
+a_{\mu}^{\rm EW} = a_{\mu}^{\rm EW}[\rm 1-loop] + a_{\mu}^{\rm EW}[\rm 2-loop] = 153.6(1.0)\times 10^{-11} 
+\end{equation}
+and
+\begin{equation}
+a_{\mu}^{\rm Had}[\rm LO] = 6931(33)(7)\times 10^{-11},\ a_{\mu}^{\rm Had}[\rm N(N) LO] = 19(26)\times 10^{-11}
+\end{equation}
+where the error is dominated by systematic uncertainties and perturbative QCD for Leading Order (LO), and by hadronic light-by-light uncertainty in (Next-to-)Next-Leading Order (N(N)NLO). 
+Summing all these contributions give rise to the SM prediction:
+\begin{equation}
+a_{\mu}^{\rm SM} = 116591823(1)(34)(26)\times 10^{-11}
+\end{equation}
+being the errors due to the electroeak, lowest-order hadronic and higher-order hadronic contributions, respectively. As it can be seen, the hadronic contribution to the anomalous magnetic moment dominates the uncertainty. 
+The most precise measurement of this quantity has been made studying the precession of $\mu^+$ and $\mu^-$ in a constant external magnetic field inside a confining storage ring by the E821 experiment at Brookhaven National Lab (BNL), yielding:
+\begin{equation}
+a_{\mu}^{\rm exp} = 11659209.1(5.4)(3.3)\times 10^{-10}
+\end{equation}
+where the first error is statistic and the second systematic. Therefore
+\begin{equation}
+\Delta a_{\mu} = a_{\mu}^{\rm exp} - a_{\mu}^{\rm SM} = 268(63)(43)\times 10^{-11}
+\end{equation}
+where the first error is experimental and the second theoretical. Hence, there is a 3.5$\sigma$ discrepancy between the experimental and SM results. 
+Possible explanations for such difference arise in a Supersymmetric scenario, where there is an additional contribution:
+\begin{equation}
+a_{\mu}^{\rm SUSY} \simeq \pm 130\times 10^{-11} \left( \frac{100 \rm GeV}{m_{\Lambda}} \right)^2 \tan{\beta}
+\end{equation}
+An alternative scenario that can give explanation to this disagreement is that with a \textit{dark photon}, a relatively light vector boson from the dark matter sector that couples to the SM sector through mixing with the ordinary photon. \red{refs}
+
+\section{Electroweak Precision Observables}
+Electroweak precision observables (henceforth, EWPO), are known with high accuracy. Therefore, they serve as useful constraints in NP models. The EWPO that are used within the \texttt{MasterCode} framework are the following:
+\textbf{Inclusive Quantities: Cross-Sections and Partial Widths:}
+\begin{itemize}
+\item $Z$ mass, $M_Z$
+\item Total decay width, $\Gamma_Z$
+\item Hadronic pole cross-section $\sigma_{\rm had}^0 \equiv \frac{12\pi}{M_Z^2}\frac{\Gamma_{ee}\Gamma_{\rm had}}{\Gamma_Z^2}$
+\item Ratio of hadronic to leptonic decay $R_l^0 \equiv \Gamma_{\rm had}/\Gamma_{ll}$
+\item Ratio of partial decay width into $q\bar{q}$ ($q = b,c$) to the total hadronic width $R_q^0 = \Gamma_{q\bar{q}}/\Gamma_{rm had}$ 
+\end{itemize}
+\textbf{Asymmetries and Effective Fermionic Weak Mixing Angle:}
+\begin{itemize}
+\item Asymmetry parameters, $\mathcal{A}_f \equiv 2\frac{\rm Re(g_{Vf}7g_{Af})}{1 + \rm Re(g_{Vf}/g_{Af})^2}$, where $g_{Vf}$ and $g_{Af}$ are the effective vector and axial couplings
+\item Forward backward asymmetries, $A_{\rm FB}^{0,f} = \frac{3}{4}\mathcal{A}_e\mathcal{A}_f$
+\item Effective fermionic weak mixing angle, $\sin{\theta_{\rm eff}^f}^2$
+\end{itemize}
+Observables with the superscript 0 are \textit{pseudo-observables}, derived from measured quantities to facilitate the theoretical interpretation. 
+
+\section{Flavour Physics Observables}
+%% miercoles 
+Flavour Physics Observables (hereafter, FPO) are also included within the \texttt{MasterCode} framework, as their observables are also affected by NP. The $B$-meson decays $B_{s,d} \rightarrow \mu^+ \mu^-$, $B \rightarrow X_s \gamma$, $B \rightarrow \tau \nu$, $B \rightarrow X_s ll$, the $K$-mesond decays $K \rightarrow \mu\nu$, $K \rightarrow \pi \nu \bar{\nu}$, observables related to $B - \bar{B}$ mixing $\Delta M_{B_s}$, $\frac{\Delta M_{B_s}^{\rm EXP/SM}}{\Delta M_{B_d}^{\rm EXP/SM}}$ and $\Delta\epsilon_K$ are included. \red{ref}

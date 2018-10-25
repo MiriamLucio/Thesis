@@ -1,0 +1,44 @@
+\cleardoublepage
+
+\section{Additional information about BDTG training and optimisation}
+\label{app:BsJpsiKst_selection}
+Correlation matrices for BDTG discriminating variables for both signal and background samples are shown in \figref{fig:appCorr2011} under 2011 conditions, and in \figref{fig:appCorr2012} under 2012 conditions.
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figs/signal_correlations_2011.pdf}
+\includegraphics[width=0.45\textwidth]{figs/background_correlations_2011.pdf}
+\caption{Correlation matrices for BDTG discriminating variables under 2011 conditions. Left: signal sample. Right: background sample.}
+\label{fig:appCorr2011}
+\end{center}
+\end{figure}
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figs/signal_correlations_2012.pdf}
+\includegraphics[width=0.45\textwidth]{figs/background_correlations_2012.pdf}
+\caption{Correlation matrices for BDTG discriminating variables under 2012 conditions. Left: signal sample. Right: background sample.}
+\label{fig:appCorr2012}
+\end{center}
+\end{figure}
+%
+\\Invariant mass fit results at the BDTG optimal cut (0.2 for 2011 conditions, 0.12 for 2012 conditions) obtained during $F(\sweights)$ optimisation described in \secref{secStrip} are presented in \figref{fig:appMassFitFoM2011} and \figref{fig:appMassFitFoM2012} for 2011 and 2012 conditions respectively. The mass model used for this optimisation procedure consists of two Crystal-Ball (signal parametrisation) and an exponential function (background parametrisation). This fit in performed in a single $M(J/\psi K\pi)$ bin and using real data samples.
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{figs/2011_Mass_Fit.pdf}
+\caption{Invariant mass fit projection in $M(J/\psi K\pi)$ mass under 2011 conditions ($\Bs$ candidates = $658 \pm 29$, $\Bd$ candidates = $70192 \pm 282$, background events = $1555 \pm 58$).}
+\label{fig:appMassFitFoM2011}
+\end{center}
+\end{figure}
+%
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{figs/2012_Mass_Fit.pdf}
+\caption{Invariant mass fit projection in $M(J/\psi K\pi)$ mass under 2012 conditions ($\Bs$ candidates = $1469 \pm 43$, $\Bd$ candidates = $154240 \pm 417$, background events = $3629 \pm 89$).}
+\label{fig:appMassFitFoM2012}
+\end{center}
+\end{figure}
+%
+
+

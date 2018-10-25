@@ -1,0 +1,1337 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.13)  3 JUN 2018 19:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (./preamble.tex
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks16
+\MT@count=\count90
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen111
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count91
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip43
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+
+! LaTeX Error: File `lineno.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen112
+\captionmargin@=\dimen113
+\captionwidth=\dimen114
+\caption@tempdima=\dimen115
+\caption@indent=\dimen116
+\caption@parindent=\dimen117
+\caption@hangindent=\dimen118
+)
+\c@ContinuedFloat=\count92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen121
+\extrarowheight=\dimen122
+\NC@list=\toks17
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\everycr=\toks18
+\minrowclearance=\skip46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen123
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen124
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks20
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks21
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks22
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen132
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count108
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count109
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen133
+\Fld@menulength=\count110
+\Field@Width=\dimen134
+\Fld@charsize=\dimen135
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count114
+\c@bookmark@seq@number=\count115
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+) (./cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+))
+(./mciteplus.sty
+Package: mciteplus 2008/09/30 v1.1 enhanced mcite
+\@mcitetmptoksA=\toks24
+\@mcitetmpdima=\dimen136
+\@mcitetmpdimb=\dimen137
+\@mcitetmpcnta=\count116
+\@mcitetmpcntb=\count117
+\c@mcitebibitemcount=\count118
+\c@mcitesubitemcount=\count119
+
+** mciteplus: Detected cite.sty. Invoking hooks.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count120
+\LTcapwidth=\dimen138
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count121
+\LT@rows=\count122
+\c@LT@tables=\count123
+\c@LT@chunks=\count124
+\LT@p@ftn=\toks25
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 682.43936pt, 90.3375pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=682.43936pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=14.22636pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 33.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count125
+\scratchdimen=\dimen139
+\scratchbox=\box32
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen140
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 33.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count131
+)
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
+
+(./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+ (./our-symbols-def.tex) (./title-LHCb-INT.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+<figs/lhcb-logo.pdf, id=52, 614.295pt x 794.97pt>
+File: figs/lhcb-logo.pdf Graphic file (type pdf)
+ <use figs/lhcb-logo.pdf>
+Package pdftex.def Info: figs/lhcb-logo.pdf used on input line 20.
+(pdftex.def)             Requested size: 63.41522pt x 82.06113pt.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/lhcb-logo.pdf>]
+[2])
+! Undefined control sequence.
+l.71 \linenumbers
+                 
+? 
+(./introduction.tex
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.13 \begin{equation}
+                     
+? 
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.15 \end{equation}
+                   
+? 
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.26 \begin{equation}
+                     
+? 
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.29 \end{equation}
+                   
+? 
+<figs/Cirigliano_fig17.pdf, id=87, 312.16624pt x 196.735pt>
+File: figs/Cirigliano_fig17.pdf Graphic file (type pdf)
+
+<use figs/Cirigliano_fig17.pdf>
+Package pdftex.def Info: figs/Cirigliano_fig17.pdf used on input line 33.
+(pdftex.def)             Requested size: 156.08273pt x 98.36725pt.
+) (./strategy.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 
+     [1
+
+ <./figs/Cirigliano_fig17.pdf>]
+<figs/helAngles.pdf, id=130, 828.09375pt x 201.75375pt>
+File: figs/helAngles.pdf Graphic file (type pdf)
+
+<use figs/helAngles.pdf>
+Package pdftex.def Info: figs/helAngles.pdf used on input line 25.
+(pdftex.def)             Requested size: 331.23163pt x 80.70006pt.
+ <figs/M_mumu.pdf, id=131, 569.12625pt x 412.54124pt>
+File: figs/M_mumu.pdf Graphic file (type pdf)
+
+<use figs/M_mumu.pdf>
+Package pdftex.def Info: figs/M_mumu.pdf used on input line 42.
+(pdftex.def)             Requested size: 199.19717pt x 144.39159pt.
+ <figs/Hel_mumu.pdf, id=132, 569.12625pt x 412.54124pt>
+File: figs/Hel_mumu.pdf Graphic file (type pdf)
+
+<use figs/Hel_mumu.pdf>
+Package pdftex.def Info: figs/Hel_mumu.pdf used on input line 43.
+(pdftex.def)             Requested size: 199.19717pt x 144.39159pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 
+      [2 <./figs/helAngles.pdf> <./figs/M_mumu.pdf, page is rotated 90 degrees>
+ <./figs/Hel_mumu.pdf, page is rotated 90 degrees>]
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.61 \begin{equation}
+                     
+? 
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.66 \end{equation}
+                   
+? 
+) (./selection.tex [3]
+<figs/M_V0_vs_VC.pdf, id=243, 569.12625pt x 412.54124pt>
+File: figs/M_V0_vs_VC.pdf Graphic file (type pdf)
+
+<use figs/M_V0_vs_VC.pdf>
+Package pdftex.def Info: figs/M_V0_vs_VC.pdf used on input line 45.
+(pdftex.def)             Requested size: 341.47838pt x 247.52666pt.
+
+<figs/BDT_sig_vs_bkg_FULL.pdf, id=245, 569.12625pt x 412.54124pt>
+File: figs/BDT_sig_vs_bkg_FULL.pdf Graphic file (type pdf)
+
+<use figs/BDT_sig_vs_bkg_FULL.pdf>
+Package pdftex.def Info: figs/BDT_sig_vs_bkg_FULL.pdf used on input line 58.
+(pdftex.def)             Requested size: 216.27022pt x 156.7673pt.
+
+<figs/BDT_sig_vs_bkg_PARTIAL.pdf, id=246, 569.12625pt x 412.54124pt>
+File: figs/BDT_sig_vs_bkg_PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/BDT_sig_vs_bkg_PARTIAL.pdf>
+Package pdftex.def Info: figs/BDT_sig_vs_bkg_PARTIAL.pdf used on input line 59.
+
+(pdftex.def)             Requested size: 216.27022pt x 156.7673pt.
+) (./background.tex [4 <./figs/M_V0_vs_VC.pdf, page is rotated 90 degrees>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.17 \begin{equation}
+                     
+? 
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.19 \end{equation}
+                   
+? 
+[5 <./figs/BDT_sig_vs_bkg_FULL.pdf, page is rotated 90 degrees> <./figs/BDT_sig
+_vs_bkg_PARTIAL.pdf, page is rotated 90 degrees>]
+<figs/M_VC_K3pi.pdf, id=395, 569.12625pt x 412.54124pt>
+File: figs/M_VC_K3pi.pdf Graphic file (type pdf)
+
+<use figs/M_VC_K3pi.pdf>
+Package pdftex.def Info: figs/M_VC_K3pi.pdf used on input line 32.
+(pdftex.def)             Requested size: 170.73918pt x 123.76332pt.
+
+<figs/M_V0_K3pi.pdf, id=396, 569.12625pt x 412.54124pt>
+File: figs/M_V0_K3pi.pdf Graphic file (type pdf)
+
+<use figs/M_V0_K3pi.pdf>
+Package pdftex.def Info: figs/M_V0_K3pi.pdf used on input line 33.
+(pdftex.def)             Requested size: 170.73918pt x 123.76332pt.
+) (./fit.tex
+<figs/Ipatia_pi0.pdf, id=400, 569.12625pt x 387.4475pt>
+File: figs/Ipatia_pi0.pdf Graphic file (type pdf)
+
+<use figs/Ipatia_pi0.pdf>
+Package pdftex.def Info: figs/Ipatia_pi0.pdf used on input line 19.
+(pdftex.def)             Requested size: 170.73918pt x 116.23514pt.
+
+<figs/Ipatia_nopi0.pdf, id=401, 569.12625pt x 387.4475pt>
+File: figs/Ipatia_nopi0.pdf Graphic file (type pdf)
+
+<use figs/Ipatia_nopi0.pdf>
+Package pdftex.def Info: figs/Ipatia_nopi0.pdf used on input line 20.
+(pdftex.def)             Requested size: 170.73918pt x 116.23514pt.
+
+<figs/fit_FULL.pdf, id=402, 569.12625pt x 387.4475pt>
+File: figs/fit_FULL.pdf Graphic file (type pdf)
+ <use figs/fit_FULL.pdf>
+Package pdftex.def Info: figs/fit_FULL.pdf used on input line 27.
+(pdftex.def)             Requested size: 341.47838pt x 232.47029pt.
+
+<figs/fit_PARTIAL.pdf, id=403, 569.12625pt x 387.4475pt>
+File: figs/fit_PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/fit_PARTIAL.pdf>
+Package pdftex.def Info: figs/fit_PARTIAL.pdf used on input line 29.
+(pdftex.def)             Requested size: 341.47838pt x 232.47029pt.
+) (./sensitivity.tex
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.17 \begin{equation}
+                     
+? 
+[6 <./figs/M_VC_K3pi.pdf, page is rotated 90 degrees> <./figs/M_V0_K3pi.pdf, pa
+ge is rotated 90 degrees>]
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.19 \end{equation}
+                    %dropped NA48 subindex for BR
+? 
+<figs/sensit_FULL.pdf, id=501, 301.125pt x 250.9375pt>
+File: figs/sensit_FULL.pdf Graphic file (type pdf)
+
+<use figs/sensit_FULL.pdf>
+Package pdftex.def Info: figs/sensit_FULL.pdf used on input line 37.
+(pdftex.def)             Requested size: 240.90031pt x 200.75026pt.
+
+<figs/sensitPARTIAL.pdf, id=502, 301.125pt x 250.9375pt>
+File: figs/sensitPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/sensitPARTIAL.pdf>
+Package pdftex.def Info: figs/sensitPARTIAL.pdf used on input line 38.
+(pdftex.def)             Requested size: 240.90031pt x 200.75026pt.
+
+Overfull \hbox (28.83273pt too wide) in paragraph at lines 37--40
+ [][] 
+ []
+
+) [7 <./figs/Ipatia_pi0.pdf, page is rotated 90 degrees> <./figs/Ipatia_nopi0.p
+df, page is rotated 90 degrees>] [8 <./figs/fit_FULL.pdf, page is rotated 90 de
+grees> <./figs/fit_PARTIAL.pdf, page is rotated 90 degrees>] [9 <./figs/sensit_
+FULL.pdf> <./figs/sensitPARTIAL.pdf>] (./conclusions.tex)
+(./acknowledgements.tex) (./app_selection.tex [10
+
+] [11
+
+]
+Overfull \hbox (38.67339pt too wide) in paragraph at lines 50--79
+ [][] 
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+<figs/GL_BDT_Kspi0_pi0.pdf, id=821, 569.12625pt x 387.4475pt>
+File: figs/GL_BDT_Kspi0_pi0.pdf Graphic file (type pdf)
+
+<use figs/GL_BDT_Kspi0_pi0.pdf>
+Package pdftex.def Info: figs/GL_BDT_Kspi0_pi0.pdf used on input line 140.
+(pdftex.def)             Requested size: 284.56242pt x 193.72327pt.
+
+<figs/ROC_PARTIAL_noGhost.pdf, id=822, 569.12625pt x 387.4475pt>
+File: figs/ROC_PARTIAL_noGhost.pdf Graphic file (type pdf)
+
+<use figs/ROC_PARTIAL_noGhost.pdf>
+Package pdftex.def Info: figs/ROC_PARTIAL_noGhost.pdf used on input line 141.
+(pdftex.def)             Requested size: 284.56242pt x 193.72327pt.
+ [13]
+<figs/DOCAFULL.pdf, id=831, 569.12625pt x 387.4475pt>
+File: figs/DOCAFULL.pdf Graphic file (type pdf)
+ <use figs/DOCAFULL.pdf>
+Package pdftex.def Info: figs/DOCAFULL.pdf used on input line 156.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1ipsFULL.pdf, id=832, 569.12625pt x 387.4475pt>
+File: figs/mu1ipsFULL.pdf Graphic file (type pdf)
+
+<use figs/mu1ipsFULL.pdf>
+Package pdftex.def Info: figs/mu1ipsFULL.pdf used on input line 157.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2ipsFULL.pdf, id=833, 569.12625pt x 387.4475pt>
+File: figs/mu2ipsFULL.pdf Graphic file (type pdf)
+
+<use figs/mu2ipsFULL.pdf>
+Package pdftex.def Info: figs/mu2ipsFULL.pdf used on input line 158.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+ <figs/PhiFULL.pdf, id=834, 569.12625pt x 387.4475pt>
+File: figs/PhiFULL.pdf Graphic file (type pdf)
+
+<use figs/PhiFULL.pdf>
+Package pdftex.def Info: figs/PhiFULL.pdf used on input line 159.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+ <figs/cTh1FULL.pdf, id=835, 569.12625pt x 387.4475pt>
+File: figs/cTh1FULL.pdf Graphic file (type pdf)
+
+<use figs/cTh1FULL.pdf>
+Package pdftex.def Info: figs/cTh1FULL.pdf used on input line 160.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+ <figs/cTh2FULL.pdf, id=836, 569.12625pt x 387.4475pt>
+File: figs/cTh2FULL.pdf Graphic file (type pdf)
+
+<use figs/cTh2FULL.pdf>
+Package pdftex.def Info: figs/cTh2FULL.pdf used on input line 161.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/K_dec_angleFULL.pdf, id=837, 569.12625pt x 387.4475pt>
+File: figs/K_dec_angleFULL.pdf Graphic file (type pdf)
+
+<use figs/K_dec_angleFULL.pdf>
+Package pdftex.def Info: figs/K_dec_angleFULL.pdf used on input line 162.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/KSipsFULL.pdf, id=838, 569.12625pt x 387.4475pt>
+File: figs/KSipsFULL.pdf Graphic file (type pdf)
+
+<use figs/KSipsFULL.pdf>
+Package pdftex.def Info: figs/KSipsFULL.pdf used on input line 163.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/KS_ptFULL.pdf, id=839, 569.12625pt x 387.4475pt>
+File: figs/KS_ptFULL.pdf Graphic file (type pdf)
+
+<use figs/KS_ptFULL.pdf>
+Package pdftex.def Info: figs/KS_ptFULL.pdf used on input line 164.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/KSdissigFULL.pdf, id=840, 569.12625pt x 387.4475pt>
+File: figs/KSdissigFULL.pdf Graphic file (type pdf)
+
+<use figs/KSdissigFULL.pdf>
+Package pdftex.def Info: figs/KSdissigFULL.pdf used on input line 165.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/pi0massFULL.pdf, id=841, 569.12625pt x 387.4475pt>
+File: figs/pi0massFULL.pdf Graphic file (type pdf)
+
+<use figs/pi0massFULL.pdf>
+Package pdftex.def Info: figs/pi0massFULL.pdf used on input line 166.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+ <figs/XiFULL.pdf, id=842, 569.12625pt x 387.4475pt>
+File: figs/XiFULL.pdf Graphic file (type pdf)
+
+<use figs/XiFULL.pdf>
+Package pdftex.def Info: figs/XiFULL.pdf used on input line 167.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/PIDmu_mu1FULL.pdf, id=843, 569.12625pt x 387.4475pt>
+File: figs/PIDmu_mu1FULL.pdf Graphic file (type pdf)
+
+<use figs/PIDmu_mu1FULL.pdf>
+Package pdftex.def Info: figs/PIDmu_mu1FULL.pdf used on input line 168.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/PIDmu_mu2FULL.pdf, id=844, 569.12625pt x 387.4475pt>
+File: figs/PIDmu_mu2FULL.pdf Graphic file (type pdf)
+
+<use figs/PIDmu_mu2FULL.pdf>
+Package pdftex.def Info: figs/PIDmu_mu2FULL.pdf used on input line 169.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/Vchi2FULL.pdf, id=845, 569.12625pt x 387.4475pt>
+File: figs/Vchi2FULL.pdf Graphic file (type pdf)
+
+<use figs/Vchi2FULL.pdf>
+Package pdftex.def Info: figs/Vchi2FULL.pdf used on input line 170.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/KS_IPFULL.pdf, id=846, 569.12625pt x 387.4475pt>
+File: figs/KS_IPFULL.pdf Graphic file (type pdf)
+
+<use figs/KS_IPFULL.pdf>
+Package pdftex.def Info: figs/KS_IPFULL.pdf used on input line 171.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_track_Chi2DoFFULL.pdf, id=847, 569.12625pt x 387.4475pt>
+File: figs/mu1_track_Chi2DoFFULL.pdf Graphic file (type pdf)
+
+<use figs/mu1_track_Chi2DoFFULL.pdf>
+Package pdftex.def Info: figs/mu1_track_Chi2DoFFULL.pdf used on input line 172.
+
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_track_Chi2DoFFULL.pdf, id=848, 569.12625pt x 387.4475pt>
+File: figs/mu2_track_Chi2DoFFULL.pdf Graphic file (type pdf)
+
+<use figs/mu2_track_Chi2DoFFULL.pdf>
+Package pdftex.def Info: figs/mu2_track_Chi2DoFFULL.pdf used on input line 173.
+
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInOTFULL.pdf, id=849, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInOTFULL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInOTFULL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInOTFULL.pdf used on input line 174.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_hitsInOTFULL.pdf, id=850, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInOTFULL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInOTFULL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInOTFULL.pdf used on input line 175.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInITFULL.pdf, id=851, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInITFULL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInITFULL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInITFULL.pdf used on input line 176.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_hitsInITFULL.pdf, id=852, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInITFULL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInITFULL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInITFULL.pdf used on input line 177.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_hitsInTTFULL.pdf, id=853, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInTTFULL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInTTFULL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInTTFULL.pdf used on input line 178.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInTTFULL.pdf, id=854, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInTTFULL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInTTFULL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInTTFULL.pdf used on input line 179.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+
+LaTeX Warning: Float too large for page by 0.54048pt on input line 182.
+
+<figs/mu2_hitsInVFULL.pdf, id=855, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInVFULL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInVFULL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInVFULL.pdf used on input line 186.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInVFULL.pdf, id=856, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInVFULL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInVFULL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInVFULL.pdf used on input line 187.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/SV1FULL.pdf, id=857, 569.12625pt x 387.4475pt>
+File: figs/SV1FULL.pdf Graphic file (type pdf)
+ <use figs/SV1FULL.pdf>
+Package pdftex.def Info: figs/SV1FULL.pdf used on input line 188.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/SV2FULL.pdf, id=858, 569.12625pt x 387.4475pt>
+File: figs/SV2FULL.pdf Graphic file (type pdf)
+ <use figs/SV2FULL.pdf>
+Package pdftex.def Info: figs/SV2FULL.pdf used on input line 189.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/SV3FULL.pdf, id=859, 569.12625pt x 387.4475pt>
+File: figs/SV3FULL.pdf Graphic file (type pdf)
+ <use figs/SV3FULL.pdf>
+Package pdftex.def Info: figs/SV3FULL.pdf used on input line 190.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/DOCAPARTIAL.pdf, id=860, 569.12625pt x 387.4475pt>
+File: figs/DOCAPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/DOCAPARTIAL.pdf>
+Package pdftex.def Info: figs/DOCAPARTIAL.pdf used on input line 197.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1ipsPARTIAL.pdf, id=861, 569.12625pt x 387.4475pt>
+File: figs/mu1ipsPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu1ipsPARTIAL.pdf>
+Package pdftex.def Info: figs/mu1ipsPARTIAL.pdf used on input line 198.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2ipsPARTIAL.pdf, id=862, 569.12625pt x 387.4475pt>
+File: figs/mu2ipsPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu2ipsPARTIAL.pdf>
+Package pdftex.def Info: figs/mu2ipsPARTIAL.pdf used on input line 199.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/BipsPARTIAL.pdf, id=863, 569.12625pt x 387.4475pt>
+File: figs/BipsPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/BipsPARTIAL.pdf>
+Package pdftex.def Info: figs/BipsPARTIAL.pdf used on input line 200.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/BptPARTIAL.pdf, id=864, 569.12625pt x 387.4475pt>
+File: figs/BptPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/BptPARTIAL.pdf>
+Package pdftex.def Info: figs/BptPARTIAL.pdf used on input line 201.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/BdissigPARTIAL.pdf, id=865, 569.12625pt x 387.4475pt>
+File: figs/BdissigPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/BdissigPARTIAL.pdf>
+Package pdftex.def Info: figs/BdissigPARTIAL.pdf used on input line 202.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/PIDmu1PARTIAL.pdf, id=866, 569.12625pt x 387.4475pt>
+File: figs/PIDmu1PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/PIDmu1PARTIAL.pdf>
+Package pdftex.def Info: figs/PIDmu1PARTIAL.pdf used on input line 203.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/PIDmu2PARTIAL.pdf, id=867, 569.12625pt x 387.4475pt>
+File: figs/PIDmu2PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/PIDmu2PARTIAL.pdf>
+Package pdftex.def Info: figs/PIDmu2PARTIAL.pdf used on input line 204.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/Vchi2PARTIAL.pdf, id=868, 569.12625pt x 387.4475pt>
+File: figs/Vchi2PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/Vchi2PARTIAL.pdf>
+Package pdftex.def Info: figs/Vchi2PARTIAL.pdf used on input line 205.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_track_Chi2DoFPARTIAL.pdf, id=869, 569.12625pt x 387.4475pt>
+File: figs/mu1_track_Chi2DoFPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu1_track_Chi2DoFPARTIAL.pdf>
+Package pdftex.def Info: figs/mu1_track_Chi2DoFPARTIAL.pdf used on input line 2
+06.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_track_Chi2DoFPARTIAL.pdf, id=870, 569.12625pt x 387.4475pt>
+File: figs/mu2_track_Chi2DoFPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu2_track_Chi2DoFPARTIAL.pdf>
+Package pdftex.def Info: figs/mu2_track_Chi2DoFPARTIAL.pdf used on input line 2
+07.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInOTPARTIAL.pdf, id=871, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInOTPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInOTPARTIAL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInOTPARTIAL.pdf used on input line 208.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_hitsInOTPARTIAL.pdf, id=872, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInOTPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInOTPARTIAL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInOTPARTIAL.pdf used on input line 209.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_hitsInITPARTIAL.pdf, id=873, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInITPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInITPARTIAL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInITPARTIAL.pdf used on input line 210.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInITPARTIAL.pdf, id=874, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInITPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInITPARTIAL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInITPARTIAL.pdf used on input line 211.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInTTPARTIAL.pdf, id=875, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInTTPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInTTPARTIAL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInTTPARTIAL.pdf used on input line 212.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_hitsInTTPARTIAL.pdf, id=876, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInTTPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInTTPARTIAL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInTTPARTIAL.pdf used on input line 213.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu1_hitsInVPARTIAL.pdf, id=877, 569.12625pt x 387.4475pt>
+File: figs/mu1_hitsInVPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu1_hitsInVPARTIAL.pdf>
+Package pdftex.def Info: figs/mu1_hitsInVPARTIAL.pdf used on input line 214.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/mu2_hitsInVPARTIAL.pdf, id=878, 569.12625pt x 387.4475pt>
+File: figs/mu2_hitsInVPARTIAL.pdf Graphic file (type pdf)
+
+<use figs/mu2_hitsInVPARTIAL.pdf>
+Package pdftex.def Info: figs/mu2_hitsInVPARTIAL.pdf used on input line 215.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/SV1PARTIAL.pdf, id=879, 569.12625pt x 387.4475pt>
+File: figs/SV1PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/SV1PARTIAL.pdf>
+Package pdftex.def Info: figs/SV1PARTIAL.pdf used on input line 216.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/SV2PARTIAL.pdf, id=880, 569.12625pt x 387.4475pt>
+File: figs/SV2PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/SV2PARTIAL.pdf>
+Package pdftex.def Info: figs/SV2PARTIAL.pdf used on input line 217.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+<figs/SV3PARTIAL.pdf, id=881, 569.12625pt x 387.4475pt>
+File: figs/SV3PARTIAL.pdf Graphic file (type pdf)
+
+<use figs/SV3PARTIAL.pdf>
+Package pdftex.def Info: figs/SV3PARTIAL.pdf used on input line 218.
+(pdftex.def)             Requested size: 113.82323pt x 77.48811pt.
+
+
+LaTeX Warning: Float too large for page by 0.54048pt on input line 222.
+
+) (./app_samples.tex [14 <./figs/GL_BDT_Kspi0_pi0.pdf, page is rotated 90 degre
+es> <./figs/ROC_PARTIAL_noGhost.pdf, page is rotated 90 degrees>] [15 <./figs/D
+OCAFULL.pdf, page is rotated 90 degrees> <./figs/mu1ipsFULL.pdf, page is rotate
+d 90 degrees> <./figs/mu2ipsFULL.pdf, page is rotated 90 degrees> <./figs/PhiFU
+LL.pdf, page is rotated 90 degrees> <./figs/cTh1FULL.pdf, page is rotated 90 de
+grees> <./figs/cTh2FULL.pdf, page is rotated 90 degrees> <./figs/K_dec_angleFUL
+L.pdf, page is rotated 90 degrees> <./figs/KSipsFULL.pdf, page is rotated 90 de
+grees> <./figs/KS_ptFULL.pdf, page is rotated 90 degrees> <./figs/KSdissigFULL.
+pdf, page is rotated 90 degrees> <./figs/pi0massFULL.pdf, page is rotated 90 de
+grees> <./figs/XiFULL.pdf, page is rotated 90 degrees> <./figs/PIDmu_mu1FULL.pd
+f, page is rotated 90 degrees> <./figs/PIDmu_mu2FULL.pdf, page is rotated 90 de
+grees> <./figs/Vchi2FULL.pdf, page is rotated 90 degrees> <./figs/KS_IPFULL.pdf
+, page is rotated 90 degrees> <./figs/mu1_track_Chi2DoFFULL.pdf, page is rotate
+d 90 degrees> <./figs/mu2_track_Chi2DoFFULL.pdf, page is rotated 90 degrees> <.
+/figs/mu1_hitsInOTFULL.pdf, page is rotated 90 degrees> <./figs/mu2_hitsInOTFUL
+L.pdf, page is rotated 90 degrees> <./figs/mu1_hitsInITFULL.pdf, page is rotate
+d 90 degrees> <./figs/mu2_hitsInITFULL.pdf, page is rotated 90 degrees> <./figs
+/mu2_hitsInTTFULL.pdf, page is rotated 90 degrees> <./figs/mu1_hitsInTTFULL.pdf
+, page is rotated 90 degrees>] [16 <./figs/mu2_hitsInVFULL.pdf, page is rotated
+ 90 degrees> <./figs/mu1_hitsInVFULL.pdf, page is rotated 90 degrees> <./figs/S
+V1FULL.pdf, page is rotated 90 degrees> <./figs/SV2FULL.pdf, page is rotated 90
+ degrees> <./figs/SV3FULL.pdf, page is rotated 90 degrees>] [17 <./figs/DOCAPAR
+TIAL.pdf, page is rotated 90 degrees> <./figs/mu1ipsPARTIAL.pdf, page is rotate
+d 90 degrees> <./figs/mu2ipsPARTIAL.pdf, page is rotated 90 degrees> <./figs/Bi
+psPARTIAL.pdf, page is rotated 90 degrees> <./figs/BptPARTIAL.pdf, page is rota
+ted 90 degrees> <./figs/BdissigPARTIAL.pdf, page is rotated 90 degrees> <./figs
+/PIDmu1PARTIAL.pdf, page is rotated 90 degrees> <./figs/PIDmu2PARTIAL.pdf, page
+ is rotated 90 degrees> <./figs/Vchi2PARTIAL.pdf, page is rotated 90 degrees> <
+./figs/mu1_track_Chi2DoFPARTIAL.pdf, page is rotated 90 degrees> <./figs/mu2_tr
+ack_Chi2DoFPARTIAL.pdf, page is rotated 90 degrees> <./figs/mu1_hitsInOTPARTIAL
+.pdf, page is rotated 90 degrees> <./figs/mu2_hitsInOTPARTIAL.pdf, page is rota
+ted 90 degrees> <./figs/mu2_hitsInITPARTIAL.pdf, page is rotated 90 degrees> <.
+/figs/mu1_hitsInITPARTIAL.pdf, page is rotated 90 degrees> <./figs/mu1_hitsInTT
+PARTIAL.pdf, page is rotated 90 degrees> <./figs/mu2_hitsInTTPARTIAL.pdf, page 
+is rotated 90 degrees> <./figs/mu1_hitsInVPARTIAL.pdf, page is rotated 90 degre
+es> <./figs/mu2_hitsInVPARTIAL.pdf, page is rotated 90 degrees> <./figs/SV1PART
+IAL.pdf, page is rotated 90 degrees> <./figs/SV2PARTIAL.pdf, page is rotated 90
+ degrees> <./figs/SV3PARTIAL.pdf, page is rotated 90 degrees>])
+(./app_normalization.tex [18
+
+]
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.8 \begin{equation}
+                    
+? 
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.10 \end{equation}
+                   
+? 
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.14 \begin{equation}
+                     
+? 
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.16 \end{equation}
+                   
+? 
+! Undefined control sequence.
+\equation ->\linenomath 
+                        \csname oldequation\endcsname 
+l.20 \begin{equation}
+                     
+? 
+! Undefined control sequence.
+\endequation ...equation\endcsname \endlinenomath 
+                                                  
+l.22 \end{equation}
+                   
+? 
+! Undefined control sequence.
+\eqnarray ->\linenomath 
+                        \csname oldeqnarray\endcsname 
+l.25 \begin{eqnarray}
+                     
+? 
+! Undefined control sequence.
+\endeqnarray ...eqnarray\endcsname \endlinenomath 
+                                                  
+l.29 \end{eqnarray}
+                   
+? 
+) (./app_background.tex [19
+
+]
+<figs/lifetime.pdf, id=3232, 569.12625pt x 385.44pt>
+File: figs/lifetime.pdf Graphic file (type pdf)
+ <use figs/lifetime.pdf>
+Package pdftex.def Info: figs/lifetime.pdf used on input line 16.
+(pdftex.def)             Requested size: 170.73918pt x 115.63289pt.
+
+<figs/M_V0_K3pi_Kspipi.pdf, id=3241, 569.12625pt x 412.54124pt>
+File: figs/M_V0_K3pi_Kspipi.pdf Graphic file (type pdf)
+
+<use figs/M_V0_K3pi_Kspipi.pdf>
+Package pdftex.def Info: figs/M_V0_K3pi_Kspipi.pdf used on input line 42.
+(pdftex.def)             Requested size: 341.47838pt x 247.52666pt.
+
+<figs/M_mumu_K3pi_Kspipi.pdf, id=3242, 569.12625pt x 412.54124pt>
+File: figs/M_mumu_K3pi_Kspipi.pdf Graphic file (type pdf)
+
+<use figs/M_mumu_K3pi_Kspipi.pdf>
+Package pdftex.def Info: figs/M_mumu_K3pi_Kspipi.pdf used on input line 51.
+(pdftex.def)             Requested size: 341.47838pt x 247.52666pt.
+
+<figs/filtered_mass_BDTintegrated.pdf, id=3243, 569.12625pt x 385.44pt>
+File: figs/filtered_mass_BDTintegrated.pdf Graphic file (type pdf)
+
+<use figs/filtered_mass_BDTintegrated.pdf>
+Package pdftex.def Info: figs/filtered_mass_BDTintegrated.pdf used on input lin
+e 60.
+(pdftex.def)             Requested size: 170.73918pt x 115.63289pt.
+
+<figs/K3pi_BDT.pdf, id=3244, 569.12625pt x 385.44pt>
+File: figs/K3pi_BDT.pdf Graphic file (type pdf)
+ <use figs/K3pi_BDT.pdf>
+Package pdftex.def Info: figs/K3pi_BDT.pdf used on input line 61.
+(pdftex.def)             Requested size: 170.73918pt x 115.63289pt.
+
+<figs/landau.pdf, id=3245, 569.12625pt x 385.44pt>
+File: figs/landau.pdf Graphic file (type pdf)
+ <use figs/landau.pdf>
+Package pdftex.def Info: figs/landau.pdf used on input line 67.
+(pdftex.def)             Requested size: 341.47838pt x 231.26578pt.
+
+<figs/fit_wK3pi.pdf, id=3246, 569.12625pt x 385.44pt>
+File: figs/fit_wK3pi.pdf Graphic file (type pdf)
+ <use figs/fit_wK3pi.pdf>
+Package pdftex.def Info: figs/fit_wK3pi.pdf used on input line 74.
+(pdftex.def)             Requested size: 284.56242pt x 192.71953pt.
+
+<figs/M_VC_pipi_hyp.pdf, id=3247, 569.12625pt x 412.54124pt>
+File: figs/M_VC_pipi_hyp.pdf Graphic file (type pdf)
+
+<use figs/M_VC_pipi_hyp.pdf>
+Package pdftex.def Info: figs/M_VC_pipi_hyp.pdf used on input line 83.
+(pdftex.def)             Requested size: 170.73918pt x 123.76332pt.
+
+<figs/M_V0_pipi_hyp.pdf, id=3248, 569.12625pt x 412.54124pt>
+File: figs/M_V0_pipi_hyp.pdf Graphic file (type pdf)
+
+<use figs/M_V0_pipi_hyp.pdf>
+Package pdftex.def Info: figs/M_V0_pipi_hyp.pdf used on input line 84.
+(pdftex.def)             Requested size: 170.73918pt x 123.76332pt.
+) (./main.bbl
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [20
+
+ <./figs/lifetime.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Text page 21 contains only floats.
+
+[21 <./figs/M_V0_K3pi_Kspipi.pdf, page is rotated 90 degrees> <./figs/M_mumu_K3
+pi_Kspipi.pdf, page is rotated 90 degrees>] [22 <./figs/filtered_mass_BDTintegr
+ated.pdf, page is rotated 90 degrees> <./figs/K3pi_BDT.pdf, page is rotated 90 
+degrees> <./figs/landau.pdf, page is rotated 90 degrees>] [23 <./figs/fit_wK3pi
+.pdf, page is rotated 90 degrees> <./figs/M_VC_pipi_hyp.pdf, page is rotated 90
+ degrees> <./figs/M_V0_pipi_hyp.pdf, page is rotated 90 degrees>]) [24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CA033694CF1A2A4FCC567F555C76693E;666.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+ ) 
+Here is how much of TeX's memory you used:
+ 10881 strings out of 495031
+ 166679 string characters out of 6181531
+ 283078 words of memory out of 5000000
+ 13614 multiletter control sequences out of 15000+600000
+ 27472 words of font info for 150 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,16n,38p,617b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt12.pfb>
+Output written on main.pdf (26 pages, 1430072 bytes).
+PDF statistics:
+ 3780 PDF objects out of 4296 (max. 8388607)
+ 1722 compressed objects within 18 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 17383 words of extra memory for PDF output out of 20736 (max. 10000000)
+

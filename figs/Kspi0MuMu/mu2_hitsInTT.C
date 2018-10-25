@@ -1,0 +1,100 @@
+{
+//=========Macro generated from canvas: c1_n6/c1_n6
+//=========  (Tue Aug 23 21:21:38 2016) by ROOT version5.34/18
+   TCanvas *c1_n6 = new TCanvas("c1_n6", "c1_n6",10,10,700,500);
+   gStyle->SetOptStat(0);
+   gStyle->SetOptTitle(0);
+   c1_n6->Range(0,0,1,1);
+   c1_n6->SetFillColor(0);
+   c1_n6->SetBorderMode(0);
+   c1_n6->SetBorderSize(2);
+   c1_n6->SetTickx(1);
+   c1_n6->SetTicky(1);
+   c1_n6->SetLeftMargin(0.14);
+   c1_n6->SetRightMargin(0.05);
+   c1_n6->SetTopMargin(0.05);
+   c1_n6->SetBottomMargin(0.16);
+   c1_n6->SetFrameLineWidth(3);
+   c1_n6->SetFrameBorderMode(0);
+   
+   TH1F *htemp = new TH1F("htemp","mu2_hitsInTT",7,2,9);
+   htemp->SetBinContent(2,0.09124734);
+   htemp->SetBinContent(3,0.7835315);
+   htemp->SetBinContent(4,0.09908509);
+   htemp->SetBinContent(5,0.02479414);
+   htemp->SetBinContent(6,0.001189387);
+   htemp->SetBinContent(7,0.0001524855);
+   htemp->SetEntries(32790);
+   htemp->SetStats(0);
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#ff0000");
+   htemp->SetLineColor(ci);
+   htemp->SetLineWidth(3);
+   htemp->SetMarkerStyle(20);
+   htemp->SetMarkerSize(1.5);
+   htemp->GetXaxis()->SetTitle("mu2_hitsInTT");
+   htemp->GetXaxis()->SetRange(1,100);
+   htemp->GetXaxis()->SetNdivisions(505);
+   htemp->GetXaxis()->SetLabelOffset(0.015);
+   htemp->GetXaxis()->SetLabelSize(0.05);
+   htemp->GetXaxis()->SetTitleSize(0.06);
+   htemp->GetYaxis()->SetLabelSize(0.05);
+   htemp->GetYaxis()->SetTitleSize(0.06);
+   htemp->GetYaxis()->SetTitleFont(42);
+   htemp->GetZaxis()->SetLabelSize(0.05);
+   htemp->GetZaxis()->SetTitleSize(0.06);
+   htemp->GetZaxis()->SetTitleFont(42);
+   htemp->Draw("");
+   
+   TH1F *htemp = new TH1F("htemp","mu2_hitsInTT",6,2,8);
+   htemp->SetBinContent(2,0.1551034);
+   htemp->SetBinContent(3,0.7437018);
+   htemp->SetBinContent(4,0.08716113);
+   htemp->SetBinContent(5,0.01327284);
+   htemp->SetBinContent(6,0.0007608634);
+   htemp->SetEntries(35486);
+   htemp->SetStats(0);
+   htemp->SetLineWidth(3);
+   htemp->SetMarkerStyle(20);
+   htemp->SetMarkerSize(1.5);
+   htemp->GetXaxis()->SetTitle("mu2_hitsInTT");
+   htemp->GetXaxis()->SetRange(1,100);
+   htemp->GetXaxis()->SetNdivisions(505);
+   htemp->GetXaxis()->SetLabelOffset(0.015);
+   htemp->GetXaxis()->SetLabelSize(0.05);
+   htemp->GetXaxis()->SetTitleSize(0.06);
+   htemp->GetYaxis()->SetLabelSize(0.05);
+   htemp->GetYaxis()->SetTitleSize(0.06);
+   htemp->GetYaxis()->SetTitleFont(42);
+   htemp->GetZaxis()->SetLabelSize(0.05);
+   htemp->GetZaxis()->SetTitleSize(0.06);
+   htemp->GetZaxis()->SetTitleFont(42);
+   htemp->Draw("same");
+   
+   TLegend *leg = new TLegend(0,0,0,9.535467e-322,NULL,"brNDC");
+   leg->SetTextFont(62);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(3);
+   leg->SetFillColor(19);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("htemp","Signal","l");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("htemp","Background","l");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   leg->Draw();
+   c1_n6->Modified();
+   c1_n6->cd();
+   c1_n6->SetSelected(c1_n6);
+}

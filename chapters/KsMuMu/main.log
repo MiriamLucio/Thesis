@@ -1,0 +1,1625 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.2.13)  21 JUN 2018 16:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count88
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks20
+)
+
+! LaTeX Error: File `jheppub.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen112
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks22
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks23
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks24
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count104
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen123
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+\XKV@depth=\count105
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks28
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen124
+\pgf@y=\dimen125
+\pgf@xa=\dimen126
+\pgf@ya=\dimen127
+\pgf@xb=\dimen128
+\pgf@yb=\dimen129
+\pgf@xc=\dimen130
+\pgf@yc=\dimen131
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen132
+\pgfmath@count=\count112
+\pgfmath@box=\box29
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count113
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen133
+\pgf@picmaxx=\dimen134
+\pgf@picminy=\dimen135
+\pgf@picmaxy=\dimen136
+\pgf@pathminx=\dimen137
+\pgf@pathmaxx=\dimen138
+\pgf@pathminy=\dimen139
+\pgf@pathmaxy=\dimen140
+\pgf@xx=\dimen141
+\pgf@xy=\dimen142
+\pgf@yx=\dimen143
+\pgf@yy=\dimen144
+\pgf@zx=\dimen145
+\pgf@zy=\dimen146
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen147
+\pgf@path@lasty=\dimen148
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen149
+\pgf@shorten@start@additional=\dimen150
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count114
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen151
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen152
+\pgf@pt@y=\dimen153
+\pgf@pt@temp=\dimen154
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen155
+\pgf@sys@shading@range@num=\count115
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box33
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen156
+\pgf@nodesepend=\dimen157
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen158
+\pgffor@skip=\dimen159
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count116
+\pgfplotmarksize=\dimen160
+)
+\tikz@lastx=\dimen161
+\tikz@lasty=\dimen162
+\tikz@lastxsaved=\dimen163
+\tikz@lastysaved=\dimen164
+\tikzleveldistance=\dimen165
+\tikzsiblingdistance=\dimen166
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count117
+\tikznumberofchildren=\count118
+\tikznumberofcurrentchild=\count119
+\tikz@fig@count=\count120
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count121
+\pgfmatrixcurrentcolumn=\count122
+\pgf@matrix@numberofcolumns=\count123
+)
+\tikz@expandcount=\count124
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryposit
+ioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen167
+\calc@Bdimen=\dimen168
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count127
+\calc@Cskip=\skip48
+)
+\c@@todonotes@numberoftodonotes=\count128
+)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \author[(
+              a)]{Veronika Chobanova,}
+? 
+
+Overfull \hbox (5.00839pt too wide) in paragraph at lines 43--50
+\T1/cmr/m/n/10.95 hara, (a)]Miriam Lu-cio Martínez, (a)]Diego Martínez San-tos,
+ (a)]Isabel Suárez
+ []
+
+! Undefined control sequence.
+l.52 \affiliation
+                 [(a)]{Instituto Galego de F\'isica de Altas Enerx\'ias (IGF...
+
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \affiliation[
+                  (a)]{Instituto Galego de F\'isica de Altas Enerx\'ias (IGF...
+
+? 
+! Undefined control sequence.
+l.54 \affiliation
+                 [(b)]{INFN-Sezione di Napoli, \\
+? 
+! Undefined control sequence.
+l.56 \affiliation
+                 [(c)]{Institute for Theoretical Particle Physics (TTP), Kar...
+
+? 
+! Undefined control sequence.
+l.57 \affiliation
+                 [(d)]{Institute for Nuclear Physics (IKP), Karlsruhe Instit...
+
+? 
+! Undefined control sequence.
+l.59 \affiliation
+                 [(e)]{Department of Physics, Nagoya University, \\
+? 
+! Undefined control sequence.
+l.61 \affiliation
+                 [(f)]{Kobayashi-Maskawa Institute for the Origin of Particl...
+
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \abstract
+              {We explore supersymmetric contributions  to the decay $K_S^0\...
+
+? 
+
+Overfull \hbox (2.46994pt too wide) in paragraph at lines 68--74
+[]\T1/cmr/m/n/10 We ex-plore su-per-sym-met-ric con-tri-bu-tions to the de-cay 
+$\OML/cmm/m/it/10 K[] \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 ^^V[]^^V[]$\T1/cmr/m/
+n/10 ,
+ []
+
+! Undefined control sequence.
+l.75 \keywords
+              {Rare kaon decays, Supersymmetry, direct $CP$ violation.}
+? 
+! Undefined control sequence.
+l.77 \preprint
+              {TTP17--048}
+? 
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+ (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(99.58464pt, 645.87756pt, 99.58464pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=645.87756pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=49.79231pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen169
+\scratchbox=\box37
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen170
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks38
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 1 undefined on input line 1
+21.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 1 undefined on input line 121.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 1 undefined on input line 
+121.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 1 undefined on input line 1
+22.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 1 undefined on input line 122.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 1 undefined on input line 
+122.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 1 undefined on input line 
+124.
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 1 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Endo:2017ums' on page 1 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 1 undefined on input line 12
+5.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 1 undefined on input line 
+125.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 1 undefined on input line 
+126.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 1 undefined on input line 
+128.
+
+
+LaTeX Warning: Citation `C7_constraints' on page 1 undefined on input line 131.
+
+
+
+LaTeX Warning: Citation `Aaboud:2017sjh' on page 1 undefined on input line 132.
+
+
+
+LaTeX Warning: Citation `Buras:1999da' on page 1 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Barbieri:1999ax' on page 1 undefined on input line 134
+.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 1 undefined on input line 1
+39.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 1 undefined on input line 139.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 1 undefined on input line 1
+39.
+
+
+LaTeX Warning: Citation `KLMuMu_theory' on page 1 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Mescia:2006jd' on page 1 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Altmannshofer:2011gn' on page 1 undefined on input lin
+e 165.
+
+
+LaTeX Warning: Citation `Buras:2013uqa' on page 1 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Crivellin:2017upt' on page 1 undefined on input line 1
+65.
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 1 undefined on input line 165.
+
+
+
+LaTeX Warning: Citation `Altmannshofer:2009ne' on page 1 undefined on input lin
+e 165.
+
+
+LaTeX Warning: Citation `Altmannshofer:2009ne' on page 1 undefined on input lin
+e 165.
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 1 undefined on input line 165.
+
+
+[1]
+
+LaTeX Warning: Citation `Ecker:1991ru' on page 2 undefined on input line 186.
+
+
+LaTeX Warning: Citation `Isidori:2003ts' on page 2 undefined on input line 186.
+
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 2 undefined on input line 1
+86.
+
+
+LaTeX Warning: Citation `Mescia:2006jd' on page 2 undefined on input line 186.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 2 undefined on input line 1
+94.
+
+
+LaTeX Warning: Citation `Mescia:2006jd' on page 2 undefined on input line 194.
+
+
+LaTeX Warning: Citation `Isidori:2004rb' on page 2 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `Ecker:1991ru' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `Ecker:1991ru' on page 2 undefined on input line 205.
+
+
+LaTeX Warning: Citation `GomezDumm:1998gw' on page 2 undefined on input line 20
+7.
+
+
+LaTeX Warning: Citation `Knecht:1999gb' on page 2 undefined on input line 207.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 2 undefined on input line 
+208.
+
+
+LaTeX Warning: Citation `Pich:1995qp' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `Gerard:2005yk' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 2 undefined on input line 2
+11.
+
+[2]
+Overfull \hbox (1.38794pt too wide) in paragraph at lines 240--246
+\T1/cmr/m/n/10.95 term $[] []$ holds the un-known sign from $\OML/cmm/m/it/10.9
+5 A[]$\T1/cmr/m/n/10.95 , which changes
+ []
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 3 undefined on input line 
+263.
+
+[3]
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 4 undefined on input line 2
+73.
+
+
+LaTeX Warning: Citation `LHCb:KsMuMu' on page 4 undefined on input line 289.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 4 undefined on input line 2
+93.
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 4 undefined on input line 2
+98.
+
+[4]
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 5 undefined on input line 3
+12.
+
+
+LaTeX Warning: Citation `Gorbahn:2006bm' on page 5 undefined on input line 320.
+
+
+
+LaTeX Warning: Citation `DAmbrosio:2017klp' on page 5 undefined on input line 3
+31.
+
+
+LaTeX Warning: Citation `Colangelo:2016ruc' on page 5 undefined on input line 3
+31.
+
+
+LaTeX Warning: Citation `Isidori:2002qe' on page 5 undefined on input line 345.
+
+
+
+LaTeX Warning: Citation `Colangelo:1998pm' on page 5 undefined on input line 34
+5.
+
+
+LaTeX Warning: Citation `Colangelo:1998pm' on page 5 undefined on input line 35
+2.
+
+
+LaTeX Warning: Citation `Buras:1999da' on page 5 undefined on input line 355.
+
+
+LaTeX Warning: Citation `Endo:2016aws' on page 5 undefined on input line 355.
+
+<gluino_CS.pdf, id=58, 1028.84375pt x 523.9575pt>
+File: gluino_CS.pdf Graphic file (type pdf)
+ <use gluino_CS.pdf>
+Package pdftex.def Info: gluino_CS.pdf used on input line 360.
+(pdftex.def)             Requested size: 213.39568pt x 108.67517pt.
+ [5]
+
+LaTeX Warning: Citation `Altmannshofer:2009ne' on page 6 undefined on input lin
+e 396.
+
+[6 <./gluino_CS.pdf>]
+Overfull \hbox (21.78233pt too wide) in paragraph at lines 409--412
+\OML/cmm/m/it/10.95 ^^V[]$ \T1/cmr/m/n/10.95 scale, and there is no QCD cor-rec
+-tion from the renormalization-
+ []
+
+
+LaTeX Warning: Citation `Blum:2011ng' on page 7 undefined on input line 422.
+
+
+LaTeX Warning: Citation `Blum:2012uk' on page 7 undefined on input line 422.
+
+
+LaTeX Warning: Citation `Blum:2015ywa' on page 7 undefined on input line 422.
+
+
+LaTeX Warning: Citation `Bai:2015nea' on page 7 undefined on input line 422.
+
+
+LaTeX Warning: Citation `Buras:2015yba' on page 7 undefined on input line 423.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 7 undefined on input line 42
+3.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 7 undefined on input line 
+423.
+
+
+LaTeX Warning: Citation `Buras:2015xba' on page 7 undefined on input line 424.
+
+
+LaTeX Warning: Citation `Buras:2016fys' on page 7 undefined on input line 424.
+
+
+LaTeX Warning: Citation `Bai:2015nea' on page 7 undefined on input line 425.
+
+
+LaTeX Warning: Citation `Lellouch:2000pv' on page 7 undefined on input line 425
+.
+
+
+LaTeX Warning: Citation `Colangelo:2001df' on page 7 undefined on input line 42
+6.
+
+
+LaTeX Warning: Citation `GarciaMartin:2011cn' on page 7 undefined on input line
+ 426.
+
+
+LaTeX Warning: Citation `Colangelo:NA62' on page 7 undefined on input line 426.
+
+
+
+LaTeX Warning: Citation `Pallante:2001he' on page 7 undefined on input line 427
+.
+
+
+LaTeX Warning: Citation `Hambye:2003cy' on page 7 undefined on input line 427.
+
+
+LaTeX Warning: Citation `Mullor' on page 7 undefined on input line 427.
+
+
+Overfull \hbox (0.57898pt too wide) in paragraph at lines 420--428
+\T1/cmr/m/n/10.95 New physics mod-els af-fect-ing $\OML/cmm/m/it/10.95 "[]="[]$
+ \T1/cmr/m/n/10.95 have re-cently at-tracted some
+ []
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 7 undefined on input line 44
+1.
+
+[7]
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 8 undefined on input line 46
+4.
+
+
+LaTeX Warning: Citation `Kagan:1999iq' on page 8 undefined on input line 464.
+
+
+Overfull \hbox (1.73207pt too wide) in paragraph at lines 464--465
+\T1/cmr/m/n/10.95 with their cor-re-spond-ing loop func-tions de-fined in ap-pe
+ndix B.2.1[].
+ []
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 8 undefined on input line 47
+1.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 8 undefined on input line 49
+2.
+
+[8]
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 9 undefined on input line 50
+5.
+
+
+LaTeX Warning: Citation `Kitahara:2016nld' on page 9 undefined on input line 50
+9.
+
+
+Overfull \hbox (20.88318pt too wide) in paragraph at lines 508--510
+\T1/cmr/m/n/10.95 and the ap-prox-i-mate func-tion of the RG evo-lu-tion ma-tri
+x $[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^V; ^^V[]\OT1/cmr/m/n/10.95 )$
+ []
+
+
+LaTeX Warning: Citation `Buras:1999da' on page 9 undefined on input line 524.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 9 undefined on input line 
+530.
+
+
+LaTeX Warning: Citation `Cirigliano:2003nn' on page 9 undefined on input line 5
+30.
+
+
+LaTeX Warning: Citation `Cirigliano:2003gt' on page 9 undefined on input line 5
+30.
+
+
+LaTeX Warning: Citation `Buras:2015yba' on page 9 undefined on input line 530.
+
+
+LaTeX Warning: Citation `Buras:1999da' on page 9 undefined on input line 539.
+
+
+LaTeX Warning: Citation `Barbieri:1999ax' on page 9 undefined on input line 539
+.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 9 undefined on input line 54
+4.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 9 undefined on input line 54
+5.
+
+[9]
+
+LaTeX Warning: Citation `Bailey:2015tba' on page 10 undefined on input line 566
+.
+
+
+LaTeX Warning: Citation `Amhis:2016xyh' on page 10 undefined on input line 569.
+
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 10 undefined on input line 569.
+
+
+LaTeX Warning: Citation `Bigi:2017njr' on page 10 undefined on input line 569.
+
+
+LaTeX Warning: Citation `Grinstein:2017nlq' on page 10 undefined on input line 
+569.
+
+
+LaTeX Warning: Citation `Bernlochner:2017xyx' on page 10 undefined on input lin
+e 569.
+
+
+Overfull \hbox (1.91936pt too wide) in paragraph at lines 565--570
+\T1/cmr/m/n/10.95 Although $\OML/cmm/m/it/10.95 "[]$ \T1/cmr/m/n/10.95 is one o
+f the most sen-si-tive quan-ti-ties to new physics,
+ []
+
+
+LaTeX Warning: Citation `Endo:2017ums' on page 10 undefined on input line 571.
+
+
+LaTeX Warning: Citation `Patrignani:2016xqp' on page 10 undefined on input line
+ 579.
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 10 undefined on input line 580.
+
+
+LaTeX Warning: Citation `Bevan:2013kaa' on page 10 undefined on input line 580.
+
+
+
+LaTeX Warning: Citation `Bai:2015nea' on page 10 undefined on input line 580.
+
+
+LaTeX Warning: Citation `Ambrosino:2006ek' on page 10 undefined on input line 5
+91.
+
+[10]
+
+LaTeX Warning: Citation `Crivellin:2010ys' on page 11 undefined on input line 5
+97.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 11 undefined on input line 5
+97.
+
+
+LaTeX Warning: Citation `Gabbiani:1996hi' on page 11 undefined on input line 60
+0.
+
+
+LaTeX Warning: Citation `Buras:2010pza' on page 11 undefined on input line 621.
+
+
+
+LaTeX Warning: Citation `Garron:2016mva' on page 11 undefined on input line 623
+.
+
+
+LaTeX Warning: Citation `Garron:2016mva' on page 11 undefined on input line 628
+.
+
+
+LaTeX Warning: Citation `Bagger:1997gg' on page 11 undefined on input line 631.
+
+
+[11]
+
+LaTeX Warning: Citation `Altmannshofer:2009ne' on page 12 undefined on input li
+ne 668.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 709.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: Citation `Ipanema' on page 12 undefined on input line 709.
+
+
+LaTeX Warning: Citation `IEEE' on page 12 undefined on input line 710.
+
+
+Overfull \hbox (5.57092pt too wide) in paragraph at lines 716--717
+[]\T1/cmr/m/n/10.95 We study three dif-fer-ent sce-nar-ios (for the ranges of t
+he scanned
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 718.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 718.
+
+
+LaTeX Warning: Citation `Planck' on page 12 undefined on input line 722.
+
+
+LaTeX Warning: Citation `Costa:2017gup' on page 12 undefined on input line 722.
+
+
+
+LaTeX Warning: Citation `Bagnaschi:2017tru' on page 12 undefined on input line 
+722.
+
+
+LaTeX Warning: Citation `Bagnaschi:2015eha' on page 12 undefined on input line 
+722.
+
+
+LaTeX Warning: Citation `Bagnaschi:2016xfg' on page 12 undefined on input line 
+722.
+
+
+LaTeX Warning: Citation `Cuoco:2017iax' on page 12 undefined on input line 725.
+
+
+
+LaTeX Warning: Citation `Planck' on page 12 undefined on input line 726.
+
+
+LaTeX Warning: Citation `Hisano:2006nn' on page 12 undefined on input line 726.
+
+
+
+LaTeX Warning: Citation `Bagnaschi:2016xfg' on page 12 undefined on input line 
+726.
+
+
+LaTeX Warning: Citation `Ibe:2012sx' on page 12 undefined on input line 729.
+
+[12]
+
+LaTeX Warning: Reference `eq:duLL' on page 13 undefined on input line 733.
+
+[13]
+! Undefined control sequence.
+l.803 ...y in a heavy gluino region ($M_3  \gtrsim
+                                                   1.5 \tilde{m}_{Q}$) \cite...
+
+? 
+
+LaTeX Warning: Citation `Crivellin:2010ys' on page 14 undefined on input line 8
+03.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 14 undefined on input line 8
+03.
+
+<figure_1_SCA_LL_pos.png, id=127, 462.528pt x 346.896pt>
+File: figure_1_SCA_LL_pos.png Graphic file (type png)
+
+<use figure_1_SCA_LL_pos.png>
+Package pdftex.def Info: figure_1_SCA_LL_pos.png used on input line 809.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCA_LL_neg.png, id=129, 462.528pt x 346.896pt>
+File: figure_1_SCA_LL_neg.png Graphic file (type png)
+
+<use figure_1_SCA_LL_neg.png>
+Package pdftex.def Info: figure_1_SCA_LL_neg.png used on input line 810.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCA_RR_pos.png, id=130, 462.528pt x 346.896pt>
+File: figure_1_SCA_RR_pos.png Graphic file (type png)
+
+<use figure_1_SCA_RR_pos.png>
+Package pdftex.def Info: figure_1_SCA_RR_pos.png used on input line 811.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCA_RR_neg.png, id=131, 462.528pt x 346.896pt>
+File: figure_1_SCA_RR_neg.png Graphic file (type png)
+
+<use figure_1_SCA_RR_neg.png>
+Package pdftex.def Info: figure_1_SCA_RR_neg.png used on input line 812.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCA_LL_pos.png, id=132, 462.528pt x 346.896pt>
+File: figure_2_SCA_LL_pos.png Graphic file (type png)
+
+<use figure_2_SCA_LL_pos.png>
+Package pdftex.def Info: figure_2_SCA_LL_pos.png used on input line 820.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCA_LL_neg.png, id=133, 462.528pt x 346.896pt>
+File: figure_2_SCA_LL_neg.png Graphic file (type png)
+
+<use figure_2_SCA_LL_neg.png>
+Package pdftex.def Info: figure_2_SCA_LL_neg.png used on input line 821.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCA_RR_pos.png, id=134, 462.528pt x 346.896pt>
+File: figure_2_SCA_RR_pos.png Graphic file (type png)
+
+<use figure_2_SCA_RR_pos.png>
+Package pdftex.def Info: figure_2_SCA_RR_pos.png used on input line 822.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCA_RR_neg.png, id=135, 462.528pt x 346.896pt>
+File: figure_2_SCA_RR_neg.png Graphic file (type png)
+
+<use figure_2_SCA_RR_neg.png>
+Package pdftex.def Info: figure_2_SCA_RR_neg.png used on input line 823.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figure_1_SCB_LL_pos.png, id=136, 462.528pt x 346.896pt>
+File: figure_1_SCB_LL_pos.png Graphic file (type png)
+
+<use figure_1_SCB_LL_pos.png>
+Package pdftex.def Info: figure_1_SCB_LL_pos.png used on input line 830.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCB_LL_neg.png, id=137, 462.528pt x 346.896pt>
+File: figure_1_SCB_LL_neg.png Graphic file (type png)
+
+<use figure_1_SCB_LL_neg.png>
+Package pdftex.def Info: figure_1_SCB_LL_neg.png used on input line 831.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCB_RR_pos.png, id=138, 462.528pt x 346.896pt>
+File: figure_1_SCB_RR_pos.png Graphic file (type png)
+
+<use figure_1_SCB_RR_pos.png>
+Package pdftex.def Info: figure_1_SCB_RR_pos.png used on input line 832.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCB_RR_neg.png, id=139, 462.528pt x 346.896pt>
+File: figure_1_SCB_RR_neg.png Graphic file (type png)
+
+<use figure_1_SCB_RR_neg.png>
+Package pdftex.def Info: figure_1_SCB_RR_neg.png used on input line 833.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figure_2_SCB_LL_pos.png, id=140, 462.528pt x 346.896pt>
+File: figure_2_SCB_LL_pos.png Graphic file (type png)
+
+<use figure_2_SCB_LL_pos.png>
+Package pdftex.def Info: figure_2_SCB_LL_pos.png used on input line 841.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCB_LL_neg.png, id=141, 462.528pt x 346.896pt>
+File: figure_2_SCB_LL_neg.png Graphic file (type png)
+
+<use figure_2_SCB_LL_neg.png>
+Package pdftex.def Info: figure_2_SCB_LL_neg.png used on input line 842.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCB_RR_pos.png, id=142, 462.528pt x 346.896pt>
+File: figure_2_SCB_RR_pos.png Graphic file (type png)
+
+<use figure_2_SCB_RR_pos.png>
+Package pdftex.def Info: figure_2_SCB_RR_pos.png used on input line 843.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCB_RR_neg.png, id=143, 462.528pt x 346.896pt>
+File: figure_2_SCB_RR_neg.png Graphic file (type png)
+
+<use figure_2_SCB_RR_neg.png>
+Package pdftex.def Info: figure_2_SCB_RR_neg.png used on input line 844.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `Kitahara:2016otd' on page 14 undefined on input line 8
+61.
+
+[14]
+Overfull \hbox (1.06413pt too wide) in paragraph at lines 865--868
+[]\T1/cmr/m/n/10.95 The ef-fec-tive branch-ing frac-tion and $\OML/cmm/m/it/10.
+95 CP$ \T1/cmr/m/n/10.95 asym-me-try are shown
+ []
+
+<figure_1_SCC_LL_pos.png, id=148, 462.528pt x 346.896pt>
+File: figure_1_SCC_LL_pos.png Graphic file (type png)
+
+<use figure_1_SCC_LL_pos.png>
+Package pdftex.def Info: figure_1_SCC_LL_pos.png used on input line 874.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCC_LL_neg.png, id=149, 462.528pt x 346.896pt>
+File: figure_1_SCC_LL_neg.png Graphic file (type png)
+
+<use figure_1_SCC_LL_neg.png>
+Package pdftex.def Info: figure_1_SCC_LL_neg.png used on input line 875.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCC_RR_pos.png, id=150, 462.528pt x 346.896pt>
+File: figure_1_SCC_RR_pos.png Graphic file (type png)
+
+<use figure_1_SCC_RR_pos.png>
+Package pdftex.def Info: figure_1_SCC_RR_pos.png used on input line 876.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_1_SCC_RR_neg.png, id=151, 462.528pt x 346.896pt>
+File: figure_1_SCC_RR_neg.png Graphic file (type png)
+
+<use figure_1_SCC_RR_neg.png>
+Package pdftex.def Info: figure_1_SCC_RR_neg.png used on input line 877.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figure_2_SCC_LL_pos.png, id=152, 462.528pt x 346.896pt>
+File: figure_2_SCC_LL_pos.png Graphic file (type png)
+
+<use figure_2_SCC_LL_pos.png>
+Package pdftex.def Info: figure_2_SCC_LL_pos.png used on input line 886.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCC_LL_neg.png, id=153, 462.528pt x 346.896pt>
+File: figure_2_SCC_LL_neg.png Graphic file (type png)
+
+<use figure_2_SCC_LL_neg.png>
+Package pdftex.def Info: figure_2_SCC_LL_neg.png used on input line 887.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCC_RR_pos.png, id=154, 462.528pt x 346.896pt>
+File: figure_2_SCC_RR_pos.png Graphic file (type png)
+
+<use figure_2_SCC_RR_pos.png>
+Package pdftex.def Info: figure_2_SCC_RR_pos.png used on input line 888.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<figure_2_SCC_RR_neg.png, id=155, 462.528pt x 346.896pt>
+File: figure_2_SCC_RR_neg.png Graphic file (type png)
+
+<use figure_2_SCC_RR_neg.png>
+Package pdftex.def Info: figure_2_SCC_RR_neg.png used on input line 889.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Acp_SCA_LL_neg.png, id=156, 462.528pt x 346.896pt>
+File: Acp_SCA_LL_neg.png Graphic file (type png)
+ <use Acp_SCA_LL_neg.png>
+Package pdftex.def Info: Acp_SCA_LL_neg.png used on input line 895.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<BR_eff_SCA_LL_neg.png, id=157, 462.528pt x 346.896pt>
+File: BR_eff_SCA_LL_neg.png Graphic file (type png)
+
+<use BR_eff_SCA_LL_neg.png>
+Package pdftex.def Info: BR_eff_SCA_LL_neg.png used on input line 896.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<Acp_Ksmm_SCA_LL_neg.png, id=158, 462.528pt x 346.896pt>
+File: Acp_Ksmm_SCA_LL_neg.png Graphic file (type png)
+
+<use Acp_Ksmm_SCA_LL_neg.png>
+Package pdftex.def Info: Acp_Ksmm_SCA_LL_neg.png used on input line 902.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<Acp_epek_SCA_LL_neg.png, id=159, 462.528pt x 346.896pt>
+File: Acp_epek_SCA_LL_neg.png Graphic file (type png)
+
+<use Acp_epek_SCA_LL_neg.png>
+Package pdftex.def Info: Acp_epek_SCA_LL_neg.png used on input line 903.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<Acp_Ksmm_SCB_LL_pos.png, id=160, 462.528pt x 346.896pt>
+File: Acp_Ksmm_SCB_LL_pos.png Graphic file (type png)
+
+<use Acp_Ksmm_SCB_LL_pos.png>
+Package pdftex.def Info: Acp_Ksmm_SCB_LL_pos.png used on input line 904.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<Acp_epek_SCB_LL_pos.png, id=161, 462.528pt x 346.896pt>
+File: Acp_epek_SCB_LL_pos.png Graphic file (type png)
+
+<use Acp_epek_SCB_LL_pos.png>
+Package pdftex.def Info: Acp_epek_SCB_LL_pos.png used on input line 905.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+ [15 <./figure_1_SCA_LL_pos.png> <./figure_1_SCA_LL_neg.png> <./figure_1_SCA_RR
+_pos.png> <./figure_1_SCA_RR_neg.png>] [16 <./figure_2_SCA_LL_pos.png> <./figur
+e_2_SCA_LL_neg.png> <./figure_2_SCA_RR_pos.png> <./figure_2_SCA_RR_neg.png>] [1
+7 <./figure_1_SCB_LL_pos.png> <./figure_1_SCB_LL_neg.png> <./figure_1_SCB_RR_po
+s.png> <./figure_1_SCB_RR_neg.png>] [18 <./figure_2_SCB_LL_pos.png> <./figure_2
+_SCB_LL_neg.png> <./figure_2_SCB_RR_pos.png> <./figure_2_SCB_RR_neg.png>] [19 <
+./figure_1_SCC_LL_pos.png> <./figure_1_SCC_LL_neg.png> <./figure_1_SCC_RR_pos.p
+ng> <./figure_1_SCC_RR_neg.png>] [20 <./figure_2_SCC_LL_pos.png> <./figure_2_SC
+C_LL_neg.png> <./figure_2_SCC_RR_pos.png> <./figure_2_SCC_RR_neg.png>] [21 <./A
+cp_SCA_LL_neg.png> <./BR_eff_SCA_LL_neg.png>]
+[22 <./Acp_Ksmm_SCA_LL_neg.png> <./Acp_epek_SCA_LL_neg.png> <./Acp_Ksmm_SCB_LL_
+pos.png> <./Acp_epek_SCB_LL_pos.png>]
+
+LaTeX Warning: Citation `LHCb:KsMuMu' on page 23 undefined on input line 928.
+
+
+LaTeX Warning: Reference `eq:duLL' on page 23 undefined on input line 935.
+
+<rddRR12_vs_rddLL12.png, id=217, 462.528pt x 346.896pt>
+File: rddRR12_vs_rddLL12.png Graphic file (type png)
+
+<use rddRR12_vs_rddLL12.png>
+Package pdftex.def Info: rddRR12_vs_rddLL12.png used on input line 943.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<iddRR12_vs_iddLL12.png, id=218, 462.528pt x 346.896pt>
+File: iddRR12_vs_iddLL12.png Graphic file (type png)
+
+<use iddRR12_vs_iddLL12.png>
+Package pdftex.def Info: iddRR12_vs_iddLL12.png used on input line 944.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<rddRR12_vs_iddRR12.png, id=219, 462.528pt x 346.896pt>
+File: rddRR12_vs_iddRR12.png Graphic file (type png)
+
+<use rddRR12_vs_iddRR12.png>
+Package pdftex.def Info: rddRR12_vs_iddRR12.png used on input line 945.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<rddLL12_vs_iddLL12.png, id=220, 462.528pt x 346.896pt>
+File: rddLL12_vs_iddLL12.png Graphic file (type png)
+
+<use rddLL12_vs_iddLL12.png>
+Package pdftex.def Info: rddLL12_vs_iddLL12.png used on input line 946.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+
+LaTeX Warning: Reference `eq:duLL' on page 23 undefined on input line 947.
+
+
+LaTeX Warning: Reference `eq:duLL' on page 23 undefined on input line 947.
+
+<msq_vs_mg_SCA.png, id=221, 462.528pt x 346.896pt>
+File: msq_vs_mg_SCA.png Graphic file (type png)
+ <use msq_vs_mg_SCA.png>
+Package pdftex.def Info: msq_vs_mg_SCA.png used on input line 953.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+<msq_vs_mg.png, id=222, 462.528pt x 346.896pt>
+File: msq_vs_mg.png Graphic file (type png)
+ <use msq_vs_mg.png>
+Package pdftex.def Info: msq_vs_mg.png used on input line 954.
+(pdftex.def)             Requested size: 209.1301pt x 156.84808pt.
+
+
+LaTeX Warning: Citation `Jang:2017ieg' on page 23 undefined on input line 959.
+
+[23
+
+] [24 <./rddRR12_vs_rddLL12.png> <./iddRR12_vs_iddLL12.png> <./rddRR12_vs_iddRR
+12.png> <./rddLL12_vs_iddLL12.png> <./msq_vs_mg_SCA.png> <./msq_vs_mg.png>]
+
+LaTeX Warning: Citation `Pallante:2001he' on page 25 undefined on input line 99
+1.
+
+
+LaTeX Warning: Citation `Hambye:2003cy' on page 25 undefined on input line 991.
+
+
+
+LaTeX Warning: Citation `Mullor' on page 25 undefined on input line 991.
+
+! Undefined control sequence.
+l.1009 \acknowledgments
+                       
+? 
+[25
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+
+LaTeX Warning: Citation `Kagan:1999iq' on page 29 undefined on input line 1189.
+
+
+
+LaTeX Warning: Citation `Gabbiani:1996hi' on page 29 undefined on input line 12
+07.
+
+[29]
+
+LaTeX Warning: Citation `Gabbiani:1996hi' on page 30 undefined on input line 12
+31.
+
+
+LaTeX Warning: Citation `Gabbiani:1996hi' on page 30 undefined on input line 12
+32.
+
+
+LaTeX Warning: Citation `Harnik:2002vs' on page 30 undefined on input line 1232
+.
+
+
+Overfull \hbox (23.04175pt too wide) in paragraph at lines 1251--1251
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Overfull \hbox (12.09174pt too wide) in paragraph at lines 1261--1261
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+
+LaTeX Warning: Citation `Altmannshofer:2009ne' on page 32 undefined on input li
+ne 1321.
+
+No file main.bbl.
+[32] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12631 strings out of 495031
+ 228941 string characters out of 6181531
+ 301138 words of memory out of 5000000
+ 15491 multiletter control sequences out of 15000+600000
+ 28083 words of font info for 75 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 63i,16n,57p,1037b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </tmp/texfonts/pk/ljfour/jknappen/ec/ectt1095.600pk> </tmp/texfonts/pk/ljfou
+r/jknappen/ec/ecti1095.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx0900.600
+pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </tmp/texfonts/pk/ljfo
+ur/jknappen/ec/ecrm0600.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm0800.60
+0pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </tmp/texfonts/pk/ljf
+our/jknappen/ec/ecbx1440.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx1095.6
+00pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </tmp/texfonts/pk/lj
+four/jknappen/ec/ecrm1728.600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecrm1000.
+600pk> </tmp/texfonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </tmp/texfonts/pk/l
+jfour/jknappen/ec/ecrm1095.600pk></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (34 pages, 1386122 bytes).
+PDF statistics:
+ 728 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+

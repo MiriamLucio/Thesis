@@ -1,0 +1,78 @@
+% $Id: title-LHCb-INT.tex  $
+% ===============================================================================
+% Purpose: LHCb-INT Note title page template
+% Author: P. Koppenburg
+% Created on: 2015-05-18
+% ===============================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+% Header ---------------------------------------------------
+\vspace*{-1.5cm}
+
+\noindent
+\begin{tabular*}{\linewidth}{lc@{\extracolsep{\fill}}r@{\extracolsep{0pt}}}
+\ifthenelse{\boolean{pdflatex}}% Logo format choice
+{\vspace*{-2.7cm}\mbox{\!\!\!\includegraphics[width=.14\textwidth]{figs/lhcb-logo.pdf}} & &}%
+{\vspace*{-1.2cm}\mbox{\!\!\!\includegraphics[width=.12\textwidth]{lhcb-logo.eps}} & &}
+ \\
+ & & CERN-LHCb-INT-2016-031 \\  % ID 
+ & & \today \\ % Date - Can also hardwire e.g.: 23 March 2010
+ & & \\
+\hline
+\end{tabular*}
+
+\vspace*{4.0cm}
+
+% Title --------------------------------------------------
+{\normalfont\bfseries\boldmath\huge
+\begin{center}
+  Sensitivity of LHCb and its upgrade in the measurement of  \BRof\Kspizmm
+\end{center}
+}
+
+\vspace*{2.0cm}
+
+% Authors -------------------------------------------------
+\begin{center}
+V.~Chobanova$^1$, X.~Cid Vidal$^1$, J. P. ~Dalseno$^2$,  M.~Lucio Mart\'inez$^1$,  D.~Mart\'inez Santos$^1$, V.~Renaudin$^3$
+\bigskip\\
+{\normalfont\itshape\footnotesize
+$ ^1$Universidade de Santiago de Compostela, Santiago de Compostela, Spain\\
+$^2$University of Bristol, Bristol, The United Kingdom \\
+$^3$Laboratoire de l'Accelerateur Lineaire (LAL),  Orsay, France \\
+}
+\end{center}
+
+\vspace{\fill}
+
+% Abstract -----------------------------------------------
+\begin{abstract}
+  \noindent
+ The sensitivity of the LHCb experiment to \BRof\Kspizmm is analyzed in light of the 2011, 2012 and 2016 data and the 
+oportunities the full software trigger of the LHCb upgrade provides. Two strategies are considered: the full reconstruction of the
+decay products and the partial reconstruction using only the dilepton pair and kinematic constraints. In both
+cases, the sensitivity achieved can surpass the world's current best. Both approaches could be statistically combined, further improving the result.
+\end{abstract}
+
+\vspace*{2.0cm}
+\vspace{\fill}
+
+\end{titlepage}
+
+
+\pagestyle{empty}  % no page number for the title 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  EOD OF TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  empty page follows the title page ----
+\newpage
+\setcounter{page}{2}
+\mbox{~}
+
+\cleardoublepage

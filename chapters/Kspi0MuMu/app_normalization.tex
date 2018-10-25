@@ -1,0 +1,45 @@
+% $Id: introduction.tex 87303 2016-02-08 13:44:29Z lafferty $
+\clearpage
+\newpage
+\section{Appendix: Normalization}
+\label{app:normalization}
+
+The signal yield is normalised with respect to \Kspipi . The yield is computed as follows:
+\begin{equation}
+N(\KsPzMuMu) = \sigma(\PKzS){\cal B}(\KsPzMuMu)\epsilon_{\KsPzMuMu} L,
+\end{equation}
+where $\sigma(\PKzS)$ is the \KS production cross-section, $\epsilon_{\KsPzMuMu}$ the absolute efficiency and $L$ the integrated luminosity. Taking the ratio of N(\KsPzMuMu) with respect to N(\Kspipi), both the 
+cross-section and the luminosity get cancelled out, leading to the formula:
+
+\begin{equation}
+\frac{N(\KsPzMuMu)}{N(\Kspipi)} = \frac{\BRof\KsPzMuMu}{\BRof\Kspipi} \frac{\epsilon_{\KsPzMuMu}}{\epsilon_{\PKzS\to\Pgpp\Pgpm}}.
+\end{equation}
+
+The effective luminosity, $L^{dat}_{eff}$, is calculated according to
+
+\begin{equation}
+L^{dat}_{eff} = \epsilon^{TIS}_{\Kspipi}L^{dat}, \\
+\end{equation}	
+where $\epsilon_{TIS}(\Kspipi)$ is the TIS efficiency calulated using \Kspipi events and $L^{dat}$ is the luminosity used for the fit to the data.
+
+\begin{eqnarray}
+L^{FULL,2011}_{eff} &=& 0.0016 \cdot 992\;\rm pb^{-1} = 1.59\;\invpb, \\
+L^{FULL,2012}_{eff} &=& 0.0016 \cdot 2037\;\rm pb^{-1} = 3.26\;\invpb,\\
+L^{PARTIAL}_{eff} &=& 0.0025 \cdot 306\;\rm pb^{-1} = 0.77\;\invpb. 
+\end{eqnarray}
+
+The offline signal efficiency (or, equivalently, the total efficiency for a $100\%$ efficient trigger) for the FULL channel is calculated as follows:
+\begin{itemize}
+
+\item The generator level efficiency is estimated to be $0.361$. 
+\item The efficiency of the FULL stripping on generated events is $1.84$ per mil according to the statistics produced by the DaVinci filtering script. This number has to be corrected by the fact that $3.3\%$ of the events didn't actually contain a signal candidate at all \footnote{In a fraction of events, the information on how the \KS should decay is lost as the particle is passed to GEANT4.}. It also has to be corrected by the fact that some of the selected candidates aren't matched to the signal. After this corrections, it becomes $1.79$ per mil.
+\item The efficiency of the fiducial cuts  and mass fit window are $0.931$ and $0.922$. These are applied prior to BDT training.
+\end{itemize}
+
+The offline signal efficiency (or, equivalently, the total efficiency for a $100\%$ efficient trigger) for the PARTIAL channel is calculated as follows:
+\begin{itemize}
+
+\item The generator level efficiency is estimated to be $0.361$. 
+\item The efficiency of the PARTIAL stripping on generated events, calculated in the same way as above is $1.23\%$.
+\item The efficiency of the fiducial cuts  and mass fit window are $0.734$ and $0.917$ respectively. These are applied prior to BDT training.
+\end{itemize}

@@ -1,0 +1,550 @@
+\ifx\mcitethebibliography\mciteundefinedmacro
+\PackageError{LHCb.bst}{mciteplus.sty has not been loaded}
+{This bibstyle requires the use of the mciteplus package.}\fi
+\providecommand{\href}[2]{#2}
+\begin{mcitethebibliography}{10}
+\mciteSetBstSublistMode{n}
+\mciteSetBstMaxWidthForm{subitem}{\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem{PDG}
+Particle Data Group, C.~Patrignani {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Review of Particle Physics}},
+  }{}\href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{Chin.\ Phys.\
+  \textbf{C40} (2016), no.~10 100001}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Higgs}
+P.~W. Higgs, \ifthenelse{\boolean{articletitles}}{\emph{Broken symmetries and
+  the masses of gauge bosons},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{Phys.\ Rev.\ Lett.\
+  \textbf{13} (1964) 508}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{ATLASHiggs}
+ATLAS, G.~Aad {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}}, }{}\href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys.\
+  Lett.\  \textbf{B716} (2012) 1}, \href{http://arxiv.org/abs/1207.7214}{{\tt
+  arXiv:1207.7214}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{CMSHiggs}
+CMS, S.~Chatrchyan {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Observation of a new boson at a
+  mass of 125 GeV with the CMS experiment at the LHC}},
+  }{}\href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys.\ Lett.\
+  \textbf{B716} (2012) 30}, \href{http://arxiv.org/abs/1207.7235}{{\tt
+  arXiv:1207.7235}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{SolarNeutrinos}
+M.~Maltoni, T.~Schwetz, M.~A. Tortola, and J.~W.~F. Valle,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Status of global fits to neutrino
+  oscillations}}, }{}\href{http://dx.doi.org/10.1088/1367-2630/6/1/122}{New J.\
+  Phys.\  \textbf{6} (2004) 122},
+  \href{http://arxiv.org/abs/hep-ph/0405172}{{\tt arXiv:hep-ph/0405172}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{ParticleContent}
+M.~Drewes, \ifthenelse{\boolean{articletitles}}{\emph{{The Phenomenology of
+  Right Handed Neutrinos}},
+  }{}\href{http://dx.doi.org/10.1142/S0218301313300191}{Int.\ J.\ Mod.\ Phys.\
+  \textbf{E22} (2013) 1330019}, \href{http://arxiv.org/abs/1303.6912}{{\tt
+  arXiv:1303.6912}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{CKM}
+P.~Kooijman and N.~Tuning, \ifthenelse{\boolean{articletitles}}{\emph{{Lectures
+  on CP Violation}}, }{} 2015\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Baryogenesis}
+J.~M. Cline, \ifthenelse{\boolean{articletitles}}{\emph{{Baryogenesis}}, }{} in
+  {\em {Les Houches Summer School - Session 86: Particle Physics and Cosmology:
+  The Fabric of Spacetime Les Houches, France, July 31-August 25, 2006}}, 2006.
+\newblock \href{http://arxiv.org/abs/hep-ph/0609145}{{\tt
+  arXiv:hep-ph/0609145}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{DM1}
+N.~P. Vogt, M.~P. Haynes, T.~Herter, and R.~Giovanelli,
+  \ifthenelse{\boolean{articletitles}}{\emph{{M/L, H-alpha rotation curves, and
+  HI measurements for 329 nearby cluster and field spirals. 1. Data}},
+  }{}\href{http://dx.doi.org/10.1086/420701}{Astron.\ J.\  \textbf{127} (2004)
+  3273}, \href{http://arxiv.org/abs/astro-ph/0402649}{{\tt
+  arXiv:astro-ph/0402649}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{DM2}
+R.~Massey, T.~Kitching, and J.~Richard,
+  \ifthenelse{\boolean{articletitles}}{\emph{{The dark matter of gravitational
+  lensing}}, }{}\href{http://dx.doi.org/10.1088/0034-4885/73/8/086901}{Rept.\
+  Prog.\ Phys.\  \textbf{73} (2010) 086901},
+  \href{http://arxiv.org/abs/1001.1739}{{\tt arXiv:1001.1739}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Axions1}
+R.~D. Peccei and H.~R. Quinn,
+  \ifthenelse{\boolean{articletitles}}{\emph{Constraints imposed by
+  $\mathrm{CP}$ conservation in the presence of pseudoparticles},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevD.16.1791}{Phys.\ Rev.\ D
+  \textbf{16} (1977) 1791}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Axions2}
+S.~Weinberg, \ifthenelse{\boolean{articletitles}}{\emph{A new light boson?},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevLett.40.223}{Phys.\ Rev.\ Lett.\
+  \textbf{40} (1978) 223}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Axions3}
+F.~Wilczek, \ifthenelse{\boolean{articletitles}}{\emph{Problem of strong $p$
+  and $t$ invariance in the presence of instantons},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevLett.40.279}{Phys.\ Rev.\ Lett.\
+  \textbf{40} (1978) 279}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{CouplingConstants}
+\url{http://www.theo-physik.uni-kiel.de/~bonitz/public/nobel04/public.html}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Seesaw}
+J.~R. Ellis, J.~Hisano, M.~Raidal, and Y.~Shimizu,
+  \ifthenelse{\boolean{articletitles}}{\emph{{A New parametrization of the
+  seesaw mechanism and applications in supersymmetric models}},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevD.66.115013}{Phys.\ Rev.\
+  \textbf{D66} (2002) 115013}, \href{http://arxiv.org/abs/hep-ph/0206110}{{\tt
+  arXiv:hep-ph/0206110}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{MuonDM}
+F.~Jegerlehner and A.~Nyffeler, \ifthenelse{\boolean{articletitles}}{\emph{{The
+  Muon g-2}}, }{}\href{http://dx.doi.org/10.1016/j.physrep.2009.04.003}{Phys.\
+  Rept.\  \textbf{477} (2009) 1}, \href{http://arxiv.org/abs/0902.3360}{{\tt
+  arXiv:0902.3360}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{KamLAND-Zen:2016pfg}
+KamLAND-Zen, A.~Gando {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Search for Majorana Neutrinos
+  near the Inverted Mass Hierarchy Region with KamLAND-Zen}},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevLett.117.109903,
+  10.1103/PhysRevLett.117.082503}{Phys.\ Rev.\ Lett.\  \textbf{117} (2016),
+  no.~8 082503}, \href{http://arxiv.org/abs/1605.02889}{{\tt
+  arXiv:1605.02889}}, [Addendum: Phys. Rev. Lett.117,no.10,109903(2016)]\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{GERDA}
+GERDA, M.~Agostini {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Improved Limit on Neutrinoless
+  Double-$\beta$ Decay of $^{76}$Ge from GERDA Phase II}},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevLett.120.132503}{Phys.\ Rev.\
+  Lett.\  \textbf{120} (2018), no.~13 132503},
+  \href{http://arxiv.org/abs/1803.11100}{{\tt arXiv:1803.11100}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{StrongCP}
+R.~D. Peccei, \ifthenelse{\boolean{articletitles}}{\emph{{The Strong CP problem
+  and axions}}, }{}\href{http://dx.doi.org/10.1007/978-3-540-73518-2_1}{Lect.\
+  Notes Phys.\  \textbf{741} (2008) 3},
+  \href{http://arxiv.org/abs/hep-ph/0607268}{{\tt arXiv:hep-ph/0607268}},
+  [,3(2006)]\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Kaluza}
+T.~Kaluza, \ifthenelse{\boolean{articletitles}}{\emph{{On the Unification
+  Problem in Physics}}, }{}Sitzungsber.\ Preuss.\ Akad.\ Wiss.\ Berlin (Math.\
+  Phys.\ ) \textbf{1921} (1921) 966,
+  \href{http://arxiv.org/abs/1803.08616}{{\tt arXiv:1803.08616}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Klein}
+O.~Klein, \ifthenelse{\boolean{articletitles}}{\emph{Quantentheorie und
+  f{\"u}nfdimensionale relativit{\"a}tstheorie},
+  }{}\href{http://dx.doi.org/10.1007/BF01397481}{Zeitschrift f{\"u}r Physik
+  \textbf{37} (1926) 895}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{RS}
+L.~Randall and R.~Sundrum, \ifthenelse{\boolean{articletitles}}{\emph{Large
+  mass hierarchy from a small extra dimension},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevLett.83.3370}{Phys.\ Rev.\ Lett.\
+  \textbf{83} (1999) 3370}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Lenz:2013iha}
+A.~Lenz, \ifthenelse{\boolean{articletitles}}{\emph{{Constraints on a fourth
+  generation of fermions from Higgs Boson searches}},
+  }{}\href{http://dx.doi.org/10.1155/2013/910275}{Adv.\ High Energy Phys.\
+  \textbf{2013} (2013) 910275}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHM}
+V.~Sanz and J.~Setford, \ifthenelse{\boolean{articletitles}}{\emph{{Composite
+  Higgs Models after Run 2}},
+  }{}\href{http://dx.doi.org/10.1155/2018/7168480}{Adv.\ High Energy Phys.\
+  \textbf{2018} (2018) 7168480}, \href{http://arxiv.org/abs/1703.10190}{{\tt
+  arXiv:1703.10190}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{ColemanMandula}
+S.~Coleman and J.~Mandula, \ifthenelse{\boolean{articletitles}}{\emph{All
+  possible symmetries of the $s$ matrix},
+  }{}\href{http://dx.doi.org/10.1103/PhysRev.159.1251}{Phys.\ Rev.\
+  \textbf{159} (1967) 1251}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{RPVCMSSM}
+S.~S. AbdusSalam {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Benchmark Models, Planes, Lines
+  and Points for Future SUSY Searches at the LHC}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-011-1835-7}{Eur.\ Phys.\ J.\
+  \textbf{C71} (2011) 1835}, \href{http://arxiv.org/abs/1109.3859}{{\tt
+  arXiv:1109.3859}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Freedman:1976xh}
+D.~Z. Freedman, P.~van Nieuwenhuizen, and S.~Ferrara,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Progress Toward a Theory of
+  Supergravity}}, }{}\href{http://dx.doi.org/10.1103/PhysRevD.13.3214}{Phys.\
+  Rev.\  \textbf{D13} (1976) 3214}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Ellis:2002wv}
+J.~R. Ellis, K.~A. Olive, and Y.~Santoso,
+  \ifthenelse{\boolean{articletitles}}{\emph{{The MSSM parameter space with
+  nonuniversal Higgs masses}},
+  }{}\href{http://dx.doi.org/10.1016/S0370-2693(02)02071-3}{Phys.\ Lett.\
+  \textbf{B539} (2002) 107}, \href{http://arxiv.org/abs/hep-ph/0204192}{{\tt
+  arXiv:hep-ph/0204192}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Datta:2001er}
+A.~Datta, A.~Kundu, and A.~Samanta,
+  \ifthenelse{\boolean{articletitles}}{\emph{{New bounds on slepton and Wino
+  masses in anomaly mediated supersymmetry breaking models}},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevD.64.095016}{Phys.\ Rev.\
+  \textbf{D64} (2001) 095016}, \href{http://arxiv.org/abs/hep-ph/0101034}{{\tt
+  arXiv:hep-ph/0101034}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Bagnaschi:2016xfg}
+E.~Bagnaschi {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Likelihood Analysis of the
+  Minimal AMSB Model}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-017-4810-0}{Eur.\ Phys.\ J.\
+  \textbf{C77} (2017), no.~4 268}, \href{http://arxiv.org/abs/1612.05210}{{\tt
+  arXiv:1612.05210}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Martin:1997ns}
+S.~P. Martin, \ifthenelse{\boolean{articletitles}}{\emph{{A Supersymmetry
+  primer}}, }{}\href{http://arxiv.org/abs/hep-ph/9709356}{{\tt
+  arXiv:hep-ph/9709356}}, [Adv. Ser. Direct. High Energy Phys.18,1(1998)]\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Nishino:2009aa}
+Super-Kamiokande, H.~Nishino {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Search for Proton Decay via p
+  ---> e+ pi0 and p ---> mu+ pi0 in a Large Water Cherenkov Detector}},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevLett.102.141801}{Phys.\ Rev.\
+  Lett.\  \textbf{102} (2009) 141801},
+  \href{http://arxiv.org/abs/0903.0676}{{\tt arXiv:0903.0676}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{MASIERO1990273}
+A.~Masiero and J.~W.~F. Valle, \ifthenelse{\boolean{articletitles}}{\emph{A
+  model for spontaneous r parity breaking},
+  }{}\href{http://dx.doi.org/https://doi.org/10.1016/0370-2693(90)90935-Y}{Physics
+  Letters B \textbf{251} (1990), no.~2 273 }\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{ROMAO1992311}
+J.~C. Romão, C.~A. Santos, and J.~W.~F. Valle,
+  \ifthenelse{\boolean{articletitles}}{\emph{How to spontaneously break r
+  parity},
+  }{}\href{http://dx.doi.org/https://doi.org/10.1016/0370-2693(92)91109-M}{Physics
+  Letters B \textbf{288} (1992), no.~3 311 }\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Ghosh:2010hy}
+D.~K. Ghosh, G.~Senjanovic, and Y.~Zhang,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Naturally Light Sterile Neutrinos
+  from Theory of R-parity}},
+  }{}\href{http://dx.doi.org/10.1016/j.physletb.2011.03.039}{Phys.\ Lett.\
+  \textbf{B698} (2011) 420}, \href{http://arxiv.org/abs/1010.3968}{{\tt
+  arXiv:1010.3968}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Athron:2018vxy}
+GAMBIT, P.~Athron {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Combined collider constraints on
+  neutralinos and charginos}}, }{}\href{http://arxiv.org/abs/1809.02097}{{\tt
+  arXiv:1809.02097}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Athron:2017yua}
+GAMBIT, P.~Athron {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{A
+  global fit of the MSSM with GAMBIT}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-017-5196-8}{Eur.\ Phys.\ J.\
+  \textbf{C77} (2017), no.~12 879}, \href{http://arxiv.org/abs/1705.07917}{{\tt
+  arXiv:1705.07917}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Athron:2017qdc}
+GAMBIT, P.~Athron {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Global fits of GUT-scale SUSY
+  models with GAMBIT}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-017-5167-0}{Eur.\ Phys.\ J.\
+  \textbf{C77} (2017), no.~12 824}, \href{http://arxiv.org/abs/1705.07935}{{\tt
+  arXiv:1705.07935}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Bagnaschi:2016afc}
+E.~Bagnaschi {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Likelihood Analysis of
+  Supersymmetric SU(5) GUTs}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-017-4639-6}{Eur.\ Phys.\ J.\
+  \textbf{C77} (2017), no.~2 104}, \href{http://arxiv.org/abs/1610.10084}{{\tt
+  arXiv:1610.10084}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Bagnaschi:2017tru}
+E.~Bagnaschi {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Likelihood Analysis of the
+  pMSSM11 in Light of LHC 13-TeV Data}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-018-5697-0}{Eur.\ Phys.\ J.\
+  \textbf{C78} (2018), no.~3 256}, \href{http://arxiv.org/abs/1710.11091}{{\tt
+  arXiv:1710.11091}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Costa:2017gup}
+J.~C. Costa {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Likelihood Analysis of the
+  Sub-GUT MSSM in Light of LHC 13-TeV Data}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s10052-018-5633-3}{Eur.\ Phys.\ J.\
+  \textbf{C78} (2018), no.~2 158}, \href{http://arxiv.org/abs/1711.00458}{{\tt
+  arXiv:1711.00458}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Paradisi:2009ey}
+P.~Paradisi and D.~M. Straub, \ifthenelse{\boolean{articletitles}}{\emph{{The
+  SUSY CP Problem and the MFV Principle}},
+  }{}\href{http://dx.doi.org/10.1016/j.physletb.2009.12.054}{Phys.\ Lett.\
+  \textbf{B684} (2010) 147}, \href{http://arxiv.org/abs/0906.4551}{{\tt
+  arXiv:0906.4551}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Altmannshofer:2007cs}
+W.~Altmannshofer, A.~J. Buras, and D.~Guadagnoli,
+  \ifthenelse{\boolean{articletitles}}{\emph{{The MFV limit of the MSSM for low
+  tan(beta): Meson mixings revisited}},
+  }{}\href{http://dx.doi.org/10.1088/1126-6708/2007/11/065}{JHEP \textbf{11}
+  (2007) 065}, \href{http://arxiv.org/abs/hep-ph/0703200}{{\tt
+  arXiv:hep-ph/0703200}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{DAmbrosio:2002vsn}
+G.~D'Ambrosio, G.~F. Giudice, G.~Isidori, and A.~Strumia,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Minimal flavor violation: An
+  Effective field theory approach}},
+  }{}\href{http://dx.doi.org/10.1016/S0550-3213(02)00836-2}{Nucl.\ Phys.\
+  \textbf{B645} (2002) 155}, \href{http://arxiv.org/abs/hep-ph/0207036}{{\tt
+  arXiv:hep-ph/0207036}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Csaki:2011ge}
+C.~Csaki, Y.~Grossman, and B.~Heidenreich,
+  \ifthenelse{\boolean{articletitles}}{\emph{{MFV SUSY: A Natural Theory for
+  R-Parity Violation}},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevD.85.095009}{Phys.\ Rev.\
+  \textbf{D85} (2012) 095009}, \href{http://arxiv.org/abs/1111.1239}{{\tt
+  arXiv:1111.1239}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Straub:2009jd}
+D.~M. Straub, \ifthenelse{\boolean{articletitles}}{\emph{{MFV and the SUSY CP
+  Problem}}, }{}\href{http://dx.doi.org/10.1063/1.3327758}{AIP Conf.\ Proc.\
+  \textbf{1200} (2010) 904}, \href{http://arxiv.org/abs/0909.3296}{{\tt
+  arXiv:0909.3296}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Buras:2000dm}
+A.~J. Buras {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{Universal
+  unitarity triangle and physics beyond the standard model}},
+  }{}\href{http://dx.doi.org/10.1016/S0370-2693(01)00061-2}{Phys.\ Lett.\
+  \textbf{B500} (2001) 161}, \href{http://arxiv.org/abs/hep-ph/0007085}{{\tt
+  arXiv:hep-ph/0007085}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{CKMFitter}
+CKMfitter Group, J.~Charles {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{CP violation and the CKM matrix:
+  Assessing the impact of the asymmetric $B$ factories}},
+  }{}\href{http://dx.doi.org/10.1140/epjc/s2005-02169-1}{Eur.\ Phys.\ J.\
+  \textbf{C41} (2005), no.~1 1},
+  \href{http://arxiv.org/abs/hep-ph/0406184}{{\tt arXiv:hep-ph/0406184}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Alves:2008zz}
+LHCb collaboration, A.~A. Alves~Jr.\ {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{The \lhcb detector at the LHC}},
+  }{}\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{JINST \textbf{3}
+  (2008) S08005}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Alves:2012ey}
+A.~A. Alves, Jr.\ {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Performance of the LHCb muon
+  system}}, }{}\href{http://dx.doi.org/10.1088/1748-0221/8/02/P02022}{JINST
+  \textbf{8} (2013) P02022}, \href{http://arxiv.org/abs/1211.1346}{{\tt
+  arXiv:1211.1346}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Aaij:2014jba}
+LHCb, R.~Aaij {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{LHCb
+  Detector Performance}},
+  }{}\href{http://dx.doi.org/10.1142/S0217751X15300227}{Int.\ J.\ Mod.\ Phys.\
+  \textbf{A30} (2015), no.~07 1530022},
+  \href{http://arxiv.org/abs/1412.6352}{{\tt arXiv:1412.6352}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Altmannshofer:2009ne}
+W.~Altmannshofer {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Anatomy and Phenomenology of FCNC
+  and CPV Effects in SUSY Theories}},
+  }{}\href{http://dx.doi.org/10.1016/j.nuclphysb.2009.12.019}{Nucl.\ Phys.\
+  \textbf{B830} (2010) 17}, \href{http://arxiv.org/abs/0909.1333}{{\tt
+  arXiv:0909.1333}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Feroz:2008xx}
+F.~Feroz, M.~P. Hobson, and M.~Bridges,
+  \ifthenelse{\boolean{articletitles}}{\emph{{MultiNest: an efficient and
+  robust Bayesian inference tool for cosmology and particle physics}},
+  }{}\href{http://dx.doi.org/10.1111/j.1365-2966.2009.14548.x}{Mon.\ Not.\
+  Roy.\ Astron.\ Soc.\  \textbf{398} (2009) 1601},
+  \href{http://arxiv.org/abs/0809.3437}{{\tt arXiv:0809.3437}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Charles:2011va}
+J.~Charles {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Predictions of selected flavour
+  observables within the Standard Model}},
+  }{}\href{http://dx.doi.org/10.1103/PhysRevD.84.033005}{Phys.\ Rev.\
+  \textbf{D84} (2011) 033005}, \href{http://arxiv.org/abs/1106.4041}{{\tt
+  arXiv:1106.4041}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

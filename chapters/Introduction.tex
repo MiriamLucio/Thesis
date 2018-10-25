@@ -1,0 +1,195 @@
+\chapter{Introduction}
+\label{sec:introduction}
+The Standard Model (hereafter SM) of Particle Physics, mainly formulated in the \textcolor{red}{1970s}, is the quantum field theory that describes the strong and electroweak interactions. It is represented in Group Theory by~\cite{PDG}:
+\begin{equation}
+SU(3)_C\bigotimes SU(2)_T \bigotimes U(1)_Y
+\end{equation}
+Where the strong interaction, described by Quantum Chromodynamics (QCD), is contained in the $\rm SU(3)_C$ group (a symmetry group of \textit{color}, C), and $SU(2)_T \bigotimes U(1)_Y$, where T and Y stand for weak isospin and hypercharge respectively, relates to the electroweak interaction (EW). 
+The SM fermions (described in \ref{subsec:Particles}) consist of three families with two $SU(2)_L$ doublets ($Q_L$ and $L_L$) and three $SU(2)_L$ singlets ($U_R$, $D_R$ and $E_R$). %% MFV_TOTAL
+In order to preserve the electroweak gauge invariance (and so, keep the SM renormalizable), the particles predicted by this lagrangian have to be massless. This leads to the necessity of a spontaneously breaking of the symmetry into $SU(3)_C \bigotimes U(1)_{EM}$. Such breaking is done by the vacuum expectation value (VEV) of a scalar isospin doublet, with hypercharge 1/2, called \textit{Higgs}~\cite{Higgs}. More details on this mechanism are given in ~\ref{subsec:Higgs}.
+\begin{equation}
+G_{SM} \xrightarrow{Higgs(1,2)_{1/2}} SU(3)_C \bigotimes U(1)_{EM}
+\end{equation}
+
+\section{Higgs Mechanism}
+\label{subsec:Higgs}
+Similarly to what happens in the Ginzburg-Landau theory for superconductivity, the Higgs mechanism arises from the need of EWSB, together with the requirement that gauge invariance is preserved in $\mathcal{L}_{SM}$. The Higgs field interacts with the particles corresponding to the elementary field, including gauge bosons. Resulting of this interaction, these particless acquire mass. 
+As for the others, the Higgs field has associated at least one particle in the SM, the Higgs boson, a scalar particle with spin zero. Within the SM, it is not possible to make a prediction of its mass (other than setting loose upper and lower limits), since it depends on a parameter that needs to be determined experimentally. 
+
+%%% Higgs term in the lagrangian
+The term in the SM lagrangian that accounts for the self-interaction of the Higgs field is the following:
+\begin{equation}
+\mathcal{L}_{Higgs} = \mu^2\phi^{\dagger} \phi - \lambda (\phi^{\dagger} \phi)^2, \ \mu^2 < 0, \lambda > 0
+\end{equation}
+Where $\phi$ denotes the (complex) Higgs Field :
+\begin{equation}
+\phi = \binom{\phi^+}{\phi^0}
+\end{equation}
+A scalar isospin doublet with hypercharge +1/2. The initial symmetry of the system is broken for a non-zero value of this field:
+\begin{equation}
+\phi = \frac{1}{\sqrt{2}}\binom{0}{v}, v = \frac{\mu}{\sqrt{\lambda}}
+\end{equation}
+Leading to the Higgs particle, with mass $\sqrt{2\lambda v^2}$, neutral charge and hypercharge 1. It was discovered in 2012 by 2 detectors at LHC, ATLAS~\cite{ATLASHiggs} and CMS~\cite{CMSHiggs}. Its mass was measured to be $125.09 \pm 0.24 \GeV$.
+
+\begin{figure} [htb!]
+\begin{center}
+\includegraphics[scale=0.7]{figs/higgs.png}
+\caption{Higgs mechanism. The dashed-magenta vertical line indicate the two vacuum states. The black vertical line is located at the origin. The minimum is not at 0, and therefore the potential has a VEV. \label{fig:higgs}}
+\end{center}
+\end{figure}
+
+The gauge fields $W^\pm$ and Z acquire mass through their interaction with the Higgs boson. Thus:
+\begin{equation}
+W^\pm = \frac{1}{\sqrt{2}}(W^{(1)} \mp W^{(2)}), \ Z = \frac{1}{\sqrt{g_I^2 + g_Y^2}}(g_IW^{(3)} - g_Y B)
+\end{equation}
+Where Z and $W^\pm$ are linear combinations of the weak and hypercharge bosons (3 and 1, respectively). Then:
+\begin{equation}
+m_{W^\pm} = \frac{vg_I}{\sqrt{2}}, m_{Z} = v \sqrt{\frac{g_I^2 + g_Y^2}{2}}
+\end{equation}
+Notice that the relation between both masses is given by the so-called \textit{weak-mixing angle}, $\theta_W$
+\begin{equation}
+\frac{m_W^{\pm}}{m_Z} = \frac{g_I}{\sqrt(g_I + g_Y)} = \cos{\theta_W}
+\end{equation}
+Measured experimentally to be $\theta_W \sim 0.50 \ \rm rad$~\cite{PDG}. 
+
+\subsection{Coupling to fermions}
+The lagrangian term corresponding to the Higgs (\textit{H})-fermions (\textit{f}) interaction can be written as follows:
+\begin{equation}
+\mathcal{L_{Hf}} = - \lambda_e \bar{E}_L \phi E_R - \lambda_d \bar{Q}_L \phi D_{R} - \lambda_u \varepsilon^{ab} \phi_b^{\dagger}U_R + \rm h.c.
+\end{equation}
+Where $\lambda_e, \lambda_d$ and $\lambda_u$ are the respective coupling constants (\textit{Yukawa couplings}), different for each fermion. Substituting in this expression the Higgs field with the result obtained before:
+\begin{equation}
+m_e = \frac{v\lambda_e}{\sqrt{2}}, \ m_u = \frac{v\lambda_u}{\sqrt{2}}, \ m_d = \frac{v\lambda_d}{\sqrt{2}}
+\end{equation}
+The fermion masses are therefore proportional to the Yukawa couplings.
+
+%%% CKM: leptonic case: interaction independent, for each flavor; not quarks
+\subsection{Coupling to photons and gluons}
+Both gluons and photons are gauge bosons of the strong and electromagnetic interactions, respectively. They have zero mass and spin 1. For the gluons, given that the color symmetry SU(3) is not modified by the Higgs mechanism, they don't directly interact with the Higgs boson. The only way this interaction can happen is via quark loops. 
+Contrary to what happens with the gluons, the photons can interact directly with the Higgs field. Nevertheless, they don't acquire mass as a result of this interaction, $m_\gamma = 0$.  
+
+\section{Particle Content}
+\label{subsec:Particles}
+%% Fermion generatio, representation in the SM gauge symmetry 
+The particle content of the SM is categorized as a function of the intrinsic angular momentum of each particle, or \textit{spin}. Particles with half-integer spin are called \textit{fermions}, while those with an integer value for the spin are \textit{bosons}. The latter ones are the carriers of the different interactions that enter the SM lagrangian:
+\begin{equation}
+\mathcal{L} = \mathcal{L}_{kin} + \mathcal{L}_{Higgs} + \mathcal{L}_{Yuk}
+\end{equation}
+Where the first term accounts for the kinetic part of the interaction, and the two others describe the Higgs mechanism (described in \ref{subsec:Higgs}) and its interaction with the fermions. 
+%\red{W rises when introducing the covariant derivative and explain coupling constants}
+Regarding the fermions, a further classification can be made depending on whether they are affected (\textit{quarks}) or not (\textit{leptons}) by the strong interaction. If affected, a quantum number, color, further characterizes the particle. Note that the electroweak interaction affects all the particles. 
+
+An additional quantum number, \textit{flavour}, is used to label the different elementary particles. There are three flavour families of quarks and leptons in the SM, represented in \ref{fig:particle_content}. Each lepton (electron, \textit{i}, muon, $\mu$, tauon, $\tau$) has associated a neutral particle,  called the \textit{neutrino}: $\nu_e$, $\nu_\mu$, $\nu_tau$. Even though they are predicted to be massless within the SM (so that there are not right-handed neutrinos in the SM and, equivalently, there are not left-handed antineutrinos), they are known to have mass~\cite{SolarNeutrinos}.
+
+The elementary particles of the SM are represented in \ref{fig:particle_content}. For each of this particles, there exists another one with the same mass but opposite physical charges. Those are called \textit{antiparticles}. Notice that some particles (e.g. the photon) are their own antiparticle. 
+
+\begin{figure} [htb!]
+\begin{center}
+\includegraphics[scale=0.5]{figs/particle_content.jpg}
+\caption{The SM particle content\red{~\cite{ParticleContent}}. \label{fig:particle_content}}
+\end{center}
+\end{figure}
+
+Quarks form bound states named \textit{hadrons} that have a quantum number associated called the baryonic number, $\mathcal{B}$. They are composed either by a quark and an antiquark (forming \textit{mesons}, with $\mathcal{B} = 0$) or by three quarks (\textit{baryons}, with $\mathcal{B}=1$). Given the spin that results of the \textit{sum} of the quarks, baryons are fermions and mesons are bosons. 
+
+\section{CKM Matrix} 
+The Yukawa couplings, seen in \ref{subsec:Higgs}, generate off-diagonal terms that allow for the quarks to \textit{mix} between the three generations. Diagonalizing the quark mass matrices, 4 unitary matrices are obtained, $V_{L,R}^{u,d}$, that determine the coupling of the $W^{\pm}$ bosons to the different quarks. 
+
+This diagonalization can be seen as the rotation from one basis ($q$) to another, hereafter called \textit{mass basis} or \textit{physical basis}, $q'$. These are related by the aforementioned matrices ~\cite{CKM}:
+
+\begin{equation}
+u_L^i = V_u^{ij} u'^{j}_L \ \ d_L^i = V_d^{ij}d'^{j}_L 
+\end{equation}
+
+With this, the weak current transforms from $\bar{u}^i_L \gamma^{\mu} d_L^i$ to $\bar{u}'^i_L \gamma^{\mu}(V_u^{\dag}V_d)_{ij}) d'^i_L \equiv \bar{u}'^i_L \gamma^{\mu} V_{\rm CKM} d'^i_L$, where $V_{\rm CKM}$ is a non-diagonal, unitary matrix called the \textit{Cabibbo-Kobayashi-Maskawa} (CKM) matrix. The most up-to-date measured values of its elements can be found in~\cite{PDG}. 
+
+\begin{equation}
+V^{\rm CKM} = \begin{pmatrix}
+V_{ud} & V_{us} & V_{ub}\\ 
+V_{cd} & V_{cs} & V_{cb}\\ 
+V_{td} & V_{ts} & V_{tb}
+\end{pmatrix}
+\end{equation}
+
+This matrix is the responsible for the transitions between different quark generations, that allow for processes in which there is change in the quark flavour but not in the electric charge to happen. These are known as Flavour Changing Neutral Currents (FCNC). Most of the rare decays are of this type. It also causes CP violation, that will be discussed in the following sections. It is worth noticing that this matrix is not necessarily restricted to being 3x3, thus extra quark generations (not discovered yet) can exist~\cite{CKM}.
+
+%\red{unitarity triangle}\red{... In QCD, flavour is a global symmetry, broken in the electroweak symmetry... }
+ 
+%Yukawa couplings led to off-diagonal elements in the 3x3 matrix between the different families. Diagonalizing the Yukawa matrix (mass matrix), off diagonal elements appear in the charged current coupling (Q+-)
+%When the three fermion generations are added to the theory, additional terms mixing quarks of different
+%generations are possible. Alternatively, it is possible to diagonalise the Higgs couplings by switching
+%to a different basis for the quark fields. Writing the Lagrangian in this alternative basis (hereinafter
+%referred to as “mass basis” or “physical basis”) will of course simplify L Y uk but with the cost of causing
+%a complication in the gauge side. Calling q the interaction eigenstates and q the mass eigenstates, both
+%bases are related through the unitary relations:
+
+\section{Need for New Physics}
+%%% Introduction
+Even though the SM has shown to be a very successful theory, it lacks explanation for several phenomena present in nature. 
+
+\subsection{Matter-antimatter imbalance}
+In order to have an excess of matter over antimatter in the early universe (process known as \textit{baryogenesis}~\cite{Baryogenesis}, three requirements have to be fulfilled. These are known as the \textit{Sakharov conditions}~\cite{Baryogenesis}, and include a large CP-violation. The SM predicts a rate of the CP-violation smaller than the one needed, thus, a new source is required.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Dark matter and dark energy}
+\label{subsec:DarkMatter_DarkEnergy}
+Several experimental evidences, such as the rotational speed of spiral galaxies, gravitational lensing, or observed fluctuations in the Cosmic Microwave Background radiation (\red{see for example~\cite{DM1},~\cite{DM2}}) have lead to  discovery of dark matter and dark energy, that take up the vast majority of the Universe composition {and don't interact with light}. The possible baryonic (MACHOs, MAssive Compact Halo Objects, such as black holes, and RAMBOs, Robust Association of Massive Baryonic Objects) percentage of dark matter is small. The rest cannot be explained within the SM, it is \textit{non baryonic cold dark matter}, where cold refers to its non-relativistic nature, \red{or neutrinos}. Possible candidates for cold dark matter entail weakly interacting sub-eV particles (WISPs), such as axions(~\cite{Axions1},~\cite{Axions2},~\cite{Axions3}), primordial back holes \red{ref} and weakly interacting massive particles (WIMPs). 
+%%% Experimental signatures
+
+\subsection{Unification of forces}
+The behavior of the three coupling constants at the order of TeV,\red{\textit{naturalness}}
+,(figure\ref{fig:constants}, left) suggests the existence of a \textit{primary} interaction, represented by a higher symmetry group (e.g. SU(5) or SO(10)). Spontaneous symmetry breaking of this interaction would lead to the existence of the electromagnetic, weak, and strong interactions at lower energy scales. Nevertheless, in order for this to happen, there should be a matching of these coupling constants for such high energies, which is not perfectly achieved in the SM. This hints the existence of new symmetries orfields (figure\ref{fig:constants}, right). Some of these suggestions will be discussed in the following chapter. 
+
+%% IMG source http://www.theo-physik.uni-kiel.de/~bonitz/public/nobel04/public.html
+\begin{figure} [htb!]
+\begin{center}
+\includegraphics[scale=0.7]{figs/coupling_constants.jpg}
+\caption{Running coupling constants as a function of the energy scale, for the SM (left) and in the context of supersymmetry (right)~\cite{CouplingConstants} \label{fig:constants}}
+\end{center}
+\end{figure}
+ 
+\begin{itemize} 
+\item The number of fermion families. As mentioned earlier, the number of fermion families is not an observable, but rather an input for the theory. More generations could in principle be accommodated as part of the SM particle content. 
+\item The gauge hierarchy problem. This is intrinsically related to the mass of the Higgs boson. Apart from the fact that it is not predicted by the theory, it requires fine-tuning in order not to diverge, leading to the enlargement of the EW scale. Also, it is very small compared to the gravity scale, given by the Planck mass: $M_{Pl} = \sqrt{\hbar c/G_N} = 1.2 \times 10^{19} \GeV$, which is not fully understood. 
+\item Inclusion of gravity. The SM fails to include gravity as one of the interactions, as there is no quantum theory for it. 
+\item Neutrino masses. As it was already mentioned before, neutrinos are massless within the SM model. Nevertheless, experimental observations such as the oscillations of solar neutrinos\red{~\cite{SolarNeutrinos}} prove this prediction wrong. Thus, a Beyond the SM (BSM) mechanism to give neutrinos mass is required. There are several proposals for this, such as the seesaw mechanism or the Majorana theory\red{~\cite{Seesaw}}. 
+\item Charge quantisation. The fact that the electron charge and the proton charge are of the same magnitude but opposite sign has no explanation in the SM. 
+%\item \red{Strong CP problem}
+\item Fermion masses and mixing angles. Similarly to what happened with the number of fermion families, these quantities are not predicted by the SM. Moreover, the mass of the top quark, much bigger than the other quark masses, is an intriguing fact not explained by this theory. 
+\item The magnetic dipole moment of the muon, whose experimental measurement\red{~\cite{MuonDM}} deviates more than 3$\sigma$ from the SM predictions. 
+\end{itemize}
+
+In addition to this, several results provided by the LHCb collaboration \red{refs} on flavour anomalies and lepton flavour universality studies contribute to the motivation of the search for BSM physics. 
+
+Several theories have been proposed to cope with the SM problems, that make this model look more like an effective low energy theory than a model itself. Among these, Supersymmetry and Minimal Flavour Violation (MFV) are of special importance and will be discussed in the following chapters. However, there are other alternatives, some of which are briefly discussed below.
+
+\begin{itemize}
+\item \textbf{Majorana neutrinos}: in the SM, neutrinos are supposed to be massless \textit{Dirac} particles. However it's been suggested that they are instead its own antiparticle, \textit{Majorana neutrinos}. Within this theory, they are allowed to acquire mass. Several experiments search for a neutrinoless double beta decay that would prove this~\cite{KamLAND-Zen:2016pfg},~\cite{GERDA}.
+\item \textbf{Axions}: axions are hypothetical particles that compose DM, including the Peccei-Quinn mechanism~\cite{Axions1} to solve the \red{strong CP problem}~\cite{StrongCP}. They would have been massively produced soon after the Big Bang. The couplings and masses axions can cover several orders of magnitudes. %%%https://arxiv.org/pdf/1712.03018.pdf %% http://iaxo.web.cern.ch/content/physics
+\item \textbf{Two Higgs Doublet Models (THDM)}: in this scenario, there are two Higgs fields populating the vacuum instead of one. %% https://arxiv.org/pdf/1106.0034.pdf
+\begin{equation}
+\left \langle \phi_a \right \rangle_0 = \binom{0}{\frac{v_1}{\sqrt{2}}}, \ \left \langle \phi_b \right \rangle_0 = \binom{0}{\frac{v_2}{\sqrt{2}}}
+\end{equation}
+Where $v_2$ and $v_2$ follow the relation:
+\begin{equation}
+v \equiv (v_1^2 + v_2^2)^{1/2}
+\end{equation}
+The ratio between these two VEVs, $\tan{\beta} \equiv \frac{v_2}{v_1}$ is the most important parameter in this model. It describes the diagonalization of the mass-squared matrices of the charged scalars and of the pseudoscalars, resulting in 4 fields
+\begin{equation}
+\begin{split}
+& \phi_1 = \sin{\beta}\phi_b + \cos{\beta}\phi_a \ \phi_2 = -\sin{\beta}\phi_a + \cos{\beta}\phi_b \\
+& \left \langle \phi_1 \right \rangle_0 = \binom{0}{\frac{v_{SM}}{\sqrt{2}}}, \ \left \langle \phi_2 \right \rangle_0 = \binom{0}{0}
+\end{split}
+\end{equation}
+The spontaneous symmetry breaking leads in this case to 5 physical Higgs particles: two neutral scalars linear combinations of $Re(\phi_1^0)$ and $Re(\phi_1^0)$, $H^0$ and $h^0$; a neutral pseudoscalar, $A^0 \propto Im(\phi_2^0)$ and two charged scalars $H^\pm = \phi_2^\pm$.  
+\item \textbf{Models with extra dimensions}: models with extra dimensions (apart from the usual 4 from the observed spacetime) are motivated by the attempts made to unify electromagnetism and gravity within the Kaluza-Klein theory~\cite{Kaluza},~\cite{Klein}. There are several proposals, such as \textit{string theory} or the \textit{Randall-Sundrum model}~\cite{RS}, that gives explanation to hierarchy using 5 dimensions and predicts the existence of the \textit{graviton}. 
+\item \textbf{SM with fourth generation (SM4)}: adding a fourth generation of fermions requires the corresponding neutrino to be heavy, $m_{\nu_4} > M_Z/2$, to match the current experimental constraints~\cite{Lenz:2013iha}.   %%https://cds.cern.ch/record/1635712/files/910275.pdf
+\item \textbf{Little Higgs Models}: in these models, the Higgs is realised as a light pseudo-Nambu Goldstone boson of a broken global symmetry. They attempt to solve the gauge hierarchy problem. The minimal version of such models include 4 new heavy vector bosons, ($W'^{\pm}$, $Z'$, $B'$), coupled to SM fermions, mixed with the SM $W^{\pm}$ and $Z$;  light Higgs doublet(s), with possibility of extra light scalar multiplets; heavy Higgs multiplets, coupled to Higgs/Goldstone pairs, decoupled from fermions, mixed with light Higgses, and heavy up-type quark(s), $t'$. An example spectrum can be seen in \ref{fig:lhm}. Updated constraints in this model can be found in~\cite{LHM}.
+   %%https://arxiv.org/pdf/1703.10190.pdf %%http://www.desy.de/~reuter/downloads/lhm.pdf
+\begin{figure} [htb!]
+\begin{center}
+\includegraphics[scale=0.7]{figs/lhm.png}
+\caption{Example spectrum for LHM \red{ref?} \label{fig:lhm}}
+\end{center}
+\end{figure}
+\end{itemize}
+

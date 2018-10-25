@@ -1,0 +1,677 @@
+% Correct Bibtex entries are best obtained by cut-and-paste from 
+% Spires or Inspire. 
+% - They might still need some editing of Latex symbols in 
+%   the titles. 
+% - Page ranges should in many cases be shortened to just 
+%   having the start page.
+% - Collaborations might need to be added or indeed just the word 
+%   "collaboration" put after them.
+
+% Below are a set of standard references to use for LHCb.
+%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%
+@article{PDG,
+      author         = "Patrignani, C. and others",
+      title          = "{Review of Particle Physics}",
+      collaboration  = "Particle Data Group",
+      journal        = "Chin. Phys.",
+      volume         = "C40",
+      year           = "2016",
+      number         = "10",
+      pages          = "100001",
+      doi            = "10.1088/1674-1137/40/10/100001",
+      SLACcitation   = "%%CITATION = CHPHD,C40,100001;%%"
+}
+
+@article{Higgs,
+  title = {Broken Symmetries and the Masses of Gauge Bosons},
+  author = {Higgs, Peter W.},
+  journal = {Phys. Rev. Lett.},
+  volume = {13},
+  issue = {16},
+  pages = {508--509},
+  numpages = {0},
+  year = {1964},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.13.508},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.13.508}
+}
+
+@article{ATLASHiggs,
+      author         = "Aad, Georges and others",
+      title          = "{Observation of a new particle in the search for the
+                        Standard Model Higgs boson with the ATLAS detector at the
+                        LHC}",
+      collaboration  = "ATLAS",
+      journal        = "Phys. Lett.",
+      volume         = "B716",
+      year           = "2012",
+      pages          = "1-29",
+      doi            = "10.1016/j.physletb.2012.08.020",
+      eprint         = "1207.7214",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2012-218",
+      SLACcitation   = "%%CITATION = ARXIV:1207.7214;%%"
+}
+
+@article{CMSHiggs,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Observation of a new boson at a mass of 125 GeV with the
+                        CMS experiment at the LHC}",
+      collaboration  = "CMS",
+      journal        = "Phys. Lett.",
+      volume         = "B716",
+      year           = "2012",
+      pages          = "30-61",
+      doi            = "10.1016/j.physletb.2012.08.021",
+      eprint         = "1207.7235",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-HIG-12-028, CERN-PH-EP-2012-220",
+      SLACcitation   = "%%CITATION = ARXIV:1207.7235;%%"
+}
+
+@article{ParticleContent,
+      author         = "Drewes, Marco",
+      title          = "{The Phenomenology of Right Handed Neutrinos}",
+      journal        = "Int. J. Mod. Phys.",
+      volume         = "E22",
+      year           = "2013",
+      pages          = "1330019",
+      doi            = "10.1142/S0218301313300191",
+      eprint         = "1303.6912",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "TUM-HEP-881-13",
+      SLACcitation   = "%%CITATION = ARXIV:1303.6912;%%"
+}
+
+
+%%% CHECK!
+@inproceedings{CKM, 
+      author         = "P. Kooijman and N. Tuning",
+      title          = "{Lectures on CP Violation}",
+      year           = "2015"
+}
+
+@inproceedings{Baryogenesis,
+      author         = "Cline, James M.",
+      title          = "{Baryogenesis}",
+      booktitle      = "{Les Houches Summer School - Session 86: Particle Physics
+                        and Cosmology: The Fabric of Spacetime Les Houches,
+                        France, July 31-August 25, 2006}",
+      year           = "2006",
+      eprint         = "hep-ph/0609145",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0609145;%%"
+}
+@article{Lenz:2013iha,
+      author         = "Lenz, Alexander",
+      title          = "{Constraints on a fourth generation of fermions from
+                        Higgs Boson searches}",
+      journal        = "Adv. High Energy Phys.",
+      volume         = "2013",
+      year           = "2013",
+      pages          = "910275",
+      doi            = "10.1155/2013/910275",
+      SLACcitation   = "%%CITATION = 00642,2013,910275;%%"
+}
+
+
+@article{LHM,
+      author         = "Sanz, Veronica and Setford, Jack",
+      title          = "{Composite Higgs Models after Run 2}",
+      journal        = "Adv. High Energy Phys.",
+      volume         = "2018",
+      year           = "2018",
+      pages          = "7168480",
+      doi            = "10.1155/2018/7168480",
+      eprint         = "1703.10190",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1703.10190;%%"
+}
+
+@article{DM1,
+      author         = "Vogt, Nicole P. and Haynes, Martha P. and Herter, Terry
+                        and Giovanelli, Riccardo",
+      title          = "{M/L, H-alpha rotation curves, and HI measurements for
+                        329 nearby cluster and field spirals. 1. Data}",
+      journal        = "Astron. J.",
+      volume         = "127",
+      year           = "2004",
+      pages          = "3273-3329",
+      doi            = "10.1086/420701",
+      eprint         = "astro-ph/0402649",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ASTRO-PH/0402649;%%"
+}
+
+@article{DM2,
+      author         = "Massey, Richard and Kitching, Thomas and Richard, Johan",
+      title          = "{The dark matter of gravitational lensing}",
+      journal        = "Rept. Prog. Phys.",
+      volume         = "73",
+      year           = "2010",
+      pages          = "086901",
+      doi            = "10.1088/0034-4885/73/8/086901",
+      eprint         = "1001.1739",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph.CO",
+      SLACcitation   = "%%CITATION = ARXIV:1001.1739;%%"
+}
+
+@article{Axions1,
+  title = {Constraints imposed by $\mathrm{CP}$ conservation in the presence of pseudoparticles},
+  author = {Peccei, R. D. and Quinn, Helen R.},
+  journal = {Phys. Rev. D},
+  volume = {16},
+  issue = {6},
+  pages = {1791--1797},
+  numpages = {0},
+  year = {1977},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.16.1791},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.16.1791}
+}
+
+@article{Axions2,
+  title = {A New Light Boson?},
+  author = {Weinberg, Steven},
+  journal = {Phys. Rev. Lett.},
+  volume = {40},
+  issue = {4},
+  pages = {223--226},
+  numpages = {0},
+  year = {1978},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.40.223},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.40.223}
+}
+
+@article{Axions3,
+  title = {Problem of Strong $P$ and $T$ Invariance in the Presence of Instantons},
+  author = {Wilczek, F.},
+  journal = {Phys. Rev. Lett.},
+  volume = {40},
+  issue = {5},
+  pages = {279--282},
+  numpages = {0},
+  year = {1978},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.40.279},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.40.279}
+}
+
+@misc{CouplingConstants,
+  howpublished = {\url{http://www.theo-physik.uni-kiel.de/~bonitz/public/nobel04/public.html}},
+}
+%note = {Accessed: 2010-09-30}
+@article{SolarNeutrinos,
+      author         = "Maltoni, M. and Schwetz, T. and Tortola, M. A. and Valle,
+                        J. W. F.",
+      title          = "{Status of global fits to neutrino oscillations}",
+      journal        = "New J. Phys.",
+      volume         = "6",
+      year           = "2004",
+      pages          = "122",
+      doi            = "10.1088/1367-2630/6/1/122",
+      eprint         = "hep-ph/0405172",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "IFIC-04-19, TUM-HEP-548-04, YITP-SB-04-29",
+      SLACcitation   = "%%CITATION = HEP-PH/0405172;%%"
+}
+
+@article{Seesaw,
+      author         = "Ellis, John R. and Hisano, Junji and Raidal, Martti and
+                        Shimizu, Yasuhiro",
+      title          = "{A New parametrization of the seesaw mechanism and
+                        applications in supersymmetric models}",
+      journal        = "Phys. Rev.",
+      volume         = "D66",
+      year           = "2002",
+      pages          = "115013",
+      doi            = "10.1103/PhysRevD.66.115013",
+      eprint         = "hep-ph/0206110",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-TH-2002-126, ICRR-REPORT-490-2002-8, DPNU-02-16",
+      SLACcitation   = "%%CITATION = HEP-PH/0206110;%%"
+}
+
+@article{MuonDM,
+      author         = "Jegerlehner, Fred and Nyffeler, Andreas",
+      title          = "{The Muon g-2}",
+      journal        = "Phys. Rept.",
+      volume         = "477",
+      year           = "2009",
+      pages          = "1-110",
+      doi            = "10.1016/j.physrep.2009.04.003",
+      eprint         = "0902.3360",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "HU-EP-09-07, HRI-P-09-02-001, RECAPP-HRI-2009-003",
+      SLACcitation   = "%%CITATION = ARXIV:0902.3360;%%"
+}
+
+@article{StrongCP,
+      author         = "Peccei, R. D.",
+      title          = "{The Strong CP problem and axions}",
+      booktitle      = "{Axions: Theory, cosmology, and experimental searches.
+                        Proceedings, 1st Joint ILIAS-CERN-CAST axion training,
+                        Geneva, Switzerland, November 30-December 2, 2005}",
+      journal        = "Lect. Notes Phys.",
+      volume         = "741",
+      year           = "2008",
+      pages          = "3-17",
+      doi            = "10.1007/978-3-540-73518-2_1",
+      note           = "[,3(2006)]",
+      eprint         = "hep-ph/0607268",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = HEP-PH/0607268;%%"
+}
+
+@article{Kaluza,
+      author         = "Kaluza, Theodor",
+      title          = "{On the Unification Problem in Physics}",
+      booktitle      = "{International School of Cosmology and Gravitation: 8th
+                        Course: Unified Field Theories of More than Four
+                        Dimensions, Including Exact Solutions Erice, Italy, May
+                        20-June 1, 1982}",
+      journal        = "Sitzungsber. Preuss. Akad. Wiss. Berlin (Math. Phys.)",
+      volume         = "1921",
+      year           = "1921",
+      pages          = "966-972",
+      eprint         = "1803.08616",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.hist-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1803.08616;%%"
+}
+
+@article{Klein,
+author="Klein, Oskar",
+title="Quantentheorie und f{\"u}nfdimensionale Relativit{\"a}tstheorie",
+journal="Zeitschrift f{\"u}r Physik",
+year="1926",
+month="Dec",
+day="01",
+volume="37",
+number="12",
+pages="895--906",
+issn="0044-3328",
+doi="10.1007/BF01397481",
+url="https://doi.org/10.1007/BF01397481"
+}
+
+@article{RS,
+  title = {Large Mass Hierarchy from a Small Extra Dimension},
+  author = {Randall, Lisa and Sundrum, Raman},
+  journal = {Phys. Rev. Lett.},
+  volume = {83},
+  issue = {17},
+  pages = {3370--3373},
+  numpages = {0},
+  year = {1999},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.83.3370},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.83.3370}
+}
+
+@article{KamLAND-Zen:2016pfg,
+      author         = "Gando, A. and others",
+      title          = "{Search for Majorana Neutrinos near the Inverted Mass
+                        Hierarchy Region with KamLAND-Zen}",
+      collaboration  = "KamLAND-Zen",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "117",
+      year           = "2016",
+      number         = "8",
+      pages          = "082503",
+      doi            = "10.1103/PhysRevLett.117.109903,
+                        10.1103/PhysRevLett.117.082503",
+      note           = "[Addendum: Phys. Rev. Lett.117,no.10,109903(2016)]",
+      eprint         = "1605.02889",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1605.02889;%%"
+}
+
+@article{GERDA,
+      author         = "Agostini, M. and others",
+      title          = "{Improved Limit on Neutrinoless Double-$\beta$ Decay of
+                        $^{76}$Ge from GERDA Phase II}",
+      collaboration  = "GERDA",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "120",
+      year           = "2018",
+      number         = "13",
+      pages          = "132503",
+      doi            = "10.1103/PhysRevLett.120.132503",
+      eprint         = "1803.11100",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1803.11100;%%"
+}
+
+
+%%%%%%%%%%%%% Supersymmetry %%%%%%%%%%%%%
+
+@article{ColemanMandula,
+  title = {All Possible Symmetries of the $S$ Matrix},
+  author = {Coleman, Sidney and Mandula, Jeffrey},
+  journal = {Phys. Rev.},
+  volume = {159},
+  issue = {5},
+  pages = {1251--1256},
+  numpages = {0},
+  year = {1967},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.159.1251},
+  url = {https://link.aps.org/doi/10.1103/PhysRev.159.1251}
+}
+
+@article{RPVCMSSM,
+      author         = "AbdusSalam, S. S. and others",
+      title          = "{Benchmark Models, Planes, Lines and Points for Future
+                        SUSY Searches at the LHC}",
+      journal        = "Eur. Phys. J.",
+      volume         = "C71",
+      year           = "2011",
+      pages          = "1835",
+      doi            = "10.1140/epjc/s10052-011-1835-7",
+      eprint         = "1109.3859",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2011-224, DAMTP-2011-69, DESY-11-090,
+                        FTPI-MINN-11-22, LCTS-2011-15, LPT-ORSAY-11-76, TTK-11-41,
+                        UMN-TH-3012-11, DESY-11-90, KCL-PH-TH-2011-30",
+      SLACcitation   = "%%CITATION = ARXIV:1109.3859;%%"
+}
+
+@article{Paschos1,
+  title = {Natural conservation laws for neutral currents},
+  author = {Glashow, Sheldon L. and Weinberg, Steven},
+  journal = {Phys. Rev. D},
+  volume = {15},
+  issue = {7},
+  pages = {1958--1965},
+  numpages = {0},
+  year = {1977},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.15.1958},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.15.1958}
+}
+
+@article{Paschos2,
+  title = {Diagonal neutral currents},
+  author = {Paschos, Emmanuel A.},
+  journal = {Phys. Rev. D},
+  volume = {15},
+  issue = {7},
+  pages = {1966--1972},
+  numpages = {0},
+  year = {1977},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.15.1966},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.15.1966}
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%% MFV %%%%%%%%%%%%%%%%%%
+%%% MFV_TOTAL
+@article{DAmbrosio:2002vsn,
+      author         = "D'Ambrosio, G. and Giudice, G. F. and Isidori, G. and
+                        Strumia, A.",
+      title          = "{Minimal flavor violation: An Effective field theory
+                        approach}",
+      journal        = "Nucl. Phys.",
+      volume         = "B645",
+      year           = "2002",
+      pages          = "155-187",
+      doi            = "10.1016/S0550-3213(02)00836-2",
+      eprint         = "hep-ph/0207036",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-TH-2002-147, IFUP-TH-2002-17",
+      SLACcitation   = "%%CITATION = HEP-PH/0207036;%%"
+} 
+
+@article{Altmannshofer:2007cs,
+      author         = "Altmannshofer, Wolfgang and Buras, Andrzej J. and
+                        Guadagnoli, Diego",
+      title          = "{The MFV limit of the MSSM for low tan(beta): Meson
+                        mixings revisited}",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2007",
+      pages          = "065",
+      doi            = "10.1088/1126-6708/2007/11/065",
+      eprint         = "hep-ph/0703200",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "TUM-HEP-665-07",
+      SLACcitation   = "%%CITATION = HEP-PH/0703200;%%"
+}
+%%% MFV 2 
+@article{Buras:2000dm,
+      author         = "Buras, A. J. and Gambino, P. and Gorbahn, M. and Jager,
+                        S. and Silvestrini, L.",
+      title          = "{Universal unitarity triangle and physics beyond the
+                        standard model}",
+      journal        = "Phys. Lett.",
+      volume         = "B500",
+      year           = "2001",
+      pages          = "161-167",
+      doi            = "10.1016/S0370-2693(01)00061-2",
+      eprint         = "hep-ph/0007085",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "TUM-HEP-379-00, CERN-TH-2000-190",
+      SLACcitation   = "%%CITATION = HEP-PH/0007085;%%"
+}
+%%%% CMFV
+@article{CKMFitter,
+      author         = "Charles, J. and Hocker, Andreas and Lacker, H. and
+                        Laplace, S. and Le Diberder, F. R. and Malcles, J. and
+                        Ocariz, J. and Pivk, M. and Roos, L.",
+      title          = "{CP violation and the CKM matrix: Assessing the impact of
+                        the asymmetric $B$ factories}",
+      collaboration  = "CKMfitter Group",
+      journal        = "Eur. Phys. J.",
+      volume         = "C41",
+      year           = "2005",
+      number         = "1",
+      pages          = "1-131",
+      doi            = "10.1140/epjc/s2005-02169-1",
+      eprint         = "hep-ph/0406184",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CPT-2004-P-030, LAL-04-21, LAPP-EXP-2004-01,
+                        LPNHE-2004-01",
+      SLACcitation   = "%%CITATION = HEP-PH/0406184;%%"
+}
+@article{Csaki:2011ge,
+      author         = "Csaki, Csaba and Grossman, Yuval and Heidenreich, Ben",
+      title          = "{MFV SUSY: A Natural Theory for R-Parity Violation}",
+      journal        = "Phys. Rev.",
+      volume         = "D85",
+      year           = "2012",
+      pages          = "095009",
+      doi            = "10.1103/PhysRevD.85.095009",
+      eprint         = "1111.1239",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1111.1239;%%"
+}
+
+@article{Straub:2009jd,
+      author         = "Straub, David M.",
+      title          = "{MFV and the SUSY CP Problem}",
+      booktitle      = "{Proceedings, 7th International Conference on
+                        Supersymmetry and the Unification of Fundamental
+                        Interactions (SUSY09): Boston, USA, June 5-10, 2009}",
+      journal        = "AIP Conf. Proc.",
+      volume         = "1200",
+      year           = "2010",
+      pages          = "904-907",
+      doi            = "10.1063/1.3327758",
+      eprint         = "0909.3296",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0909.3296;%%"
+}
+
+@article{Paradisi:2009ey,
+      author         = "Paradisi, Paride and Straub, David M.",
+      title          = "{The SUSY CP Problem and the MFV Principle}",
+      journal        = "Phys. Lett.",
+      volume         = "B684",
+      year           = "2010",
+      pages          = "147-153",
+      doi            = "10.1016/j.physletb.2009.12.054",
+      eprint         = "0906.4551",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "TUM-HEP-725-09",
+      SLACcitation   = "%%CITATION = ARXIV:0906.4551;%%"
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The LHCb detector paper
+@article{Alves:2008zz,
+      author         = "Alves~Jr., A. A. and others",
+      title          = "{The \lhcb detector at the LHC}",
+      collaboration  = "LHCb collaboration",
+      journal        = "JINST",
+      volume         = "3",
+      pages          = "S08005",
+      doi            = "10.1088/1748-0221/3/08/S08005",
+      year           = "2008",
+}
+
+%%% LHCb Muon part:
+@article{Alves:2012ey,
+      author         = "Alves, Jr., A. A. and others",
+      title          = "{Performance of the LHCb muon system}",
+      journal        = "JINST",
+      volume         = "8",
+      year           = "2013",
+      pages          = "P02022",
+      doi            = "10.1088/1748-0221/8/02/P02022",
+      eprint         = "1211.1346",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "LHCB-DP-2012-002",
+      SLACcitation   = "%%CITATION = ARXIV:1211.1346;%%"
+}
+
+%%% Performance part:
+@article{Aaij:2014jba,
+      author         = "Aaij, Roel and others",
+      title          = "{LHCb Detector Performance}",
+      collaboration  = "LHCb",
+      journal        = "Int. J. Mod. Phys.",
+      volume         = "A30",
+      year           = "2015",
+      number         = "07",
+      pages          = "1530022",
+      doi            = "10.1142/S0217751X15300227",
+      eprint         = "1412.6352",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "LHCB-DP-2014-002, CERN-PH-EP-2014-290",
+      SLACcitation   = "%%CITATION = ARXIV:1412.6352;%%"
+}
+
+% The standard trigger reference
+@article{Aaij:2012me,
+      author         = "Aaij, R. and Albrecht, J. and Alessio, F. and Amato, S.
+                        and Aslanides, E. and others",
+      title          = "{The \lhcb trigger and its performance}",
+      year           = "2012",
+      eprint         = "1211.3055",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1211.3055;%%",
+}
+
+%%%%%%%%% DF = 2:
+@article{Altmannshofer:2009ne,
+      author         = "Altmannshofer, Wolfgang and Buras, Andrzej J. and Gori,
+                        Stefania and Paradisi, Paride and Straub, David M.",
+      title          = "{Anatomy and Phenomenology of FCNC and CPV Effects in
+                        SUSY Theories}",
+      journal        = "Nucl. Phys.",
+      volume         = "B830",
+      year           = "2010",
+      pages          = "17-94",
+      doi            = "10.1016/j.nuclphysb.2009.12.019",
+      eprint         = "0909.1333",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "TUM-HEP-727-09, MPP-2009-133",
+      SLACcitation   = "%%CITATION = ARXIV:0909.1333;%%"
+}
+
+@article{Altmannshofer:2007cs,
+      author         = "Altmannshofer, Wolfgang and Buras, Andrzej J. and
+                        Guadagnoli, Diego",
+      title          = "{The MFV limit of the MSSM for low tan(beta): Meson
+                        mixings revisited}",
+      journal        = "JHEP",
+      volume         = "11",
+      year           = "2007",
+      pages          = "065",
+      doi            = "10.1088/1126-6708/2007/11/065",
+      eprint         = "hep-ph/0703200",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "TUM-HEP-665-07",
+      SLACcitation   = "%%CITATION = HEP-PH/0703200;%%"
+}
+
+@article{Charles:2011va,
+      author         = "Charles, J. and others",
+      title          = "{Predictions of selected flavour observables within the
+                        Standard Model}",
+      journal        = "Phys. Rev.",
+      volume         = "D84",
+      year           = "2011",
+      pages          = "033005",
+      doi            = "10.1103/PhysRevD.84.033005",
+      eprint         = "1106.4041",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "LPT-ORSAY-11-53",
+      SLACcitation   = "%%CITATION = ARXIV:1106.4041;%%"
+}
+
+@article{Feroz:2008xx,
+      author         = "Feroz, F. and Hobson, M. P. and Bridges, M.",
+      title          = "{MultiNest: an efficient and robust Bayesian inference
+                        tool for cosmology and particle physics}",
+      journal        = "Mon. Not. Roy. Astron. Soc.",
+      volume         = "398",
+      year           = "2009",
+      pages          = "1601-1614",
+      doi            = "10.1111/j.1365-2966.2009.14548.x",
+      eprint         = "0809.3437",
+      archivePrefix  = "arXiv",
+      primaryClass   = "astro-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0809.3437;%%"
+}
+

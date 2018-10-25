@@ -1,0 +1,389 @@
+\definecolor{heartgold}{rgb}{0.5, 0.5, 0.0}
+\def\gauss      {\mbox{\textsc{Gauss}}\xspace}
+\def\photos     {\mbox{\textsc{Photos}}\xspace}
+\def\pythia     {\mbox{\textsc{Pythia}}\xspace}
+\def\evtgen     {\mbox{\textsc{EvtGen}}\xspace}
+\def\geant      {\mbox{\textsc{Geant4}}\xspace}
+
+\def\ptot       {\mbox{$p$}\xspace}
+\def\pt         {\mbox{$p_{\rm T}$}\xspace}
+\def\et         {\mbox{$E_{\rm T}$}\xspace}
+
+
+ \def\PA      {\ensuremath{A}\xspace}                 
+ \def\PB      {\ensuremath{B}\xspace}                 
+ \def\PC      {\ensuremath{C}\xspace}                 
+ \def\PD      {\ensuremath{D}\xspace}                 
+ \def\PE      {\ensuremath{E}\xspace}                 
+ \def\PF      {\ensuremath{F}\xspace}                 
+ \def\PG      {\ensuremath{G}\xspace}                 
+ \def\PH      {\ensuremath{H}\xspace}                 
+ \def\PI      {\ensuremath{I}\xspace}                 
+ \def\PJ      {\ensuremath{J}\xspace}                 
+ \def\PK      {\ensuremath{K}\xspace}                 
+ \def\PL      {\ensuremath{L}\xspace}                 
+ \def\PM      {\ensuremath{M}\xspace}                 
+ \def\PN      {\ensuremath{N}\xspace}                 
+ \def\PO      {\ensuremath{O}\xspace}                 
+ \def\PP      {\ensuremath{P}\xspace}                 
+ \def\PQ      {\ensuremath{Q}\xspace}                 
+ \def\PR      {\ensuremath{R}\xspace}                 
+ \def\PS      {\ensuremath{S}\xspace}                 
+ \def\PT      {\ensuremath{T}\xspace}                 
+ \def\PU      {\ensuremath{U}\xspace}                 
+ \def\PV      {\ensuremath{V}\xspace}                 
+ \def\PW      {\ensuremath{W}\xspace}                 
+ \def\PX      {\ensuremath{X}\xspace}                 
+ \def\PY      {\ensuremath{Y}\xspace}                 
+ \def\PZ      {\ensuremath{Z}\xspace}                 
+ \def\Pa      {\ensuremath{a}\xspace}                 
+ \def\Pb      {\ensuremath{b}\xspace}                 
+ \def\Pc      {\ensuremath{c}\xspace}                 
+ \def\Pd      {\ensuremath{d}\xspace}                 
+ \def\Pe      {\ensuremath{e}\xspace}                 
+ \def\Pf      {\ensuremath{f}\xspace}                 
+ \def\Pg      {\ensuremath{g}\xspace}                 
+ \def\Ph      {\ensuremath{h}\xspace}                 
+ \def\Pi      {\ensuremath{i}\xspace}                 
+ \def\Pj      {\ensuremath{j}\xspace}                 
+ \def\Pk      {\ensuremath{k}\xspace}                 
+ \def\Pl      {\ensuremath{l}\xspace}                 
+ \def\Pm      {\ensuremath{m}\xspace}                 
+ \def\Pn      {\ensuremath{n}\xspace}                 
+ \def\Po      {\ensuremath{o}\xspace}                 
+ \def\Pp      {\ensuremath{p}\xspace}                 
+ \def\Pq      {\ensuremath{q}\xspace}                 
+ \def\Pr      {\ensuremath{r}\xspace}                 
+ \def\Ps      {\ensuremath{s}\xspace}                 
+ \def\Pt      {\ensuremath{t}\xspace}                 
+ \def\Pu      {\ensuremath{u}\xspace}                 
+ \def\Pv      {\ensuremath{v}\xspace}                 
+ \def\Pw      {\ensuremath{w}\xspace}                 
+ \def\Px      {\ensuremath{x}\xspace}                 
+ \def\Py      {\ensuremath{y}\xspace}                 
+ \def\Pz      {\ensuremath{z}\xspace}                 
+
+\def\quark     {\ensuremath{\Pq}\xspace}
+\def\quarkbar  {\ensuremath{\overline \quark}\xspace}
+\def\qqbar     {\ensuremath{\quark\quarkbar}\xspace}
+\def\uquark    {\ensuremath{\Pu}\xspace}
+\def\uquarkbar {\ensuremath{\overline \uquark}\xspace}
+\def\uubar     {\ensuremath{\uquark\uquarkbar}\xspace}
+\def\dquark    {\ensuremath{\Pd}\xspace}
+\def\dquarkbar {\ensuremath{\overline \dquark}\xspace}
+\def\ddbar     {\ensuremath{\dquark\dquarkbar}\xspace}
+\def\squark    {\ensuremath{\Ps}\xspace}
+\def\squarkbar {\ensuremath{\overline \squark}\xspace}
+\def\ssbar     {\ensuremath{\squark\squarkbar}\xspace}
+\def\cquark    {\ensuremath{\Pc}\xspace}
+\def\cquarkbar {\ensuremath{\overline \cquark}\xspace}
+\def\ccbar     {\ensuremath{\cquark\cquarkbar}\xspace}
+\def\bquark    {\ensuremath{\Pb}\xspace}
+\def\bquarkbar {\ensuremath{\overline \bquark}\xspace}
+\def\bbbar     {\ensuremath{\bquark\bquarkbar}\xspace}
+\def\tquark    {\ensuremath{\Pt}\xspace}
+\def\tquarkbar {\ensuremath{\overline \tquark}\xspace}
+\def\ttbar     {\ensuremath{\tquark\tquarkbar}\xspace}
+
+
+\def\Vud  {\ensuremath{|V_{\uquark\dquark}|}\xspace}
+\def\Vcd  {\ensuremath{|V_{\cquark\dquark}|}\xspace}
+\def\Vtd  {\ensuremath{|V_{\tquark\dquark}|}\xspace}
+\def\Vus  {\ensuremath{|V_{\uquark\squark}|}\xspace}
+\def\Vcs  {\ensuremath{|V_{\cquark\squark}|}\xspace}
+\def\Vts  {\ensuremath{|V_{\tquark\squark}|}\xspace}
+\def\Vub  {\ensuremath{|V_{\uquark\bquark}|}\xspace}
+\def\Vcb  {\ensuremath{|V_{\cquark\bquark}|}\xspace}
+\def\Vtb  {\ensuremath{|V_{\tquark\bquark}|}\xspace}
+
+% file for definitions that were not available in lhcb-symbols-def.tex
+
+\newcommand{\Af}{\ensuremath{\mathcal{A}_f}\xspace}
+\newcommand{\Ak}{\ensuremath{\mathcal{A}_k}\xspace}
+\newcommand{\Abarf}{\ensuremath{\bar{\mathcal{A}}_f}\xspace}
+\newcommand{\Abark}{\ensuremath{\bar{\mathcal{A}}_k}\xspace}
+\newcommand{\Afbar}{\ensuremath{\mathcal{A}_{\bar{f}}}\xspace}
+\newcommand{\Akbar}{\ensuremath{\mathcal{A}_{\bar{k}}}\xspace}
+\newcommand{\Abarfbar}{\ensuremath{\bar{\mathcal{A}}_{\bar{f}}}\xspace}
+\newcommand{\Abarkbar}{\ensuremath{\bar{\mathcal{A}}_{\bar{k}}}\xspace}
+
+\newcommand{\invps}{\ensuremath{ps^{-1}}\xspace}
+\newcommand{\rad}{\ensuremath{\rm rad}\xspace}
+\def\BuToJPsiK {\decay{\Bu}{\jpsi\Kp}\xspace}
+\newcommand{\brackets}[1]{\ensuremath{\left[ #1 \right]}}
+\newcommand{\cAbarfbar}{\ensuremath{\bar{\mathcal{A}}_{\bar{f}}}\xspace}
+\newcommand{\braket}[2]{\ensuremath{\langle #1|#2\rangle}} % {a}{b}
+\newcommand{\cAbarf}{\ensuremath{\bar{\mathcal{A}}_f}\xspace}
+
+\def\cosTmu  {\ensuremath{\cos(\theta_{\mu})}\xspace}
+
+\def\lhcb {\mbox{LHCb}\xspace}
+\def\mum  {\ensuremath{\rm \mu m}\xspace}
+\def\Jmm {\jpsi(\mumu)}
+\def\BsJPsimmPhi {\decay{\Bs}{\jpsi(\mumu)\phi(KK)}\xspace}
+\def\BcJPsimunu {\decay{\Bc}{\Jmm \mup \Pnu}}
+\newcommand{\CL}{C.L.\ }
+\def\CP                {\ensuremath{C\!P}\xspace}
+\newcommand{\CLsb}{\ensuremath{\textrm{CL}_{\textrm{s+b}}}\xspace}
+\newcommand{\CLs}{\ensuremath{\textrm{CL}_{\textrm{s}}}\xspace}
+\newcommand{\CLb}{\ensuremath{\textrm{CL}_{\textrm{b}}}\xspace}
+\newcommand{\MC}{Monte Carlo\xspace}
+
+\def\Ppsi {\ensuremath{\psi}\xspace}
+\def\jpsi     {{\ensuremath{{\PJ\mskip -3mu/\mskip -2mu\Ppsi\mskip 2mu}}}\xspace}
+\def\Jpsi     {{\ensuremath{\jpsi}}\xspace}
+
+\newcommand{\bb}{\ensuremath{b\bar{b}}\xspace}
+\newcommand{\mKK}{\ensuremath{m_{KK}}\xspace}
+\newcommand{\mkpi}{\ensuremath{m_{\Km\pip}}\xspace}
+\newcommand{\mkk}{\mKK}
+
+\newcommand{\bbdim}{\ensuremath{b\bar{b}\to \mu \mu X}\xspace}
+\newcommand{\mbdim}{\ensuremath{pp\to \mu \mu X}\xspace}
+\newcommand{\Bq}{\ensuremath{B^0_q}\xspace}
+
+
+\def\Bbar    {\kern 0.18em\overline{\kern -0.18em B}{}\xspace}
+
+\newcommand{\Bs}{\ensuremath{B^0_s}\xspace}
+\newcommand{\Bsd}{\ensuremath{B^0_{(s)}}\xspace}
+\def\Bsb     {\ensuremath{\Bbar^0_s}\xspace}
+
+\newcommand{\Bd}{\ensuremath{B^0}\xspace}
+\def\Bdb     {\ensuremath{\Bbar^0}\xspace}
+\newcommand{\Bu}{\ensuremath{B^+}\xspace}
+\newcommand{\Bub}{\ensuremath{B^-}\xspace}
+\newcommand{\B}{\ensuremath{B}\xspace}
+\newcommand{\ket}[1]{\ensuremath{|#1\rangle}}  
+\newcommand{\Dst}{\ensuremath{D^{*}}\xspace}
+\newcommand{\Dstpm}{\ensuremath{D^{*\pm}}\xspace}
+\def\Plambda{\ensuremath{\Lambda}\xspace}
+\mathchardef\PLambda="7103
+\newcommand{\Lambdab}{\ensuremath{\PLambda^0_b}\xspace}
+\newcommand{\Lb}{\Lambdab}
+\newcommand{\Lbb}{\Lambdab}
+\newcommand{\Bsmumu}{\ensuremath{\Bs\to\mu^+\mu^-}\xspace}
+\newcommand{\Jpsimm}{\ensuremath{\Jpsi\to\mu^+\mu^-}\xspace}
+\newcommand{\Bdmumu}{\ensuremath{\Bd\to\mu^+\mu^-}\xspace}
+\newcommand{\KstKpi}{\ensuremath{\Kst\to K^+\pi^-}\xspace}
+\newcommand{\DKpi}{\ensuremath{\D\to K^-\pi^+}\xspace}
+\newcommand{\Bsmumugamma}{\ensuremath{\Bs\to\mu^+\mu^-\gamma}\xspace}
+\newcommand{\Bdpipi}{\ensuremath{\Bd\to\pi^+\pi^-}\xspace}
+\newcommand{\Bspipi}{\ensuremath{\Bs\to\pi^+\pi^-}\xspace}
+\newcommand{\BsKK}{\ensuremath{\Bs\to K^+K^-}\xspace}
+\newcommand{\BdKK}{\ensuremath{\Bd\to K^+K^-}\xspace}
+\newcommand{\BdKpi}{\ensuremath{\Bd\to K^+\pi^-}\xspace}
+\newcommand{\BspiK}{\ensuremath{\Bs\to\pi^+K^-}\xspace}
+\newcommand{\Bhh}{\ensuremath{B^0_{(s)}\to h^+h^-}\xspace}
+\newcommand{\Bmm}{\ensuremath{B^0_{(s)}\to \mu^+\mu^-}\xspace}
+\newcommand{\Buhhh}{\ensuremath{B^{\pm}\to h^+h^-h^{\pm}}\xspace}
+\newcommand{\BsDspi}{\ensuremath{B^0_{(s)}\to  D^-_s(K^+K^-\pi^-) \pi^+}\xspace}\newcommand{\Kst}{\ensuremath{K^{*0}}\xspace}
+\newcommand{\BJpsiX}{\ensuremath{B_{q}\to \jpsi X}\xspace}
+\newcommand{\BJpsihh}{\ensuremath{B\to \jpsi h^+h^-}\xspace}
+\newcommand{\BuJpsiK}{\ensuremath{B^+\to \jpsi K^+}\xspace}
+\newcommand{\BuJpsiKpipi}{\ensuremath{B^\pm\to \jpsi (K\pi\pi)^\pm}\xspace}
+\newcommand{\BuJpsimumuK}{\ensuremath{B^+\to \jpsi(\mu^+\mu^-)K^+}\xspace}
+\newcommand{\BJpsimumuX}{\ensuremath{B \to \jpsi(\mu^+\mu^-)X}\xspace}
+\newcommand{\BdJpsiKst}{\ensuremath{B^0\to \jpsi K^{*0}}\xspace}
+\newcommand{\BdJpsiKpi}{\ensuremath{B^0\to \jpsi \Kp \pim}\xspace}
+\newcommand{\BJpsiKpi}{\ensuremath{B^0_{(s)}\to \jpsi K \pi}\xspace}
+\newcommand{\BsJpsiKpi}{\ensuremath{B^0_s\to \jpsi \Km \pip}\xspace}
+\newcommand{\CBsJpsiKst}{\ensuremath{\bar{B^0_s}\to \jpsi \Kst}\xspace}
+\newcommand{\BqtoX}{\ensuremath{B_q\to X}\xspace}
+\newcommand{\BsJpsiKst}{\ensuremath{B^0_s\to \jpsi \Kstarzb}\xspace}
+\newcommand{\BJpsiKst}{\ensuremath{B^0_{(s)}\to \jpsi K^{*0}(\Kstarzb)}\xspace}
+
+\newcommand{\BsKstKst}{\ensuremath{\Bs\to\Kstarz\Kstarzb}\xspace}
+\newcommand{\BdJpsimumuKstKpi}{\ensuremath{B^0\to \jpsi(\mu^+\mu^-)K^{*0}(K^+\pi^-)}\xspace}
+\newcommand{\BsJpsimumuKstKpi}{\ensuremath{B^0_s\to \jpsi(\mu^+\mu^-)K^{*0}(K^+\pi^-)}\xspace}
+\newcommand{\BcJpsimumumunu}{\ensuremath{B^+_c\to \jpsi(\mu^+\mu^-)\mu^+\nu_{\mu}}\xspace}
+\newcommand{\Jpsimumu}{\ensuremath{\jpsi\to \mu^+\mu^-}\xspace}
+
+\newcommand{\Bqmumu}{\ensuremath{\ensuremath{B^0_{q}}\to\mu^+\mu^-}\xspace}
+\newcommand{\BsJpsimumuPhiKK}{\ensuremath{B^0_s\to \jpsi(\mu^+\mu^-) \phi(K^+K^-)}\xspace}
+\newcommand{\BdJpsimumupipi}{\ensuremath{B^0\to \jpsi(\mu^+\mu^-) \pi^+\pi^-}\xspace}
+\newcommand{\BdJpsiRho}{\ensuremath{B^0\to \jpsi \rho^0}\xspace}
+\newcommand{\BdJpsiRhoI}{\ensuremath{B^0\to \jpsi \rho^0(\pi^+\pi^-)}\xspace}
+\newcommand{\BdJpsirho}{\BdJpsiRhoI}
+\newcommand{\BdJpsipipi}{\ensuremath{B^0\to \jpsi \pi^+\pi^-}\xspace}
+\newcommand{\BsJpsipipi}{\ensuremath{B^0_s\to \jpsi \pi^+\pi^-}\xspace}
+\newcommand{\BsJpsifnot}{\ensuremath{B^0_s\to \jpsi f_0(980)}\xspace}
+\newcommand{\BsJpsifnotI}{\ensuremath{B^0_s\to \jpsi f_0(980)(\pi^+\pi^-)}\xspace}
+\newcommand{\BsJpsifz}{\BsJpsifnotI}
+\newcommand{\BsJpsiKK}{\ensuremath{B^0_s\to \jpsi K^+K^-}\xspace}
+\newcommand{\BdJpsiKK}{\ensuremath{B^0\to \jpsi K^+K^-}\xspace}
+\newcommand{\ropipi}{\ensuremath{\rho^0\to \pi^+\pi^-}\xspace}
+\newcommand{\Kspizmm}{\ensuremath{\KS\to\pi^0\mu^+\mu^-}\xspace}
+\newcommand{\Klpizmm}{\ensuremath{\KL\to\pi^0\mu^+\mu^-}\xspace}
+\newcommand{\Kzpizmm}{\ensuremath{\Kz\to\pi^0\mu^+\mu^-}\xspace}
+\newcommand{\KLTpi}{\ensuremath{\KL\to\pi^0\pi^+\pi^-}\xspace}
+\newcommand{\KSTpi}{\ensuremath{\KS\to\pi^0\pi^+\pi^-}\xspace}
+\newcommand{\KLFm}{\ensuremath{\KL\to\mu^+\mu^-\mu^+\mu^-}\xspace}
+\newcommand{\KSFm}{\ensuremath{\KS\to\mu^+\mu^-\mu^+\mu^-}\xspace}
+\newcommand{\KFm}{\ensuremath{\Kz\to\mu^+\mu^-\mu^+\mu^-}\xspace}
+\newcommand{\KLTmTg}{\ensuremath{\KL\to\mu^+\mu^-\gamma\gamma}\xspace}
+\newcommand{\KSTmTg}{\ensuremath{\KS\to\mu^+\mu^-\gamma\gamma}\xspace}
+\newcommand{\KTmTg}{\ensuremath{\Kz\to\mu^+\mu^-\gamma\gamma}\xspace}
+\newcommand{\KLTg}{\ensuremath{\KL\to\gamma\gamma}\xspace}
+\newcommand{\KSTg}{\ensuremath{\KS\to\gamma\gamma}\xspace}
+
+\newcommand{\Kspipi}{\ensuremath{\KS\to\pi^+\pi^-}\xspace}
+
+\newcommand{\Lambdappi}{\ensuremath{\Lambda\to p\pi^-}\xspace}
+\newcommand{\Lambdabppi}{\ensuremath{\Lambdab\to p\pi^-}\xspace}
+\newcommand{\LambdabpK}{\ensuremath{\Lambdab\to p K^-}\xspace}
+\newcommand{\LbJpsipK}{\ensuremath{\Lambdab\to\Jpsi p K^-}\xspace}
+\newcommand{\LbJpsippi}{\ensuremath{\Lambdab\to\Jpsi p \pi^-}\xspace}
+\newcommand{\LbJpsiph}{\ensuremath{\Lambdab\to\Jpsi p h^-}\xspace}
+\newcommand{\BsJpsiPhi}{\ensuremath{B^0_s\to \jpsi \phi}\xspace}
+\newcommand{\BsJpsiPhiI}{\ensuremath{B^0_s\to \jpsi \phi(K^+K^-)}\xspace}
+\newcommand{\BdJKst}{\BdJpsiKst}
+\newcommand{\BuJK}{\BuJpsiK}
+
+\newcommand{\BqJpsiVll}{\ensuremath{B^0_q\to \jpsi V(l^+l^-)}\xspace}
+\newcommand{\BqJpsiV}{\ensuremath{B^0_q\to \jpsi V}\xspace}
+\newcommand{\Vll}{\ensuremath{V\to l^+ l^-}\xspace}
+\newcommand{\BqJpsill}{\ensuremath{B^0_q\to \jpsi l^+l^-}\xspace}
+
+\newcommand{\BsJKst}{\BsJpsiKst}
+\newcommand{\BsJphi}{\BsJpsiPhi}
+\newcommand{\BsJpsiphi}{\BsJpsiPhiI}
+\newcommand{\phis}{\ensuremath{\phi_s}\xspace}
+\newcommand{\invfb}{\ensuremath{\text{fb}^{-1}}\xspace}
+
+\def\Kbar  {\kern 0.2em\overline{\kern -0.2em K}{}\xspace}
+\def\Kstarzb {\ensuremath{\Kbar^{*0}}\xspace}
+
+\newcommand{\BRof}[1]{\ensuremath{{\cal B}(#1)}\xspace}
+\newcommand{\BRvisof}[1]{\ensuremath{{\cal B^{\rm vis}}(#1)}\xspace}
+\newcommand{\ps}{\ensuremath{ps}\xspace}
+\newcommand{\BR}{\BRof}
+\newcommand{\mumu}{\mu\mu}
+\newcommand{\pT}{\pt}
+
+\newcommand{\tev}{\ifthenelse{\boolean{inbibliography}}{\ensuremath{~T\kern -0.05em eV}\xspace}{\ensuremath{\mathrm{\,Te\kern -0.1em V}}}\xspace}
+\newcommand{\gev}{\ensuremath{\mathrm{\,Ge\kern -0.1em V}}\xspace}
+\newcommand{\mev}{\ensuremath{\mathrm{\,Me\kern -0.1em V}}\xspace}
+\newcommand{\kev}{\ensuremath{\mathrm{\,ke\kern -0.1em V}}\xspace}
+\newcommand{\ev}{\ensuremath{\mathrm{\,e\kern -0.1em V}}\xspace}
+\newcommand{\gevc}{\ensuremath{{\mathrm{\,Ge\kern -0.1em V\!/}c}}\xspace}
+\newcommand{\mevc}{\ensuremath{{\mathrm{\,Me\kern -0.1em V\!/}c}}\xspace}
+\newcommand{\gevcc}{\ensuremath{{\mathrm{\,Ge\kern -0.1em V\!/}c^2}}\xspace}
+\newcommand{\gevgevcccc}{\ensuremath{{\mathrm{\,Ge\kern -0.1em V^2\!/}c^4}}\xspace}
+\newcommand{\mevcc}{\ensuremath{{\mathrm{\,Me\kern -0.1em V\!/}c^2}}\xspace}
+
+\newcommand{\MeV}{\mev}
+\newcommand{\GeV}{\gev}
+\newcommand{\TeV}{\tev}
+\newcommand{\MeVc}{\mevc}
+\newcommand{\GeVc}{\gevc}
+\newcommand{\MeVcc}{\mevcc}
+\newcommand{\GeVcc}{\gevcc}
+\newcommand{\Km}{\ensuremath{K^-}\xspace}
+\newcommand{\Kp}{\ensuremath{K^+}\xspace}
+\newcommand{\KS  }{\ensuremath{K^0_{\mathrm{\scriptscriptstyle S}}}\xspace} 
+\newcommand{\KL  }{\ensuremath{K^0_{\mathrm{\scriptscriptstyle L}}}\xspace} 
+\newcommand{\Kz  }{\ensuremath{K^0\xspace} }
+
+\newcommand{\pim}{\ensuremath{\pi^-}\xspace}
+\newcommand{\pip}{\ensuremath{\pi^+}\xspace}
+\newcommand{\piz}{\ensuremath{\pi^0}\xspace}
+\newcommand{\Kstarz}{\Kst}
+\newcommand{\invpb}{\ensuremath{\,{\rm pb}^{-1}}\xspace}
+\newcommand{\invnb}{\ensuremath{\,{\rm nb}^{-1}}\xspace}
+\newcommand{\mb}{\ensuremath{\,{\rm mb}}\xspace}
+\newcommand{\microb}{\ensuremath{\,{\rm \mu b}}\xspace}
+
+\newcommand{\Enow}{\ensuremath{\,{\sqrt{s}=7\TeV}}\xspace}
+\newcommand{\Einj}{\ensuremath{\,{\sqrt{s}=900\GeV}}\xspace}
+\newcommand{\Enom}{\ensuremath{\,{\sqrt{s}=14\TeV}}\xspace}
+\newcommand{\Efive}{\ensuremath{\,{\sqrt{s}=10\TeV}}\xspace}
+\newcommand{\pdf}{\ensuremath{{\rm PDF}}\xspace}
+\newcommand{\pdfs}{\ensuremath{{\rm PDFs}}\xspace}
+\newcommand{\IP}{\ensuremath{{\rm IP}}\xspace}
+\newcommand{\ThetaK}{\ensuremath{{\Theta_{K^{*}}}}\xspace}
+\newcommand{\fdfs}{\ensuremath{\frac{f_d}{f_s}}\xspace}
+
+\newcommand{\DLL}{\ensuremath{{\rm \Delta LL}}\xspace}
+\newcommand{\gl}{\ensuremath{{\rm GL}}\xspace}
+\newcommand{\glk}{\ensuremath{{\rm GL_K}}\xspace}
+\newcommand{\glksm}{\ensuremath{{\rm GL_{KS}}}\xspace}
+\newcommand{\glsm}{\ensuremath{{\rm GL_{S}}}\xspace}
+\newcommand{\PID}{\ensuremath{{\rm PID}}\xspace}
+\newcommand{\etos}{\ensuremath{\epsilon^{TOS/SEL}}\xspace}
+\newcommand{\etis}{\ensuremath{\epsilon^{TIS/SEL}}\xspace}
+\newcommand{\etistos}{\ensuremath{\epsilon^{TIS\&TOS/SEL}}\xspace}
+
+\newcommand{\etrig}{\ensuremath{\epsilon^{TRIG/SEL}}\xspace}
+\newcommand{\eSelect}{\ensuremath{\epsilon^{SEL/REC}}\xspace}
+\newcommand{\eReco}{\ensuremath{\epsilon^{REC}}\xspace}
+
+\newcommand{\sumpt}{\ensuremath{{\Sigma \pt}}\xspace}
+\newcommand{\maxpt}{\ensuremath{{\rm max_{\pt}}}\xspace}
+\newcommand{\maxip}{\ensuremath{\rm max_{\IP}}\xspace}
+
+\newcommand{\swave}{{\rm S--wave}\xspace}
+\newcommand{\pwave}{{\rm P--wave}\xspace}
+\newcommand{\dwave}{{\rm D--wave}\xspace}
+\newcommand{\hwave}{{\rm H--wave}\xspace}
+\newcommand{\fwave}{{\rm F--wave}\xspace}
+
+\newcommand{\dAda}{\ensuremath{\frac{ \partial A}{ \partial a}}}
+\newcommand{\dAdtheta}{\ensuremath{\frac{\partial A}{\partial \theta}}}
+\newcommand{\dHdtheta}{\ensuremath{\frac{\partial H}{\partial \theta}}}
+\newcommand{\dHda}{\ensuremath{\frac{\partial H}{\partial a}}}
+\newcommand{\dPHIda}{\ensuremath{\frac{\partial \tan\Delta\phi}{\partial a}}}
+\newcommand{\dPHIdtheta}{\ensuremath{\frac{\partial \tan\Delta\phi}{\partial \theta}}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Ks->pi0mumu %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\bbone{\ensuremath{\mathds{1}}}
+\newcommand{\Mpzmumu}{\ensuremath{M_{\Pgpz\APmuon\Pmuon}}}
+\newcommand{\mybox}[2]{{\color{#1}\fbox{\normalcolor#2}}}
+\newcommand{\PKzS}{\ensuremath{K^{0}_{S}}}
+\newcommand{\PKzL}{\ensuremath{K^{0}_{L}}}
+\newcommand{\PKz}{\ensuremath{K^{0}}}
+\newcommand{\Plepton}{\text{\it{l}}}
+\newcommand{\Pmuon}{\ensuremath{\mu^{-}}}
+\newcommand{\APmuon}{\ensuremath{\mu^{+}}}
+\newcommand{\Pgpz}{\ensuremath{\pi^{0}}}
+\newcommand{\Pgpp}{\ensuremath{\pi^{+}}}
+\newcommand{\Pgpm}{\ensuremath{\pi^{-}}}
+\newcommand{\Pqd}{\text{\it{d}}}
+\newcommand{\Pqs}{\text{\it{s}}}
+%\newcommand{\PZ}{\ensuremath{Z^{0}}}
+\newcommand{\PBds}{\ensuremath{B^{0}_{d,s}}}
+\newcommand{\Pgamma}{\ensuremath{\gamma}}
+\newcommand{\KzPzMuMu}{\ensuremath{\Kz\rightarrow\Pgpz\APmuon\Pmuon}}
+\newcommand{\KsPzMuMu}{\ensuremath{\KS\rightarrow\Pgpz\APmuon\Pmuon}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%% These commands can be placed in the preamble (to be a global definition)
+%% or locally inside the \begin{table}...\end{table} syntax.
+%https://www.msu.edu/~harris41/latex_tablespacing.html
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}
+\newcommand\TTstrut{\rule{0pt}{3.2ex}}
+\newcommand\Bstrut{\rule[-1.2ex]{0pt}{0pt}}
+\newcommand\BBstrut{\rule[-1.8ex]{0pt}{0pt}}
+\newcommand{\rhoJ}{\ensuremath{\rho_{\Jpsi}}\xspace}
+\newcommand{\equref}[1]{Eq.~\ref{#1}}
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\appref}[1]{Appendix~\ref{#1}}
+\newcommand{\bibref}[1]{Ref.~\cite{#1}}
+\newcommand{\secref}[1]{Sect.~\ref{#1}}
+\newcommand{\cAf}{\ensuremath{\mathcal{A}_f}\xspace}
+\newcommand{\cAfbar}{\ensuremath{\mathcal{A}_{\bar{f}}}\xspace}
+
+\newcommand{\tred}[1]{\textcolor{red}{#1}}
+
+\newcommand{\tabcaption}[1]{  %  for tables, so that the caption when above the float is placed correctly
+\vspace{-\abovecaptionskip} % 
+\caption[#1]{#1}
+\vspace{\abovecaptionskip}
+}
+
+
+

@@ -1,0 +1,311 @@
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Fit validation with toy studies}\label{app:BsJpsiKst_toys}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Toy studies for the mass fit model}\label{app:BsJpsiKst_MassToysimulation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The fit model described in \secref{subsubsec:BsJpsiKst-mass_fit-model} is used to generate an ensemble of 1000 pseudoexperiments. In each pseudoexperiment, the yield of the \Bs, \Bd and combinatorial background event categories are randomly generated from a Poisson distribution, or ``poissonized", with values corresponding to the ones extracted from a fit performed to the $\mu^+\mu^- K\pi$ invariant mass and given in \tabref{tab:massFitData_cosTmuBin0} to \tabref{tab:massFitData_cosTmuBin4}. For the peaking backgrounds, their yields are poissonized according to the expected values given in \tabref{tab:peakingSummary}.
+%
+
+Since the \BdJpsipipi, \BsJpsipipi, \BsJpsiKK and \LbJpsipK peaking backgrounds are subtracted using negative weights in the nominal fit model, when generating the pseudoexperiments, a poissonized number, $N_j$, of events are randomly drawn from the corresponding simulated sample and added to the generated sample. The corresponding event weights are set to unity. In a second step, another poissonized number, $N^{'}_j$, of events are randomly drawn and added to the generated sample. The weights applied to these events are defined as
+\begin{equation}
+w_j = -\frac{N_j}{N^{'}_j}\, .
+\end{equation}
+This way the weighted sum of events for each of the three subtracted peaking background event categories will be statistically equal to zero.
+The event weights applied to all other event categories are set to unity. Note that during the generation process, it is ensured that each event drawn from the \BdJpsipipi, \BsJpsipipi, \BsJpsiKK and \LbJpsipK peaking background simulated samples are unique. Here, $N_j$ and $N^{'}_j$ are randomly generated according to a Poisson distribution of mean equal to the expected value of the corresponding subtracted peaking background $j$.
+%
+
+Following the mass fit model, in each pseudoexperiment, the data sample is divided into 20 categories corresponding to the four $m_{K\pi}$ bins times the five \cosTmu bins as defined in \secref{subsubsec:BsJpsiKst-mass_fit-model}. The values of the fixed shape parameters are extracted from all the simulation information available for signal, separately in each $m_{K\pi}$ bin, and assumed to be identical for each \cosTmu bin. Due to the limited size of the available simulated samples and to the small expected yields compared to the signal one, the peaking backgrounds shape parameters are extracted from simulation in the entire $m_{K\pi}$ range. The value of the combinatorial background shape parameter is directly taken from the results of the fit to data, as given in \secref{subsubsec:BsJpsiKst-mass_fit-results}. 
+%
+
+The nominal PDF is used to fit each of the 1000 pseudoexperiments. Several combinations are tested trying to maximise the number of floated parameters in order to reduce systematic uncertainties without impairing on the fit ability to discriminate the different event species. 
+As a result, all the tails parameters of the Hypatia function describing the \Bd and \Bs mass shapes are fixed, while both the corresponding mean and resolution parameters are let free to vary in the fit. All the peaking background shape parameters are fixed. The yields of \Bs, \Bd and combinatorial background event categories are free to vary in the fit. It was found that, due to its small value, the yield of the \LbJpsippi event category could not be freely determined in the fit. However, as described in ref.~\cite{Pivk:2004ty}, when using the \splot technique in the case where one or more event categories have their yields fixed in the maximum likelihood fit, the estimate of the $x$-distributions considered, $_s\tilde{\mathrm{M}}_\mathrm{n}$, which is obtained as the sum of the \sweights, needs to be corrected. The correction consists in adding to the $_s\tilde{\mathrm{M}}_\mathrm{n}$ distribution the normalised distributions of each fixed category scaled by the factor $c_{\rm n} = N_{\rm n} - \sum_j {\rm V}_{{\rm n}j}$, where $V$ is the covariance matrix resulting from the fit and $N$ the expected yield of category n. This procedure implies that the $x$-distributions of the fixed categories are well known. Since this is not the case for the angular distribution of the \LbJpsippi background, in order to avoid fixing the corresponding yields, Gaussian constraints are applied when performing the fit to the mass. As a consequence, and following the procedure described in ref.~\cite{Karbach:2012vg}, when performing the fit to each pseudoexperiment, the mean values of the gaussian constraints applied the \LbJpsippi yield are randomly generated according to the constraint PDFs. 
+%
+
+Depending on the $m_{K\pi}$ category, some small biases appearing for the \Bs signal yields can be observed. When computing the branching fractions, the fitted yields are not corrected for the biases. Instead, the later are included in the systematic uncertainties, where the biases appearing in each individual \mkpi and \cosTmu bins are added in quadrature. Note that the fit convergence rate is $100\%$. Adding the biases on the \Bs and \Bd yields appearing for each of the 20 bins, the following numbers
+\begin{align}
+{\rm bias}_{N_{\Bd}} &= -11.7 \, ,\\
+{\rm bias}_{N_{\Bs}} &= \phantom{-2}5.3\, ,
+\end{align}
+are obtained, which are then added into the systematics on the yields, after symmetrizing their values, and further propagated to the systematic on the ratio between $N_{\Bs}$ and $N_{\Bd}$. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Toy studies for the angular fit model}\label{app:BsJpsiKst_AngularToysimulation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Since the $A^{\CP}$ parameters were blind at this step, and their expected values close to zero, the nominal 1000 pseudoexperiments are generated with all $A^{\CP}$ parameters equal to zero. The corresponding toy studies are described in \secref{sec:ZACPs}. Toy simulation generated with non-zero $A^{\CP}$ values were also studied, as described in \secref{sec:NZACPs}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Toys with zero $A^{\CP}$ values}\label{sec:ZACPs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+First, possible biases in the nominal fit configuration are studied by performing a sFit to the weighted angular distributions using the \sweights for the \Bs event category extracted from a mass fit to each of the 1000 pseudoexperiments, as described in \appref{app:BsJpsiKst_MassToysimulation}. Then, in order to disentangle the effect of biases from the weighting and possible intrinsic fit model biases, a second toy study is done by performing a classic fit to the true \Bs angular distributions generated for each of the 1000 pseudoexperiments. In addition, the comparison between the results of these two toy studies allows to validate the scaling of the \sweights procedure applied in order to get proper uncertainties, as described in \secref{subsubsec:BsJpsiKst-mass_fit-model}.
+%
+
+Following the angular fit model, for both studies, the fit is performed simultaneously to 16 categories defined by the two data-taking periods, the kaon charge and the four \mkpi bins. All parameters are common among the 16 categories, except for the \swave parameters (i.e. the fractions of amplitudes $F_S$ and the strong phase $\delta_S$), which are split among the four \mkpi bins. Each of the 16 \Bs angular parameters are allowed to vary in the fit. \tabref{tab:AngularPullResults_sWeights} gives the results of the toy study with the nominal fit configuration where sFits to the weighted angular distributions are performed, showing the mean and width as returned by a fit to the corresponding pull distribution of each floated parameter in the \Bs angular fit model. Even though some small biases arise on the \swave parameters, no significant bias is observed compared to the corresponding statistical uncertainty. \tabref{tab:AngularPullResults_sigBs} gives the results of the toy study where classic fits are performed to the true \Bs angular distributions, showing the mean and width as returned by a fit to the corresponding pull distribution of each floated parameter in the \Bs angular fit model. 
+%
+
+\begin{table}[htbp]
+\begin{center}
+\caption[Means and widths of pull distributions of all the floated parameters entering the angular fit model from the toy studies when the fit is performed to the sWeighted angular distributions]{\label{tab:AngularPullResults_sWeights} Means and widths of pull distributions of all the floated parameters entering in the $B^0_s$ angular fit model from the toy studies when the fit is performed to the sWeighted angular distributions. }%The true value, $a_i^t$, as well as the means of the bias and of the error distributions, respectively $\mu(a_i^f - a_i^t) $ and $\mu(\sigma_i^f) $, are also reported for each of floated parameter.}
+\vspace{5pt}
+\begin{tabular}{l|c|c||r|r|r}
+%\hline
+ \multirow{2}{*}{$a_i$ $(B^0_s)$} & \multirow{2}{*}{$\mu({\rm pull}_i)$} & \multirow{2}{*}{$\sigma({\rm pull}_i)$} & \multirow{2}{*}{ $a_i^t $ } & \multirow{2}{*}{bias} & \multirow{2}{*}{$\mu(\sigma_i^f) $} \\
+					       &	 					  &		&   &   &	\\	
+\hline
+
+$A^{C\!P}_0$ 	&$	-0.060	 \pm	0.033	$&$	1.027	 \pm	0.024	$&$	0.000	$&$	-0.003	$&$	0.055	 $\\
+$A^{C\!P}_S$ 	&$	\phantom{-}0.038	 \pm	0.033	$&$	1.014	 \pm	0.025	$&$	0.000	$&$	0.004	$&$	0.106	 $\\
+$A^{C\!P}_{\|}$ 	&$	\phantom{-}0.016	 \pm	0.033	$&$	1.016	 \pm	0.024	$&$	0.000	$&$	0.002	$&$	0.156	 $\\
+$A^{C\!P}_{\perp}$ 	&$	-0.062	 \pm	0.034	$&$	1.029	 \pm	0.023	$&$	0.000	$&$	-0.005	$&$	0.088	 $\\
+															
+\hline															
+															
+$f_0$	&$	\phantom{-}0.017	 \pm	0.033	$&$	1.025	 \pm	0.027	$&$	0.497	$&$	0.000	$&$	0.028	 $\\
+$f_{\|}$	&$	-0.035	 \pm	0.033	$&$	1.020	 \pm	0.027	$&$	0.179	$&$	-0.001	$&$	0.027	 $\\
+$\delta_{\|}$	&$	\phantom{-}0.061	 \pm	0.034	$&$	1.056	 \pm	0.027	$&$	-2.700	$&$	0.010	$&$	0.160	 $\\
+$\delta_{\perp}$	&$	-0.069	 \pm	0.034	$&$	1.059	 \pm	0.027	$&$	-0.010	$&$	-0.007	$&$	0.108	 $\\
+															
+\hline															
+															
+$F_S\_826\_861 $	&$	\phantom{-}0.047	 \pm	0.035	$&$	1.078	 \pm	0.028	$&$	0.475	$&$	0.005	$&$	0.109	 $\\
+$F_S\_861\_896  $	&$	\phantom{-}0.110	 \pm	0.033	$&$	0.971	 \pm	0.024	$&$	0.080	$&$	0.003	$&$	0.032	 $\\
+$F_S\_896\_931  $	&$	\phantom{-}0.195	 \pm	0.033	$&$	1.010	 \pm	0.027	$&$	0.044	$&$	0.007	$&$	0.035	 $\\
+$F_S\_931\_966  $	&$	\phantom{-}0.126	 \pm	0.034	$&$	1.047	 \pm	0.029	$&$	0.523	$&$	0.015	$&$	0.115	 $\\
+$\delta_S\_826\_861$ 	&$	\phantom{-}0.061	 \pm	0.034	$&$	1.056	 \pm	0.027	$&$	0.540	$&$	0.010	$&$	0.156	 $\\
+$\delta_S\_861\_896 $	&$	-0.069	 \pm	0.034	$&$	1.059	 \pm	0.027	$&$	-0.530	$&$	-0.017	$&$	0.244	 $\\
+$\delta_S\_896\_931 $	&$	-0.108	 \pm	0.032	$&$	0.996	 \pm	0.020	$&$	-1.460	$&$	-0.022	$&$	0.208	 $\\
+$\delta_S\_931\_966 $	&$	\phantom{-}0.043	 \pm	0.035	$&$	1.063	 \pm	0.027	$&$	-1.760	$&$	0.006	$&$	0.136	 $\\
+%\hline
+
+ \end{tabular}
+\vspace{-20pt}
+\end{center}
+\end{table}
+
+\begin{table}[htbp]
+\begin{center}
+\caption[Means and widths of pull distributions of all the floated parameters entering the angular fit model from the toy studies when the fit is performed to the true $B^0_s$ angular distributions]{\label{tab:AngularPullResults_sigBs} Means and widths of pull distributions of all the floated parameters entering the $B^0_s$ angular fit model from the toy studies when the fit is performed to the true $B^0_s$ angular distributions. }%The true value, $a_i^t$, as well as the means of the bias and of the error distributions, respectively $\mu(a_i^f - a_i^t) $ and $\mu(\sigma_i^f) $, are also reported for each of floated parameter.}
+\vspace{5pt}
+\begin{tabular}{l|c|c||r|r|r}
+%\hline
+ \multirow{2}{*}{$a_i$ $(B^0_s)$} & \multirow{2}{*}{$\mu({\rm pull}_i)$} & \multirow{2}{*}{$\sigma({\rm pull}_i)$} & \multirow{2}{*}{ $a_i^t $ } & \multirow{2}{*}{bias} & \multirow{2}{*}{$\mu(\sigma_i^f) $} \\
+					       &	 					  &		&   &   &	\\	
+\hline
+
+$A^{C\!P}_0$ 	&$	\phantom{-}0.008	 \pm	0.031	$&$	0.974	 \pm	0.026	$&$	0.000	$&$	0.000	$&$	0.056	 $\\
+$A^{C\!P}_S$ 	&$	-0.007	 \pm	0.033	$&$	1.022	 \pm	0.025	$&$	0.000	$&$	-0.001	$&$	0.100	 $\\
+$A^{C\!P}_{\|}$ 	&$	\phantom{-}0.003	 \pm	0.032	$&$	0.987	 \pm	0.024	$&$	0.000	$&$	0.000	$&$	0.147	 $\\
+$A^{C\!P}_{\perp}$ 	&$	\phantom{-}0.011	 \pm	0.032	$&$	0.998	 \pm	0.024	$&$	0.000	$&$	0.001	$&$	0.094	 $\\
+															
+\hline															
+															
+$f_0$	&$	-0.023	 \pm	0.031	$&$	0.970	 \pm	0.028	$&$	0.497	$&$	-0.001	$&$	0.023	 $\\
+$f_{\|}$	&$	-0.030	 \pm	0.033	$&$	1.007	 \pm	0.028	$&$	0.179	$&$	-0.001	$&$	0.026	 $\\
+$\delta_{\|}$	&$	\phantom{-}0.034	 \pm	0.032	$&$	0.979	 \pm	0.027	$&$	-2.700	$&$	0.005	$&$	0.161	 $\\
+$\delta_{\perp}$	&$	-0.020	 \pm	0.032	$&$	1.003	 \pm	0.027	$&$	-0.010	$&$	-0.002	$&$	0.108	 $\\
+															
+\hline															
+															
+$F_S\_826\_861 $	&$	\phantom{-}0.054	 \pm	0.031	$&$	0.970	 \pm	0.028	$&$	0.475	$&$	0.006	$&$	0.109	 $\\
+$F_S\_861\_896  $	&$	\phantom{-}0.198	 \pm	0.031	$&$	0.961	 \pm	0.022	$&$	0.080	$&$	0.006	$&$	0.031	 $\\
+$F_S\_896\_931  $	&$	\phantom{-}0.313	 \pm	0.033	$&$	1.011	 \pm	0.026	$&$	0.044	$&$	0.010	$&$	0.031	 $\\
+$F_S\_931\_966  $	&$	\phantom{-}0.048	 \pm	0.031	$&$	0.962	 \pm	0.030	$&$	0.523	$&$	0.005	$&$	0.100	 $\\
+$\delta_S\_826\_861$ 	&$	\phantom{-}0.034	 \pm	0.032	$&$	0.979	 \pm	0.027	$&$	0.540	$&$	0.005	$&$	0.145	 $\\
+$\delta_S\_861\_896 $	&$	-0.020	 \pm	0.032	$&$	1.003	 \pm	0.027	$&$	-0.530	$&$	-0.005	$&$	0.229	 $\\
+$\delta_S\_896\_931 $	&$	-0.104	 \pm	0.034	$&$	1.043	 \pm	0.020	$&$	-1.460	$&$	-0.022	$&$	0.212	 $\\
+$\delta_S\_931\_966 $	&$	\phantom{-}0.022	 \pm	0.035	$&$	1.071	 \pm	0.028	$&$	-1.760	$&$	0.003	$&$	0.124	 $\\
+
+%\hline
+
+ \end{tabular}
+\vspace{-20pt}
+\end{center}
+\end{table}
+%
+
+In order to compare the results between these two toy studies, the parameter $\Delta(\textrm{true} - \textrm{sWeight})$ is defined, the difference between the fitted value from the classic fit and the sFit, as 
+\begin{equation}
+\Delta(\textrm{true} - \textrm{sWeight}) = (a_i^{f,\textrm{true dist.}} - a_i^{f,\textrm{sWeighted dist.}}), \,
+\end{equation}
+and the total uncertainty $\sigma_{\rm tot.}$ as
+\begin{equation}
+\sigma_{\rm tot.} = \sqrt{(\sigma_i^{f,\textrm{true dist.}})^2 + (\sigma_i^{f,\textrm{sWeighted dist.}})^2 },\,
+\end{equation}
+where $a_i^{f,\textrm{true dist.}}$ and $\sigma_i^{f,\textrm{true dist.}}$ are the value of the fitted parameter $a_i$ and its associated uncertainty as extracted from a fit to the true $B^0_s$ angular distributions, while $a_i^{f,\textrm{sWeighted dist.}}$ and $\sigma_i^{f,\textrm{sWeighted dist.}}$ are the fitted value and uncertainty as extracted from the sWeighted angular distributions. In case that no additional biases originating from the \sweights arise, then $\Delta(\textrm{true} - \textrm{sWeight}) / \sigma_{\rm tot.}$ should be equal to zero and $\sigma_i^{f,\textrm{true dist.}} / \sigma_i^{f,\textrm{sWeighted dist.}}$ should be equal one in the case where the scaling of the \sweights to get proper uncertainties is correct. \tabref{tab:sFitValidation} gives the results of the comparison between the two toy studies. These results are in agreement with the expected values of 0 and 1 for $\Delta(\textrm{true} - \textrm{sWeight}) / \sigma_{\rm tot.}$ and $\sigma_i^{f,\textrm{true dist.}} / \sigma_i^{f,\textrm{sWeighted dist.}}$, respectively, which validate the sFit procedure. Another conclusion is that the small biases observed on the \Bs yields from the toy study do not affect the extraction of the parameters of interest in the sFit to the angular distributions. Note that the fit convergence rate is close to $100\%$. 
+%
+\begin{table}[b!]
+\begin{center}
+\caption[Validation of the sFit procedure]{\label{tab:sFitValidation} Validation of the sFit procedure.}
+\vspace{5pt}
+\begin{tabular}{l|c|c}
+%\hline
+ \multirow{2}{*}{$a_i$ $(B^0_s)$} & \multirow{2}{*}{$\Delta(\textrm{true} - \textrm{sWeight}) /\sigma_{\rm tot.} $} & \multirow{2}{*}{$\sigma_i^{f,\textrm{true dist.}} / \sigma_i^{f,\textrm{sWeighted dist.}}  $} \\
+					       &	 					  &			\\	
+\hline
+
+$A^{C\!P}_0$ 	&$	\phantom{-}0.048	$&$	1.023	 $\\
+$A^{C\!P}_S$ 	&$	-0.032	$&$	0.940	 $\\
+$A^{C\!P}_{\|}$ 	&$	-0.010	$&$	0.943	 $\\
+$A^{C\!P}_{\perp}$ 	&$	\phantom{-}0.050	$&$	1.063	 $\\
+					
+\hline					
+					
+$f_0$	&$	-0.028	$&$	0.843	 $\\
+$f_{\|}$	&$	\phantom{-}0.005	$&$	0.955	 $\\
+$\delta_{\|}$	&$	-0.019	$&$	1.005	 $\\
+$\delta_{\perp}$	&$	\phantom{-}0.036	$&$	0.993	 $\\
+					
+\hline					
+					
+$F_S\_826\_861 $	&$	\phantom{-}0.005	$&$	0.997	 $\\
+$F_S\_861\_896  $	&$	\phantom{-}0.061	$&$	0.987	 $\\
+$F_S\_896\_931  $	&$	\phantom{-}0.062	$&$	0.888	 $\\
+$F_S\_931\_966  $	&$	-0.064	$&$	0.869	 $\\
+$\delta_S\_826\_861$ 	&$	-0.022	$&$	0.925	 $\\
+$\delta_S\_861\_896 $	&$	\phantom{-}0.037	$&$	0.938	 $\\
+$\delta_S\_896\_931 $	&$	\phantom{-}0.001	$&$	1.021	 $\\
+$\delta_S\_931\_966 $	&$	-0.017	$&$	0.914	 $\\
+
+%\hline
+
+ \end{tabular}
+\vspace{-20pt}
+\end{center}
+\end{table}
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Toys with non-zero $A^{\CP}$ values}\label{sec:NZACPs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In order to test the possibility of non-zero $A^{\CP}$ values in the data, additional studies where the $A^{\CP}$ were generated with values different from zero are performed. Since the computing time required to test one configuration of parameter values is long, toy studies performed here are simplified compared to the procedure described in \secref{sec:ZACPs}. 
+%
+
+First ten sets of non-zero $A^{\CP}$ values are randomly generated from a uniform distribution in the range $A^{\CP}_i \in [-0.6,0.6]$. The corresponding values are given in \tabref{tab:NZACPsets}. In a second step, ten large samples of \Bs angular distributions were generated from the \Bs nominal PDFs according to each set of $A^{\CP}$ values, where the number of generated events corresponds to 1000 times the expected number of \Bs events in the data. Finally a classic fit to the \Bs angular distributions is performed. This is justified by the fact that the $A^{\CP}$ values are not correlated to the mass distribution and by the fact that the weighting procedure do not add any additional bias on the angular parameters, as shown in \secref{sec:ZACPs}. All the \Bs angular parameters are free to vary in each of the ten fits performed here.
+%
+\begin{table}[htbp]
+\begin{center}
+\caption[Values of the randomly generated values set 0 of non-zero values of $A^{\CP}$]{\label{tab:NZACPsets} Definitions of the sets of randomly generated $A^{\CP}$ values.}
+\vspace{5pt}
+\begin{tabular}{l|c|c|c|c}
+%\hline
+ \multirow{2}{*}{Set} & \multirow{2}{*}{ \ACPL } & \multirow{2}{*}{\ACPpa} & \multirow{2}{*}{\ACPpe}  & \multirow{2}{*}{\ACPS} \\
+					       &	 					  &   &	& \\	
+\hline
+$0 $&$ -0.0768 $&$ -0.5689 $&$ -0.3779 $&$ \phantom{-}0.5178 $\\
+$1 $&$ \phantom{-}0.0596 $&$ -0.0776 $&$ \phantom{-}0.5373 $&$ -0.0183 $\\
+$2 $&$ -0.0956 $&$ -0.2036 $&$ -0.2154 $&$ -0.4147 $\\
+$3 $&$ -0.3544 $&$ \phantom{-}0.1431 $&$ \phantom{-}0.2386 $&$ -0.4561 $\\
+$4 $&$ -0.2404 $&$ -0.2798 $&$ -0.0178 $&$ \phantom{-}0.1593 $\\
+$5 $&$ \phantom{-}0.1454 $&$ \phantom{-}0.0350 $&$ \phantom{-}0.3819 $&$ \phantom{-}0.2196 $\\
+$6 $&$ -0.4385 $&$ \phantom{-}0.0163 $&$ -0.0017 $&$ \phantom{-}0.1042 $\\
+$7 $&$ -0.3787 $&$ \phantom{-}0.3424 $&$ \phantom{-}0.2637 $&$ -0.2898 $\\
+$8 $&$ \phantom{-}0.4248 $&$ -0.0069 $&$ \phantom{-}0.0554 $&$ -0.1112 $\\
+$9 $&$ \phantom{-}0.4159 $&$ -0.5044 $&$ -0.3876 $&$ \phantom{-}0.5636 $\\
+
+%\hline
+
+ \end{tabular}
+\vspace{-20pt}
+\end{center}
+\end{table}
+%
+
+The corresponding results for the sets 0 to 4 and 5 to 9 are given in \tabref{tab:NZACPs_AllsetsA} and \tabref{tab:NZACPs_AllsetsB}, respectively. For clarity, only the results on the $A^{\CP}$ parameters are presented. Any significant bias for all the $A^{\CP}$ parameters in each of the ten fitting configurations are not observed. Note that due to the large size of the generated samples the statistical uncertainties corresponding to the $A^{\CP}$ parameters are divided by a factor of roughly 30 compared to the nominal ones. Therefore it can be concluded that the fit model is stable and exhibit no intrinsic bias for $A^{\CP}$ values in the range $A^{\CP}_i \in [-0.6,0.6]$. 
+%
+\begin{table}[htbp]
+\begin{center}
+\caption[Results of the toy study for sets 0 to 4 of non-zero values of $A^{\CP}$]{\label{tab:NZACPs_AllsetsA} Results of the toy study for sets 0 to 4 of non-zero values of $A^{\CP}$.}
+\vspace{5pt}
+\begin{tabular}{l|c|c|c|c}
+%\hline
+\multirow{2}{*}{$A^{C\!P}$ set}
+ & \multirow{2}{*}{$a_i$ $(B^0_s)$} & \multirow{2}{*}{ $a_i^t $ } & \multirow{2}{*}{$a_i^f \pm \sigma_i^f $} & \multirow{2}{*}{$(a_i^f - a_i^t)/\sigma_i^f  $} \\
+				&	       &	 					  &   &	\\	
+\hline
+
+ \multirow{4}{*}{0}	&	\ACPL 	&$	-0.0768	$&$	-0.0745		\pm		0.0017	$&$	\phantom{-}1.369	 $\\
+	&	\ACPS 	&$	\phantom{-}0.5178	$&$	\phantom{-}0.5184		\pm		0.0043	$&$	\phantom{-}0.139	 $\\
+	&	\ACPpa 	&$	-0.3779	$&$	-0.3777		\pm		0.0036	$&$	\phantom{-}0.056	 $\\
+	&	\ACPpe 	&$	-0.5689	$&$	-0.5698		\pm		0.0021	$&$	-0.438	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{1}	&	\ACPL 	&$	\phantom{-}0.0596	$&$	\phantom{-}0.0592		\pm		0.0015	$&$	-0.277	 $\\
+	&	\ACPS 	&$	-0.0183	$&$	-0.0190		\pm		0.0029	$&$	-0.236	 $\\
+	&	\ACPpa 	&$	\phantom{-}0.5373	$&$	\phantom{-}0.5354		\pm		0.0038	$&$	-0.498	 $\\
+	&	\ACPpe 	&$	-0.0776	$&$	-0.0807		\pm		0.0025	$&$	-1.217	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{2}	&	\ACPL 	&$	-0.0956	$&$	-0.0974		\pm		0.0015	$&$	-1.160	 $\\
+	&	\ACPS 	&$	-0.4147	$&$	-0.4151		\pm		0.0030	$&$	-0.144	 $\\
+	&	\ACPpa 	&$	-0.2154	$&$	-0.2086		\pm		0.0041	$&$	\phantom{-}1.682	 $\\
+	&	\ACPpe 	&$	-0.2036	$&$	-0.2044		\pm		0.0025	$&$	-0.340	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{3}	&	\ACPL 	&$	-0.3544	$&$	-0.3533		\pm		0.0015	$&$	\phantom{-}0.729	 $\\
+	&	\ACPS 	&$	-0.4561	$&$	-0.4547		\pm		0.0031	$&$	\phantom{-}0.463	 $\\
+	&	\ACPpa 	&$	\phantom{-}0.2386	$&$	\phantom{-}0.2341		\pm		0.0040	$&$	-1.135	 $\\
+	&	\ACPpe 	&$	\phantom{-}0.1431	$&$	\phantom{-}0.1419		\pm		0.0025	$&$	-0.460	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{4}	&	\ACPL 	&$	-0.2404	$&$	-0.2432		\pm		0.0015	$&$	-1.863	 $\\
+	&	\ACPS 	&$	\phantom{-}0.1593	$&$	\phantom{-}0.1604		\pm		0.0033	$&$	\phantom{-}0.337	 $\\
+	&	\ACPpa 	&$	-0.0178	$&$	-0.0154		\pm		0.0041	$&$	\phantom{-}0.591	 $\\
+	&	\ACPpe 	&$	-0.2798	$&$	-0.2768		\pm		0.0024	$&$	\phantom{-}1.245	 $\\
+%\hline
+
+ \end{tabular}
+\vspace{-20pt}
+\end{center}
+\end{table}
+%
+\begin{table}[htbp]
+\begin{center}
+\caption[Results of the toy study for sets 5 to 9 of non-zero values of $A^{\CP}$]{\label{tab:NZACPs_AllsetsB} Results of the toy study for sets 5 to 9 of non-zero values of $A^{\CP}$.}
+\vspace{5pt}
+\begin{tabular}{l|c|c|c|c}
+%\hline
+\multirow{2}{*}{$A^{C\!P}$ set}
+ & \multirow{2}{*}{$a_i$ $(B^0_s)$} & \multirow{2}{*}{ $a_i^t $ } & \multirow{2}{*}{$a_i^f \pm \sigma_i^f $} & \multirow{2}{*}{$(a_i^f - a_i^t)/\sigma_i^f  $} \\
+				&	       &	 					  &   &	\\	
+\hline
+
+ \multirow{4}{*}{5}	&	\ACPL 	&$	\phantom{-}0.1454	$&$	\phantom{-}0.1450		\pm		0.0015	$&$	-0.258	 $\\
+	&	\ACPS 	&$	\phantom{-}0.2196	$&$	\phantom{-}0.2200		\pm		0.0028	$&$	\phantom{-}0.153	 $\\
+	&	\ACPpa 	&$	\phantom{-}0.3819	$&$	\phantom{-}0.3776		\pm		0.0039	$&$	-1.088	 $\\
+	&	\ACPpe 	&$	\phantom{-}0.0350	$&$	\phantom{-}0.0375		\pm		0.0025	$&$	\phantom{-}0.991	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{6}	&	\ACPL 	&$	-0.4385	$&$	-0.4385		\pm		0.0015	$&$	-0.017	 $\\
+	&	\ACPS 	&$	\phantom{-}0.1042	$&$	\phantom{-}0.1059		\pm		0.0032	$&$	\phantom{-}0.544	 $\\
+	&	\ACPpa 	&$	-0.0017	$&$	-0.0028		\pm		0.0041	$&$	-0.259	 $\\
+	&	\ACPpe 	&$	\phantom{-}0.0163	$&$	\phantom{-}0.0158		\pm		0.0025	$&$	-0.182	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{7}	&	\ACPL 	&$	-0.3787	$&$	-0.3788		\pm		0.0016	$&$	-0.036	 $\\
+	&	\ACPS 	&$	-0.2898	$&$	-0.2855		\pm		0.0030	$&$	\phantom{-}1.443	 $\\
+	&	\ACPpa 	&$	\phantom{-}0.2637	$&$	\phantom{-}0.2671		\pm		0.0039	$&$	\phantom{-}0.874	 $\\
+	&	\ACPpe 	&$	\phantom{-}0.3424	$&$	\phantom{-}0.3437		\pm		0.0024	$&$	\phantom{-}0.534	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{8}	&	\ACPL 	&$	\phantom{-}0.4248	$&$	\phantom{-}0.4244		\pm		0.0015	$&$	-0.243	 $\\
+	&	\ACPS 	&$	-0.1112	$&$	-0.1127		\pm		0.0032	$&$	-0.472	 $\\
+	&	\ACPpa 	&$	\phantom{-}0.0554	$&$	\phantom{-}0.0511		\pm		0.0041	$&$	-1.051	 $\\
+	&	\ACPpe 	&$	-0.0069	$&$	-0.0065		\pm		0.0025	$&$	\phantom{-}0.163	 $\\
+													
+\hline													
+													
+ \multirow{4}{*}{9}	&	\ACPL 	&$	\phantom{-}0.4159	$&$	\phantom{-}0.4127		\pm		0.0016	$&$	-1.989	 $\\
+	&	\ACPS 	&$	\phantom{-}0.5636	$&$	\phantom{-}0.5671		\pm		0.0036	$&$	\phantom{-}0.980	 $\\
+	&	\ACPpa 	&$	-0.3876	$&$	-0.3818		\pm		0.0037	$&$	\phantom{-}1.570	 $\\
+	&	\ACPpe 	&$	-0.5044	$&$	-0.4998		\pm		0.0023	$&$	\phantom{-}2.040	 $\\
+%\hline
+
+ \end{tabular}
+\vspace{-20pt}
+\end{center}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

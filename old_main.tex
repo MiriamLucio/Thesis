@@ -1,0 +1,152 @@
+%%%% Preamble:
+
+\documentclass[12pt,a4paper]{article}
+
+\textheight=230mm
+\textwidth=160mm
+\oddsidemargin=7mm
+\evensidemargin=-10mm
+\topmargin=-10mm
+\headsep=20mm
+\columnsep=5mm
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\floatpagefraction}{0.99}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\setlength{\hoffset}{-2cm}
+\setlength{\voffset}{-2cm}
+\topmargin=0.5cm
+\oddsidemargin=2.5cm
+\textwidth=16cm
+\textheight=22cm
+\raggedbottom
+\sloppy
+
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{authblk}
+\usepackage{blindtext}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{slashed}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{enumerate}
+\usepackage{makeidx}
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage{mciteplus}
+\usepackage{cite}
+\usepackage{ifthen}
+\usepackage{tabularx}
+%\include{alias}
+
+\usepackage{xspace}
+\usepackage{colortbl}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{rotating}
+\usepackage{subfig}
+\usepackage{lscape}
+\usepackage{amsfonts}
+\usepackage{upgreek}
+\usepackage{units}
+%\usepackage[pdftex,
+%    plainpages=false,
+%    bookmarks         = true,
+%    bookmarksnumbered = true,
+%    pdfpagemode       = None,
+%    pdfstartview      = FitH,
+%    pdfpagelayout     = SinglePage,
+%    colorlinks        = true,
+%    linkcolor         = blue,
+%    pagecolor         = black,
+%    urlcolor          = blue,
+%    pdfborder         = {0 0 0}
+%    ]{hyperref}%                             
+
+%\newboolean{articletitles}
+%\setboolean{articletitles}{true}
+\newboolean{inbibliography}
+\setboolean{inbibliography}{false}
+%\newboolean{pdflatex}
+%\setboolean{pdflatex}{true}
+%\newboolean{uprightparticles}
+%\setboolean{uprightparticles}{false}
+
+%\usepackage{float}
+%\floatstyle{plaintop}
+%\restylefloat{table}
+
+\newcommand{\blankpage}{
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+}
+
+\newcommand{\spc}{
+\\
+\\
+}
+    
+%%%%%%% Main document:
+\include{our-symbols-def}
+\include{extra-definitions}
+
+\makeindex
+\begin{document}
+
+\input{chapters/Cover}
+\blankpage
+\input{chapters/Signatures}
+\blankpage
+\input{chapters/Acknowledgements} %
+\blankpage
+\input{chapters/Abstract} %
+
+\pagenumbering{roman}
+\cleardoublepage
+\tableofcontents
+
+%%%%% Main chapters
+
+\blankpage
+\linenumbers
+%\input{chapters/Introduction} % Max 5 pages
+
+%% Theory
+%\blankpage
+%\input{chapters/Theory}
+
+%% The LHCb experiment
+%\blankpage
+%\input{chapters/LHCb-experiment} 
+
+
+
+%% Analysis
+%\input{chapters/
+
+%% Conclusions
+%\input{chapters/Conclusions}
+
+\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{section}{References}
+%\bibliographystyle{chapters/LHCbStyle}
+%\bibliography{chapters/References}
+
+\addcontentsline{toc}{section}{References}
+\setboolean{inbibliography}{true}
+\bibliographystyle{LHCb}
+\bibliography{main,LHCb-PAPER}
+
+
+\end{document}
