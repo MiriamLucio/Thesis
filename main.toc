@@ -77,7 +77,7 @@
 \contentsline {subsection}{\numberline {5.2.7}Decay time acceptance}{67}{subsection.5.2.7}
 \contentsline {subsubsection}{\numberline {5.2.7.1}Measurement of $\tau (B^{0})$}{69}{subsubsection.5.2.7.1}
 \contentsline {subsection}{\numberline {5.2.8}Flavour tagging}{70}{subsection.5.2.8}
-\contentsline {subsection}{\numberline {5.2.9}Data fitting}{72}{subsection.5.2.9}
+\contentsline {subsection}{\numberline {5.2.9}Data fitting}{71}{subsection.5.2.9}
 \contentsline {subsection}{\numberline {5.2.10}Baseline fit}{72}{subsection.5.2.10}
 \contentsline {subsection}{\numberline {5.2.11}Coverage of the uncertainty with the sFit}{73}{subsection.5.2.11}
 \contentsline {subsubsection}{\numberline {5.2.11.1}Simulation}{73}{subsubsection.5.2.11.1}
@@ -91,43 +91,15 @@
 \contentsline {subsubsection}{\numberline {5.4.1.2}Nested sampling}{85}{subsubsection.5.4.1.2}
 \contentsline {subsubsection}{\numberline {5.4.1.3}Ellipsoidal nested sampling}{86}{subsubsection.5.4.1.3}
 \contentsline {subsubsection}{\numberline {5.4.1.4}The \texttt {MultiNest} algorithm}{86}{subsubsection.5.4.1.4}
-\contentsline {chapter}{\numberline {6}Kaon Physics}{87}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{87}{section.6.1}
-\contentsline {section}{\numberline {6.2}\ensuremath {\ensuremath {K^0_{\mathrm {\scriptscriptstyle S}}}\xspace \to \pi ^0\mu ^+\mu ^-}\xspace Sensitivity study}{88}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Analysis strategy}{89}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Reconstruction and selection}{90}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Background sources}{92}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Fit model}{93}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Expected sensitivity}{93}{subsection.6.2.5}
-\contentsline {subsection}{\numberline {6.2.6}Conclusions}{94}{subsection.6.2.6}
-\contentsline {section}{\numberline {6.3}Probing SUSY effects in \ensuremath {\ensuremath {K^0_{\mathrm {\scriptscriptstyle S}}}\xspace \rightarrow \ensuremath {\mu ^{+}}\ensuremath {\mu ^{-}}}\xspace }{96}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Formalism}{96}{subsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.1.1}Observables}{97}{subsubsection.6.3.1.1}
-\contentsline {subsubsection}{\numberline {6.3.1.2}\ensuremath {\ensuremath {K^0_{\mathrm {\scriptscriptstyle S}}}\xspace \rightarrow \ensuremath {\mu ^{+}}\ensuremath {\mu ^{-}}}\xspace }{98}{subsubsection.6.3.1.2}
-\contentsline {subsubsection}{\numberline {6.3.1.3}$\boldsymbol {\varepsilon ^{\prime }_K / \varepsilon _K}$}{104}{subsubsection.6.3.1.3}
-\contentsline {subsubsection}{\numberline {6.3.1.4}$\boldsymbol {\varepsilon _K}$ and $\boldsymbol {\Delta M_K}$}{106}{subsubsection.6.3.1.4}
-\contentsline {subsection}{\numberline {6.3.2}Parameter scan}{108}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Results}{109}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}Effects from $\left ( \delta _{d}^{LL(RR)} \right )_{12}$ separately}{110}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}Floating $LL$ and $RR$ MIs simultaneously}{110}{subsubsection.6.3.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3.3}Non degenerate Higgs masses}{113}{subsubsection.6.3.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Conclusions}{114}{subsection.6.3.4}
-\contentsline {chapter}{\numberline {7}CMSSM}{121}{chapter.7}
-\contentsline {section}{\numberline {7.1}\texttt {MasterCode framework}}{121}{section.7.1}
-\contentsline {section}{\numberline {7.2}Sampling algorithm}{122}{section.7.2}
-\contentsline {section}{\numberline {7.3}Scan Ranges}{122}{section.7.3}
-\contentsline {section}{\numberline {7.4}Method}{122}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Gaussian Constraints}{123}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Non-Gaussian Constraints}{124}{subsection.7.4.2}
-\contentsline {chapter}{Appendices}{126}{section*.67}
-\contentsline {chapter}{\numberline {A}\texttt {MasterCode} observables}{127}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Mass Spectrum}{127}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}Dark Matter Relic Density}{128}{section.a.A.2}
-\contentsline {section}{\numberline {A.3}Neutralino Scattering off Nuclei}{129}{section.a.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Spin-Independent Term}{129}{subsection.a.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Spin-Dependent Term}{130}{subsection.a.A.3.2}
-\contentsline {section}{\numberline {A.4}Anomalous Magnetic Moment of the Muon}{130}{section.a.A.4}
-\contentsline {section}{\numberline {A.5}Electroweak Precision Observables}{131}{section.a.A.5}
-\contentsline {section}{\numberline {A.6}Flavour Physics Observables}{132}{section.a.A.6}
-\contentsline {chapter}{\numberline {B}Coverage of the uncertainty with the sFit}{133}{Appendix.a.B}
-\contentsline {chapter}{Bibliography}{138}{figure.caption.73}
+\contentsline {chapter}{Appendices}{87}{section*.46}
+\contentsline {chapter}{\numberline {A}\texttt {MasterCode} observables}{88}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Mass Spectrum}{88}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Dark Matter Relic Density}{89}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Neutralino Scattering off Nuclei}{90}{section.a.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Spin-Independent Term}{90}{subsection.a.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Spin-Dependent Term}{91}{subsection.a.A.3.2}
+\contentsline {section}{\numberline {A.4}Anomalous Magnetic Moment of the Muon}{91}{section.a.A.4}
+\contentsline {section}{\numberline {A.5}Electroweak Precision Observables}{92}{section.a.A.5}
+\contentsline {section}{\numberline {A.6}Flavour Physics Observables}{93}{section.a.A.6}
+\contentsline {chapter}{\numberline {B}Coverage of the uncertainty with the sFit}{94}{Appendix.a.B}
+\contentsline {chapter}{Bibliography}{99}{figure.caption.52}

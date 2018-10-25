@@ -24,9 +24,9 @@ with the operators $Q_i$ given, in the case of $B_s$ mixing, by:
 \label{eq:WOBs}
 \end{equation}
 where $P_{R,L} = \frac{1}{2}(1 \pm \gamma_5)$ and $\alpha,\beta$ are colour indices. The operators $\tilde{Q}_{1,2,3}$ are obtained from $Q_{1,2,3}$ by the replacement $L \leftrightarrow R$~\cite{Altmannshofer:2009ne}. In the case of $B_d$, the replacement $s \rightarrow d$ needs to be done in equation \ref{eq:WOBs}. 
-Several representative observables can be extracted from these ampliudes, such as \red{the mixing phase and the oscillation frequency} \red{asl?}:
+Several representative observables can be extracted from these ampliudes, such as the mixing phase, the oscillation frequency or the semileptonic asymmetry:
 \begin{equation}
-\phi_s = \arg{(M_{12})}, \ \Delta m_s = |M_{12}|
+\phi_s = \arg{(M_{12})}, \ \Delta m_s = |M_{12}|, \ A_{SL} = -\frac{\Delta\Gamma_s}{\Delta M_s} \tan{\phi_s}
 \end{equation}
 Note that their value strongly depends on NP contributions:
 \begin{equation}
@@ -37,7 +37,7 @@ The experimental search of the weak mixing angle is discussed in detail in \ref{
 \section{$\phi_s$ experimental} %% 10
 \label{sec:phisEXP}
 
-In the SM, \textit{CP}-violation originates from a single-phase in the Cabibbo-Kobayashi-Maskawa (CKM) quark-mixing matrix~\cite{Charles:2011va}, as explained instate? \red{REF}. There are 3 different kinds of \textit{CP}-violation for neutral mesons, \textit{e.g.} $B_s^0$ and $\bar{B}_s^0$:
+In the SM, \textit{CP}-violation originates from a single-phase in the Cabibbo-Kobayashi-Maskawa (CKM) quark-mixing matrix~\cite{Charles:2011va}, as explained in \ref{sec:CKMMatrix}. There are 3 different kinds of \textit{CP}-violation for neutral mesons, \textit{e.g.} $B_s^0$ and $\bar{B}_s^0$:
 \begin{enumerate}
 \item Direct \textit{CP}-violation: originated by a difference in the amplitudes associated to the direct decay of the $B_s^0$ and $\bar{B_s^0}$ mesons into the same final state %% CP eigenstate final 
 \item \textit{CP}-violation in the $B_s^0- \bar{B}_s^0$ oscillation, that arises when the oscillation from $B_s^0$ to $\bar{B}_s^0$ is different from the oscillation from $\bar{B}_s^0$ to $B_s^0$
@@ -53,8 +53,8 @@ Precision measurements of this phase are needed in order to properly disentagle 
 
  In the SM, for $b\to c\overline{c}s$ transitions and ignoring subleading penguin contributions, this phase is predicted to be $-2\beta_s$, where $\beta_s=\arg\left[
  - (V_{ts} V_{tb}^*) / (V_{cs} V_{cb}^*)\right]$ and $V_{ij}$ are elements of the CKM quark flavour mixing
- matrix~\cite{Kobayashi:1973fv,*Cabibbo:1963yz}. The indirect determination via global fits to experimental data gives
- \mbox{$2\beta_s=0.0364\pm0.0016\rad$}\red{ref}. This precise indirect determination within the SM makes the
+ matrix~\cite{Kobayashi:1973fv,Cabibbo:1963yz}. The indirect determination via global fits to experimental data gives
+ \mbox{$2\beta_s=0.0364\pm0.0016\rad$}\red{~\cite{Charles:2011va}}. This precise indirect determination within the SM makes the
  measurement of $\phi_s$ interesting since new physics (NP) processes could modify
  the phase if new particles were to contribute to the $B_s^0$--$\bar{B}_s^0$\ box diagrams~\cite{Buras:2009if,Chiang:2009ev}.
  
@@ -163,8 +163,8 @@ response~\cite{Agostinelli:2002hh, Allison:2006ve}. Further details of the
 simulation process can be found in Ref.~\cite{LHCb-PROC-2011-006}. The simulated data is processed in a very similar way to the real data, with the stripping run in flagging mode,
 with no prescales applied for the trigger. Sim09b was used for the simulated samples.  The samples used are listed in Table~\ref{tab:mc}.
 
-Simulated signal samples are used to determine the angular acceptance.  As will be discussed in Sec.~\ref{sec:angular_acc}, the samples are reweighted to match various distributions observed in data before obtaining the final acceptance.  Similarly, the $\Lambda^0_b$ and the $B^0$ samples are used for background studies and decay time acceptance studies, respectively.  This is discussed in Sec.~\ref{sec:mass_peaking} and Sec.~\ref{sec:timeacc}, respectively.
-The $B^+$ sample is used for tagging studies as described in Sec.~\ref{sec:tagging}.
+Simulated signal samples are used to determine the angular acceptance.  As will be discussed in Sec.~\ref{subsec:AngAcc}, the samples are reweighted to match various distributions observed in data before obtaining the final acceptance.  Similarly, the $\Lambda^0_b$ and the $B^0$ samples are used for background studies and decay time acceptance studies, respectively.  This is discussed in Sec.~\ref{subsec:MassFit} and Sec.~\ref{subsec:TimeAcc}, respectively.
+The $B^+$ sample is used for tagging studies as described in Sec.~\ref{subsec:Tagging}.
 
 The main physics parameters used in the main simulation used in this analysis, \texttt{Eventtype = 13144011, Bs\_Jpsiphi,mm=CPV,update2016,DecProdCut}, are summarized in Table~\ref{tab:evtgendecaypars13144011}. For simulated samples a momentum smearing is applied in order to reproduce better the distributions in data.
 
@@ -241,7 +241,7 @@ Corrections are applied to the simulated samples to match the distributions obta
         \item The stripped and triggered $B_s^0 \to J/\psi K^+K^-$ candidates are taken, with the $B_s^0$ decay time restricted to the range [0.3,15] ps. 
 	\item The data invariant mass distribution of stripped and triggered $B_s^0 \to J/\psi K^+K^-$  candidates is fitted to obtain an sWeighted sample of data that is used in the following steps.
         %\item For MC, on top of the selection mentioned before only background categories 0 (signal), 50 (radiative events) with true decay time different from 0 and 60 (ghosts) are included (see Appendix~\ref{Appendix_BKGCAT} for a more detailed explanation).
-        \item For MC, on top of the selection mentioned before only background categories 0 (signal) and 50 (radiative events) with true decay time different from 0 are included \red{more details?}.
+        \item For MC, on top of the selection mentioned before only background categories 0 (signal) and 50 (radiative events) with true decay time different from 0 are included %%\red{more details?}.
 	\item The simulation PID variable distributions are corrected using the {\tt PIDCalib} package.
 	\item Using the above data sample, the $B_s^0$ production kinematics, nTracks distribution and the muon/kaon track ghost probability variables are reweighted.
 \end{enumerate}
@@ -288,7 +288,7 @@ $s_1$ and $s_2$ are the scale factors, which accounts for underestimation of the
 mass error, $\alpha_1, \alpha_2, n_1, n_2$ are the tail parameters,
 $\gamma_b$ is the coefficient in the exponential to describe the background.
 
-The background sources that are considered \red{consist in}:
+The background sources that are considered consist in:
 \begin{itemize}
 \item $B^0 \rightarrow J/\psi K^{*0}$ peaking background, vetoed using PID cuts. 
 \item $\Lambda_b^0 \rightarrow J/\psi pK^-$ peaking background, vetoed using PID cuts. The remaining events are statistically subtracted by injecting simulated events into the data tupe with a negative sum of weights equal to the expected number of events. 
@@ -305,9 +305,8 @@ categories:
 \item \textbf{``Unbiased"}: {\tt Jpsi\_Hlt1DiMuonHighMassDecision\_TOS}
 \end{itemize}
 and two years of the data-taking~(2015 and 2016). 
-\red{plot?}
 
-The event multipliciy (ratio between the number of events containing more than one cndidate and the total number of events) is found to be 1.2\% in the full $B_s^0$ mass region, but only 0.2\% for candidates \red{in the signal region}. Most of these candidates 
+The event multipliciy (ratio between the number of events containing more than one cndidate and the total number of events) is found to be 1.2\% in the full $B_s^0$ mass region, but only 0.2\% for candidates in the signal region. Most of these candidates 
 are due to cases where the $J/\psi$ is shared and one or two different kaons are added, making these events truly combinatorial in character. Given the low fraction of multiple events, it is evaluated as a systematic contribution removed them randomly. 
 
 \subsection{\texorpdfstring{$C_{\rm SP}$}{Csp} factors}
@@ -415,7 +414,7 @@ and the effective single Gaussian width as,
 \end{equation}
 where $\Delta m_s = 17.77 \rm ps^{-1}$. This converts the resolution into a single-Gaussian function with an effective resolution that causes the same damping effect on the magnitude of the $B_s^0$ oscillation. A linear or quadratic calibration curve is then fitted to the variation of the effective resolution as a function of $\langle\delta_t\rangle$ to determine the calibration parameters. 
 %% Parameterization of the resolution model
-For calibration, simulated $B_s^0 \rightarrow J/\psi \phi$, prompt $J/\psi$ and inclusive $J/\psi$ samples are used, as well as prompt $J/\psi$ data. \red{check}
+For calibration, simulated $B_s^0 \rightarrow J/\psi \phi$, prompt $J/\psi$ and inclusive $J/\psi$ samples are used, as well as prompt $J/\psi$ data.
 The main source of systematic uncertainty in the calibration of the decay time resolution model is the translation from the prompt background sample to the signal sample. In addition, there is a systematic arising from the choice to include or not the
 wrong-PV component.
 
@@ -430,7 +429,7 @@ wrong-PV component.
 
 \subsection{Angular acceptance}
 \label{subsec:AngAcc}
-The angular acceptance is modelled using \textit{normalization weights}, \red{ref} obtained from fully simulated signal events from the Sim09b production. This simulation sample is iteratively weighted to match the distributions of final-state particle kinematics in the real data, as well as to match the physics parameters obtained from data, in order to correct for imperfections in the detector simulation. In order to do this, a GB reweighting is first applied in $p(B_s^0)$, $p_T(B_s^0$ and $m(K^+K^-)$, together with a reweighting in $p(K^{\pm})$, $p_T(K^{\pm})$. The angular normalizations are computed, and the process is repeated until convergence is achieved (after 4 iterations).  
+The angular acceptance is modelled using \textit{normalization weights} (see Ref.~\cite{LHCb-ANA-2012-067}, Sec.~3.3) obtained from fully simulated signal events from the Sim09b production. This simulation sample is iteratively weighted to match the distributions of final-state particle kinematics in the real data, as well as to match the physics parameters obtained from data, in order to correct for imperfections in the detector simulation. In order to do this, a GB reweighting is first applied in $p(B_s^0)$, $p_T(B_s^0)$ and $m(K^+K^-)$, together with a reweighting in $p(K^{\pm})$, $p_T(K^{\pm})$. The angular normalizations are computed, and the process is repeated until convergence is achieved (after 4 iterations).  
 
 A total of 10 normalization weights are computed for each year and trigger category, as indicated in table \ref{tab:angAccWeightsComb}, where the combined weights are shown. The factorization of angular acceptance and decay time acceptance is assumed. A systematic effect is assigned to such assumption, comparing the final acceptance normalization weights obtained in six equal populated decay time bins.
 
@@ -459,13 +458,14 @@ A total of 10 normalization weights are computed for each year and trigger categ
 \end{tabular}
 }
 \end{table}
-A cross-check has been performed using a sample of $B^+ \rightarrow J/\psi K^+$ decays in 2016 data, \red{yielding a good consistency in the method}. %% In this decay the muon helicity angle, $\theta$, exhibits a purely $\sin^2\theta$ dependence, which provides the benchmark against which the validity of the simulation can be tested. In particular, this study will investigate the behavior of the simulation correction as a function of $\eta(\Bu)$ since there are some issues with the performance of the simulation for charged tracks at low $\eta$.
+A cross-check has been performed using a sample of $B^+ \rightarrow J/\psi K^+$ decays in 2016 data, yielding a good consistency in the method. %% In this decay the muon helicity angle, $\theta$, exhibits a purely $\sin^2\theta$ dependence, which provides the benchmark against which the validity of the simulation can be tested. In particular, this study will investigate the behavior of the simulation correction as a function of $\eta(\Bu)$ since there are some issues with the performance of the simulation for charged tracks at low $\eta$.
 
 \subsection{Decay time acceptance} 
+\label{subsec:TimeAcc}
 The reconstruction efficiency is not constant as a function of the $B^0_s$ decay time due to displacement requirements made on signal tracks in the trigger and event selection and to a decay-time-dependent efficiency to reconstruct the tracks in the VELO \cite{LHCb-PAPER-2013-065}. The overall decay-time acceptance is determined using the control channel $B^0 \to J/\psi K^{*}(892)^0$,
 with $K^{*}(892)^0 \to K^+\pi^-$, which is kinematically very similar to the signal decay and it is assumed to have a purely exponential decay-time distribution with a well-known lifetime (i.e.the width difference $\Delta \Gamma_d$ is ignored), namely $1.518\pm 0.004$ ps\cite{HFLAV2017}.
 The strategy to select $B^0 \to J/\psi K^{*}(892)^0$ events and compute the sWeights is similar to the one used for $B_s^0 \rightarrow J/\psi K^+ K^-$ events
-The $K^+\pi^-$ system in the $B^0 \rightarrow J/psi K^+\pi^-$ decay can be in a relative S-wave or P-wave configuration. A $\sim6\%$ presence of S-wave has been observed in data, as described in~\cite{LHCb-PAPER-2013-023}. However, the simulated $B^0 \rightarrow J/\psi K^{*}(892)^0$ sample only includes the P-wave component. To account for this, an iterative procedure similar to the one described in \red{\ref{subsec:AngAcc}} is applied, reweigthing the simulation to match the $B^0$ $p$ and $p_T$, as well as $m(K^+\pi^-)$ distributions in data. \red{revisar}
+The $K^+\pi^-$ system in the $B^0 \rightarrow J/psi K^+\pi^-$ decay can be in a relative S-wave or P-wave configuration. A $\sim6\%$ presence of S-wave has been observed in data, as described in~\cite{LHCb-PAPER-2013-023}. However, the simulated $B^0 \rightarrow J/\psi K^{*}(892)^0$ sample only includes the P-wave component. To account for this, an iterative procedure similar to the one described in \red{\ref{subsec:AngAcc}} is applied, reweigthing the simulation to match the $B^0$ $p$ and $p_T$, as well as $m(K^+\pi^-)$ distributions in data. %%\red{revisar}
 
 The decay time acceptance is defined as
 \begin{equation}
@@ -475,7 +475,7 @@ The decay time acceptance is defined as
 where $\varepsilon_{\rm data}^{B^0}(t)$ is the efficiency in data of the fully triggered, selected and sweighted events in the $B^0$ control channel and $r(t)=\varepsilon_{\rm sim}^{B_s^0}(t)/\varepsilon_{\rm sim}^{B^0}(t)$ is the ratio of efficiencies of the
 simulated signal and control modes after the full trigger, selection and MC-data correction chain has been applied.
 This second term in the acceptance, $r(t)$, accounts for the small differences in the lifetime and kinematics between
-the signal and control modes. The MC events are reweighted to match the $p.d.f.$ of the respective data. \red{more?} 
+the signal and control modes. The MC events are reweighted to match the $p.d.f.$ of the respective data. %%\red{more?} 
 
 To derive $\varepsilon_{\rm data}^{B_s^0}(t)$ a simultaneous fit is performed to both the simultaneous samples and the data control channel. This allows to have the overall uncertainties on the $B^0_s$ data spline coefficients, thus providing an easier control on the associated systematic uncertainty. The decay time acceptance $\varepsilon_{\rm data}^{B_s^0}(t)$ is then used in the fit to the $B^0_s$ data signal sample to determine the physics parameters.
 
@@ -537,7 +537,7 @@ shown in~\figref{fig:B0_tau_fit}.
 
 Finally, a reweighting that takes into consideration the S-wave fraction present in
 data (in addition to the aforementioned MC reweighting in $B^0$ \pt) is also
-considered, using the results from Section~\ref{sec:Bd_swave}.
+considered. %, using the results from Section~\ref{sec:Bd_swave}.
 The splitting that is applied is the one depending on the $K^{*0}$
 mass. The corresponding fitted lifetime is found to be  $\tau(\Bd) =
 1.519\pm0.006$\ps, 0.13$\sigma$ (0.05\%) from the world average~\cite{HFLAV2017},
@@ -582,9 +582,10 @@ thus showing a good agreement. The fitted decay time is shown in
         }}
 \end{figure}
 
-\red{uncertainties}
+%%\red{uncertainties}
 
 \subsection{Flavour tagging}
+\label{subsec:Tagging}
 %%% Tagging parameters constrained in final fit → systematics propagated into final result
 For time-dependent studies the ability of properly identifying the initial flavour of the meson (known as \textit{flavour tagging}) is fundamental. To this end, two flavour tagging algorithms are used: the opposite-side (OS) taggers and the same-side kaon (SSK) taggers, which exploit specific features of the incoherent production of $b\bar{b}$ quark pairs in $pp$ collisions.
 
@@ -643,7 +644,7 @@ The full PDF, based on Eq.~\eqref{eq:rate_mult_lambda} and taking into account a
  \label{eq:fullpdf}
  \end{align}}
 where $i$ is the $m_{KK}$ bin; $y$ is the year of data taking; $g$ is the trigger line (biased and unbiased); $q^{\rm OS}$ and $q^{\rm SSK}$ are the OS and SSK tag decisions, $\eta^{\rm OS}$ and $\eta^{\rm SSK}$ the measured mistag probabilities, $\omega$ and $\bar{\omega}$ the mistag probability calibration for
-$\Bs$ and $\Bsb$ (see Section~\ref{sec:tagging}); $\varepsilon(t)$ is the decay time acceptance (see Section~\ref{sec:timeacc}); $G\left(t | \sigma_{t}\right)$ is the decay time resolution with
+$\Bs$ and $\Bsb$ (see Section~\ref{subsec:Tagging}); $\varepsilon(t)$ is the decay time acceptance (see Section~\ref{sec:timeacc}); $G\left(t | \sigma_{t}\right)$ is the decay time resolution with
 decay time uncertainty $\sigma_{t}$ (see Section~\ref{sec:timereso}); $\tilde{N}_{i,k} = N_{k}$ for $k<8$ and $\tilde{N}_{i,k} = C_{{\rm SP},i}N_{k}$ for $k=8,9,10$ (see Section~\ref{sec:CSP}); 
 ${\cal N}_{y,g}$ is the normalisation given by
 \begin{align}
@@ -653,10 +654,10 @@ ${\cal N}_{y,g}$ is the normalisation given by
 \end{align}
 where $w_{k}$ are the angular acceptance weights (see Section \ref{sec:angular_acc}).
 
-The values of $\phi_s$ and $\Delta \Gamma_s$ were kept blinded during the full analysis.\red{rephrase}
+The values of $\phi_s$ and $\Delta \Gamma_s$ were kept blinded during the full analysis.%\red{rephrase}
 
 \subsection{Baseline fit}
-$\Delta\Lambda_d^s = \Lambda_s - \Lambda_d$ is fitted instead of $\Lambda_s$, given that it can be measured with a higher precision (independently of the value of $\Lambda_d$ used in the determination of the time acceptance). Events with negative mistag probability are manually assigned $\omega = 0$.
+$\Delta\Gamma_d^s = \Gamma_s - \Gamma_d$ is fitted instead of $\Gamma_s$, given that it can be measured with a higher precision (independently of the value of $\Gamma_d$ used in the determination of the time acceptance). Events with negative mistag probability are manually assigned $\omega = 0$.
 As said before, $\lambda$ and $\phi_s$ are assumed to be common to all polarisation states.  Checks of this assumption are made, where polarisation dependence is instead considered. These are in agreement with the baseline fit. 
 Several fitters were independently developed, including the baseline one, based on the usage of graphics processing units (GPUs). These are optimized for parallel calculations that allow a faster computation. A good agreement is found between the fit results provided by the different fitters. 
 

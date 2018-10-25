@@ -91,43 +91,15 @@
 \BOOKMARK [3][-]{subsubsection.5.4.1.2}{Nested sampling}{subsection.5.4.1}% 91
 \BOOKMARK [3][-]{subsubsection.5.4.1.3}{Ellipsoidal nested sampling}{subsection.5.4.1}% 92
 \BOOKMARK [3][-]{subsubsection.5.4.1.4}{The MultiNest algorithm}{subsection.5.4.1}% 93
-\BOOKMARK [0][-]{chapter.6}{Kaon Physics}{}% 94
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 95
-\BOOKMARK [1][-]{section.6.2}{K0S 0+- Sensitivity study}{chapter.6}% 96
-\BOOKMARK [2][-]{subsection.6.2.1}{Analysis strategy}{section.6.2}% 97
-\BOOKMARK [2][-]{subsection.6.2.2}{Reconstruction and selection}{section.6.2}% 98
-\BOOKMARK [2][-]{subsection.6.2.3}{Background sources}{section.6.2}% 99
-\BOOKMARK [2][-]{subsection.6.2.4}{Fit model}{section.6.2}% 100
-\BOOKMARK [2][-]{subsection.6.2.5}{Expected sensitivity}{section.6.2}% 101
-\BOOKMARK [2][-]{subsection.6.2.6}{Conclusions}{section.6.2}% 102
-\BOOKMARK [1][-]{section.6.3}{Probing SUSY effects in K0S+-}{chapter.6}% 103
-\BOOKMARK [2][-]{subsection.6.3.1}{Formalism}{section.6.3}% 104
-\BOOKMARK [3][-]{subsubsection.6.3.1.1}{Observables}{subsection.6.3.1}% 105
-\BOOKMARK [3][-]{subsubsection.6.3.1.2}{K0S+-}{subsection.6.3.1}% 106
-\BOOKMARK [3][-]{subsubsection.6.3.1.3}{bold0mu mumu K / KK / KK / KK / KK / KK / K}{subsection.6.3.1}% 107
-\BOOKMARK [3][-]{subsubsection.6.3.1.4}{bold0mu mumu KKKKKK and bold0mu mumu MKMKMKMKMKMK}{subsection.6.3.1}% 108
-\BOOKMARK [2][-]{subsection.6.3.2}{Parameter scan}{section.6.3}% 109
-\BOOKMARK [2][-]{subsection.6.3.3}{Results}{section.6.3}% 110
-\BOOKMARK [3][-]{subsubsection.6.3.3.1}{Effects from \( dLL\(RR\) \)12 separately}{subsection.6.3.3}% 111
-\BOOKMARK [3][-]{subsubsection.6.3.3.2}{Floating LL and RR MIs simultaneously}{subsection.6.3.3}% 112
-\BOOKMARK [3][-]{subsubsection.6.3.3.3}{Non degenerate Higgs masses}{subsection.6.3.3}% 113
-\BOOKMARK [2][-]{subsection.6.3.4}{Conclusions}{section.6.3}% 114
-\BOOKMARK [0][-]{chapter.7}{CMSSM}{}% 115
-\BOOKMARK [1][-]{section.7.1}{MasterCode framework}{chapter.7}% 116
-\BOOKMARK [1][-]{section.7.2}{Sampling algorithm}{chapter.7}% 117
-\BOOKMARK [1][-]{section.7.3}{Scan Ranges}{chapter.7}% 118
-\BOOKMARK [1][-]{section.7.4}{Method}{chapter.7}% 119
-\BOOKMARK [2][-]{subsection.7.4.1}{Gaussian Constraints}{section.7.4}% 120
-\BOOKMARK [2][-]{subsection.7.4.2}{Non-Gaussian Constraints}{section.7.4}% 121
-\BOOKMARK [0][-]{section*.67}{Appendices}{}% 122
-\BOOKMARK [0][-]{Appendix.a.A}{MasterCode observables}{}% 123
-\BOOKMARK [1][-]{section.a.A.1}{Mass Spectrum}{Appendix.a.A}% 124
-\BOOKMARK [1][-]{section.a.A.2}{Dark Matter Relic Density}{Appendix.a.A}% 125
-\BOOKMARK [1][-]{section.a.A.3}{Neutralino Scattering off Nuclei}{Appendix.a.A}% 126
-\BOOKMARK [2][-]{subsection.a.A.3.1}{Spin-Independent Term}{section.a.A.3}% 127
-\BOOKMARK [2][-]{subsection.a.A.3.2}{Spin-Dependent Term}{section.a.A.3}% 128
-\BOOKMARK [1][-]{section.a.A.4}{Anomalous Magnetic Moment of the Muon}{Appendix.a.A}% 129
-\BOOKMARK [1][-]{section.a.A.5}{Electroweak Precision Observables}{Appendix.a.A}% 130
-\BOOKMARK [1][-]{section.a.A.6}{Flavour Physics Observables}{Appendix.a.A}% 131
-\BOOKMARK [0][-]{Appendix.a.B}{Coverage of the uncertainty with the sFit}{}% 132
-\BOOKMARK [0][-]{figure.caption.73}{Bibliography}{}% 133
+\BOOKMARK [0][-]{section*.46}{Appendices}{}% 94
+\BOOKMARK [0][-]{Appendix.a.A}{MasterCode observables}{}% 95
+\BOOKMARK [1][-]{section.a.A.1}{Mass Spectrum}{Appendix.a.A}% 96
+\BOOKMARK [1][-]{section.a.A.2}{Dark Matter Relic Density}{Appendix.a.A}% 97
+\BOOKMARK [1][-]{section.a.A.3}{Neutralino Scattering off Nuclei}{Appendix.a.A}% 98
+\BOOKMARK [2][-]{subsection.a.A.3.1}{Spin-Independent Term}{section.a.A.3}% 99
+\BOOKMARK [2][-]{subsection.a.A.3.2}{Spin-Dependent Term}{section.a.A.3}% 100
+\BOOKMARK [1][-]{section.a.A.4}{Anomalous Magnetic Moment of the Muon}{Appendix.a.A}% 101
+\BOOKMARK [1][-]{section.a.A.5}{Electroweak Precision Observables}{Appendix.a.A}% 102
+\BOOKMARK [1][-]{section.a.A.6}{Flavour Physics Observables}{Appendix.a.A}% 103
+\BOOKMARK [0][-]{Appendix.a.B}{Coverage of the uncertainty with the sFit}{}% 104
+\BOOKMARK [0][-]{figure.caption.52}{Bibliography}{}% 105
