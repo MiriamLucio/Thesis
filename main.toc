@@ -50,10 +50,10 @@
 \contentsline {subsubsection}{\numberline {4.2.5.3}HLT1}{41}{subsubsection.4.2.5.3}
 \contentsline {subsubsection}{\numberline {4.2.5.4}HLT2}{42}{subsubsection.4.2.5.4}
 \contentsline {subsection}{\numberline {4.2.6}Tracking and Vertexing performance}{42}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}PID performance}{45}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.7}PID performance}{46}{subsection.4.2.7}
 \contentsline {subsection}{\numberline {4.2.8}Trigger performance}{48}{subsection.4.2.8}
 \contentsline {subsubsection}{\numberline {4.2.8.1}L0 hardware trigger}{48}{subsubsection.4.2.8.1}
-\contentsline {subsubsection}{\numberline {4.2.8.2}High Level Trigger}{50}{subsubsection.4.2.8.2}
+\contentsline {subsubsection}{\numberline {4.2.8.2}High Level Trigger}{49}{subsubsection.4.2.8.2}
 \contentsline {subsection}{\numberline {4.2.9}The LHCb Upgrade}{51}{subsection.4.2.9}
 \contentsline {subsubsection}{\numberline {4.2.9.1}Trigger Upgrade}{51}{subsubsection.4.2.9.1}
 \contentsline {subsubsection}{\numberline {4.2.9.2}VELO Upgrade}{52}{subsubsection.4.2.9.2}

@@ -485,11 +485,73 @@ CKMfitter Group, J.~Charles {\em et~al.},
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem{Chatrchyan:2012xdj}
+CMS, S.~Chatrchyan {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Observation of a new boson at a
+  mass of 125 GeV with the CMS experiment at the LHC}},
+  }{}\href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys.\ Lett.\
+  \textbf{B716} (2012) 30}, \href{http://arxiv.org/abs/1207.7235}{{\tt
+  arXiv:1207.7235}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Aad:2012tfa}
+ATLAS, G.~Aad {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}}, }{}\href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys.\
+  Lett.\  \textbf{B716} (2012) 1}, \href{http://arxiv.org/abs/1207.7214}{{\tt
+  arXiv:1207.7214}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Armstrong:1994it}
+ATLAS, W.~W. Armstrong {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{ATLAS: Technical proposal for a
+  general-purpose p p experiment at the Large Hadron Collider at CERN}},
+  }{}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{CMS:1994hea}
+CMS, \ifthenelse{\boolean{articletitles}}{\emph{{CMS, the Compact Muon
+  Solenoid: Technical proposal}}, }{}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Alice}
+\ifthenelse{\boolean{articletitles}}{\emph{{ALICE: Technical proposal for a
+  large ion collider experiment at the CERN LHC}}, }{}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Amato:1998xt}
+LHCb, S.~Amato {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{LHCb
+  technical proposal}}, }{}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem{Alves:2008zz}
 LHCb collaboration, A.~A. Alves~Jr.\ {\em et~al.},
   \ifthenelse{\boolean{articletitles}}{\emph{{The \lhcb detector at the LHC}},
   }{}\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{JINST \textbf{3}
   (2008) S08005}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Aaij:2014jba}
+LHCb, R.~Aaij {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{LHCb
+  Detector Performance}},
+  }{}\href{http://dx.doi.org/10.1142/S0217751X15300227}{Int.\ J.\ Mod.\ Phys.\
+  \textbf{A30} (2015), no.~07 1530022},
+  \href{http://arxiv.org/abs/1412.6352}{{\tt arXiv:1412.6352}}\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -504,12 +566,120 @@ A.~A. Alves, Jr.\ {\em et~al.},
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem{Aaij:2014jba}
-LHCb, R.~Aaij {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{LHCb
-  Detector Performance}},
-  }{}\href{http://dx.doi.org/10.1142/S0217751X15300227}{Int.\ J.\ Mod.\ Phys.\
-  \textbf{A30} (2015), no.~07 1530022},
-  \href{http://arxiv.org/abs/1412.6352}{{\tt arXiv:1412.6352}}\relax
+\bibitem{Fruhwirth:1987fm}
+R.~Fruhwirth, \ifthenelse{\boolean{articletitles}}{\emph{{Application of Kalman
+  filtering to track and vertex fitting}},
+  }{}\href{http://dx.doi.org/10.1016/0168-9002(87)90887-4}{Nucl.\ Instrum.\
+  Meth.\  \textbf{A262} (1987) 444}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Santos:2018zbz}
+LHCb, D.~M. Santos, \ifthenelse{\boolean{articletitles}}{\emph{{A strange
+  program for LHCb}},
+  }{}\href{http://dx.doi.org/10.1051/epjconf/201817901013}{EPJ Web Conf.\
+  \textbf{179} (2018) 01013}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCbCollaboration:2014vzo}
+L.~Collaboration, \ifthenelse{\boolean{articletitles}}{\emph{{LHCb Trigger and
+  Online Upgrade Technical Design Report}}, }{}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LLOPART2007485}
+X.~Llopart {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{Timepix, a
+  65k programmable pixel readout chip for arrival time, energy and/or photon
+  counting measurements},
+  }{}\href{http://dx.doi.org/https://doi.org/10.1016/j.nima.2007.08.079}{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment \textbf{581} (2007), no.~1
+  485 }, VCI 2007\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Mato:691746}
+P.~Mato, \ifthenelse{\boolean{articletitles}}{\emph{Gaudi-architecture design
+  document}, }{} Tech. Rep. LHCb-98-064, CERN, Geneva, Nov, 1998\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Moore}
+\ifthenelse{\boolean{articletitles}}{\emph{The {MOORE} project}, }{}
+  \url{http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/moore/}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Brunel}
+\ifthenelse{\boolean{articletitles}}{\emph{The {BRUNEL} project}, }{}
+  \url{http://lhcbdoc.web.cern.ch/lhcbdoc/brunel/}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Alignment}
+\ifthenelse{\boolean{articletitles}}{\emph{The {ALIGNMENT} project}, }{}
+  \url{http://lhcbdoc.web.cern.ch/lhcbdoc/alignment/}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{DaVinci}
+\url{https://twiki.cern.ch/twiki/bin/view/LHCb/DaVinci}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Erasmus}
+\url{https://gitlab.cern.ch/lhcb/Erasmus}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Eck:840543}
+C.~Eck {\em et~al.}, {\em {LHC computing Grid: Technical Design Report. Version
+  1.06 (20 Jun 2005)}}, Technical Design Report LCG, CERN, Geneva, 2005\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Gauss}
+\url{http://lhcbdoc.web.cern.ch/lhcbdoc/gauss/}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Sjostrand:2007gs}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands,
+  \ifthenelse{\boolean{articletitles}}{\emph{{A Brief Introduction to PYTHIA
+  8.1}}, }{}\href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{Comput.\ Phys.\
+  Commun.\  \textbf{178} (2008) 852},
+  \href{http://arxiv.org/abs/0710.3820}{{\tt arXiv:0710.3820}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Ryd:2005zz}
+A.~Ryd {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{EvtGen: A
+  Monte Carlo Generator for B-Physics}}, }{}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Agostinelli2003250}
+S.~Agostinelli {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{Geant4
+  simulation toolkit},
+  }{}\href{http://dx.doi.org/http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment \textbf{506} (2003), no.~3
+  250 }\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

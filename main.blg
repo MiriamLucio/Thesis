@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: LHCb.bst
-Reallocated field_info (elt_size=4) to 11072 items from 5000.
+Reallocated field_info (elt_size=4) to 11699 items from 5000.
 Database file #1: main.bib
 Repeated entry---line 635 of file main.bib
  : @article{Bagnaschi:2016xfg
@@ -16,8 +16,6 @@ Warning--I didn't find a database entry for "LZ"
 Warning--I didn't find a database entry for "XENON1T"
 Warning--I didn't find a database entry for "Snowmass"
 Warning--I didn't find a database entry for "cancellations"
-Warning--I didn't find a database entry for "Fellini4"
-Warning--I didn't find a database entry for "LHCb-DP-2014-002"
 Warning--I didn't find a database entry for "LHCb-DP-2014-001"
 Warning--I didn't find a database entry for "LHCb-DP-2013-003"
 Warning--I didn't find a database entry for "LHCb-DP-2012-003"
@@ -139,45 +137,47 @@ Warning--I didn't find a database entry for "Cuoco:2017iax"
 Warning--I didn't find a database entry for "Hisano:2006nn"
 Warning--I didn't find a database entry for "Ibe:2012sx"
 Warning--empty booktitle in CKM
-You've used 54 entries,
+Warning--empty author in CMS:1994hea
+Warning--empty author in Alice
+You've used 75 entries,
             2813 wiz_defined-function locations,
-            1337 strings with 17870 characters,
-and the built_in function-call counts, 264658 in all, are:
-= -- 28976
-> -- 470
-< -- 0
-+ -- 1810
-- -- 112
-* -- 27035
-:= -- 32570
-add.period$ -- 55
-call.type$ -- 54
-change.case$ -- 53
+            1441 strings with 20899 characters,
+and the built_in function-call counts, 360910 in all, are:
+= -- 39544
+> -- 571
+< -- 1
++ -- 2134
+- -- 135
+* -- 37172
+:= -- 43866
+add.period$ -- 76
+call.type$ -- 75
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 4186
-empty$ -- 27871
-format.name$ -- 112
-if$ -- 57701
+cite$ -- 78
+duplicate$ -- 5074
+empty$ -- 38311
+format.name$ -- 135
+if$ -- 78883
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 252
-newline$ -- 336
-num.names$ -- 53
-pop$ -- 973
+int.to.str$ -- 75
+missing$ -- 307
+newline$ -- 462
+num.names$ -- 66
+pop$ -- 1215
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 363
+skip$ -- 448
 stack$ -- 0
-substring$ -- 79020
-swap$ -- 1
-text.length$ -- 108
+substring$ -- 109045
+swap$ -- 3
+text.length$ -- 151
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 1516
-width$ -- 56
-write$ -- 864
+warning$ -- 3
+while$ -- 1808
+width$ -- 77
+write$ -- 1124
 (There was 1 error message)
